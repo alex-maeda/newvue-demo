@@ -1,0 +1,76 @@
+{
+  "_comment": "MSH + PV1 + current study data for Patient 3 — Inpatient, neuro/onc admission",
+  "patientId": "Patient_3",
+  "msh": {
+    "messageDateTime": "20211115120000",
+    "messageControlId": "MSG20211115-P3-001"
+  },
+  "pv1": {
+    "patientClass": "I",
+    "patientClassDescription": "Inpatient",
+    "assignedPatientLocation": "NEURO^RM218^BED-B",
+    "attendingPhysician": {
+      "id": "ATT003",
+      "last": "ABRAMS",
+      "first": "SARAH",
+      "mi": "K"
+    },
+    "referringPhysician": {
+      "id": "REF002",
+      "last": "KLEIN",
+      "first": "MARCUS",
+      "mi": "J"
+    },
+    "visitNumber": "ENC20211024-0003"
+  },
+  "currentStudies": [
+    {
+      "currentStudyId": "P3-CURRENT-001",
+      "studyDescription": "CT Chest with Contrast",
+      "accessionNumber": "ACC-P3-C001",
+      "studyDateTime": "20211115140000",
+      "orderingPhysician": "Klein, Marcus J",
+      "clinicalIndication": "Fever, SOB",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.3.C1",
+      "labels": {
+        "modality": "CT",
+        "bodyRegions": ["chest"],
+        "isAngiographic": false,
+        "laterality": null
+      }
+    },
+    {
+      "currentStudyId": "P3-CURRENT-002",
+      "studyDescription": "MR Brain with Contrast",
+      "accessionNumber": "ACC-P3-C002",
+      "studyDateTime": "20211115141500",
+      "orderingPhysician": "Abrams, Sarah K",
+      "clinicalIndication": "Eval for progression of intracranial metastases",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.3.C2",
+      "labels": {
+        "modality": "MR",
+        "bodyRegions": ["brain"],
+        "isAngiographic": false,
+        "laterality": null
+      }
+    },
+    {
+      "currentStudyId": "P3-CURRENT-003",
+      "studyDescription": "US Breast Limited Left",
+      "accessionNumber": "ACC-P3-C003",
+      "studyDateTime": "20211115143000",
+      "orderingPhysician": "Klein, Marcus J",
+      "clinicalIndication": "FU cyst/nodule",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.3.C3",
+      "labels": {
+        "modality": "US",
+        "bodyRegions": ["breast"],
+        "isAngiographic": false,
+        "laterality": "left"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "resourceType": "List",
+  "id": "SURGICAL-HX-P12345",
+  "status": "current",
+  "mode": "working",
+  "title": "Surgical History",
+  "subject": { "reference": "Patient/P12345" },
+  "date": "2025-09-19",
+  "entry": [
+    { "item": { "reference": "Procedure/PROC-P12345-0001" } },
+    { "item": { "reference": "Procedure/PROC-P12345-0002" } },
+    { "item": { "reference": "Procedure/PROC-P12345-0003" } },
+    { "item": { "reference": "Procedure/PROC-P12345-0004" } }
+  ]
+}

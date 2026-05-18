@@ -1,0 +1,1578 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "title": "CT Abdomen Pelvis with IV Contrast",
+  "modality": "CT",
+  "bodyRegion": [
+    "abdomen",
+    "pelvis"
+  ],
+  "description": "System default template",
+  "templateId": "ct-abdomen-pelvis-with-iv-contrast",
+  "fileTemplateId": "CT_abdomen_pelvis_with_IV_contrast",
+  "reportId": "report-1778108577591-9wprt1",
+  "sessionId": "report-1778108577591-9wprt1",
+  "status": "in-progress",
+  "author": null,
+  "createdAt": "2026-05-06T23:02:59.655Z",
+  "updatedAt": "2026-05-06T23:02:59.655Z",
+  "signedAt": null,
+  "patient": null,
+  "study": null,
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "typeAttribute": [
+        "narrative"
+      ],
+      "parentId": null,
+      "children": [
+        {
+          "id": "sub_study_title",
+          "type": "subsection",
+          "typeAttribute": [
+            "studyName"
+          ],
+          "parentId": "headline_narrative",
+          "children": [],
+          "label": "CT Abdomen Pelvis with IV Contrast",
+          "text": "CT Abdomen Pelvis with IV Contrast",
+          "templateText": "CT Abdomen Pelvis with IV Contrast",
+          "currentText": "CT Abdomen Pelvis with IV Contrast",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_history",
+          "type": "section",
+          "typeAttribute": [
+            "history"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_history_main",
+              "type": "content",
+              "typeAttribute": [
+                "history"
+              ],
+              "parentId": "section_history",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "History",
+          "text": "History",
+          "childrenId": [
+            "content_history_main"
+          ],
+          "templateText": "History",
+          "currentText": "History",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_technique",
+          "type": "section",
+          "typeAttribute": [
+            "technique"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_technique_main",
+              "type": "content",
+              "typeAttribute": [
+                "technique"
+              ],
+              "parentId": "section_technique",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            },
+            {
+              "id": "sub_ctdi",
+              "type": "subsection",
+              "typeAttribute": [
+                "dose"
+              ],
+              "parentId": "section_technique",
+              "children": [
+                {
+                  "id": "content_ctdi_main",
+                  "type": "content",
+                  "typeAttribute": [
+                    "dose"
+                  ],
+                  "parentId": "sub_ctdi",
+                  "children": [],
+                  "text": "",
+                  "inputType": "text",
+                  "templateText": "",
+                  "currentText": "",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "CTDI",
+              "text": "CTDI",
+              "childrenId": [
+                "content_ctdi_main"
+              ],
+              "templateText": "CTDI",
+              "currentText": "CTDI",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_dlp",
+              "type": "subsection",
+              "typeAttribute": [
+                "dose"
+              ],
+              "parentId": "section_technique",
+              "children": [
+                {
+                  "id": "content_dlp_main",
+                  "type": "content",
+                  "typeAttribute": [
+                    "dose"
+                  ],
+                  "parentId": "sub_dlp",
+                  "children": [],
+                  "text": "",
+                  "inputType": "text",
+                  "templateText": "",
+                  "currentText": "",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "DLP",
+              "text": "DLP",
+              "childrenId": [
+                "content_dlp_main"
+              ],
+              "templateText": "DLP",
+              "currentText": "DLP",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            }
+          ],
+          "label": "Technique",
+          "text": "Technique",
+          "childrenId": [
+            "content_technique_main",
+            "sub_ctdi",
+            "sub_dlp"
+          ],
+          "templateText": "Technique",
+          "currentText": "Technique",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_comparison",
+          "type": "section",
+          "typeAttribute": [
+            "comparison"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_comparison_main",
+              "type": "content",
+              "typeAttribute": [
+                "comparison"
+              ],
+              "parentId": "section_comparison",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "Comparison",
+          "text": "Comparison",
+          "childrenId": [
+            "content_comparison_main"
+          ],
+          "templateText": "Comparison",
+          "currentText": "Comparison",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_findings",
+          "type": "section",
+          "typeAttribute": [
+            "findings"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "sub_lower_chest",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_lower_chest_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_lower_chest",
+                  "children": [],
+                  "text": "The lung bases are clear.",
+                  "inputType": "text",
+                  "normalIndex": 0,
+                  "templateText": "The lung bases are clear.",
+                  "currentText": "The lung bases are clear.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "The lung bases are clear.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Lower Chest",
+              "text": "Lower Chest",
+              "childrenId": [
+                "content_lower_chest_1"
+              ],
+              "templateText": "Lower Chest",
+              "currentText": "Lower Chest",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_liver",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_liver_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_liver",
+                  "children": [],
+                  "text": "No acute abnormalities.",
+                  "inputType": "text",
+                  "normalIndex": 1,
+                  "templateText": "No acute abnormalities.",
+                  "currentText": "No acute abnormalities.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No acute abnormalities.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Liver",
+              "text": "Liver",
+              "childrenId": [
+                "content_liver_1"
+              ],
+              "templateText": "Liver",
+              "currentText": "Liver",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_gallbladder_biliary",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_gallbladder_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_gallbladder_biliary",
+                  "children": [],
+                  "text": "There is no biliary ductal dilation.",
+                  "inputType": "text",
+                  "normalIndex": 2,
+                  "templateText": "There is no biliary ductal dilation.",
+                  "currentText": "There is no biliary ductal dilation.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "There is no biliary ductal dilation.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Gallbladder / Biliary Tree",
+              "text": "Gallbladder / Biliary Tree",
+              "childrenId": [
+                "content_gallbladder_1"
+              ],
+              "templateText": "Gallbladder / Biliary Tree",
+              "currentText": "Gallbladder / Biliary Tree",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_spleen",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_spleen_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_spleen",
+                  "children": [],
+                  "text": "Normal in size.",
+                  "inputType": "text",
+                  "normalIndex": 3,
+                  "templateText": "Normal in size.",
+                  "currentText": "Normal in size.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Normal in size.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Spleen",
+              "text": "Spleen",
+              "childrenId": [
+                "content_spleen_1"
+              ],
+              "templateText": "Spleen",
+              "currentText": "Spleen",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_pancreas",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_pancreas_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_pancreas",
+                  "children": [],
+                  "text": "No suspicious pancreatic abnormality.",
+                  "inputType": "text",
+                  "normalIndex": 4,
+                  "templateText": "No suspicious pancreatic abnormality.",
+                  "currentText": "No suspicious pancreatic abnormality.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No suspicious pancreatic abnormality.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Pancreas",
+              "text": "Pancreas",
+              "childrenId": [
+                "content_pancreas_1"
+              ],
+              "templateText": "Pancreas",
+              "currentText": "Pancreas",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_adrenals",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_adrenals_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_adrenals",
+                  "children": [],
+                  "text": "No acute abnormalities.",
+                  "inputType": "text",
+                  "normalIndex": 5,
+                  "templateText": "No acute abnormalities.",
+                  "currentText": "No acute abnormalities.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No acute abnormalities.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Adrenals",
+              "text": "Adrenals",
+              "childrenId": [
+                "content_adrenals_1"
+              ],
+              "templateText": "Adrenals",
+              "currentText": "Adrenals",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_kidneys",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_kidneys_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_kidneys",
+                  "children": [],
+                  "text": "Kidneys enhance symmetrically without hydronephrosis. No associated solid enhancing components. No suspicious renal mass.",
+                  "inputType": "text",
+                  "normalIndex": 6,
+                  "templateText": "Kidneys enhance symmetrically without hydronephrosis. No associated solid enhancing components. No suspicious renal mass.",
+                  "currentText": "Kidneys enhance symmetrically without hydronephrosis. No associated solid enhancing components. No suspicious renal mass.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Kidneys enhance symmetrically without hydronephrosis. No associated solid enhancing components. No suspicious renal mass.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Kidneys",
+              "text": "Kidneys",
+              "childrenId": [
+                "content_kidneys_1"
+              ],
+              "templateText": "Kidneys",
+              "currentText": "Kidneys",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_bladder",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_bladder_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_bladder",
+                  "children": [],
+                  "text": "Unremarkable for technique.",
+                  "inputType": "text",
+                  "normalIndex": 7,
+                  "templateText": "Unremarkable for technique.",
+                  "currentText": "Unremarkable for technique.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Unremarkable for technique.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Bladder",
+              "text": "Bladder",
+              "childrenId": [
+                "content_bladder_1"
+              ],
+              "templateText": "Bladder",
+              "currentText": "Bladder",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_reproductive_organs",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_repro_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_reproductive_organs",
+                  "children": [],
+                  "text": "No acute abnormalities.",
+                  "inputType": "text",
+                  "normalIndex": 8,
+                  "templateText": "No acute abnormalities.",
+                  "currentText": "No acute abnormalities.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No acute abnormalities.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Reproductive Organs",
+              "text": "Reproductive Organs",
+              "childrenId": [
+                "content_repro_1"
+              ],
+              "templateText": "Reproductive Organs",
+              "currentText": "Reproductive Organs",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_intestines",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_intestines_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_intestines",
+                  "children": [],
+                  "text": "No acute abnormalities. There is no evidence of intestinal obstruction. No findings of acute appendicitis.",
+                  "inputType": "text",
+                  "normalIndex": 9,
+                  "templateText": "No acute abnormalities. There is no evidence of intestinal obstruction. No findings of acute appendicitis.",
+                  "currentText": "No acute abnormalities. There is no evidence of intestinal obstruction. No findings of acute appendicitis.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No acute abnormalities. There is no evidence of intestinal obstruction. No findings of acute appendicitis.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Intestines",
+              "text": "Intestines",
+              "childrenId": [
+                "content_intestines_1"
+              ],
+              "templateText": "Intestines",
+              "currentText": "Intestines",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_lymph_nodes",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_lymph_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_lymph_nodes",
+                  "children": [],
+                  "text": "No pathologically enlarged retroperitoneal and mesenteric lymph nodes.",
+                  "inputType": "text",
+                  "normalIndex": 10,
+                  "templateText": "No pathologically enlarged retroperitoneal and mesenteric lymph nodes.",
+                  "currentText": "No pathologically enlarged retroperitoneal and mesenteric lymph nodes.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No pathologically enlarged retroperitoneal and mesenteric lymph nodes.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Lymph Nodes",
+              "text": "Lymph Nodes",
+              "childrenId": [
+                "content_lymph_1"
+              ],
+              "templateText": "Lymph Nodes",
+              "currentText": "Lymph Nodes",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_peritoneum",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_peritoneum_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_peritoneum",
+                  "children": [],
+                  "text": "There is no pneumoperitoneum.",
+                  "inputType": "text",
+                  "normalIndex": 11,
+                  "templateText": "There is no pneumoperitoneum.",
+                  "currentText": "There is no pneumoperitoneum.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "There is no pneumoperitoneum.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Peritoneum",
+              "text": "Peritoneum",
+              "childrenId": [
+                "content_peritoneum_1"
+              ],
+              "templateText": "Peritoneum",
+              "currentText": "Peritoneum",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_vessels",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_vessels_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_vessels",
+                  "children": [],
+                  "text": "Normal abdominal aortic diameter (less than 3 cm). The splenic and portal veins appear adequately patent.",
+                  "inputType": "text",
+                  "normalIndex": 12,
+                  "templateText": "Normal abdominal aortic diameter (less than 3 cm). The splenic and portal veins appear adequately patent.",
+                  "currentText": "Normal abdominal aortic diameter (less than 3 cm). The splenic and portal veins appear adequately patent.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Normal abdominal aortic diameter (less than 3 cm). The splenic and portal veins appear adequately patent.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Vessels",
+              "text": "Vessels",
+              "childrenId": [
+                "content_vessels_1"
+              ],
+              "templateText": "Vessels",
+              "currentText": "Vessels",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_soft_tissues",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_soft_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_soft_tissues",
+                  "children": [],
+                  "text": "No acute abnormalities.",
+                  "inputType": "text",
+                  "normalIndex": 13,
+                  "templateText": "No acute abnormalities.",
+                  "currentText": "No acute abnormalities.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No acute abnormalities.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Soft Tissues",
+              "text": "Soft Tissues",
+              "childrenId": [
+                "content_soft_1"
+              ],
+              "templateText": "Soft Tissues",
+              "currentText": "Soft Tissues",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_bones",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_bones_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_bones",
+                  "children": [],
+                  "text": "No acute abnormalities.",
+                  "inputType": "text",
+                  "normalIndex": 14,
+                  "templateText": "No acute abnormalities.",
+                  "currentText": "No acute abnormalities.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No acute abnormalities.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Bones",
+              "text": "Bones",
+              "childrenId": [
+                "content_bones_1"
+              ],
+              "templateText": "Bones",
+              "currentText": "Bones",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            }
+          ],
+          "label": "Findings",
+          "text": "Findings",
+          "childrenId": [
+            "sub_lower_chest",
+            "sub_liver",
+            "sub_gallbladder_biliary",
+            "sub_spleen",
+            "sub_pancreas",
+            "sub_adrenals",
+            "sub_kidneys",
+            "sub_bladder",
+            "sub_reproductive_organs",
+            "sub_intestines",
+            "sub_lymph_nodes",
+            "sub_peritoneum",
+            "sub_vessels",
+            "sub_soft_tissues",
+            "sub_bones"
+          ],
+          "templateText": "Findings",
+          "currentText": "Findings",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        }
+      ],
+      "label": "Narrative",
+      "text": "Narrative",
+      "childrenId": [
+        "sub_study_title",
+        "section_history",
+        "section_technique",
+        "section_comparison",
+        "section_findings"
+      ],
+      "templateText": "Narrative",
+      "currentText": "Narrative",
+      "state": {
+        "edited": false,
+        "syntheticSection": false,
+        "syntheticSectionType": null,
+        "impressionDerived": false
+      }
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "typeAttribute": [
+        "impression"
+      ],
+      "parentId": null,
+      "children": [
+        {
+          "id": "content_imp_1778108579654_l6om",
+          "type": "content",
+          "text": "Normal CT abdomen and pelvis with IV contrast.",
+          "children": [],
+          "typeAttribute": [],
+          "typeData": {},
+          "parentId": "headline_impression",
+          "childrenId": [],
+          "orderIndex": 0,
+          "misc": {},
+          "templateText": "Normal CT abdomen and pelvis with IV contrast.",
+          "currentText": "Normal CT abdomen and pelvis with IV contrast.",
+          "state": {
+            "version": 0,
+            "manuallyEdited": false,
+            "deleted": false,
+            "inputType": "text",
+            "options": null,
+            "selectedOptionIndex": 0,
+            "defaultOptionIndex": 0,
+            "originalText": "",
+            "picklists": null,
+            "pass2Inserted": false,
+            "sourceSegmentIds": [],
+            "pass2RunId": null,
+            "suppressedBySegmentIds": [],
+            "editedBySegmentIds": [],
+            "impressionGenerated": true,
+            "impressionRunId": "IG_15_1778108578644",
+            "isCritical": false,
+            "guideline": null,
+            "recommendation": null,
+            "syntheticContent": null,
+            "sourceImpressionBoxId": null
+          }
+        }
+      ],
+      "label": "Impression",
+      "text": "Impression",
+      "childrenId": [
+        "content_imp_1778108579654_l6om"
+      ],
+      "templateText": "Impression",
+      "currentText": "Impression",
+      "state": {
+        "edited": false,
+        "syntheticSection": false,
+        "syntheticSectionType": null,
+        "impressionDerived": false
+      }
+    }
+  ],
+  "segments": {
+    "dictation-box": [],
+    "content_lower_chest_1": [
+      {
+        "segmentId": "seg_1778108577591_l9d1jk",
+        "textareaTarget": "content_lower_chest_1",
+        "startOffset": 0,
+        "endOffset": 25,
+        "length": 25,
+        "text": "The lung bases are clear.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_liver_1": [
+      {
+        "segmentId": "seg_1778108577591_ogah0o",
+        "textareaTarget": "content_liver_1",
+        "startOffset": 0,
+        "endOffset": 23,
+        "length": 23,
+        "text": "No acute abnormalities.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_gallbladder_1": [
+      {
+        "segmentId": "seg_1778108577591_knzw7v",
+        "textareaTarget": "content_gallbladder_1",
+        "startOffset": 0,
+        "endOffset": 36,
+        "length": 36,
+        "text": "There is no biliary ductal dilation.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_spleen_1": [
+      {
+        "segmentId": "seg_1778108577591_r1zwwv",
+        "textareaTarget": "content_spleen_1",
+        "startOffset": 0,
+        "endOffset": 15,
+        "length": 15,
+        "text": "Normal in size.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_pancreas_1": [
+      {
+        "segmentId": "seg_1778108577591_8owrks",
+        "textareaTarget": "content_pancreas_1",
+        "startOffset": 0,
+        "endOffset": 37,
+        "length": 37,
+        "text": "No suspicious pancreatic abnormality.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_adrenals_1": [
+      {
+        "segmentId": "seg_1778108577591_1ajy5p",
+        "textareaTarget": "content_adrenals_1",
+        "startOffset": 0,
+        "endOffset": 23,
+        "length": 23,
+        "text": "No acute abnormalities.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_kidneys_1": [
+      {
+        "segmentId": "seg_1778108577591_7yqyoe",
+        "textareaTarget": "content_kidneys_1",
+        "startOffset": 0,
+        "endOffset": 121,
+        "length": 121,
+        "text": "Kidneys enhance symmetrically without hydronephrosis. No associated solid enhancing components. No suspicious renal mass.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_bladder_1": [
+      {
+        "segmentId": "seg_1778108577591_7zmjfs",
+        "textareaTarget": "content_bladder_1",
+        "startOffset": 0,
+        "endOffset": 27,
+        "length": 27,
+        "text": "Unremarkable for technique.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_repro_1": [
+      {
+        "segmentId": "seg_1778108577591_et6qnn",
+        "textareaTarget": "content_repro_1",
+        "startOffset": 0,
+        "endOffset": 23,
+        "length": 23,
+        "text": "No acute abnormalities.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_intestines_1": [
+      {
+        "segmentId": "seg_1778108577591_wzf4wi",
+        "textareaTarget": "content_intestines_1",
+        "startOffset": 0,
+        "endOffset": 106,
+        "length": 106,
+        "text": "No acute abnormalities. There is no evidence of intestinal obstruction. No findings of acute appendicitis.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_lymph_1": [
+      {
+        "segmentId": "seg_1778108577591_dl6y8m",
+        "textareaTarget": "content_lymph_1",
+        "startOffset": 0,
+        "endOffset": 70,
+        "length": 70,
+        "text": "No pathologically enlarged retroperitoneal and mesenteric lymph nodes.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_peritoneum_1": [
+      {
+        "segmentId": "seg_1778108577591_nv4h60",
+        "textareaTarget": "content_peritoneum_1",
+        "startOffset": 0,
+        "endOffset": 29,
+        "length": 29,
+        "text": "There is no pneumoperitoneum.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_vessels_1": [
+      {
+        "segmentId": "seg_1778108577591_ybhebg",
+        "textareaTarget": "content_vessels_1",
+        "startOffset": 0,
+        "endOffset": 105,
+        "length": 105,
+        "text": "Normal abdominal aortic diameter (less than 3 cm). The splenic and portal veins appear adequately patent.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_soft_1": [
+      {
+        "segmentId": "seg_1778108577591_hdytbw",
+        "textareaTarget": "content_soft_1",
+        "startOffset": 0,
+        "endOffset": 23,
+        "length": 23,
+        "text": "No acute abnormalities.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_bones_1": [
+      {
+        "segmentId": "seg_1778108577591_4d2po6",
+        "textareaTarget": "content_bones_1",
+        "startOffset": 0,
+        "endOffset": 23,
+        "length": 23,
+        "text": "No acute abnormalities.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_imp_1778108579654_l6om": [
+      {
+        "segmentId": "seg_1778108579654_ghuemz",
+        "textareaTarget": "content_imp_1778108579654_l6om",
+        "startOffset": 0,
+        "endOffset": 46,
+        "length": 46,
+        "text": "Normal CT abdomen and pelvis with IV contrast.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ]
+  },
+  "tokenUsage": {
+    "pass1": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    "pass2a": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    "pass2b": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    "impression": {
+      "inputTokens": 1897,
+      "outputTokens": 78
+    }
+  },
+  "dictationText": ""
+}

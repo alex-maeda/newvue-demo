@@ -1,0 +1,83 @@
+/**
+ * PathologyCard styles.
+ *
+ * Follows the ProblemCard / ProcedureCard visual pattern — same spacing,
+ * borders, and typography. Pathology cards are clickable to toggle
+ * full-text display in the main stage.
+ */
+
+/* ── Card Container ── */
+
+.pathology-card {
+  position: relative;
+  background: var(--color-surface-t3);
+  border: 1px solid transparent;
+  border-radius: var(--radius-t2);
+  cursor: pointer;
+  transition:
+    background var(--motion-t2),
+    border-color var(--motion-t2),
+    box-shadow var(--motion-t3);
+  overflow: hidden;
+}
+
+.pathology-card:hover {
+  background: var(--color-surface-t4);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.pathology-card.selected {
+  border-color: var(--color-interactive-t1);
+  background: rgba(110, 110, 196, 0.08);
+  box-shadow: 0 0 0 1px rgba(110, 110, 196, 0.20);
+}
+
+.pathology-card:focus-visible {
+  outline: 2px solid var(--color-interactive-t1);
+  outline-offset: 1px;
+}
+
+/* ── Card Body ── */
+
+.pathc-body {
+  padding: 10px 12px 8px;
+}
+
+/* ── Row 1: Report title + Date ── */
+
+.pathc-name-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.pathc-name {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-content-t2);
+  line-height: 1.3;
+  word-break: break-word;
+  flex: 1;
+  min-width: 0;
+}
+
+.pathc-date {
+  font-size: 0.625rem;
+  font-weight: 600;
+  color: var(--color-content-t4);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* ── Status line (only for non-final reports) ── */
+
+.pathc-status {
+  font-size: 0.6875rem;
+  color: var(--color-content-t4);
+  margin-top: 2px;
+  line-height: 1.3;
+  text-transform: capitalize;
+  font-style: italic;
+}

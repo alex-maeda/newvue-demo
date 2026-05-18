@@ -1,0 +1,3973 @@
+{
+  "visitHistory": {
+    "1": [
+      {
+        "id": 1,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2025-09-18T10:00:00Z",
+        "title": "CT Head Without Contrast",
+        "accession": "ACC002-11",
+        "description": [
+          "IMPRESSION:",
+          "No significant change in evolving bilateral infarcts and trace subarachnoid hemorrhage at the left vertex.",
+          "",
+          "CT HEAD WITHOUT CONTRAST",
+          "",
+          "HISTORY:",
+          "65 years old, evaluate evolving stroke/stability.",
+          "",
+          "TECHNIQUE:",
+          "CT images of the head acquired without intravenous contrast.",
+          "CTDI: 0.04, 48.19 mGy",
+          "DLP: 0.81, 687.3 mGy-cm",
+          "",
+          "COMPARISON:",
+          "CTs 9/17/2025, 9/16/2025",
+          "",
+          "FINDINGS:",
+          "Stable trace subarachnoid hemorrhage at the left vertex. Multiple evolving infarcts bilaterally, right greater than left, not significantly changed. Unremarkable basal cisterns and ventricles. No herniation. Osseous structures intact."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2025-09-18T10:00:00Z",
+        "title": "CT Head Without Contrast",
+        "accession": "ACC002-12",
+        "description": [
+          "IMPRESSION:",
+          "1. Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left, likely sequela of known ischemia.",
+          "2. There is a new punctate focus of hyperdensity in the high left frontal lobe. It could represent small focus of subarachnoid hemorrhage versus residual contrast within the vasculature. Short-term follow-up is suggested.",
+          "",
+          "CT HEAD WITHOUT CONTRAST",
+          "",
+          "HISTORY:",
+          "65 years old, stroke 2/2 hypercoaguability from malignancy, restarted lovenox.",
+          "",
+          "TECHNIQUE:",
+          "CT images of the head acquired without intravenous contrast.",
+          "CTDI: 0.04, 48.91 mGy",
+          "DLP: 0.81, 785.48 mGy-cm",
+          "",
+          "COMPARISON:",
+          "CTs 9/16/2025, 9/15/2025, MR 9/16/2025",
+          "",
+          "FINDINGS:",
+          "BRAIN PARENCHYMA: Interval development of acute ischemic changes in the right parietal lobe. Evidence of ischemic change in the high left parietal lobe. Small focus of hemorrhage in the subarachnoid space in the high left frontal lobe. Hyperdensity in the posterior high frontal lobe on axial image #50 with linear morphology, possible residual intravascular contrast. White matter within normal limits for age. No midline shift.",
+          "",
+          "VENTRICLES/EXTRA-AXIAL SPACES:",
+          "No hydrocephalus.",
+          "",
+          "EXTRACRANIAL STRUCTURES:",
+          "Normal bones and soft tissues. Visualized paranasal sinuses and mastoids demonstrate no significant abnormality."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CTA",
+        "date": "2025-09-18T10:00:00Z",
+        "title": "CTA Angiogram Head and Neck With Contrast",
+        "accession": "ACC002-12",
+        "description": [
+          "IMPRESSION:",
+          "The left mid to upper cervical ICA is progressively narrowed in caliber with minimal opacification seen throughout its superior course as well as minimal opacification/occlusion of the intracranial left ICA.",
+          "",
+          "No other CTA evidence of a large vessel occlusion or high-grade stenosis within the head or neck.",
+          "",
+          "The visualized lung apices demonstrate groundglass and nodular opacities within the lungs bilaterally, right greater than left. This appears increased when compared to the prior CT chest from 7/9/2025. Consider a dedicated CT chest study for further evaluation.",
+          "",
+          "Again seen is a pathologic compression deformity at C7 and additional lytic osseous metastatic disease involving the visualized spine.",
+          "",
+          "Action required. +",
+          "",
+          "CT ANGIOGRAM HEAD AND NECK WITH CONTRAST",
+          "",
+          "HISTORY:",
+          "65 years old, Neuro deficit, acute, stroke suspected. Stroke, follow up.",
+          "",
+          "TECHNIQUE:",
+          "CT angiogram images of the head and neck acquired with 100 mL Omnipaque 350 intravenous contrast. Maximum intensity projection (MIP) vessel images were obtained.",
+          "",
+          "CTDI: 0.04, 0.04, 13.86, 29.61 mGy",
+          "DLP: 1.59, 1.59, 6.93, 1116.7 mGy-cm",
+          "",
+          "COMPARISON:",
+          "MRs 9/16/2025, 7/11/2025; CTs 9/15/2025, 9/2/2025, 7/28/2025, 7/9/2025",
+          "",
+          "FINDINGS:",
+          "CTA HEAD: There is minimal opacification/occlusion of the intracranial left ICA. No other occlusion or hemodynamically significant stenosis. No aneurysm.",
+          "",
+          "CTA NECK:",
+          "GREAT VESSELS: Visualized segments are patent.",
+          "",
+          "RIGHT ICA: No stenosis or significant plaque. No dissection.",
+          "",
+          "LEFT ICA: The mid to upper cervical ICA is progressively narrowed in caliber with minimal opacification seen throughout its superior course.",
+          "",
+          "VERTEBRAL ARTERIES: Patent extracranial segments. No dissection.",
+          "",
+          "OTHER: The visualized lung apices demonstrate groundglass and nodular opacities within the lungs bilaterally, right greater than left. This appears increased compared to the prior CT chest from 7/9/2025. No neck mass or suspicious lymph nodes. Again seen is a pathologic compression deformity at C7 with mild retropulsion of the C7 vertebral body. Additional lytic osseous metastatic disease is again seen involving the visualized spine."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "MRI",
+        "date": "2025-07-28T00:00:00Z",
+        "title": "MRI Brain Without and With Contrast",
+        "accession": "",
+        "description": [
+          "IMPRESSION:",
+          "1. Numerous foci of predominantly cortical restricted diffusion within the cerebral hemispheres bilaterally, largest involving the right parietal, posterior temporal, and occipital lobe with additional foci in the bilateral frontal, parietal, and occipital lobes. There may be tiny foci within the left superior cerebellum as well. There may also be a focus of restricted diffusion at the left basal ganglia/deep white matter.",
+          "2. This exam is largely nondiagnostic for metastases given significant motion artifact on postcontrast sequences. No abnormal intracranial mass effect detected.",
+          "3. Numerous punctate foci of parenchymal susceptibility, a few of which are new from prior. These are suggestive of microhemorrhages, nonspecific but history of anticoagulation and thrombocytopenia is noted. It would be difficult to exclude hemorrhagic micrometastases given limitations of postcontrast sequences.",
+          "",
+          "Given nondiagnostic postcontrast sequences, repeat contrast MRI recommended to assess for metastases in the future, when clinically indicated/feasible.",
+          "",
+          "MRI BRAIN WITHOUT AND WITH CONTRAST",
+          "",
+          "HISTORY:",
+          "65 years old, likely had seizure. Known metastatic cancer.",
+          "",
+          "TECHNIQUE:",
+          "MR images of the brain acquired without and with 14 mL Clariscan intravenous contrast.",
+          "",
+          "COMPARISON:",
+          "CT 7/28/2025, MR 7/11/2025",
+          "",
+          "FINDINGS:",
+          "Evaluation is degraded by motion, particularly on postcontrast sequences which are largely nondiagnostic.",
+          "",
+          "BRAIN PARENCHYMA:",
+          "Multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes.",
+          "Small foci of cortical restricted diffusion are seen in the left posterior frontal and parietal lobe, including perirolandic involvement.",
+          "There are numerous additional punctate foci of cortical restricted diffusion in the bilateral frontal, parietal, and occipital lobes, with perhaps punctate foci also present in the left superior cerebellum.",
+          "",
+          "It is unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact.",
+          "",
+          "These areas of restricted diffusion are T2/FLAIR hyperintense.",
+          "There are numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres, many of which appear new from 7/11/2025.",
+          "No mass effect or herniation.",
+          "",
+          "A few tiny foci of encephalomalacia in the cerebellum may reflect chronic infarcts.",
+          "",
+          "The 3-D postcontrast BRAVO sequence is severely limited by motion and nondiagnostic for abnormal enhancement.",
+          "No obvious abnormal enhancement is seen on the coronal postcontrast series; however this sequence is also severely motion limited.",
+          "",
+          "VENTRICLES/EXTRA-AXIAL SPACES:",
+          "No hydrocephalus or extra-axial fluid collections.",
+          "",
+          "FLOW VOIDS:",
+          "Intact.",
+          "",
+          "EXTRACRANIAL STRUCTURES:",
+          "Foci of T1 hypointense marrow signal alteration seen in the included upper cervical spine, including the C4 vertebral body, likely reflecting known osseous metastases."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2025-07-28T10:00:00Z",
+        "title": "CT Head Without Contrast",
+        "accession": "",
+        "description": [
+          "IMPRESSION:",
+          "No acute intracranial hemorrhage, herniation, hydrocephalus, or large territory infarct.",
+          "",
+          "CT HEAD WITHOUT CONTRAST",
+          "",
+          "HISTORY:",
+          "65 years old, STROKE symptoms",
+          "",
+          "TECHNIQUE:",
+          "CT images of the head acquired without intravenous contrast.",
+          "CTDI: 0.04,48.67 mGy",
+          "DLP: 0.81,687.3 mGy-cm",
+          "",
+          "COMPARISON:",
+          "None available.",
+          "",
+          "FINDINGS:",
+          "BRAIN PARENCHYMA: No acute hemorrhage. No mass effect or herniation. Gray-white differentiation is maintained. White matter is within normal limits for age.",
+          "",
+          "VENTRICLES/EXTRA-AXIAL SPACES:",
+          "No hydrocephalus or extra-axial fluid collections.",
+          "",
+          "EXTRACRANIAL STRUCTURES:",
+          "Normal bones and soft tissues. Visualized paranasal sinuses and mastoids demonstrate no significant abnormality."
+        ]
+      },
+      {
+        "id": 6,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2025-08-28T10:40:00Z",
+        "title": "CT Abdomen and Pelvis With Contrast",
+        "accession": "",
+        "description": [
+          "IMPRESSION:",
+          "Cholelithiasis with findings suspicious for cholecystitis.",
+          "Additional chronic ancillary findings as described.",
+          "",
+          "Action required.",
+          "",
+          "CT ABDOMEN AND PELVIS WITH CONTRAST",
+          "",
+          "HISTORY:",
+          "57 years old, Abdominal pain",
+          "",
+          "TECHNIQUE:",
+          "CT images of the abdomen and pelvis acquired with 100 mL Omnipaque 300 intravenous contrast.",
+          "CTDI: 0.04,0.04,8.06 mGy",
+          "DLP: 1.97,2.17,369.74 mGy-cm",
+          "",
+          "COMPARISON:",
+          "CTs 11/16/2023, 4/29/2020",
+          "",
+          "FINDINGS:",
+          "LUNG BASES: Clear.",
+          "LIVER: Normal.",
+          "GALLBLADDER/BILE DUCTS: Calcified gallstone at the gallbladder neck. Gallbladder is distended with mild gallbladder wall thickening, suspicious for cholecystitis. Mild common bile duct dilation, 8 mm without obstructive intraluminal filling defect by CT.",
+          "SPLEEN: Normal.",
+          "PANCREAS: Normal.",
+          "ADRENALS: Normal.",
+          "KIDNEYS: Redemonstrated postsurgical changes along the right kidney. No suspicious renal lesion.",
+          "GI TRACT: Colonic diverticulosis is present without acute diverticulitis. No significant wall thickening. Appendix is not well seen, but there are no secondary findings for acute appendicitis. Previous enhancing collection along the left anorectal canal/perineum is less conspicuous on today's examination, with persistent partially imaged tract extending caudal, outside the imaged field of view.",
+          "MESENTERY/LYMPH NODES: No suspicious lymph nodes.",
+          "PERITONEUM: No significant free fluid. No free air.",
+          "AORTA/VESSELS: Normal abdominal aortic diameter (<3cm). Aortic atherosclerosis.",
+          "BLADDER: No significant abnormality.",
+          "PELVIC STRUCTURES: No significant abnormality.",
+          "SOFT TISSUES: No significant abnormality.",
+          "BONES: Similar moderate compression fracture of the L1 vertebral body with unchanged height loss. Additional unchanged mild chronic compression fracture deformity of T12. Multilevel degenerative changes in the spine."
+        ]
+      },
+      {
+        "id": 7,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "XR",
+        "date": "2025-08-25T09:46:00Z",
+        "title": "XR Chest",
+        "accession": "",
+        "description": [
+          "IMPRESSION:",
+          "No acute disease.",
+          "Subtle density right mediastinal/retrocardiac region which may represent confluence of shadows/vascular in nature. Further evaluation can be performed with follow-up chest x-ray with oblique views in 6–8 weeks.",
+          "",
+          "Action required.",
+          "",
+          "XRAY CHEST",
+          "",
+          "HISTORY:",
+          "57 years old, CHEST PAIN",
+          "",
+          "TECHNIQUE:",
+          "1 view of the chest acquired.",
+          "",
+          "COMPARISON:",
+          "None",
+          "",
+          "FINDINGS:",
+          "LUNGS: Bibasilar atelectasis. Subcentimeter nodular density in the bilateral lung apices likely representing calcified pulmonary nodules. Subtle density right mediastinal/retrocardiac region which may represent confluence of shadows/vascular in nature. Further evaluation can be performed with follow-up chest x-ray with oblique views in 6–8 weeks.",
+          "",
+          "MEDIASTINUM/OTHER:",
+          "Small hiatal hernia. Normal cardiomediastinal silhouette."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "physicianNotes",
+        "class": "text",
+        "abbreviation": "NOTE",
+        "date": "2025-09-19T11:00:00Z",
+        "title": "Neurology Note",
+        "accession": "",
+        "description": [
+          "NEUROLOGY NOTE",
+          "",
+          "9/19/2025",
+          "",
+          "Patient: Patient 1",
+          "MRN: 12345",
+          "DOB: 1/1/1960",
+          "",
+          "Chief Complaint: Resolving encephalopathy with right hemiparesis",
+          "",
+          "HPI: 65 Yo female with hx of lung adenocarcinoma with no metastases to bone, right adrenal gland, multiple lymph nodes, PE on Xarelto, HTN presenting with combination of encephalopathy and resolving right hemiparesis and sensory loss.",
+          " ",
+          "Around 5 PM on 9/15/2025, patient was at a birthday dinner and was experiencing headache, blurry and perhaps double vision with dizziness.  Around 8:30 PM she was off balance/having difficulty walking but did not drink any alcohol.  Around 10 PM, she was noted to be unresponsive, blank staring, sitting with no witnessed seizure activity but became responsive after 1-2 minutes with observed right facial weakness and right-sided limb weakness with reportedly flaccid right arm initially. She was brought to the hospital for evaluation.  Initial NIHSS was 4 with points from somnolence/inattention (encephalopathy) with disorientation, right arm drift and sensory loss.  Not a candidate for thrombolytics due to suspected last normal time and use of Xarelto.  Qualitatively, there was concern the patient appeared to be postictal.",
+          " ",
+          "Her lung adenocarcinoma initially came to medical attention on chest x-ray from 6/25/2025 due to chest pain.  Sputum cytology from the same day showed malignant non-small cell lung cancer cells.  Right supraclavicular lymph node biopsy from 7/2/2025 showed metastatic pulmonary adenocarcinoma.  Body PET/CT from 7/6/2025 showed a large hypermetabolic left lower lobe lung mass consistent with known malignancy, malignant left pleural effusion, extensive hypermetabolic lymphadenopathy of the neck and chest consistent with metastases, right adrenal metastasis, and \"extensive\" osseous metastasis that on my personal review involves the majority of the pelvis, femoral heads, humeral heads, multiple vertebrae, and uncertain involvement of the calvarium.",
+          " ",
+          "MRI brain from 7/11/2025 showed no brain parenchymal abnormalities but several small areas of enhancement seen throughout the calvarium as well as some bone marrow signal abnormality involving the visualized C-spine concerning for osseous metastases.",
+          " ",
+          "As of 7/11/2025, patient started on carboplatin and pemetrexed and added zoledronic acid.  She underwent radiation therapy to painful bone metastases.  Started on osimertinib (Tagrisso) due to EGFR positive mutation.",
+          " ",
+          "Patient is not on aspirin, statin, or antiepileptics at baseline.",
+          " ",
+          "9/16/25: Currently, patient is poorly communicative with right sided weakness and concern for decreased perception on the right.  Otherwise, patient is unable to provide meaningful history.",
+          " ",
+          "**Update**",
+          "MRI of the brain with and without contrast was obtained and was significantly motion degraded and also limited by artifact from braces.  However, within these limitations there are multifocal bilateral areas of acute ischemic stroke most prominently of the right parietal lobe, left posterior frontal/parietal lobe and scattered throughout the bilateral occipital and temporal lobes concerning for acute ischemic stroke.  She has areas consistent with remote encephalomalacia of the bilateral cerebellum.  Although there does not appear to be clear hemorrhagic transformation of her areas of ischemic stroke, there are numerous punctate well-circumscribed areas of susceptibility artifact within the bilateral cerebral cortex or potentially in the subarachnoid space.  These findings might be consistent with remote hemorrhages but are concerning for hypervascular masses/possible metastases (formal radiology review is pending).  Note the postcontrast sequences are severely motion degraded and essentially uninterpretable.",
+          " ",
+          "9/17/25: CT angiogram of the head/neck was obtained and shows irregular filling of the distal cervical left ICA with impaired filling and possible intraluminal thrombus within the petrous portion of the left ICA with eventual nonopacification and complete vessel occlusion in the cavernous and supraclinoid segments.  There appears to be good filling of the left MCA and ACA likely via a robust ACOM and other collaterals.  There is mostly fetal origin of the bilateral posterior communicating arteries but the left PCA has modest connection to the basilar artery and appears to be filling normally.",
+          " ",
+          "Clinically, there are no significant changes",
+          " ",
+          "9/18/25: Noncontrast CT scan of the head was obtained yesterday and showed interval development of cytotoxic edema primarily within the right parietal lobe but also scattered areas within the left cerebral hemisphere.  There were a couple areas of hyperdensity within the subarachnoid space including left frontal lobe and left paramedian parietal lobe possibly representing acute blood products, but uncertain.  Differential diagnosis including residual contrast extra-axial vascularized masses or thrombus.",
+          " ",
+          "Repeat noncontrast CT scan of the head showed no significant change in the evolving cytotoxic edema/hypodensity within the bilateral cerebral hemispheres as well as the subarachnoid hyperdensities.",
+          "Echo without intracardiac thrombus.",
+          " ",
+          "Patient continues on therapeutic anticoagulation.",
+          " ",
+          "There is reportedly a change in her alertness and interactivity yesterday, becoming poorly responsive.",
+          "Today, she remains more somnolent and poorly communicative.",
+          " ",
+          "9/19/25: EEG yesterday showed significant diffuse slowing without epileptiform discharges.  Patient remains somnolent and poorly interactive.  Otherwise, no clear neurologic changes",
+          "",
+          "Patient Active Problem List: ",
+          "  ASTHMA, UNSPECIFIED",
+          "  COVID-19 RULED OUT",
+          "  ANEMIA",
+          "  LUNG MASS",
+          "  ADENOCARCINOMA, LEFT LUNG LOWER LOBE",
+          "  CANCER METASTATIC TO INTRATHORACIC LN",
+          "  CANCER METASTATIC TO BONE",
+          "  CANCER METASTATIC TO NECK LN",
+          "  CANCER METASTATIC TO RIGHT ADRENAL GLAND",
+          "  ACUTE PULMONARY EMBOLISM",
+          "  ACUTE HYPOXEMIC RESPIRATORY FAILURE",
+          "  ASTHMA, UNSPECIFIED W ACUTE EXACERBATION",
+          "  HTN (HYPERTENSION)",
+          "  UNSPECIFIED ANXIETY",
+          "  PNEUMONIA",
+          "  LONG TERM NON WARFARIN ORAL ANTICOAGULANT THERAPY",
+          "  *NEW MEMBER",
+          "  HX OF RADIATION THERAPY",
+          "  ALTERED MENTAL STATUS, UNSPECIFIED",
+          "  THROMBOCYTOPENIA, UNSPECIFIED (UNKNOWN ETIOLOGY)",
+          "  HEADACHE",
+          "",
+          " ",
+          "Past Surgical History",
+          "\t\t\t",
+          "Past Surgical History:",
+          "Procedure\tLaterality\tDate",
+          "•\tIR SUPERFICIAL LYMPH NODE BIOPSY\tRight\t7/2/2025",
+          " \t",
+          " ",
+          "\t\t",
+          "Current Outpatient Medications",
+          "Medication\tInstructions",
+          "•\tAcetaminophen (TYLENOL) 325 mg Oral Tab\tTake 1 tablet by mouth every 6 hours for 7 days. Continue standing for 7 days then as needed.",
+          "•\tAlbuterol (PROVENTIL) 2.5 mg /3 mL (0.083 %) Inhl Neb Soln\tUse 1 vial via nebulizer every 4 to 6 hours as needed for shortness of breath or wheezing",
+          "•\tAzithromycin (ZITHROMAX) 250 mg Oral Tab\tTake 2 tablets by mouth daily for 1 day, then 1 tablet daily for 4 days",
+          "•\tCamphor-Methyl Salicylate-Menthol (Salonpas) 3.1-10-6 % Top PTMD Patch\tApply 1 patch to your neck every evening",
+          "•\tCefpodoxime (VANTIN) 200 mg Oral Tab\tTake 1 tablet by mouth tonight to complete the antibiotic course on 07/17/25 - evening.",
+          "•\tCiclesonide (Alvesco) 160 mcg/actuation Inhl HFAA\tInhale 1 puff by mouth 2 times a day . Rinse mouth after each use.",
+          "•\tCyclobenzaprine (FLEXERIL)\t5 mg, Oral, 3 TIMES A DAY AS NEEDED",
+          "•\tDoxycycline Monohydrate (AVIDOXY) 100 mg Oral Tab\tTake 1 tablet by mouth this evening 7/17/25 to complete course",
+          "•\tFolic Acid\t1 mg, Oral, EVERY 24 HOURS",
+          "•\tHYDROmorphone (DILAUDID) 2 mg Oral Tab\tTake a half to 1 tablet by mouth every 4 hours as needed for moderate to severe pain",
+          "•\tHYDROmorphone (DILAUDID) 2 mg Oral Tab\tTake 1 and one-half tablets by mouth every 4 hours while awake",
+          "•\tHYDROmorphone (DILAUDID)\t2 mg, Oral, EVERY 4 HOURS AS NEEDED",
+          "•\tinhaler, assist devices (AEROCHAMBER Z-STAT PLUS-FLW SG) Misc Spacer\tUSE AS DIRECTED WITH INHALER",
+          "•\tIpratropium-Albuterol (DUONEB) 0.5 mg-3 mg(2.5 mg base)/3 mL Inhl Neb Soln\tUse 3 mL via nebulizer every 4 hours while awake",
+          "•\tLidocaine (Aspercreme, lidocaine,) 4 % Top PTMD Patch\tApply 2 patches to C-spine and/or Left shoulder in area of pain daily",
+          "•\tLidocaine Viscous 2 % MM Soln\tSwish and spit 15 mL by mouth every 4 hours as needed for mouth pain.",
+          "•\tMetoprolol Tartrate (LOPRESSOR)\t25 mg, Oral, 2 TIMES A DAY WITH MEALS",
+          "•\tMouthwash:diphenhydrAMINE-Lidocaine Visc.-Maalox Oral Susp\tSwallow 1 teaspoonful (5 mL) by mouth 4 times a day or as directed",
+          "•\tNaloxone (NARCAN) 4 mg/actuation Nasl Spray\tFor Non-Recipient Use. Use 1 spray in one nostril. Seek immediate Emergency medical help. If response is not obtained after 2 or 3 minutes, administer 2nd dose in other nostril using a new device until Emergency help arrives. Emergency use only",
+          "•\tOndansetron (ZOFRAN ODT)\t8 mg, Translingual, EVERY 8 HOURS",
+          "•\tPantoprazole (PROTONIX)\t40 mg, Oral, 2 TIMES A DAY BEFORE MEALS",
+          "•\tPolyethylene Glycol 3350 (MIRALAX/GLYCOLAX) 17 gram/dose Oral Powd\tMix 17 Grams in 4 to 8 ounces of water or juice and drink by mouth daily as directed for constipation",
+          "•\tPolyethylene Glycol 3350 (MIRALAX/GLYCOLAX)\t17 g, Oral, DAILY",
+          "•\tpredniSONE (DELTASONE) 10 mg Oral Tab\tTake 4 tablets daily every morning for 5 days. Then take 3 tablets daliy every morning for 5 days. Then take 2 tablets daily every morning for 5 days. Then take 1 tablet daily every morning for 5 days. Then take half tablet daily every morning for 5 days. Then stop taking. Or take as directed. Take with food.",
+          "•\tSennosides (Senna) 8.6 mg Oral Tab\tTake 2 tablets by mouth daily as needed for constipation. May increase up to 4 tablets by mouth 2 times a day as needed for severe constipation. Do not exceed 8 tablets in 24 hours",
+          "•\tSucralfate (CARAFATE)\t1,000 mg, Oral, 30 MINUTES BEFORE MEALS AND AT BEDTIME",
+          "•\tTagrisso\t80 mg, Oral, DAILY",
+          "•\tXarelto\t20 mg, Oral, DAILY WITH DINNER, (Start after completing Xarelto 15 mg tablets)",
+          "",
+          " ",
+          "Allergies",
+          "\t\t\t",
+          "Allergies",
+          "Allergen\tReactions",
+          "•\tContrast [Ivp Dye, Iodine Containing]\tSwelling",
+          " \t \tPer pt",
+          "",
+          "",
+          " ",
+          "Family History",
+          "\t\t\t",
+          "Family History",
+          "Problem\tRelation\tAge of Onset",
+          "•\tHyperlipidemia\tFather\t ",
+          "•\tHypertension\tFather\t ",
+          "•\tStroke\tFather\t ",
+          "",
+          "",
+          " ",
+          "Social History",
+          "Social History",
+          " ",
+          "\t\t\t",
+          "Socioeconomic History",
+          "•\tMarital status:\tDivorced",
+          "Tobacco Use",
+          "•\tSmoking status:\tNever",
+          "•\tSmokeless tobacco:\tNever",
+          "Substance and Sexual Activity",
+          "•\tAlcohol use:\tYes",
+          " \t \tTypes:\t1 Glasses of wine per week",
+          "•\tDrug use:\tNo",
+          "•\tSexual activity:\tYes",
+          " \t \tPartners:\tMale",
+          " \t \tBirth control/protection:\tbilateral tubal ligation",
+          "Social History Narrative",
+          " \t",
+          " ",
+          "Objective:",
+          "Physical Exam",
+          "BP 169/82  | Pulse 72  | Temp 98.1 °F (36.7 °C)  | Resp 20  | Ht 5' 2\"  | Wt 63 kg (139 lb)  | SpO2 100%  | Breastfeeding No  | BMI 25.42 kg/m² ",
+          "Estimated body mass index is 25.42 kg/m² as calculated from the following:",
+          "  Height as of this encounter: 5' 2\".",
+          "  Weight as of this encounter: 63 kg (139 lb).",
+          "General Appearance: No acute distress but looks unwell lying in bed",
+          "",
+          "Mental Status: Sleepy and difficult to arouse.  With noxious central stimulation, patient will open eyes and briefly regard examiner.  Localizes to noxious stimulation with her left arm but currently no verbal output and not following commands.  Previously, verbal output was minimal and limited to a few isolated words and simple overlearned phrases.  She was not able to generate spontaneous exposition and cannot name any objects reliably.  She was able to follow simple axial commands such as to stick out her tongue. ",
+          "Cranial Nerves:",
+          "-II: pupils round, symmetrical, and equally responsive to direct and consensual stimulation, no definite asymmetry and blink to threat bilaterally but appears to have difficulty fixating on objects and question of possible visual field loss",
+          "-III, IV, VI: extraocular movements intact without pathologic nystagmus or clear gaze preference",
+          "-VII: Flattening of the right nasolabial fold",
+          "-VIII: hearing grossly intact bilaterally",
+          " ",
+          "Motor:",
+          "- No tremor observed",
+          "- Strength: Minimal voluntary movements of the right arm and withdraws somewhat to noxious stimulation.  Previously was able to make a fist on the right with 4 - strength.  She was able to hold the right leg antigravity with drift.  Full strength on the left.",
+          " ",
+          "Sensory:  Decreased response to noxious stimulation on the right",
+          "Coordination: Movements fluid without ataxia",
+          "Gait: deferred.",
+          "Reflexes:   deferred",
+          " ",
+          "NIHSS STROKE SCALE (Time Performed: 1100)",
+          " ",
+          "_3_ 1a. Level of Consciousness",
+          "_2_1b. LOC Questions (Age & Month)",
+          "_2_1c. LOC Commands (Make fist & close eyes)",
+          "_0_ 2. Best Gaze",
+          "_1_ 3. Visual",
+          "_1_ 4. Facial palsy     ",
+          "_0_ 5a. L Motor arm",
+          "_3_ 5b. R Motor arm      ",
+          "_0_ 6a. L Motor leg",
+          "_2_ 6b. R Motor leg",
+          "_0_ 7. Limb ataxia     ",
+          "_1_ 8. Sensory",
+          "_3_ 9. Best language",
+          "_2_ 10. Dysarthria",
+          "_0_ 11. Extinction and inattention (formerly neglect)",
+          "  ",
+          "TOTAL: 20",
+          "",
+          "Labs: labs and additional test results were reviewed by me. ",
+          "",
+          "Imaging:",
+          "Patient's relevant imaging was reviewed by me, including noncontrast CT scan of the head, prior MRI brain, prior PET/CT",
+          "",
+          "Assessment and Plan",
+          "65 Yo female with hx of lung adenocarcinoma with no metastases to bone, right adrenal gland, multiple lymph nodes, PE on Xarelto, HTN presenting with combination of encephalopathy and resolving right hemiparesis and sensory loss.",
+          " ",
+          "Acute ischemic strokes",
+          "Patient presented with an episode of unresponsiveness followed by clear relatively diffuse left hemispheric dysfunction.  Patient was found to have extensive bilateral acute ischemic strokes thought to be due to hypercoagulability of malignancy despite therapeutic anticoagulation on Xarelto.  CT angiogram shows occlusion of the left intracranial ICA with good filling of the left MCA and ACA.",
+          "Note that patient's MRI of the head from 7/11/2025 did not show any evidence of brain parenchymal abnormalities or meningeal lesions, but patient has known osseous metastases to the calvarium.  Patient has numerous superficial areas of parenchymal susceptibility artifact that are potentially concerning for hyper vascularized micrometastases, but postcontrast sequences on recent MRI were nondiagnostic",
+          " ",
+          "My primary clinical concern is that patient has a high risk of recurrent ischemic strokes especially given that she experienced a multifocal bilateral ischemic stroke while therapeutically anticoagulated on rivaroxaban.  Although there is theoretically risk of hemorrhagic transformation with therapeutic anticoagulation, a recent study published in the Lancet 2025 (CATALYST) supports that early initiation of therapeutic anticoagulation after ischemic stroke is likely favorable with significantly decreased ischemic events and no significant increase in symptomatic hemorrhage.",
+          "-Continue therapeutic Lovenox while patient is unable to take p.o.",
+          "-Apixaban 5 mg twice daily ",
+          "- Okay to continue atorvastatin 80 mg",
+          "- Recommend repeat MRI of the brain with and without contrast to evaluate for intracranial metastases or any increase in ischemia burden",
+          "- STAT CT head for any acute changes in neurologic exam",
+          "- Neurochecks q4h",
+          "- Permissive hypertension with SBP goal <220",
+          "- Goal euthermia (<38C), eunatremia (135-145), euglycemia (80-180), euvolemia",
+          "- NPO until passes swallow evaluation",
+          "- PT/OT/SLP evaluations",
+          "- Stroke education for patient",
+          "- Apply SCDs, pharmacologic DVT prophylaxis is neurologically appropriate",
+          "- Smoking cessation, as applicable",
+          " ",
+          "Acute encephalopathy",
+          "Patient sleepy and inattentive 9/18/2025 of yet undetermined etiology.  I do not see clear evidence of new focal neurologic deficits, and her noncontrast CT scans of the head showed expected interval findings compared with prior MRI of the brain.  There are a couple of extra-axial hyperdensities that might be consistent with small subarachnoid hemorrhage/blood products, but these findings may also represent hyper vascularized masses such as was considered on her motion-degraded MRI.  These hypodensities are not changing and do not appear to represent a contraindication to ongoing therapeutic anticoagulation.",
+          "Clinically, she appears to have global cerebral dysfunction without clear explanatory factors.  So far, no evidence of new diffuse ischemia or focal brainstem/thalamic lesions, and no severe progressive cytotoxic edema. Seizures are potentially on the differential diagnosis, but patient without any clear clinical seizure activity and initial EEG negative.  However, patient remains severely encephalopathic without alternative etiology, will consider empirically treating for seizures given high clinical suspicion.  ",
+          "- No clear indication for antiepileptics currently but will consider empiric antiepileptics if patient remains severely somnolent without alternative explanation given the possibility for intermittent subclinical electrographic seizures that may be missed on EEG monitoring",
+          "- Recommend repeat MRI of the brain with and without contrast as above",
+          " ",
+          "Recommend non-pharmacologic delirium precautions including:",
+          "- Promote sleep hygiene with appropriate day/night divisions (e.g. lights on during day and off during night, turning off the TV after 10 PM, opening the blinds in the morning)",
+          "- Frequent re-orientation as needed",
+          "- Ensure patient has access to any needed sensory aids (e.g. glasses, hearing aids)",
+          "- Avoid or limit deliriogenic medications such as: Anticholinergics, Benzodiazepines (including zolpidem, zaleplon, and eszopiclone), opiates, antihistamine, muscle relaxants, dopamine agonists, MAO inhibitors, steroids, certain antibiotics (cefepime, metronidazole, fluoroquinolones, linezolid), digitalis, lithium, calcineurin inhibitors",
+          "",
+          "Dr Neurology, MD"
+        ]
+      },
+      {
+        "id": 9,
+        "type": "physicianNotes",
+        "class": "text",
+        "abbreviation": "NOTE",
+        "date": "2025-09-18T15:30:00Z",
+        "title": "Hospitalist Note",
+        "accession": "",
+        "description": [
+          "PROGRESS NOTE ",
+          "Per admission HPI:\"",
+          "CC: right facial droop, confusion, staring blank, dizziness, headache, right sided weakness, visual changes",
+          " ",
+          "HPI: 65yo f  with hx of left lung cancer with mets diagnosed 2 months ago s/p 1 cycle of chemo currently on Osimertinib and s/p radiation tx, PE diagnosed 2 months ago on Xarelto, anemia, htn, anxiety was brought into ER by EMS for above chief complaints.  At 5pm, pt was at a birthday dinner with friends and she was having a headache, blurry/double vision, and dizziness.  At about 8:30pm, she was noted to have some unbalanced gait.  She didn't consume any etoh at the dinner.  Then at about 10pm while at home, she was noted to be unresponsive, staring blank, sitting.  No respiratory distress.  No tonic clonic seizure activities noted.  No tongue biting and no incontinence.  After about 1-2 minutes, pt started to become responsive slowly but confused and noted right facial droop and right sided weakness especially the her right arm which was flaccid per friends at bedside.  911 was called and pt was transferred to ER.  Tele neurologist was consulted for possible stroke.  NIHSS was 4.  Right arm weakness has improved.  Head CT was  negative.  Teleneurologist felt pt wasn't a candidate for thrombolytic treatment and recommended MRI brain and stroke pathway.  ",
+          " ",
+          "Denies fever, cough, cp, sob, palpitations, abd pain, nausea, vomiting, bloody stools, melena, hematemesis, diarrhea, constipation, GU symptoms, neuro symptoms, headache, sick contacts, trauma/injury.\" ",
+          "Hospital Day(s): 3 ",
+          "Overnight documentation, events and chart reviewed.",
+          "Assessment and Plan:",
+          "Patient Active Hospital Problem List:",
+          "     ALTERED MENTAL STATUS, UNSPECIFIED     Date Noted: 9/16/2025   ",
+          "     HEADACHE     Date Noted: 9/16/2025   ",
+          "     ACUTE STROKE DUE TO ISCHEMIA, UNSPECIFIED TYPE AND ARTERY     Date Noted: 9/16/2025   ",
+          "     LEFT CAROTID ARTERY OCCLUSION     Date Noted: 9/17/2025   ",
+          "-Initial CTH neg, MRI c/w strokes",
+          "-MRI brain: ",
+          "",
+          " ",
+          "Motion degraded and metallic dental hardware (braces) artifact limited brain MRI, with the following observations:",
+          "1. Numerous foci of predominantly cortical restricted diffusion within the cerebral hemispheres bilaterally, largest involving the right parietal, posterior temporal, and occipital lobe with additional foci in the bilateral frontal, parietal, and occipital lobes. There may be tiny foci within the left superior cerebellum as well. There may also be a focus of restricted diffusion at the left basal ganglia/deep white matter.",
+          "2. This exam is largely nondiagnostic for metastases given significant motion artifact on postcontrast sequences. No abnormal intracranial mass effect detected.",
+          "3. Numerous punctate foci of parenchymal susceptibility, a few of which are new from prior. These are suggestive of microhemorrhages, nonspecific but history of anticoagulation and thrombocytopenia is noted. It would be difficult to exclude hemorrhagic micrometastases given limitations of postcontrast sequences.",
+          "Given nondiagnostic postcontrast sequences, repeat contrast MRI recommended to assess for metastases in the future, when clinically indicated/feasible.",
+          "-Stroke pathway, permissive HTN",
+          "-Neurology consulted: ",
+          "           -MRI c/w multifocal bl acute ischemic stroke, no evidence of seizure",
+          "           -Likely from hypercoagulability of malignancy",
+          "           -?possible small mets but unclear ",
+          "           -ECHO normal EF, no intracardiac masses",
+          "-A1c 4.9, LDL 76",
+          "           -CTA head and neck:",
+          "The left mid to upper cervical ICA is progressively narrowed in caliber with minimal opacification seen throughout it's superior course as well as minimal opacification/occlusion of the intracranial left ICA. ",
+          "No other CTA evidence of a large vessel occlusion or high-grade stenosis within the head or neck.",
+          "The visualized lung apices demonstrate groundglass and nodular opacities within the lungs bilaterally, right greater than left. This appears increased when compared to the prior CT chest from 7/9/2025. Consider a dedicated CT chest study for further evaluation.",
+          "Again seen is a pathologic compression deformity at C7 and additional lytic osseous metastatic disease involving the visualized spine.",
+          "-Recommend transition to apixaban 5 mg twice daily given best data in treating hypercoagulability of malignancy as well as lowest overall bleeding risk (lovenox reasonable while unable to take PO)",
+          "-Stop aspirin when anticoagulation is initiated",
+          "- Checking CT angiogram of the head/neck to evaluate for underlying vascular anomalies such as intraluminal thrombi.  Premedicating with Solu-Medrol and Benadryl due to reported contrast allergy",
+          "- Okay to continue atorvastatin 80 mg",
+          "-Patient will need repeat MRI of the brain with and without contrast to evaluate for intracranial metastases when she is better able to participate with the study (non-urgent)",
+          "- STAT CT head for any acute changes in neurologic exam",
+          "- Neurochecks q4h",
+          "- Permissive hypertension with SBP goal <220",
+          "-PT OT",
+          "-SLP > dental soft, but adjusted to liquid d/t mentation",
+          "-9/17: reviewed CTA with neurologist, no imminent threat of stroke from L ICA occlusion, no changes in management, however, if AC is stopped, this lesion may become an issue with new strokes",
+          "-9/17: CTH: ",
+          "1.   Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left, likely sequela of known ischemia.",
+          "2.   There is a new punctate focus of hyperdensity in the high left frontal lobe. It could represent small focus of her subarachnoid hemorrhage versus residual contrast within the vasculature. Short-term follow-up is suggested.",
+          "-Discussed above findings with NSGY, now evidence of SAH, likely residual contrast ",
+          "-Discussed findings with neuro, appropriate amount of edema post-stroke, size of stroke and edema should not cause herniation. Continue anticoagulation, benefit outweighs risk. ",
+          "           -Repeat CTH in 12 hours > stable ",
+          "-Patient more somnolent and not tolerating PO > discussed with AC pharmacy to link lovenox or apixaban pending if patient can tolerate PO ",
+          "-9/18: Patient back to baseline mentation overnight but received valium in the evening for CT > more somnolent this AM but moving L sided extremities spontaneously",
+          " ",
+          "ADDENDUM:",
+          "-Pt still somnolent, completed EEG @3pm, will repeat MRI brain with and without contrast. Discussed need for NGT with DPOA, pending consent.",
+          " ",
+          "     THROMBOCYTOPENIA, UNSPECIFIED (UNKNOWN ETIOLOGY)     Date Noted: 9/16/2025   ",
+          "     ANEMIA     Date Noted: 6/25/2025   ",
+          "     DISSEMINATED INTRAVASCULAR COAGULATION     Date Noted: 9/17/2025   ",
+          "-No bleeding sx",
+          "-plt 120s > 90s > 70s",
+          "-INR 1.2 ",
+          "-Send fibrinogen (low, but close to normal), haptglobin, T/D bilirubin (normal)",
+          "-?from acute illness, discussed with hematology 9/17, likely low grade DIC from malignancy, however, given plt >50, can continue AC (risk/benefit of worsening stroke if off), check plt and fibrinogen BID, plt >30K and given cryo if fibrinogen <100. No difference between use of apixaban vs lovenox. ",
+          "-Updated patient’s regular hematologist as well ",
+          "-9/17: Discussed low plt with neurology, would keep plt threshold >50K, switch to apixaban when able.",
+          "-9/17: Passed SLP > will start apixaban 5 mg BID (discussed with AC pharmacist). Consented family to plt and cryo if needed.",
+          "-9/18: haptoglobin elevated, less c/f hemolysis, fibrinogen 289, plt stable ~80s",
+          " ",
+          " ",
+          "     PNEUMONIA     Date Noted: 7/10/2025   ",
+          "-9/17: Increased rhonchi, CTH noted for GGO R>L > CXR confirms, given new WBC, will start IV CTX for possible aspiration PNA ",
+          " ",
+          "     LONG TERM NON WARFARIN ORAL ANTICOAGULANT THERAPY     Date Noted: 7/18/2025   ",
+          "     ACUTE PULMONARY EMBOLISM     Date Noted: 7/9/2025   ",
+          "-Diagnosed 2 months ago and is on Xarelto every pm.  ",
+          "-Hasn't have her Xarelto this evening. ",
+          "-Lovenox injection for now > switch to apixaban 5 mg BID once able to tolerate PO",
+          "-9/17: switch to apixaban today",
+          " ",
+          "     ADENOCARCINOMA, LEFT LUNG LOWER LOBE     Date Noted: 7/8/2025   ",
+          "     CANCER METASTATIC TO INTRATHORACIC LN     Date Noted: 7/8/2025   ",
+          "     CANCER METASTATIC TO BONE     Date Noted: 7/8/2025   ",
+          "     CANCER METASTATIC TO NECK LN     Date Noted: 7/8/2025   ",
+          "     CANCER METASTATIC TO RIGHT ADRENAL GLAND     Date Noted: 7/8/2025   ",
+          "     HX OF RADIATION THERAPY     Date Noted: 8/7/2025   ",
+          "-S/p 1 cycle of chemo and is currently on Osimertinib at home and Zometa every 3 months. S/p radiation tx to right shoulder. ",
+          "-Stroke likely 2/2 hypercoaguable state from malignancy ",
+          "-Lovenox per above > apixaban when tolerating PO",
+          "-9/17: Discussed with heme/onc: okay to continue tagrisso. Confirmed with DPOA patient was on steroid taper for pain 2/2 bone mets, continue taper here.",
+          " ",
+          " ",
+          "     ASTHMA, UNSPECIFIED     Date Noted: 2/19/2020   ",
+          "-Hx. No acute pulm sx. ",
+          " ",
+          " ",
+          "     UNSPECIFIED ANXIETY     Date Noted: 7/9/2025   ",
+          "-Noted, CTM",
+          "  ",
+          "Full code ",
+          "Lovenox/apixaban",
+          "Med-surge",
+          "Discharge SNF vs acute rehab",
+          "Estimated Date of Discharge (EDD) 9/20",
+          "Discharge Criteria ",
+          "            -PO intake > NGT? G tube?",
+          "            -Stable plt + fibrinogen",
+          "            -PT OT",
+          "Discharge Needs (equipment, placement) TBD",
+          "Plan discussed with patient, family, RN and PCC  ",
+          " ",
+          "Subjective: ",
+          "Patient not participating in interview, withdrawing from pain and moving L side extremities.",
+          "Objective:",
+          "Patient Vitals for the past 24 hrs:",
+          " \tBP\tTemp\tPulse\tResp\tSpO2\tHeight\tWeight",
+          "09/18/25 0323\t151/76\t97.7 °F (36.5 °C)\t65\t19\t100 %\t—\t—",
+          "09/18/25 0100\t164/83\t—\t81\t19\t98 %\t—\t—",
+          "09/18/25 0000\t161/104\t98.1 °F (36.7 °C)\t79\t13\t98 %\t—\t—",
+          "09/17/25 2300\t—\t—\t84\t20\t98 %\t—\t—",
+          "09/17/25 2200\t—\t—\t79\t25\t96 %\t—\t—",
+          "09/17/25 2100\t—\t—\t77\t24\t97 %\t—\t—",
+          "09/17/25 2000\t157/93\t98.8 °F (37.1 °C)\t74\t17\t95 %\t—\t—",
+          "09/17/25 1900\t—\t—\t73\t20\t99 %\t—\t—",
+          "09/17/25 1800\t162/103\t—\t88\t18\t99 %\t—\t—",
+          "09/17/25 1745\t162/103\t—\t—\t—\t—\t—\t—",
+          "09/17/25 1700\t—\t—\t71\t23\t97 %\t—\t—",
+          "09/17/25 1638\t172/92\t—\t73\t21\t99 %\t—\t—",
+          "09/17/25 1545\t180/91\t97.1 °F (36.2 °C)\t74\t22\t97 %\t—\t—",
+          "09/17/25 1343\t149/71\t—\t76\t21\t98 %\t5' 2\"\t63 kg (139 lb)",
+          "09/17/25 1303\t156/88\t—\t75\t22\t100 %\t—\t—",
+          "09/17/25 1151\t155/106\t98.4 °F (36.9 °C)\t—\t—\t—\t—\t—",
+          "09/17/25 0919\t149/68\t—\t74\t18\t98 %\t—\t—",
+          " ",
+          " ",
+          "Intake/Output Summary (Last 24 hours) at 9/18/2025 0800",
+          "Last data filed at 9/18/2025 0702",
+          "\t",
+          "Gross over last 24 hours",
+          "Intake\t300 ml",
+          "Output\t1950 ml",
+          "Net\t-1650 ml",
+          " ",
+          "Fingerstick Blood Glucose (48 hours):",
+          " ",
+          "Device Integrated Values (if any)",
+          "\t\t\t\t\t",
+          "GLUCOSE, BLOOD, GLUCOMETER",
+          "Date/Time\tValue\tRef Range\tStatus",
+          "09/17/2025 1542\t92\t60 - 159 mg/dL\tFinal",
+          " \t \tComment:",
+          " \t \tPre-Meal",
+          "09/17/2025 0242\t119\t60 - 159 mg/dL\tFinal",
+          " ",
+          " ",
+          "Flowsheet Values (if any)",
+          "Patient Vitals for the past 48 hrs:",
+          " \tGlucose, Random",
+          "09/17/25 0200\t119",
+          " ",
+          " ",
+          "Physical Exam:",
+          "General appearance - lerthargic, sleeping",
+          "Mental Status - alert, oriented x 0",
+          "Eyes - sclera anicteric, PERRL",
+          "Chest - clear to auscultation, no wheezes, rales or rhonchi",
+          "Heart - normal rate, regular rhythm, normal S1, S2, no murmurs, rubs",
+          "Abdomen - soft, nontender, nondistended, no masses or organomegaly",
+          "Neurological - moving L sided extremities spontaneously",
+          "Extremities - no clubbing, cyanosis or edema",
+          "Skin - warm and dry",
+          " ",
+          "NIH Stroke Scale",
+          " ",
+          "1a. Level of Consciousness: 2= Not alert: requires repeated stimulation to attend, or is obtunded and requires strong or painful stimulation to make movements (not stereotyped).",
+          " ",
+          "1b. LOC Questions- The patient is asked the month and his/her age: 2= Answers neither question correctly.",
+          " ",
+          "1c. LOC Commands- The patient is asked to open and close the eyes and then grip and release the non-paretic hand:2= Performs neither task correctly.",
+          " ",
+          "2. Best Gaze: 0= Normal.",
+          " ",
+          "3. Visual: 0= No visual loss.",
+          " ",
+          "4. Facial Palsy: 1= Minor paralysis (flattened nasolabial fold, asymmetry on smiling).",
+          " ",
+          "5. Motor Arm: Right: 4= No movement.",
+          "Left: 3= No effort against gravity; limb falls.",
+          " ",
+          "6. Motor Leg: Right: 4= No movement",
+          "Left: 3= No effort against gravity; leg falls to bed immediately.",
+          " ",
+          "7. Limb Ataxia: 0= Absent",
+          " ",
+          "8. Sensory: 0= Normal; no sensory loss.",
+          " ",
+          "9. Best Language: 3= Mute, global aphasia; no useable speech or auditory comprehension.",
+          " ",
+          "10. Dysarthria: 2= Severe dysarthria; patient's speech is so slurred as to be unintelligible in the absence of or out of proportion to any dysphasia, or is mute/anarthric.",
+          " ",
+          "11. Extinction and Inattention (formerly Neglect): 0= No abnormality.",
+          " ",
+          "12. Total Score: 26",
+          " ",
+          " ",
+          " ",
+          " ",
+          "\t\t\t\t\t",
+          "Recent Labs",
+          " \t09/18/25",
+          "0222\t09/17/25",
+          "1423\t09/17/25",
+          "0655\t09/16/25",
+          "0524\t09/15/25",
+          "2255",
+          "WBC\t12.4* | 12.8*\t12.0*\t11.3*\t9.8\t10.6",
+          "HGB\t12.8 | 12.7\t12.0\t11.6\t11.3*\t12.7",
+          "HCT\t40.5 | 40.6\t39.2\t37.5\t35.6\t40.7",
+          "PLT\t81* | 81*\t82*\t78*\tDECREASE* | 96* | NORMAL\t124*",
+          " ",
+          "\t\t\t",
+          "Recent Labs",
+          " \t09/17/25",
+          "0655\t09/16/25",
+          "0524\t09/15/25",
+          "2255",
+          "NA\t137\t138\t139",
+          "K\t3.8\t3.8\t3.7",
+          "CO2\t25\t25\t28",
+          "CL\t106\t105\t103",
+          "BUN\t6*\t12\t11",
+          "CR\t0.57\t0.69\t0.84",
+          "RBS\t100\t100\t98",
+          "CA\t -- \t8.4*\t -- ",
+          "MG\t -- \t2.2\t -- ",
+          " ",
+          " ",
+          "No results for input(s): \"CPK\", \"CKMB\", \"TROP\", \"BNP\" in the last 168 hours.",
+          " ",
+          "\t",
+          "Recent Labs",
+          " \t09/15/25",
+          "2255",
+          "PT\t15.3*",
+          "INR\t1.2",
+          "PTT\t25.9",
+          " ",
+          " ",
+          "\t\t\t",
+          "Recent Labs",
+          " \t09/16/25",
+          "0911\t09/16/25",
+          "0524\t09/15/25",
+          "2255",
+          "AST\t -- \t29\t23",
+          "ALT\t -- \t16\t18",
+          "ALKP\t -- \t73\t72",
+          "TBILI\t0.3\t0.3\t0.3",
+          "BILIDIRECT\t0.1\t -- \t -- ",
+          "LIPASE\t -- \t -- \t13",
+          " ",
+          " ",
+          "\t\t\t",
+          "Lab Results",
+          "Component\tValue\tDate",
+          " \tAlbumin\t3.7\t09/16/2025",
+          " ",
+          " ",
+          "No results for input(s): \"LACTATE\" in the last 168 hours.",
+          "\t\t\t",
+          "Lab Results",
+          "Component\tValue\tDate",
+          " \tD-DIMER\t>4.00 (H)\t07/09/2025",
+          " ",
+          " ",
+          "No results found for: \"ABG\"",
+          "\t\t\t",
+          "Lab Results",
+          "Component\tValue\tDate",
+          " \tHgb A1c %\t4.9\t09/16/2025",
+          " ",
+          " ",
+          "\t\t\t",
+          "Lab Results",
+          "Component\tValue\tDate",
+          " \tTSH\t0.8\t07/15/2021",
+          " ",
+          " ",
+          "\t\t\t",
+          "Lab Results",
+          "Component\tValue\tDate",
+          " \tCholesterol\t215\t09/16/2025",
+          " \tTriglyceride\t124\t01/21/2019",
+          " \tHDL\t67\t09/16/2025",
+          " \tLow density lipoprotein calculated\t92\t01/21/2019",
+          " \tLDL CALCULATED, NONFASTING\t76\t09/16/2025",
+          " \tTRIGLYCERIDE, NONFASTING\t361\t09/16/2025",
+          " ",
+          " ",
+          "No results for input(s): \"UPH\", \"USG\", \"UAGLU\", \"UKET\", \"UABILI\", \"UPROTEIN\", \"ULEUKESTER\", \"UNITRITE\", \"URBC\", \"UWBC\", \"UBACT\" in the last 72 hours.",
+          " ",
+          "\t\t\t",
+          "LV EJECTION FRACTION",
+          "Date\tValue\tRef Range\tStatus",
+          "08/01/2025\t60\t%\tFinal",
+          " ",
+          " ",
+          " ",
+          "\t\t\t\t\t",
+          "Current Facility-Administered Medications",
+          "Medication\tDose\tRoute\tFrequency\tLast Admin",
+          "•\tSodium Chloride 0.9 % Inj Soln\t 250 mL\tintraVENOUS\tTransfusion\t ",
+          "•\tcefTRIAXone Adapter Vial 1 g (ROCEPHIN)\t 1 g\tintraVENOUS\tQ24H (INPT RN check 1st dose)\t1 g at 09/17/25 1242",
+          "•\tPantoprazole Inj 40 mg (PROTONIX)\t 40 mg\tintraVENOUS\tQ12H\t40 mg at 09/17/25 2153",
+          "•\tBisacodyl TBEC DR Tab 5 mg (DULCOLAX)\t 5 mg\tOral\tDaily\t ",
+          "•\tSennosides Tab 17.2 mg (SENOKOT)\t 17.2 mg\tOral\tBID\t ",
+          "•\tPolyethylene Glycol 3350 Packet 17 g (MIRALAX/GLYCOLAX)\t 17 g\tOral\tDaily\t ",
+          "•\tSodium Chloride 0.9 % Inj Soln\t 250 mL\tintraVENOUS\tTransfusion\t ",
+          "•\tApixaban Tab 5 mg (ELIQUIS)\t 5 mg\tOral\tQ12H\t5 mg at 09/17/25 1745",
+          " \tOr",
+          "•\tEnoxaparin Inj Syg 60 mg (LOVENOX)\t 1 mg/kg/dose (Order-Specific)\tSubcutaneous\tQ12H\t ",
+          "•\tacetaminophen IV Soln 1,000 mg (OFIRMEV)\t 1,000 mg\tintraVENOUS\tQ6H\t1,000 mg at 09/18/25 0702",
+          "•\tpredniSONE Tab 20 mg (ORASONE)\t 20 mg\tOral\tDaily (steroid)\t20 mg at 09/17/25 1745",
+          " \tFollowed by",
+          "•\t[START ON 9/22/2025] predniSONE tablet 10 mg (DELTASONE)\t 10 mg\tOral\tDaily (steroid)\t ",
+          " \tFollowed by",
+          "•\t[START ON 9/27/2025] predniSONE tablet 5 mg (DELTASONE)\t 5 mg\tOral\tDaily (steroid)\t ",
+          "•\tSALONPAS 3.1-10-6 % 1 Patch (Camphor-Methyl Salicylate-Menthol)\t 1 Patch\tTransdermal\tQ8H\t1 Patch at 09/17/25 2252",
+          "•\tLidocaine 4 % 1 Patch (LIDOCARE / ASPERCREME / LIDO KING)\t 1 Patch\tTransdermal\tDaily\t ",
+          "•\tSodium Chloride 0.9% injection solution syringe 3 mL (NORMAL SALINE FLUSH)\t 3 mL\tintraVENOUS\tQ8H while awake\t3 mL at 09/18/25 0703",
+          "•\tAtorvastatin Tab 80 mg (LIPITOR)\t 80 mg\tOral\tDaily\t ",
+          "•\tPneumococcal 20-valent Conj-Dip Cr (PF) Vaccine Inj Syg 0.5 mL (PREVNAR 20)\t 0.5 mL\tintraMUSCULAR\tPrior to Discharge\t ",
+          "•\tDocusate Sodium Cap 100 mg (COLACE)\t 100 mg\tOral\tBID\t ",
+          "•\tCiclesonide 160 mcg/actuation Aerosol inhaler 1 Puff (ALVESCO)\t 1 Puff\tInhalation\tBID\t ",
+          "•\tFolic Acid Tab 1 mg\t 1 mg\tOral\tQ24H\t ",
+          "•\tMetoprolol Tartrate Tab 25 mg (LOPRESSOR)\t 25 mg\tOral\tBID with meals\t25 mg at 09/17/25 1745",
+          "•\tOsimertinib Tab 80 mg (TAGRISSO)\t 80 mg\tOral\tDaily\t ",
+          "•\tSucralfate Oral Susp 1,000 mg (CARAFATE)\t 1 g\tOral\t30 MIN ACHS\t ",
+          " ",
+          " ",
+          "\t\t\t\t\t\t",
+          "Current Facility-Administered Medications",
+          "Medication\tDose\tRoute\tFrequency\tLast Rate\tLast Admin",
+          "•\t[Manual Hold] D5-NaCl 0.9 % IV Premix\t 75 mL/hr\tintraVENOUS\tContinuous\t \tStopped at 09/17/25 1539",
+          " ",
+          " ",
+          "\t\t\t\t\t",
+          "Current Facility-Administered Medications",
+          "Medication\tDose\tRoute\tFrequency\tLast Admin",
+          "•\tAlbuterol 2.5 mg/0.5 mL Nebulizer 2.5 mg (PROVENTIL)\t 2.5 mg\tNEBULIZATION -UNSPEC\tQ4H PRN\t ",
+          " \tAnd",
+          "•\tIpratropium 0.02 % Neb Soln 0.5 mg (ATROVENT)\t 0.5 mg\tNEBULIZATION -UNSPEC\tQ4H PRN\t ",
+          "•\tCyclobenzaprine Tab 5 mg (FLEXERIL)\t 5 mg\tOral\tTID PRN\t ",
+          "•\tLidocaine (PF) 10 mg/mL (1 %) Inj 1 mg (XYLOCAINE)\t 0.1 mL\tIntradermal\tPRN\t ",
+          "•\tSodium Chloride 0.9% injection solution syringe 3 mL (NORMAL SALINE FLUSH)\t 3 mL\tintraVENOUS\tPRN\t3 mL at 09/16/25 1115",
+          "•\tsodium chloride 0.9% IV premix\t 20 mL/hr\tintraVENOUS\tPRN\t ",
+          "•\tD5W IV premix\t 20 mL/hr\tintraVENOUS\tPRN\t ",
+          "•\tOndansetron (PF) Inj 4 mg (ZOFRAN)\t 4 mg\tintraVENOUS\tQ6H PRN\t4 mg at 09/16/25 1112",
+          "•\tAlbuterol 2.5 mg/0.5 mL Nebulizer 2.5 mg (PROVENTIL)\t 2.5 mg\tNEBULIZATION -UNSPEC\tQ2H PRN\t ",
+          ""
+        ]
+      },
+      {
+        "id": 10,
+        "type": "physicianNotes",
+        "class": "text",
+        "abbreviation": "NOTE",
+        "date": "2025-09-16T08:00:00Z",
+        "title": "ED Provider Note",
+        "accession": "",
+        "description": [
+          "Emergency Department Note",
+          " ",
+          " ",
+          "CC: STROKE",
+          " ",
+          " ",
+          "HPI",
+          " ",
+          "Patient is a 65 Y female with PMH of metastatic lung cancer on, prior PE on Xarelto, presenting with stroke activation.",
+          " ",
+          "Last known well 2030, reported witnessed changed by friend of right sided weakness, aphasia, tongue deviation.  Has been able to obey commands with EMS with slight delay.  No noted seizure activity prior to ED arrival, tongue biting, urinary incontinence.  ",
+          " ",
+          "Patient is currently a poor historian, does not recall when she was last normal.",
+          " ",
+          " ",
+          " ",
+          "Past Medical History",
+          "\t\t",
+          "Active Ambulatory Problems",
+          " \tDiagnosis\tDate Noted",
+          "•\tASTHMA, UNSPECIFIED\t02/19/2020",
+          "•\tCOVID-19 RULED OUT\t06/25/2020",
+          "•\tANEMIA\t06/25/2025",
+          "•\tLUNG MASS\t06/25/2025",
+          "•\tADENOCARCINOMA, LEFT LUNG LOWER LOBE\t07/08/2025",
+          "•\tCANCER METASTATIC TO INTRATHORACIC LN\t07/08/2025",
+          "•\tCANCER METASTATIC TO BONE\t07/08/2025",
+          "•\tCANCER METASTATIC TO NECK LN\t07/08/2025",
+          "•\tCANCER METASTATIC TO RIGHT ADRENAL GLAND\t07/08/2025",
+          "•\tACUTE PULMONARY EMBOLISM\t07/09/2025",
+          "•\tACUTE HYPOXEMIC RESPIRATORY FAILURE\t07/09/2025",
+          "•\tASTHMA, UNSPECIFIED W ACUTE EXACERBATION\t07/09/2025",
+          "•\tELEVATED BP READING WO HTN DIAGNOSIS\t07/09/2025",
+          "•\tUNSPECIFIED ANXIETY\t07/09/2025",
+          "•\tPNEUMONIA\t07/10/2025",
+          "•\tLONG TERM NON WARFARIN ORAL ANTICOAGULANT THERAPY\t07/18/2025",
+          "•\t*NEW MEMBER\t ",
+          "•\tHX OF RADIATION THERAPY\t08/07/2025",
+          " ",
+          "\t\t",
+          "Additional diagnoses from the Past Medical History section",
+          "Diagnosis\tDate",
+          "•\tPAP SMEAR DONE OUTSIDE KP.\t08/15/2017",
+          "•\tSEASONAL ALLERGIC RHINITIS\t ",
+          "•\tTUBAL LIGATION\t ",
+          "",
+          " ",
+          "Past Surgical History",
+          "\t\t\t",
+          "Past Surgical History:",
+          "Procedure\tLaterality\tDate",
+          "•\tIR SUPERFICIAL LYMPH NODE BIOPSY\tRight\t7/2/2025",
+          " \t",
+          "",
+          " ",
+          "No current facility-administered medications for this encounter.",
+          " ",
+          "\t\t\t\t",
+          "Current Outpatient Medications",
+          "Medication\tSig\tDispense\tRefill",
+          "•\tpredniSONE (DELTASONE) 10 mg Oral Tab\tTake 4 tablets daily every morning for 5 days. Then take 3 tablets daliy every morning for 5 days. Then take 2 tablets daily every morning for 5 days. Then take 1 tablet daily every morning for 5 days. Then take half tablet daily every morning for 5 days. Then stop taking. Or take as directed. Take with food.\t54 tablet\t6",
+          "•\tHYDROmorphone (DILAUDID) 2 mg Oral Tab\tTake 1 tablet by mouth every 4 hours as needed for pain\t18 tablet\t0",
+          "•\tAzithromycin (ZITHROMAX) 250 mg Oral Tab\tTake 2 tablets by mouth daily for 1 day, then 1 tablet daily for 4 days\t6 tablet\t0",
+          "•\tSennosides (Senna) 8.6 mg Oral Tab\tTake 2 tablets by mouth daily as needed for constipation. May increase up to 4 tablets by mouth 2 times a day as needed for severe constipation. Do not exceed 8 tablets in 24 hours\t100 tablet\t0",
+          "•\tAlbuterol (PROVENTIL) 2.5 mg /3 mL (0.083 %) Inhl Neb Soln\tUse 1 vial via nebulizer every 4 to 6 hours as needed for shortness of breath or wheezing\t75 mL\t0",
+          "•\tCiclesonide (Alvesco) 160 mcg/actuation Inhl HFAA\tInhale 1 puff by mouth 2 times a day . Rinse mouth after each use.\t6.1 g\t0",
+          "•\tHYDROmorphone (DILAUDID) 2 mg Oral Tab\tTake 1 and one-half tablets by mouth every 4 hours while awake\t120 tablet\t0",
+          "•\tLidocaine Viscous 2 % MM Soln\tSwish and spit 15 mL by mouth every 4 hours as needed for mouth pain.\t100 mL\t6",
+          "•\tOsimertinib (Tagrisso) 80 mg Oral Tab\tTake 1 tablet by mouth daily\t30 tablet\t5",
+          "•\tPantoprazole (PROTONIX) 40 mg Oral TBEC DR Tab\tTake 1 tablet by mouth 2 times a day 30 minutes before meals\t60 tablet\t0",
+          "•\tIpratropium-Albuterol (DUONEB) 0.5 mg-3 mg(2.5 mg base)/3 mL Inhl Neb Soln\tUse 3 mL via nebulizer every 4 hours while awake\t90 mL\t0",
+          "•\tCyclobenzaprine (FLEXERIL) 5 mg Oral Tab\tTake 1 tablet by mouth 3 times a day as needed for muscle spasms\t100 tablet\t0",
+          "•\tLidocaine (Aspercreme, lidocaine,) 4 % Top PTMD Patch\tApply 2 patches to C-spine and/or Left shoulder in area of pain daily\t60\t0",
+          "•\tSucralfate (CARAFATE) 100 mg/mL Oral Susp\tTake 10 mL by mouth 30 minutes before meals and at bedtime\t473 mL\t2",
+          "•\tRivaroxaban (Xarelto) 20 mg Oral Tab\tTake 1 tablet by mouth daily with dinner (Start after completing Xarelto 15 mg tablets)\t100 tablet\t3",
+          "•\tMouthwash:diphenhydrAMINE-Lidocaine Visc.-Maalox Oral Susp\tSwallow 1 teaspoonful (5 mL) by mouth 4 times a day or as directed\t480 mL\t3",
+          "•\tOndansetron (ZOFRAN ODT) 8 mg Oral Rap Dis Tab\tDissolve 1 tablet on the tongue every 8 hours\t60 tablet\t0",
+          "•\tAcetaminophen (TYLENOL) 325 mg Oral Tab\tTake 1 tablet by mouth every 6 hours for 7 days. Continue standing for 7 days then as needed.\t100 tablet\t0",
+          "•\tDoxycycline Monohydrate (AVIDOXY) 100 mg Oral Tab\tTake 1 tablet by mouth this evening 7/17/25 to complete course\t1 tablet\t0",
+          "•\tCefpodoxime (VANTIN) 200 mg Oral Tab\tTake 1 tablet by mouth tonight to complete the antibiotic course on 07/17/25 - evening.\t1 tablet\t0",
+          "•\tHYDROmorphone (DILAUDID) 2 mg Oral Tab\tTake a half to 1 tablet by mouth every 4 hours as needed for moderate to severe pain\t30 tablet\t0",
+          "•\tFolic Acid 1 mg Oral Tab\tTake 1 tablet by mouth every 24 hours\t100 tablet\t0",
+          "•\tPolyethylene Glycol 3350 (MIRALAX/GLYCOLAX) 17 gram/dose Oral Powd\tMix 17 Grams in 4 to 8 ounces of water or juice and drink by mouth daily as directed for constipation\t238 g\t0",
+          "•\tNaloxone (NARCAN) 4 mg/actuation Nasl Spray\tFor Non-Recipient Use. Use 1 spray in one nostril. Seek immediate Emergency medical help. If response is not obtained after 2 or 3 minutes, administer 2nd dose in other nostril using a new device until Emergency help arrives. Emergency use only\t2 Each\t0",
+          "•\tMetoprolol Tartrate (LOPRESSOR) 25 mg Oral Tab\tTake 1 tablet by mouth 2 times a day with meals\t60 tablet\t2",
+          "•\tPolyethylene Glycol 3350 (MIRALAX/GLYCOLAX) 17 gram Oral Pwd Pkt\tTake 1 Packet by mouth daily\t30\t0",
+          "•\tCamphor-Methyl Salicylate-Menthol (Salonpas) 3.1-10-6 % Top PTMD Patch\tApply 1 patch to your neck every evening\t40\t0",
+          "•\tinhaler, assist devices (AEROCHAMBER Z-STAT PLUS-FLW SG) Misc Spacer\tUSE AS DIRECTED WITH INHALER\t1\t0",
+          " ",
+          " ",
+          "Allergies",
+          "\t\t\t",
+          "Allergies",
+          "Allergen\tReactions",
+          "•\tContrast [Ivp Dye, Iodine Containing]\tSwelling",
+          " \t \tPer pt",
+          "",
+          " ",
+          " ",
+          "Social History",
+          "Social History",
+          " ",
+          "\t\t\t",
+          "Socioeconomic History",
+          "•\tMarital status:\tDivorced",
+          "Tobacco Use",
+          "•\tSmoking status:\tNever",
+          "•\tSmokeless tobacco:\tNever",
+          "Substance and Sexual Activity",
+          "•\tAlcohol use:\tYes",
+          " \t \tTypes:\t1 Glasses of wine per week",
+          "•\tDrug use:\tNo",
+          "•\tSexual activity:\tYes",
+          " \t \tPartners:\tMale",
+          " \t \tBirth control/protection:\tbilateral tubal ligation",
+          "Social History Narrative",
+          " \t ",
+          "",
+          " ",
+          "‌",
+          "",
+          " ",
+          " ",
+          "",
+          " ",
+          "Family History",
+          "\t\t\t",
+          "Family History",
+          "Problem\tRelation\tAge of Onset",
+          "•\tHyperlipidemia\tFather\t ",
+          "•\tHypertension\tFather\t ",
+          "•\tStroke\tFather\t ",
+          "",
+          " ",
+          "I have reviewed the clinical diagnoses listed below which were considered in the care of this patient.  At the time of this visit there are no changes in these conditions unless otherwise noted.  The patient will be advised to follow up after discharge with their PCP or appropriate specialist as treatment warrants.  ",
+          " ",
+          "Clinical Diagnoses:  ",
+          " ",
+          " \tASTHMA, UNSPECIFIED",
+          " \tLONG TERM NON WARFARIN ORAL ANTICOAGULANT THERAPY",
+          "",
+          " ",
+          " ",
+          " ",
+          "PE",
+          " ",
+          "\t\t\t\t",
+          "Vitals:",
+          " \t09/15/25 2300\t09/15/25 2303\t09/15/25 2320\t09/15/25 2330",
+          "BP:\t \t \t145/95\t137/86",
+          "Pulse:\t \t93\t95\t97",
+          "Resp:\t \t17\t15\t19",
+          "Temp:\t98.1 °F (36.7 °C)\t \t98.4 °F (36.9 °C)\t ",
+          "SpO2:\t \t97%\t96%\t94%",
+          "Weight:\t \t \t \t ",
+          " ",
+          " ",
+          "Physical Exam ",
+          "Nursing note and vitals reviewed.",
+          "Constitutional: She is cooperative. ",
+          "Eyes: Conjunctivae are normal. ",
+          "Pulmonary/Chest: No respiratory distress. ",
+          "Abdominal: Soft. There is no abdominal tenderness. There is no guarding. ",
+          " ",
+          "Musculoskeletal: ",
+          "   Right lower leg: No edema. ",
+          "   Left lower leg: No edema. ",
+          "Neurological: She is disoriented. She displays facial symmetry. ",
+          "Initial right-sided deficits with slightly decreased right arm raise and leg elevation.  Possible left-sided gaze preference. ",
+          " ",
+          "On further exam with telestroke neurologist, slightly improved ",
+          "Skin: ",
+          "No tongue biting ",
+          " ",
+          " ",
+          " ",
+          "",
+          " ",
+          " ",
+          "NIH Stroke Scale",
+          " ",
+          "1a. Level of Consciousness: 1",
+          " ",
+          "1b. LOC Questions- The patient is asked the month and his/her age: 2= Answers neither question correctly.",
+          " ",
+          "1c. LOC Commands- The patient is asked to open and close the eyes and then grip and release the non-paretic hand:0= Performs both tasks correctly.",
+          " ",
+          "2. Best Gaze: 0= Normal.",
+          " ",
+          "3. Visual: 0= No visual loss.",
+          " ",
+          "4. Facial Palsy: 0= Normal symmetrical movements",
+          " ",
+          "5. Motor Arm: Right: 1= Drift; limb holds 90 (or 45) degrees, but drifts down before full 10 seconds; does not hit bed or other support.",
+          "Left: 0= No drift; limb holds 90 (or 45) degrees for full 10 seconds.",
+          " ",
+          "6. Motor Leg: Right: 0= No drift; leg holds 30 degree position for full 5 seconds.",
+          "Left: 0= No drift; leg holds 30 degree position for full 5 seconds.",
+          " ",
+          "7. Limb Ataxia: 0= Absent",
+          " ",
+          "8. Sensory: 1= Mild-to-moderate sensory loss; patient feels pinprick is less sharp or is dull on the affected side; or there is a loss of superficial pain with pinprick, but patient is aware of being touched.",
+          " ",
+          "9. Best Language: 1= Mild-to-moderate aphasia; some obvious loss of fluency or facility of comprehension, without significant limitation on ideas expressed or form of expression.  Reduction of speech and/or comprehension, however, makes conversation about provided materials difficult or impossible. For example, in conversation about provided materials, examiner can identify picture or naming card content from patient's response.",
+          " ",
+          "10. Dysarthria: 0= Normal",
+          " ",
+          "11. Extinction and Inattention (formerly Neglect): 0= No abnormality.",
+          " ",
+          "12. Total Score: 5",
+          " ",
+          " ",
+          " ",
+          " ",
+          "ECG interpretation done by me. Time 000. Rate is 87. The rhythm is normal sinus. There is no acute ischemic changes, emergent arrhythmia, or ST changes to suggest acute MI. ",
+          " ",
+          " ",
+          "Reviewed records of past encounters in Health Connect.",
+          "Independently reviewed imaging and laboratory studies. ",
+          " ",
+          "RESULTS",
+          " ",
+          "No results found for this visit on 09/15/25.",
+          " ",
+          " ",
+          "",
+          "Narrative/Impressions of Imaging Results for 1 Day",
+          "CT HEAD",
+          "Result Date: 9/15/2025",
+          "    CT HEAD WITHOUT CONTRAST     ** HISTORY **:  65 years old,  STROKE symptoms   ** TECHNIQUE **:  CT images of the head acquired without intravenous contrast.   CTDI: 0.04,48.67 mGy  DLP: 0.81,687.3 mGy-cm   COMPARISON: None available.   ** FINDINGS **:  BRAIN PARENCHYMA: No acute hemorrhage. No mass effect or herniation. Gray-white differentiation is maintained. White matter is within normal limits for age.   VENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus or extra-axial fluid collections.   EXTRACRANIAL STRUCTURES: Normal bones and soft tissues. Visualized paranasal sinuses and mastoids demonstrate no significant abnormality.   ",
+          " ",
+          "  No acute intracranial hemorrhage, herniation, hydrocephalus, or large territory infarct.       ",
+          " ",
+          " ",
+          " ",
+          "MDM",
+          " ",
+          " ",
+          "Patient is a 65 Y female with PMH of metastatic lung cancer on, prior PE on Xarelto, presenting with stroke activation.",
+          " ",
+          "VSS and afebrile. Patient remained hemodynamically stable during observation. Exam without concerning abnormality on arrival including slight right-sided extremity deficit, possible left gaze preference, altered mental status.",
+          " ",
+          "Stroke activation at this time.  Telestroke has evaluated patient.  On their evaluation, given that patient is unable to answer when she was last known well, they decided to use extended stroke window.  NIH on their evaluation currently of 4.  Recommending CT Noncon and MRI brain with and without contrast.  Their consideration is for possible seizure despite lack of history of prior seizures and no brain lesions.",
+          " ",
+          "Labs and chemistries overall unremarkable. EKG reviewed as above. ",
+          " ",
+          "CT Noncon unremarkable, no evidence of intracranial hemorrhage.",
+          " ",
+          "Patient seen and re-examined. Still not at baseline.",
+          " ",
+          "Based on the patient’s current condition, discussed that admission or emergent intervention is indicated at this time. HBS consult placed, who agrees with plan for admission for further management of patient's stroke vs seizure.",
+          " ",
+          " ",
+          " ",
+          "DIAGNOSIS: ",
+          " \t \tICD-10-CM",
+          "1.\tALTERED MENTAL STATUS, UNSPECIFIED \tR41.82",
+          "2.\tADENOCARCINOMA, LEFT LUNG LOWER LOBE \tC34.32",
+          "3.\tLONG TERM NON WARFARIN ORAL ANTICOAGULANT THERAPY \tZ79.01",
+          " ",
+          " ",
+          "PLAN: Admit to hospital",
+          " ",
+          "DISPOSITION: Admitted in stable condition",
+          "",
+          "Emergency Doctor, MD",
+          ""
+        ]
+      },
+      {
+        "id": 11,
+        "type": "physicianNotes",
+        "class": "text",
+        "abbreviation": "NOTE",
+        "date": "2025-09-15T19:00:00Z",
+        "title": "RadOnc Note",
+        "accession": "",
+        "description": [
+          "RADIATION ONCOLOGY ON-TREATMENT VISIT # 1",
+          " ",
+          "ID:",
+          "65 Y female with no significant medical history, with newly diagnosed NSCLC with widespread metastases (C-spine, left pleural effusion, mediastinal and cervical adenopathy, R adrenal, and extensive bone lesions) s/p palliative RT to C3-T1 and L shoulder 20 Gy in 5 fx and 8 Gy x 1 fx to R shoulder 7/16/25-7/29/25, on osimertinib, now with worsening R shoulder pain. ",
+          " ",
+          "Radiation Site: R shoulder",
+          " ",
+          "Radiation dose to date:  ",
+          "1200 / 2000 cGy",
+          " ",
+          "Fractions: 3 of 5 total fractions",
+          " ",
+          "Concurrent Therapy: ",
+          "osimertinib",
+          " ",
+          "Started radiation: 9/11/25",
+          "Planned radiation completion: 9/17/25",
+          " ",
+          "Subjective:",
+          "R shoulder pain improved, feeling better overall.",
+          " ",
+          "Physical Exam:",
+          "Performance Status ECOG 1 - Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work",
+          "\t",
+          "Wt Readings from Last 3 Encounters:",
+          "09/02/25\t71 kg (156 lb 9.6 oz)",
+          "08/05/25\t73.5 kg (162 lb)",
+          "08/01/25\t68.9 kg (152 lb)",
+          " ",
+          "Pain Score: Data Unavailable",
+          "No acute distress.",
+          "APPEARANCE: alert, oriented, no acute distress",
+          "SKIN: No erythema and No desquamation",
+          " ",
+          "Toxicity Assessment: ",
+          "none",
+          " ",
+          "Assessment: ",
+          "Stable course.",
+          " ",
+          "Plan:  ",
+          "Continue radiation therapy as scheduled.  ",
+          "Continue skin care.",
+          "Pain Management Plan: Palliative radiation therapy to alleviate pain",
+          "Response to RT: improving pain ",
+          "Dispo: RN TAV next week, f/u with Dr. Hematology/Oncology",
+          " ",
+          "Weekly review of treatment set-up, dosimetry, and portal images has been performed.",
+          "",
+          "Radiation Oncologist, MD",
+          ""
+        ]
+      },
+      {
+        "id": 12,
+        "type": "physicianNotes",
+        "class": "text",
+        "abbreviation": "NOTE",
+        "date": "2025-07-24T11:55:00Z",
+        "title": "HemeOnc Note",
+        "accession": "",
+        "description": [
+          "Hematology/Oncology",
+          " ",
+          "Assessment/Recommendations:",
+          "ECOG 2",
+          " ",
+          "Metastatic lung adenoca, NGS with sensitizing EGFR mutation to Tagrisso",
+          "-s/p RT to painful bone mets",
+          "- Status post 1 cycle of carbo Alimta",
+          "- Plan Zometa for 2 years every 3 months",
+          "- Tagrisso.  We did discuss more intensive therapy such as ami/laz but Tagrisso is much better tolerated",
+          "- CT in 4 months",
+          " ",
+          "The incurable nature of this disease and palliative goals of treatment were discussed.",
+          "  ",
+          "\t",
+          "Cancer History",
+          "ADENOCARCINOMA, LEFT LUNG LOWER LOBE",
+          "7/11/2025 - 7/11/2025\tMedical Oncology Tx",
+          " \tONCA LUNG NSCLC (NON-SQUAMOUS) CARBOPLATIN PEMETREXED - PRL7005 ",
+          "Treatment goal: Adult: Palliative - First line",
+          " ",
+          "8/1/2025 - \tMedical Oncology Tx",
+          " \tONCA SUPPORTIVE ZOLEDRONIC ACID Q12 WEEKS x ",
+          "Treatment goal: Adult: Palliative - First line",
+          " ",
+          " ",
+          " ",
+          "Past Medical History:",
+          "Past Medical History",
+          "\t\t",
+          "Active Ambulatory Problems",
+          " \tDiagnosis\tDate Noted",
+          "•\tASTHMA, UNSPECIFIED\t02/19/2020",
+          "•\tCOVID-19 RULED OUT\t06/25/2020",
+          "•\tANEMIA\t06/25/2025",
+          "•\tLUNG MASS\t06/25/2025",
+          "•\tADENOCARCINOMA, LEFT LUNG LOWER LOBE\t07/08/2025",
+          "•\tCANCER METASTATIC TO INTRATHORACIC LN\t07/08/2025",
+          "•\tCANCER METASTATIC TO BONE\t07/08/2025",
+          "•\tCANCER METASTATIC TO NECK LN\t07/08/2025",
+          "•\tCANCER METASTATIC TO RIGHT ADRENAL GLAND\t07/08/2025",
+          "•\tACUTE PULMONARY EMBOLISM\t07/09/2025",
+          "•\tACUTE HYPOXEMIC RESPIRATORY FAILURE\t07/09/2025",
+          "•\tASTHMA, UNSPECIFIED W ACUTE EXACERBATION\t07/09/2025",
+          "•\tELEVATED BP READING WO HTN DIAGNOSIS\t07/09/2025",
+          "•\tUNSPECIFIED ANXIETY\t07/09/2025",
+          "•\tPNEUMONIA\t07/10/2025",
+          "•\tLONG TERM NON WARFARIN ORAL ANTICOAGULANT THERAPY\t07/18/2025",
+          "•\t*NEW MEMBER\t ",
+          " ",
+          "\t\t",
+          "Additional diagnoses from the Past Medical History section",
+          "Diagnosis\tDate",
+          "•\tPAP SMEAR DONE OUTSIDE KP.\t08/15/2017",
+          "•\tSEASONAL ALLERGIC RHINITIS\t ",
+          "•\tTUBAL LIGATION\t ",
+          "",
+          " ",
+          " ",
+          "Past Surgical History:",
+          "Past Surgical History",
+          "\t\t\t",
+          "Past Surgical History:",
+          "Procedure\tLaterality\tDate",
+          "•\tIR SUPERFICIAL LYMPH NODE BIOPSY\tRight\t7/2/2025",
+          " \t",
+          "",
+          " ",
+          " ",
+          "Social History:",
+          " ",
+          "Social History",
+          "Social History",
+          " ",
+          "\t\t\t",
+          "Tobacco Use",
+          "•\tSmoking status:\tNever",
+          "•\tSmokeless tobacco:\tNever",
+          "Substance Use Topics",
+          "•\tAlcohol use:\tYes",
+          " \t \tTypes:\t1 Glasses of wine per week",
+          "•\tDrug use:\tNo",
+          " ",
+          " ",
+          "Family History:",
+          "Family History",
+          "\t\t\t",
+          "Family History",
+          "Problem\tRelation\tAge of Onset",
+          "•\tHyperlipidemia\tFather\t ",
+          "•\tHypertension\tFather\t ",
+          "•\tStroke\tFather\t ",
+          "",
+          " ",
+          " ",
+          "Allergies:",
+          "No Known Allergies",
+          " ",
+          "Medications:",
+          "\t\t",
+          "Current Outpatient Medications",
+          "Medication\tSig",
+          "•\tHYDROmorphone (DILAUDID) 2 mg Oral Tab\tTake 1 and one-half tablets by mouth every 4 hours while awake",
+          "•\tRivaroxaban (Xarelto) 20 mg Oral Tab\tTake 1 tablet by mouth daily with dinner (Start after completing Xarelto 15 mg tablets)",
+          "•\tMouthwash:diphenhydrAMINE-Lidocaine Visc.-Maalox Oral Susp\tSwallow 1 teaspoonful (5 mL) by mouth 4 times a day or as directed",
+          "•\tOndansetron (ZOFRAN ODT) 8 mg Oral Rap Dis Tab\tDissolve 1 tablet on the tongue every 8 hours",
+          "•\tAcetaminophen (TYLENOL) 325 mg Oral Tab\tTake 1 tablet by mouth every 6 hours for 7 days. Continue standing for 7 days then as needed.",
+          "•\tCyclobenzaprine (FLEXERIL) 5 mg Oral Tab\tTake 1 tablet by mouth 3 times a day as needed for muscle spasms",
+          "•\tDoxycycline Monohydrate (AVIDOXY) 100 mg Oral Tab\tTake 1 tablet by mouth this evening 7/17/25 to complete course",
+          "•\tAlbuterol (PROVENTIL) 2.5 mg /3 mL (0.083 %) Inhl Neb Soln\tUse 1 vial via nebulizer every 4 to 6 hours as needed for shortness of breath or wheezing",
+          "•\tCefpodoxime (VANTIN) 200 mg Oral Tab\tTake 1 tablet by mouth tonight to complete the antibiotic course on 07/17/25 - evening.",
+          "•\tCiclesonide (Alvesco) 160 mcg/actuation Inhl HFAA\tInhale 1 puff by mouth 2 times a day . Rinse mouth after each use.",
+          "•\tdexAMETHasone (DECADRON) 1 mg Oral Tab\tTake 4 tablets by mouth 2 times a day with meals for 3 days, THEN 3 tablets 2 times a day with meals for 3 days, THEN 2 tablets 2 times a day with meals for 3 days, THEN 2 tablets every morning with a meal for 3 days.",
+          "•\tHYDROmorphone (DILAUDID) 2 mg Oral Tab\tTake a half to 1 tablet by mouth every 4 hours as needed for moderate to severe pain",
+          "•\tIpratropium-Albuterol (DUONEB) 0.5 mg-3 mg(2.5 mg base)/3 mL Inhl Neb Soln\tUse 3 mL via nebulizer every 4 hours while awake",
+          "•\tFolic Acid 1 mg Oral Tab\tTake 1 tablet by mouth every 24 hours",
+          "•\tHYDROmorphone (DILAUDID) 2 mg Oral Tab\tTake 1 tablet by mouth every 4 hours as needed for pain",
+          "•\tLidocaine (Lidocaine Pain Relief) 4 % Top PTMD Patch\tApply 2 patches to C-spine and/or Left shoulder in area of pain daily",
+          "•\tSennosides (Senna) 8.6 mg Oral Tab\tTake 1 tablet by mouth 2 times a day Take 2 tablets by mouth daily as needed for constipation. May increase up to 4 tablets by mouth 2 times a day as needed for severe constipation. Do not exceed 8 tablets in 24 hours",
+          "•\tPolyethylene Glycol 3350 (MIRALAX/GLYCOLAX) 17 gram/dose Oral Powd\tMix 17 Grams in 4 to 8 ounces of water or juice and drink by mouth daily as directed for constipation",
+          "•\tNaloxone (NARCAN) 4 mg/actuation Nasl Spray\tFor Non-Recipient Use. Use 1 spray in one nostril. Seek immediate Emergency medical help. If response is not obtained after 2 or 3 minutes, administer 2nd dose in other nostril using a new device until Emergency help arrives. Emergency use only",
+          "•\tMetoprolol Tartrate (LOPRESSOR) 25 mg Oral Tab\tTake 1 tablet by mouth 2 times a day with meals",
+          "•\tPantoprazole (PROTONIX) 40 mg Oral TBEC DR Tab\tTake 1 tablet by mouth 2 times a day 30 minutes before meals",
+          "•\tPolyethylene Glycol 3350 (MIRALAX/GLYCOLAX) 17 gram Oral Pwd Pkt\tTake 1 Packet by mouth daily",
+          "•\tPregabalin (LYRICA) 50 mg Oral Cap\tTake 1 capsule by mouth 2 times a day",
+          "•\tRivaroxaban (Xarelto) 15 mg Oral Tab\tTake 1 tablet by mouth 2 times a day for 14 days. On day 15, start your next anticoagulation medication as directed by your provider",
+          "•\tCamphor-Methyl Salicylate-Menthol (Salonpas) 3.1-10-6 % Top PTMD Patch\tApply 1 patch to your neck every evening",
+          "•\tinhaler, assist devices (AEROCHAMBER Z-STAT PLUS-FLW SG) Misc Spacer\tUSE AS DIRECTED WITH INHALER",
+          " ",
+          "No current facility-administered medications for this visit.",
+          " ",
+          " ",
+          " ",
+          " ",
+          "Labs:",
+          "\t\t\t",
+          "Lab Results",
+          "Component\tValue\tDate",
+          " \tWBC COUNT\t9.0\t07/17/2025",
+          " \tHgb\t8.0 (L)\t07/17/2025",
+          " \tHematocrit\t28.1 (L)\t07/17/2025",
+          " \tPlatelets count\t403 (H)\t07/17/2025",
+          " ",
+          " ",
+          "\t\t\t",
+          "Lab Results",
+          "Component\tValue\tDate",
+          " \tPotassium\t4.4\t07/17/2025",
+          " \tSodium\t136\t07/17/2025",
+          " \tChloride\t101\t07/17/2025",
+          " \tCO2\t28\t07/17/2025",
+          " ",
+          " ",
+          "\t\t\t",
+          "Lab Results",
+          "Component\tValue\tDate",
+          " \tBUN\t12\t07/17/2025",
+          " ",
+          " ",
+          "\t\t\t",
+          "Lab Results",
+          "Component\tValue\tDate",
+          " \tCreatinine\t0.44\t07/17/2025",
+          " ",
+          " ",
+          "\t\t\t",
+          "Lab Results",
+          "Component\tValue\tDate",
+          " \tALT\t17\t07/09/2025",
+          " \tAST\t23\t07/09/2025",
+          " \tALKALINE PHOSPHATASE\t69\t07/09/2025",
+          " \tBilirubin, total\t0.3\t07/09/2025",
+          " \tLipase\t<3\t07/09/2025",
+          " ",
+          " ",
+          "No results found for: \"INR\"",
+          " ",
+          "Hematologist/Oncologist, MD",
+          ""
+        ]
+      },
+      {
+        "id": 10,
+        "type": "pathalogy",
+        "abbreviation": "PATH",
+        "class": "icon pathology",
+        "date": "2025-06-25T00:00:00Z",
+        "title": "Cytology Report",
+        "accession": "12345",
+        "description": [
+          "Collected: 6/25/2025",
+          "Case #: 12345",
+          "",
+          "Cytology Report",
+          "FINAL",
+          "",
+          "PATHOLOGIC DIAGNOSIS",
+          "SPUTUM, CYTOLOGY: MALIGNANT CELLS PRESENT-NON-SMALL CELL CARCINOMA.",
+          "",
+          "Satisfactory for evaluation. Alveolar macrophages present.",
+          "",
+          "Comment",
+          "This case has been reviewed by another member of our department with concurrence.",
+          "",
+          "Pathologist, M.D.",
+          "",
+          "Interpretation Performed at: Acute Care Hospital",
+          "",
+          "Clinical History",
+          "This test is for respiratory specimens. Usage for other specimen types may result in the test not being done.",
+          "Sputum Induction by RT.",
+          "Priority: ROUTINE",
+          "Estimated number of specimens: (Label printing use only) 1",
+          "",
+          "Gross Description",
+          "Received at Laboratory Cytology",
+          "5 CC, CLOUDY, COLORLESS, UNFIXED, MUCOID",
+          "",
+          "Prepared at Laboratory Cytology",
+          "PAP, LBP",
+          "",
+          "Specimen(s) Received",
+          "A: SPUTUM",
+          "",
+          "Patient Name: Patient 1",
+          "Med. Rec #: 12345",
+          "DOB/Age: 1/1/1960 (Age: 65)",
+          "Sex: F",
+          "Facility: Acute Care Hospital",
+          "Location: EMERGENCY DEPARTMENT"
+        ]
+      },
+      {
+        "id": 11,
+        "type": "pathalogy",
+        "abbreviation": "PATH",
+        "class": "icon pathology",
+        "date": "2025-07-02T00:00:00Z",
+        "title": "Surgical Pathology Report",
+        "accession": "12345",
+        "description": [
+          "Collected: 7/2/2025",
+          "Case #: 12345",
+          "",
+          "Surgical Pathology Report",
+          "",
+          "FINAL PATHOLOGIC DIAGNOSIS",
+          "RIGHT SUPRACLAVICULAR LYMPH NODE, CORE NEEDLE BIOPSIES: METASTATIC",
+          "ADENOCARCINOMA, CONSISTENT WITH METASTATIC PULMONARY ADENOCARCINOMA",
+          "(SEE COMMENT)",
+          "",
+          "Comment",
+          "The cells are similar in appearance to the malignant cells noted in",
+          "the sputum cytology specimen (12345). Immunohistochemical",
+          "stains support a metastasis from a primary pulmonary adenocarcinoma",
+          "and provide no support for squamous differentiation. There is",
+          "adequate tissue for molecular or other studies if indicated. Tumor",
+          "is present in both tissue blocks. Block A1 is preferable.",
+          "",
+          "This case has been reviewed by another member of our department",
+          "with concurrence.",
+          "",
+          "Pathologist, M.D.",
+          "",
+          "Studies",
+          "TTF-1 - strongly positive in tumor cells",
+          "P40 - negative, positive on slide control",
+          "",
+          "DISCLAIMER: This immunoperoxidase and/or in situ hybridization",
+          "stain/panel was developed and its performance characteristics",
+          "determined by the Immunohistochemistry Laboratory. Unless otherwise",
+          "specified, it has not been cleared or approved by the U.S. Food and Drug",
+          "Administration (FDA). FDA does not require this test to go through",
+          "premarket FDA review. This test is used for clinical purposes. It",
+          "should not be regarded as investigational or for research. This",
+          "laboratory is certified under the Clinical Laboratory Improvement",
+          "Amendments of 1988 (CLIA-88) as qualified to perform high",
+          "complexity clinical laboratory testing. Positive and negative",
+          "controls were evaluated and stained appropriately.",
+          "",
+          "Clinical History",
+          "IR needle biopsy of the right supraclavicular lymph node which is",
+          "palpable on exam. The right supraclavicular lymph node biopsy",
+          "should be sent for culture (AFB, bacterial, fungal), and pathology.",
+          "Priority: ROUTINE",
+          "Estimated number of specimens: 10",
+          "",
+          "Gross Description",
+          "Received in formalin labeled with the patient's name and medical",
+          "record number, designated \"supraclavicular lymph node biopsies\",",
+          "are 5 cylindrical fragments of tissue ranging from 0.2 to 1.2 cm;",
+          "wrapped and entirely submitted in A1-A2. (JG)",
+          "",
+          "Specimen(s) Received",
+          "A: NEEDLE BIOPSY, OTHER - RIGHT SUPRACLAVICULAR",
+          "",
+          "Patient Name: Patient 1",
+          "Med. Rec #: 12345",
+          "DOB/Age: 1/1/1960 (Age: 65)",
+          "Sex: F",
+          "Facility: Acute Care Hospital",
+          "Location: INPATIENT NURSING"
+        ]
+      }
+    ],
+    "2": [
+      {
+        "id": 1,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-06-15T09:45:00Z",
+        "title": "Brain wo/w Contrast",
+        "accession": "ACC009-02",
+        "description": [
+          "Radiology Report: Brain CT Scan",
+          "Patient Name: Anita Angel",
+          "Date of Exam:",
+          "FINDINGS:",
+          "The brain computed tomography (CT) scan revealed multiple areas of hyperintensity in the bilateral temporal lobes, consistent with infarction or inflammation. There is no evidence of intracranial hemorrhage or mass lesion. Mild atrophy was observed in the left hippocampus. These findings are suspicious of cerebral vasculitis, and further workup is recommended to confirm this diagnosis.",
+          "IMPRESSION:",
+          "Bilateral temporal lobe hyperintensity consistent with infarction or inflammation, mild atrophy in the left hippocampus, suspected cerebral vasculitis.",
+          "RECOMMENDATIONS:",
+          "Further workup is recommended to confirm the diagnosis of cerebral vasculitis, including magnetic resonance imaging (MRI) of the brain and angiogram. Laboratory testing, such as blood tests for anti-inflammatory antibodies and blood vessel markers, may also be useful. Consideration should be given to initiating immunosuppressive therapy if the diagnosis is confirmed. Close follow-up is advised to monitor for changes in the patient's condition."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "labResults",
+        "abbreviation": "LAB",
+        "class": "icon tube",
+        "date": "2023-06-01T13:20:00Z",
+        "accession": "ACC009-01",
+        "title": "Normal Electrolyte and Liver Function",
+        "description": [
+          "Normal electrolyte levels, normal liver function tests, normal renal function tests."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "physicianNotes",
+        "abbreviation": "NOTE",
+        "class": "icon note",
+        "date": "2023-05-20T10:30:00Z",
+        "title": "Dr. Doe has noted that the patient's symptoms have been gradually worsening over the past year",
+        "accession": "ACC009-01",
+        "description": [
+          "Dr. Doe has noted that the patient's symptoms have been gradually worsening over the past year, with increasing frequency and severity of dizziness and vertigo. She also reports difficulty with concentration and short-term memory."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-05-05T14:30:00Z",
+        "title": "Head Neck wContrast",
+        "accession": "ACC009-03",
+        "description": []
+      },
+      {
+        "id": 5,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-04-05T14:30:00Z",
+        "title": "Brain Perfusion Limited",
+        "accession": "ACC009-04",
+        "description": []
+      }
+    ],
+    "3": [
+      {
+        "id": 1,
+        "type": "labResults",
+        "abbreviation": "LAB",
+        "class": "icon tube",
+        "date": "2023-08-18T16:00:00Z",
+        "title": "Normal CBC, Alpha-1 Antitrypsin, and Pulmonary Function",
+        "accession": "ACC0030-00",
+        "description": [
+          "Complete blood count: Within normal limits.",
+          "Alpha-1 antitrypsin: Normal.",
+          "Pulmonary function tests: Reduced FEV1/FVC ratio, indicating obstructive pattern."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT, PR",
+        "date": "2023-07-22T12:30:00Z",
+        "title": "NLST- LSS",
+        "accession": "ACC0030-01",
+        "description": [
+          "FINDINGS:",
+          "The low-dose chest CT reveals a 1.2 cm spiculated nodule in the right upper lobe. No associated lymphadenopathy or pleural effusions are noted. There are scattered emphysematous changes consistent with chronic obstructive pulmonary disease. No other significant abnormalities are identified.",
+          "IMPRESSION:",
+          "1.2 cm spiculated nodule in the right upper lobe, concerning for primary lung carcinoma.",
+          "Emphysematous changes consistent with chronic obstructive pulmonary disease.",
+          "RECOMMENDATIONS:",
+          "Given the appearance of the nodule and the patient's smoking history, a PET-CT is recommended for further characterization and to assess for possible metastatic disease. If PET-CT shows increased uptake or if it remains indeterminate, a biopsy should be considered. The patient should also be advised on smoking cessation and potential treatment options for COPD.",
+          "Radiological Findings:",
+          "Spiculated nodule in the right upper lobe.",
+          "Emphysematous changes throughout the lungs."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "physicianNotes",
+        "abbreviation": "NOTE",
+        "class": "icon note",
+        "date": "2023-07-05T09:15:00Z",
+        "title": "Considering Mr. Aiden's extensive smoking history and the nature of the detected nodule",
+        "accession": "ACC0030-00",
+        "description": [
+          "Considering Mr. Aiden's extensive smoking history and the nature of the detected nodule, there's a significant concern for lung cancer. He should be promptly referred to a pulmonologist or thoracic surgeon for further management."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT, PR",
+        "date": "2023-05-25T08:20:00Z",
+        "title": "NLST- LSS",
+        "accession": "ACC0030-02",
+        "description": [
+          "FINDINGS:",
+          "Low-dose chest computed tomography (CT) scan reveals a well-defined, spiculated nodule measuring approximately 1.2 centimeters in diameter within the right upper lobe of the lung. No enlarged lymph nodes or pleural effusions are evident. Scattered emphysematous changes are present throughout the lungs, consistent with chronic obstructive pulmonary disease (COPD). No additional remarkable findings are identified.",
+          "IMPRESSION:",
+          "The presence of a spiculated nodule in the right upper lobe, along with the patient's history of smoking, raises concern for primary lung carcinoma. Emphysematous changes observed throughout the lungs are consistent with COPD.",
+          "RECOMMENDATIONS:",
+          "Given the characteristics of the nodule and the patient's smoking history, we recommend a positron emission tomography-computed tomography (PET-CT) scan for further evaluation and to assess for possible metastatic disease. If the PET-CT scan demonstrates increased uptake or remains indeterminate, a biopsy should be considered. Smoking cessation counseling and potential treatment options for COPD should also be discussed with the patient.",
+          "RADIOLOGICAL FINDINGS:",
+          "Well-defined spiculated nodule in the right upper lobe of the lung.",
+          "Scattered emphysematous changes throughout the lungs."
+        ]
+      }
+    ],
+    "4": [
+      {
+        "id": 1,
+        "type": "physicianNotes",
+        "abbreviation": "NOTE",
+        "class": "icon note",
+        "date": "2023-08-20T11:20:00Z",
+        "title": "Mr. Brain's clinical presentation combined",
+        "accession": "ACC008-01",
+        "description": [
+          "Mr. Brain's clinical presentation combined with the imaging findings is concerning for a primary central nervous system tumor. A comprehensive approach, involving both medical and surgical management, should be considered to provide optimal patient care."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "labResults",
+        "abbreviation": "LAB",
+        "class": "icon tube",
+        "date": "2023-07-15T12:45:00Z",
+        "title": "Coagulation Panel",
+        "accession": "ACC008-01",
+        "description": [
+          "Complete blood count: Within normal limits.",
+          "Electrolytes: Within normal limits."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-07-15T09:45:00Z",
+        "title": "CT Leg",
+        "accession": "ACC008-02",
+        "description": [
+          "FINDINGS:",
+          "Brain MRI reveals a 2.5 cm enhancing mass lesion in the left temporal lobe with surrounding edema. The mass shows heterogeneous enhancement post contrast administration. There is a mild mass effect on the left lateral ventricle but no midline shift. No other significant abnormalities are observed.",
+          "IMPRESSION:",
+          "2.5 cm enhancing mass in the left temporal lobe, suggestive of a primary brain tumor.",
+          "Surrounding edema with mass effect on the left lateral ventricle.",
+          "Absence of midline shift.",
+          "RECOMMENDATIONS:",
+          "Neurosurgical consultation is strongly recommended. Biopsy or resection might be considered based on the neurosurgical evaluation. Consider steroids to manage edema and associated symptoms. Further imaging, such as MR spectroscopy or PET scan, can be considered for better characterization of the lesion.",
+          "5. Radiological Findings:",
+          "Enhancing mass in the left temporal lobe.",
+          "Surrounding edema with mild mass effect."
+        ]
+      }
+    ],
+    "5": [
+      {
+        "id": 1,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-05-18T11:45:00Z",
+        "title": "CT Chest WO",
+        "accession": "ACC0051-03",
+        "description": [
+          "FINDINGS:",
+          "The chest CT reveals coronary artery calcifications suggestive of atherosclerosis, particularly in the left anterior descending artery. The lung fields appear clear without evidence of any nodules or masses. Mediastinal structures are within normal limits. No pleural effusion or lymphadenopathy is observed.",
+          "IMPRESSION:",
+          "Coronary artery calcifications, suggestive of atherosclerosis.",
+          "Clear lung fields.",
+          "No evidence of lymphadenopathy or pleural effusion.",
+          "RECOMMENDATIONS:",
+          "Given the findings of coronary artery calcifications and her clinical presentation, a cardiology consult for potential coronary angiography is advised. Lifestyle modifications and possible medication adjustments might be needed based on further evaluations.",
+          "5. Radiological Findings:",
+          "Coronary artery calcifications.",
+          "Clear lung fields.",
+          "No mediastinal abnormalities."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "labResults",
+        "abbreviation": "LAB",
+        "class": "icon tube",
+        "date": "2023-01-25T16:30:00Z",
+        "title": "Cholesterol Panel",
+        "accession": "ACC0051-04",
+        "description": [
+          "Cholesterol: Elevated.",
+          "HDL: Slightly below average.",
+          "LDL: Elevated.",
+          "Triglycerides: Within normal limits."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "physicianNotes",
+        "abbreviation": "NOTE",
+        "class": "icon note",
+        "date": "2022-11-01T14:20:00Z",
+        "title": "Considering Ms. Cardia's family history and the radiological findings",
+        "accession": "ACC0051-04",
+        "description": [
+          "Considering Ms. Cardia's family history and the radiological findings, she is at an elevated risk of coronary artery disease. Further cardiology evaluation is necessary, and preventative measures should be initiated immediately."
+        ]
+      }
+    ],
+    "6": [
+      {
+        "id": 1,
+        "type": "physicianNotes",
+        "abbreviation": "NOTE",
+        "class": "icon note",
+        "date": "2023-07-05T09:15:00Z",
+        "title": "Mr. Kilarney, given his age, is at an elevated risk for fractures even with minor trauma",
+        "accession": "ACC005-1",
+        "description": [
+          "Mr. Kilarney, given his age, is at an elevated risk for fractures even with minor trauma. The immediate concern is the hip fracture, which may require surgical intervention. The rib fractures, although painful, are usually managed conservatively."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CR",
+        "date": "2023-06-15T12:00:00Z",
+        "title": "Lower Femur Lt",
+        "accession": "ACC005-8",
+        "description": [
+          "Exam Type: Femur X-ray",
+          "REPORT:",
+          "This is the report of a diagnostic X-ray examination of the femur performed on [patient's name] on [date of exam]. The patient was referred for evaluation of suspected left femoral shaft fracture after a fall.",
+          "TECHNIQUE:",
+          "Anteroposterior (AP) and lateral views of the femur were obtained using a conventional X-ray machine. The patient was positioned standing upright on the imaging table, with their foot placed on a platform to assist with alignment. No additional equipment was used.",
+          "FINDINGS:",
+          "There is evidence of a nondisplaced fracture of the left femural shaft, located approximately 10 cm distal to the superior border of the patella. The fracture is transverse in orientation and appears to be well-aligned. There is no evidence of comminution or displacement of the fragments.",
+          "Additionally, there is mild degenerative change in the form of sclerosis and remodeling of the femoral heads, most notable at the left side. This is likely related to the patient's age and activity level.",
+          "No other abnormalities were identified within the scope of this examination.",
+          "IMPRESSION:",
+          "Nondisplaced fracture of the left femural shaft, likely resulting from a fall. Mild degenerative change in the femoral heads.",
+          "RECOMMENDATIONS:",
+          "Based on the above findings, I recommend the following:",
+          "Immobilization of the left leg in a cast or brace for 4-6 weeks to allow for healing of the fracture.",
+          "Follow-up imaging in 3-4 weeks to assess for healing and address any concerns regarding the fracture or degenerative change.",
+          "Close monitoring of the patient's symptoms and functional status to ensure optimal recovery."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "labResults",
+        "abbreviation": "LAB",
+        "class": "icon tube",
+        "date": "2023-06-10T10:45:00Z",
+        "title": "Follow-up Liver Function Panel",
+        "accession": "ACC005-1",
+        "description": [
+          "Calcium: Within normal limits.",
+          "Vitamin D: Slightly below average, suggesting a need for supplementation adjustment."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CR/OT",
+        "date": "2023-06-05T09:30:00Z",
+        "title": "MRI Abdomen (Post-Follow-up)",
+        "accession": "ACC005-9",
+        "description": [
+          "FINDINGS:",
+          "Radiographs of the body reveal a nondisplaced fracture of the left proximal femur, consistent with a hip fracture. Additionally, there are two fractures in the left rib cage, ribs #7 and #8, without associated pneumothorax. The remainder of the visualized bones and soft tissues appear unremarkable.",
+          "IMPRESSION:",
+          "Nondisplaced left proximal femur fracture.",
+          "Fractures of the left 7th and 8th ribs.",
+          "No evidence of pneumothorax or other internal injuries.",
+          "RECOMMENDATIONS:",
+          "Orthopedic consultation for the hip fracture is recommended. Pain management and observation for the rib fractures. Ensure precautions to prevent deep vein thrombosis given the patient's age and potential immobilization.",
+          "Radiological Findings:",
+          "Nondisplaced fracture of the left proximal femur.",
+          "Fractures in ribs #7 and #8 on the left side."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CR/OT",
+        "date": "2023-05-15T10:30:00Z",
+        "title": "Hip Lt",
+        "accession": "ACC005-10",
+        "description": [
+          "REPORT:",
+          "This is the report of a diagnostic chest X-ray examination performed on [patient's name] on [date of exam]. The patient was referred for evaluation of suspected pulmonary embolism and pleural effusion.",
+          "TECHNIQUE:",
+          "A posteroanterior (PA) view of the chest was obtained using a conventional X-ray machine. The patient was positioned standing upright on the imaging table, with their shoulders relaxed and their arms at their sides. No additional equipment was used.",
+          "FINDINGS:",
+          "There is a moderate amount of pleural effusion present in the left hemithorax, consistent with the patient's clinical presentation. The fluid is clear and does not contain any visible blood or solid particles. There is no evidence of pneumonia or consolidation within the lungs.",
+          "The cardiac silhouette is normal in size and shape, and there is no evidence of cardiomegaly or pericardial effusion. The mediastinum is normal in width and there is no evidence of mass lesions or adenopathy.",
+          "There is no evidence of pneumothorax or hyperinflation within the lungs. The costophrenic angle is normal and there is no evidence of subphrenic abscess or empyema.",
+          "IMPRESSION:",
+          "Moderate pleural effusion consistent with the patient's clinical presentation. No evidence of pneumonia, consolidation, or cardiopulmonary disease.",
+          "RECOMMENDATIONS:",
+          "Based on the above findings, I recommend the following:",
+          "Thoracentesis to drain the pleural effusion and relieve symptoms.",
+          "Evaluation for underlying causes of pleural effusion, such as malignancy or autoimmune disorders.",
+          "Close monitoring of the patient's symptoms and functional status to ensure optimal recovery."
+        ]
+      }
+    ],
+    "7": [
+      {
+        "id": 1,
+        "type": "labResults",
+        "abbreviation": "LAB",
+        "class": "icon tube",
+        "date": "2023-08-05T09:30:00Z",
+        "title": "Complete Blood Count (CBC)",
+        "accession": "ACC00015-00",
+        "description": ["Inflammatory markers: Within normal limits."]
+      },
+      {
+        "id": 2,
+        "type": "physicianNotes",
+        "abbreviation": "NOTE",
+        "class": "icon note",
+        "date": "2023-06-05T09:45:00Z",
+        "title": "Ms. O'Connor's symptoms are consistent with cervical spondylosis",
+        "accession": "ACC00015-00",
+        "description": [
+          "Ms. O'Connor's symptoms are consistent with cervical spondylosis. She reports difficulty in neck movements and occasional numbness in the right hand, especially the thumb and index finger. Proper ergonomics and neck exercises are advised"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "MR",
+        "date": "2023-04-15T13:15:00Z",
+        "title": "L-Spine",
+        "accession": "ACC00015-02",
+        "description": [
+          "FINDINGS:",
+          "The lumbar spine MRI shows degenerative disc changes, particularly at the L4-L5 level. There's a moderate-sized left paracentral disc herniation at L4-L5 causing impingement on the exiting left L4 nerve root. The disc spaces are preserved, and no significant spinal canal stenosis is observed. Other lumbar levels appear unremarkable.",
+          "IMPRESSION:",
+          "Degenerative disc disease in the lumbar spine with a left paracentral disc herniation at L4-L5 impinging on the exiting left L4 nerve root.",
+          "RECOMMENDATIONS:",
+          "Further management could involve a combination of conservative treatments such as physical therapy, pain management, and possibly epidural steroid injections. If symptoms don't resolve, surgical consultation might be considered.",
+          "Radiological Findings:",
+          "Degenerative disc changes at L4-L5.",
+          "Left paracentral disc herniation at L4-L5.",
+          "Impingement on the exiting left L4 nerve root."
+        ]
+      }
+    ],
+    "8": [
+      {
+        "id": 1,
+        "type": "labResults",
+        "abbreviation": "LAB",
+        "class": "icon tube",
+        "date": "2023-07-01T09:30:00Z",
+        "title": "Inflammatory Marker Test",
+        "accession": "ACC007-2",
+        "description": ["Inflammatory markers: Within normal limits."]
+      },
+      {
+        "id": 2,
+        "type": "physicianNotes",
+        "abbreviation": "NOTE",
+        "class": "icon note",
+        "date": "2023-05-10T14:30:00Z",
+        "title": "Ms. O'Connor's symptoms are consistent with cervical spondylosis",
+        "accession": "ACC007-2",
+        "description": [
+          "Ms. O'Connor's symptoms are consistent with cervical spondylosis. She reports difficulty in neck movements and occasional numbness in the right hand, especially the thumb and index finger. Proper ergonomics and neck exercises are advised."
+        ]
+      }
+    ],
+    "9": [
+      {
+        "id": 1,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CR",
+        "date": "2023-08-01T14:30:00Z",
+        "title": "Chest 2V",
+        "accession": "ACC0016-03",
+        "description": [
+          "FINDINGS:",
+          "Chest radiograph displays cardiomegaly with an enlarged cardiac silhouette. There are no evident pulmonary infiltrates, masses, or effusions. The pulmonary vasculature appears normal. There's mild bronchial wall thickening indicative of chronic bronchitis.",
+          "IMPRESSION:",
+          "Cardiomegaly with evidence of chronic bronchitis. No acute cardiopulmonary abnormalities noted.",
+          "RECOMMENDATIONS:",
+          "Echocardiogram advised for further assessment of cardiomegaly. Pulmonary function tests can also be considered given the history of smoking and bronchial wall changes.",
+          "Radiological Findings:",
+          "Cardiomegaly (enlarged cardiac silhouette).",
+          "Mild bronchial wall thickening.",
+          "Absence of pulmonary infiltrates or masses."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "labResults",
+        "abbreviation": "LAB",
+        "class": "icon tube",
+        "date": "2023-07-15T09:00:00Z",
+        "title": "Blood Test",
+        "accession": "ACC0016-02",
+        "description": [
+          "BNP (B-type natriuretic peptide): Elevated",
+          "Troponin: Within normal limits"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "physicianNotes",
+        "abbreviation": "NOTE",
+        "class": "icon note",
+        "date": "2023-06-20T10:15:00Z",
+        "title": "Mr. Seels' symptoms have been progressing over the last six months",
+        "accession": "ACC0016-02",
+        "description": [
+          "Mr. Seels' symptoms have been progressing over the last six months. Physical examination reveals distant heart sounds and prolonged expiratory phase on lung auscultation. Blood pressure is controlled under current medication."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CTA",
+        "date": "2025-07-08T12:35:00Z",
+        "title": "CT Angiogram Chest Pulmonary Arteries",
+        "accession": "ACC0016-04",
+        "description": [
+          "IMPRESSION:",
+          "Small intraluminal filling defects in segmental vessels to bilateral upper lobes and left lower lobe compatible with pulmonary emboli.",
+          "Worsening anterior mediastinal, subcarinal, right paratracheal, precarinal, and hilar lymphadenopathy with conglomerate nodal mass measuring about 4.0 x 2.4 cm.",
+          "Small lytic lesions in the lower cervical and thoracic spine.",
+          "More confluent nodular opacities within groundglass opacities, including a 2 x 2 cm nodule and a 1.3 x 1.1 cm nodule.",
+          "Left posterior perihilar mass measuring 5.5 x 4.8 cm, stable.",
+          "",
+          "CT ANGIOGRAM CHEST PULMONARY ARTERIES",
+          "",
+          "HISTORY:",
+          "Patient with progressive cardiopulmonary symptoms and history of smoking.",
+          "",
+          "TECHNIQUE:",
+          "CT angiogram images of the chest acquired with intravenous contrast.",
+          "",
+          "COMPARISON:",
+          "CT Chest 6/24/2025, XR Chest 6/24/2025",
+          "",
+          "FINDINGS:",
+          "PULMONARY ARTERIES: Small intraluminal filling defects in segmental vessels to bilateral upper lobes and left lower lobe compatible with pulmonary emboli.",
+          "",
+          "LYMPH NODES: Worsening anterior mediastinal, subcarinal, right paratracheal, precarinal, and hilar lymphadenopathy. Conglomerate nodal mass measuring about 4.0 x 2.4 cm. Confluent subcarinal node measuring about 2.5 cm short axis. Right hilar adenopathy measuring up to 2.3 cm.",
+          "",
+          "LUNGS: More confluent nodular opacities within groundglass opacities, including a 2 x 2 cm nodule in the right upper lobe and a 1.3 x 1.1 cm nodule in the left upper lobe. Multiple areas of groundglass opacification in the lungs, right greater than left.",
+          "",
+          "MASSES: Left posterior perihilar mass measuring 5.5 x 4.8 cm, stable from prior.",
+          "",
+          "BONES: Small lytic lesions in the lower cervical and thoracic spine, new from prior."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "XR",
+        "date": "2025-07-10T13:46:00Z",
+        "title": "XR Chest AP",
+        "accession": "ACC0016-05",
+        "description": [
+          "IMPRESSION:",
+          "Multiple areas of groundglass opacification in the lungs, right greater than left, stable from prior. May represent an inflammatory/infectious process.",
+          "",
+          "XR CHEST AP",
+          "",
+          "HISTORY:",
+          "Follow-up chest pain and shortness of breath.",
+          "",
+          "TECHNIQUE:",
+          "Single AP view of the chest.",
+          "",
+          "COMPARISON:",
+          "CT Chest 7/8/2025",
+          "",
+          "FINDINGS:",
+          "LUNGS: Multiple areas of groundglass opacification in the lungs, right greater than left, stable from prior CT. No significant interval change.",
+          "",
+          "HEART: Cardiomegaly with enlarged cardiac silhouette, unchanged.",
+          "",
+          "PLEURA: No significant pleural effusion."
+        ]
+      },
+      {
+        "id": 6,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2025-06-24T10:22:00Z",
+        "title": "CT Chest with Contrast",
+        "accession": "ACC0016-06",
+        "description": [
+          "IMPRESSION:",
+          "Worsening mediastinal and hilar lymphadenopathy.",
+          "Left posterior perihilar mass measuring 5.5 x 4.8 cm, stable.",
+          "Trace left pleural effusion, new.",
+          "",
+          "CT CHEST WITH CONTRAST",
+          "",
+          "HISTORY:",
+          "Progressive dyspnea and chest discomfort.",
+          "",
+          "TECHNIQUE:",
+          "CT images of the chest acquired with intravenous contrast.",
+          "",
+          "COMPARISON:",
+          "XR Chest 6/24/2025",
+          "",
+          "FINDINGS:",
+          "LYMPH NODES: Worsening anterior mediastinal, subcarinal, right paratracheal, precarinal, and hilar lymphadenopathy compared to prior studies.",
+          "",
+          "MASSES: Left posterior perihilar mass measuring 5.5 x 4.8 cm, stable from prior.",
+          "",
+          "PLEURA: Trace left pleural effusion, new from prior.",
+          "",
+          "LUNGS: Scattered groundglass opacities and nodular densities as described on prior studies."
+        ]
+      },
+      {
+        "id": 7,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "XR",
+        "date": "2025-06-24T07:39:00Z",
+        "title": "XR Chest PA and Lateral",
+        "accession": "ACC0016-07",
+        "description": [
+          "IMPRESSION:",
+          "Left posterior perihilar mass measuring 5.5 x 4.8 cm, stable.",
+          "Cardiomegaly, stable.",
+          "",
+          "XR CHEST PA AND LATERAL",
+          "",
+          "HISTORY:",
+          "Chest pain evaluation.",
+          "",
+          "TECHNIQUE:",
+          "PA and lateral views of the chest.",
+          "",
+          "COMPARISON:",
+          "Prior chest radiographs",
+          "",
+          "FINDINGS:",
+          "LUNGS: Left posterior perihilar mass measuring approximately 5.5 x 4.8 cm, stable from prior.",
+          "",
+          "HEART: Cardiomegaly with enlarged cardiac silhouette, stable.",
+          "",
+          "PLEURA: No significant pleural effusion."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "XR",
+        "date": "2025-07-08T11:03:00Z",
+        "title": "XR Chest PA and Lateral",
+        "accession": "ACC0016-08",
+        "description": [
+          "IMPRESSION:",
+          "Right mid and lower lung airspace opacities have resolved.",
+          "Stable cardiomegaly.",
+          "",
+          "XR CHEST PA AND LATERAL",
+          "",
+          "HISTORY:",
+          "Follow-up after treatment for pneumonia.",
+          "",
+          "TECHNIQUE:",
+          "PA and lateral views of the chest.",
+          "",
+          "COMPARISON:",
+          "XR Chest 6/24/2025, CT Chest 7/8/2025",
+          "",
+          "FINDINGS:",
+          "LUNGS: Right mid and lower lung airspace opacities previously seen have resolved. Residual groundglass opacities remain in the upper lobes bilaterally.",
+          "",
+          "HEART: Cardiomegaly with enlarged cardiac silhouette, stable.",
+          "",
+          "PLEURA: No significant pleural effusion."
+        ]
+      }
+    ],
+    "10": [
+      {
+        "id": 1,
+        "type": "pathalogy",
+        "class": "icon microscope",
+        "date": "2023-09-20T13:15:00Z",
+        "title": "Dental Plaque Analysis",
+        "accession": "ACC00014-00",
+        "description": [
+          "C-reactive protein (CRP): Within normal limits",
+          "Rheumatoid factor: Negative",
+          "Erythrocyte sedimentation rate (ESR): Normal"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "labResults",
+        "abbreviation": "LAB",
+        "class": "icon tube",
+        "date": "2023-07-10T09:30:00Z",
+        "title": "Gingival Tissue Analysis",
+        "accession": "ACC00014-00",
+        "description": [
+          "Uric Acid: 5.2 mg/dL (Normal: 3.5-7.2 mg/dL)",
+          "ESR (Erythrocyte Sedimentation Rate): 15 mm/hr (Normal: 0-22 mm/hr)",
+          "CRP (C-reactive protein): 3 mg/L (Normal: <5 mg/L)",
+          "CBC, CMP: Within normal limits."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "physicianNotes",
+        "abbreviation": "NOTE",
+        "class": "icon note",
+        "date": "2023-05-15T10:00:00Z",
+        "title": "Localized tenderness over the tibiotalar joint. Observable lateral swelling.",
+        "accession": "ACC00014-00",
+        "description": [
+          "Localized tenderness over the tibiotalar joint. Observable lateral swelling. Limited dorsiflexion and plantarflexion during movement."
+        ]
+      }
+    ],
+    "12": [
+      {
+        "id": 1,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-06-15T09:45:00Z",
+        "title": "Brain wo/w Contrast",
+        "accession": "ACC009-02",
+        "description": [
+          "Radiology Report: Brain CT Scan",
+          "Patient Name: Anita Angel",
+          "Date of Exam:",
+          "FINDINGS:",
+          "The brain computed tomography (CT) scan revealed multiple areas of hyperintensity in the bilateral temporal lobes, consistent with infarction or inflammation. There is no evidence of intracranial hemorrhage or mass lesion. Mild atrophy was observed in the left hippocampus. These findings are suspicious of cerebral vasculitis, and further workup is recommended to confirm this diagnosis.",
+          "IMPRESSION:",
+          "Bilateral temporal lobe hyperintensity consistent with infarction or inflammation, mild atrophy in the left hippocampus, suspected cerebral vasculitis.",
+          "RECOMMENDATIONS:",
+          "Further workup is recommended to confirm the diagnosis of cerebral vasculitis, including magnetic resonance imaging (MRI) of the brain and angiogram. Laboratory testing, such as blood tests for anti-inflammatory antibodies and blood vessel markers, may also be useful. Consideration should be given to initiating immunosuppressive therapy if the diagnosis is confirmed. Close follow-up is advised to monitor for changes in the patient's condition."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "labResults",
+        "abbreviation": "LAB",
+        "class": "icon tube",
+        "date": "2023-06-01T13:20:00Z",
+        "accession": "ACC009-01",
+        "title": "Normal Electrolyte and Liver Function",
+        "description": [
+          "Normal electrolyte levels, normal liver function tests, normal renal function tests."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "physicianNotes",
+        "abbreviation": "NOTE",
+        "class": "icon note",
+        "date": "2023-05-20T10:30:00Z",
+        "title": "Dr. Doe has noted that the patient's symptoms have been gradually worsening over the past year",
+        "accession": "ACC009-01",
+        "description": [
+          "Dr. Doe has noted that the patient's symptoms have been gradually worsening over the past year, with increasing frequency and severity of dizziness and vertigo. She also reports difficulty with concentration and short-term memory."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-05-05T14:30:00Z",
+        "title": "Head Neck wContrast",
+        "accession": "ACC009-03",
+        "description": []
+      },
+      {
+        "id": 5,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-04-05T14:30:00Z",
+        "title": "Brain Perfusion Limited",
+        "accession": "ACC009-04",
+        "description": []
+      }
+    ],
+    "25": [
+      {
+        "id": 1,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-06-15T09:45:00Z",
+        "title": "CT HEAD/BRAIN; W/O CONTRAST",
+        "accession": "AL3040",
+        "description": [
+          "Radiology Report: Brain CT Scan",
+          "Patient Name: Noelle Griffith",
+          "Date of Exam:",
+          "FINDINGS:",
+          "The brain computed tomography (CT) scan revealed multiple areas of hyperintensity in the bilateral temporal lobes, consistent with infarction or inflammation. There is no evidence of intracranial hemorrhage or mass lesion. Mild atrophy was observed in the left hippocampus. These findings are suspicious of cerebral vasculitis, and further workup is recommended to confirm this diagnosis.",
+          "IMPRESSION:",
+          "Bilateral temporal lobe hyperintensity consistent with infarction or inflammation, mild atrophy in the left hippocampus, suspected cerebral vasculitis.",
+          "RECOMMENDATIONS:",
+          "Further workup is recommended to confirm the diagnosis of cerebral vasculitis, including magnetic resonance imaging (MRI) of the brain and angiogram. Laboratory testing, such as blood tests for anti-inflammatory antibodies and blood vessel markers, may also be useful. Consideration should be given to initiating immunosuppressive therapy if the diagnosis is confirmed. Close follow-up is advised to monitor for changes in the patient's condition."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "labResults",
+        "abbreviation": "LAB",
+        "class": "icon tube",
+        "date": "2023-06-01T13:20:00Z",
+        "accession": "AL3040",
+        "title": "Normal Electrolyte and Liver Function",
+        "description": [
+          "Normal electrolyte levels, normal liver function tests, normal renal function tests."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "physicianNotes",
+        "abbreviation": "NOTE",
+        "class": "icon note",
+        "date": "2023-05-20T10:30:00Z",
+        "title": "Dr. Doe has noted that the patient's symptoms have been gradually worsening over the past year",
+        "accession": "AL3040",
+        "description": [
+          "Dr. Doe has noted that the patient's symptoms have been gradually worsening over the past year, with increasing frequency and severity of dizziness and vertigo. She also reports difficulty with concentration and short-term memory."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-05-05T14:30:00Z",
+        "title": "Head Neck wContrast",
+        "accession": "AL3040",
+        "description": []
+      },
+      {
+        "id": 5,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-04-05T14:30:00Z",
+        "title": "Brain Perfusion Limited",
+        "accession": "AL3040",
+        "description": []
+      }
+    ],
+    "41": [
+      {
+        "id": 1,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-06-15T09:45:00Z",
+        "title": "MRA Head without Contrast",
+        "accession": "2843824",
+        "description": [
+          "Radiology Report: Brain CT Scan",
+          "Patient Name: Luke Danes",
+          "Date of Exam:",
+          "FINDINGS:",
+          "The brain computed tomography (CT) scan revealed multiple areas of hyperintensity in the bilateral temporal lobes, consistent with infarction or inflammation. There is no evidence of intracranial hemorrhage or mass lesion. Mild atrophy was observed in the left hippocampus. These findings are suspicious of cerebral vasculitis, and further workup is recommended to confirm this diagnosis.",
+          "IMPRESSION:",
+          "Bilateral temporal lobe hyperintensity consistent with infarction or inflammation, mild atrophy in the left hippocampus, suspected cerebral vasculitis.",
+          "RECOMMENDATIONS:",
+          "Further workup is recommended to confirm the diagnosis of cerebral vasculitis, including magnetic resonance imaging (MRI) of the brain and angiogram. Laboratory testing, such as blood tests for anti-inflammatory antibodies and blood vessel markers, may also be useful. Consideration should be given to initiating immunosuppressive therapy if the diagnosis is confirmed. Close follow-up is advised to monitor for changes in the patient's condition."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "labResults",
+        "abbreviation": "LAB",
+        "class": "icon tube",
+        "date": "2023-06-01T13:20:00Z",
+        "accession": "2843824",
+        "title": "Normal Electrolyte and Liver Function",
+        "description": [
+          "Normal electrolyte levels, normal liver function tests, normal renal function tests."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "physicianNotes",
+        "abbreviation": "NOTE",
+        "class": "icon note",
+        "date": "2023-05-20T10:30:00Z",
+        "title": "Dr. Doe has noted that the patient's symptoms have been gradually worsening over the past year",
+        "accession": "2843824",
+        "description": [
+          "Dr. Doe has noted that the patient's symptoms have been gradually worsening over the past year, with increasing frequency and severity of dizziness and vertigo. She also reports difficulty with concentration and short-term memory."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-05-05T14:30:00Z",
+        "title": "Head Neck wContrast",
+        "accession": "2843824",
+        "description": []
+      },
+      {
+        "id": 5,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2023-04-05T14:30:00Z",
+        "title": "Brain Perfusion Limited",
+        "accession": "2843824",
+        "description": []
+      }
+    ],
+    "52": [
+      {
+        "id": 1,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "MRI",
+        "date": "2025-06-30T10:58:00Z",
+        "title": "MRI Spine Cervical without and with contrast",
+        "accession": "ACC001-3",
+        "description": [
+          "IMPRESSION:",
+          "Diffuse marrow signal intensity abnormality suggestive of metastatic disease, new from prior.",
+          "Moderate to severe right neural foraminal stenosis.",
+          "",
+          "MRI SPINE CERVICAL WITHOUT AND WITH CONTRAST",
+          "",
+          "HISTORY:",
+          "Patient with history of cancer, cervical spine evaluation.",
+          "",
+          "TECHNIQUE:",
+          "MRI images of the cervical spine acquired without and with intravenous contrast.",
+          "",
+          "COMPARISON:",
+          "CT Neck 6/30/2025",
+          "",
+          "FINDINGS:",
+          "MARROW SIGNAL: Diffuse marrow signal intensity abnormality throughout the visualized cervical and upper thoracic spine suggestive of metastatic disease. This is new from prior studies.",
+          "",
+          "NEURAL FORAMINA: Moderate to severe right neural foraminal stenosis is seen, stable from prior.",
+          "",
+          "VERTEBRAL BODIES: Pathologic compression deformity at C7 with posterior retropulsion, as described on concurrent CT.",
+          "",
+          "SPINAL CORD: No evidence of cord compression or abnormal cord signal."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2025-07-27T13:28:00Z",
+        "title": "CT Neck with Contrast",
+        "accession": "ACC001-4",
+        "description": [
+          "IMPRESSION:",
+          "Additional lytic osseous metastatic disease at C2, C4, and T2, similar to prior.",
+          "Pathologic compression deformity at C7 with 3 mm posterior retropulsion, unchanged.",
+          "",
+          "CT NECK WITH CONTRAST",
+          "",
+          "HISTORY:",
+          "Follow-up cervical spine metastatic disease.",
+          "",
+          "TECHNIQUE:",
+          "CT images of the neck acquired with intravenous contrast.",
+          "",
+          "COMPARISON:",
+          "MRI C-spine 6/30/2025, CT Neck 6/30/2025",
+          "",
+          "FINDINGS:",
+          "OSSEOUS STRUCTURES: Additional lytic osseous metastatic disease is seen at C2, C4, and T2, similar compared to prior scan.",
+          "",
+          "C7 VERTEBRA: There is a pathologic compression deformity at C7 with 3 mm of posterior retropulsion of the C7 vertebral body, unchanged compared to 6/30/2025.",
+          "",
+          "SOFT TISSUES: No significant cervical lymphadenopathy.",
+          "",
+          "SPINAL CANAL: No significant spinal canal stenosis."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "radiologyReport",
+        "class": "text",
+        "abbreviation": "CT",
+        "date": "2025-06-30T17:30:00Z",
+        "title": "CT Neck with contrast",
+        "accession": "ACC001-5",
+        "description": [
+          "IMPRESSION:",
+          "Osteolytic lesions at C4 and C7 concerning for metastatic disease.",
+          "Pathologic fracture at C7 with up to 50% height loss.",
+          "",
+          "CT NECK WITH CONTRAST",
+          "",
+          "HISTORY:",
+          "History of cancer, neck pain.",
+          "",
+          "TECHNIQUE:",
+          "CT images of the neck acquired with intravenous contrast.",
+          "",
+          "COMPARISON:",
+          "Prior CT neck studies",
+          "",
+          "FINDINGS:",
+          "OSSEOUS STRUCTURES: Osteolytic lesions at C4 and C7 concerning for metastatic disease.",
+          "",
+          "C7 VERTEBRA: Pathologic fracture at C7 with up to 50% height loss. Mild posterior retropulsion of fracture fragments.",
+          "",
+          "ALIGNMENT: Cervical spine alignment is maintained.",
+          "",
+          "SOFT TISSUES: No significant abnormality."
+        ]
+      }
+    ]
+  },
+  "problemList": {
+    "1": [
+      {
+        "status": "active",
+        "text": "LEFT CAROTID ARTERY OCCLUSION",
+        "recorded": "16-09-2025"
+      },
+      {
+        "status": "active",
+        "text": "ALTERED MENTAL STATUS, UNSPECIFIED",
+        "recorded": "15-09-2025"
+      },
+      {
+        "status": "active",
+        "text": "ACUTE STROKE DUE TO ISCHEMIA, UNSPECIFIED TYPE AND ARTERY",
+        "recorded": "16-09-2025"
+      },
+      {
+        "status": "active",
+        "text": "MULTIFACTORIAL ENCEPHALOPATHY",
+        "recorded": "15-09-2025"
+      },
+      {
+        "status": "active",
+        "text": "LONG TERM NON WARFARIN ORAL ANTICOAGULANT THERAPY",
+        "recorded": "15-07-2025"
+      },
+      {
+        "status": "active",
+        "text": "ASTHMA, UNSPECIFIED",
+        "recorded": "01-01-2020"
+      },
+      {
+        "status": "resolved",
+        "text": "COVID-19 RULED OUT",
+        "recorded": "01-07-2025"
+      },
+      {
+        "status": "active",
+        "text": "ANEMIA",
+        "recorded": "01-08-2025"
+      },
+      {
+        "status": "active",
+        "text": "LUNG MASS",
+        "recorded": "01-07-2025"
+      },
+      {
+        "status": "active",
+        "text": "ADENOCARCINOMA, LEFT LUNG LOWER LOBE",
+        "recorded": "15-07-2025"
+      },
+      {
+        "status": "active",
+        "text": "CANCER METASTATIC TO INTRATHORACIC LN",
+        "recorded": "15-07-2025"
+      },
+      {
+        "status": "active",
+        "text": "CANCER METASTATIC TO BONE",
+        "recorded": "15-07-2025"
+      },
+      {
+        "status": "active",
+        "text": "CANCER METASTATIC TO NECK LN",
+        "recorded": "15-07-2025"
+      },
+      {
+        "status": "active",
+        "text": "CANCER METASTATIC TO RIGHT ADRENAL GLAND",
+        "recorded": "15-07-2025"
+      },
+      {
+        "status": "active",
+        "text": "ACUTE PULMONARY EMBOLISM",
+        "recorded": "15-07-2025"
+      },
+      {
+        "status": "active",
+        "text": "ACUTE HYPOXEMIC RESPIRATORY FAILURE",
+        "recorded": "15-07-2025"
+      },
+      {
+        "status": "active",
+        "text": "ASTHMA, UNSPECIFIED W ACUTE EXACERBATION",
+        "recorded": "16-09-2025"
+      },
+      {
+        "status": "active",
+        "text": "HTN (HYPERTENSION)",
+        "recorded": "01-01-2020"
+      },
+      {
+        "status": "active",
+        "text": "UNSPECIFIED ANXIETY",
+        "recorded": "01-01-2020"
+      },
+      {
+        "status": "active",
+        "text": "PNEUMONIA",
+        "recorded": "30-07-2025"
+      },
+      {
+        "status": "active",
+        "text": "HX OF RADIATION THERAPY",
+        "recorded": "10-09-2025"
+      },
+      {
+        "status": "active",
+        "text": "THROMBOCYTOPENIA, UNSPECIFIED (UNKNOWN ETIOLOGY)",
+        "recorded": "01-09-2025"
+      },
+      {
+        "status": "active",
+        "text": "HEADACHE",
+        "recorded": "15-09-2025"
+      }
+    ],
+    "2": [
+      {
+        "status": "low",
+        "text": "Cerebral vasculitis."
+      },
+      {
+        "status": "low",
+        "text": "Mild atrophy in the left hippocampus."
+      },
+      {
+        "status": "low",
+        "text": "Progressive cognitive decline."
+      },
+      {
+        "status": "low",
+        "text": "Memory loss."
+      },
+      {
+        "status": "low",
+        "text": "Recurrent episodes of dizziness and vertigo."
+      }
+    ],
+    "3": [
+      {
+        "status": "low",
+        "text": "30 pack-year smoking history."
+      },
+      {
+        "status": "low",
+        "text": "Intermittent cough."
+      },
+      {
+        "status": "low",
+        "text": "Shortness of breath."
+      }
+    ],
+    "4": [
+      {
+        "status": "low",
+        "text": "Frequent headaches."
+      },
+      {
+        "status": "low",
+        "text": "Episodes of dizziness."
+      },
+      {
+        "status": "low",
+        "text": "Occasional speech disturbances."
+      },
+      {
+        "status": "low",
+        "text": "Visual blurring."
+      }
+    ],
+    "5": [
+      {
+        "status": "low",
+        "text": "Intermittent chest pain."
+      },
+      {
+        "status": "low",
+        "text": "Radiation of pain to the left arm."
+      },
+      {
+        "status": "low",
+        "text": "Family history of heart disease."
+      }
+    ],
+    "6": [
+      {
+        "status": "low",
+        "text": "Fall at home."
+      },
+      {
+        "status": "low",
+        "text": "Fall at home."
+      },
+      {
+        "status": "low",
+        "text": "Left rib cage discomfort."
+      },
+      {
+        "status": "low",
+        "text": "Age-related frailty."
+      }
+    ],
+    "7": [
+      {
+        "status": "low",
+        "text": "Chronic lower back pain."
+      },
+      {
+        "status": "low",
+        "text": "Radiating pain down the left leg."
+      },
+      {
+        "status": "low",
+        "text": "Morning stiffness in the lumbar region."
+      }
+    ],
+    "8": [
+      {
+        "status": "low",
+        "text": "Chronic neck pain and stiffness."
+      },
+      {
+        "status": "low",
+        "text": "Intermittent tingling in the right arm."
+      },
+      {
+        "status": "low",
+        "text": "Sedentary work lifestyle."
+      }
+    ],
+    "9": [
+      {
+        "status": "low",
+        "text": "Shortness of breath on exertion."
+      },
+      {
+        "status": "low",
+        "text": "Occasional chest tightness."
+      },
+      {
+        "status": "low",
+        "text": "History of smoking."
+      },
+      {
+        "status": "low",
+        "text": "Mild hypertension."
+      }
+    ],
+    "10": [
+      {
+        "status": "low",
+        "text": "Chronic right ankle pain."
+      },
+      {
+        "status": "low",
+        "text": "Right ankle swelling."
+      },
+      {
+        "status": "low",
+        "text": "Reduced right ankle mobility."
+      }
+    ],
+    "25": [
+      {
+        "status": "low",
+        "text": "Cerebral vasculitis."
+      },
+      {
+        "status": "low",
+        "text": "Mild atrophy in the left hippocampus."
+      },
+      {
+        "status": "low",
+        "text": "Progressive cognitive decline."
+      },
+      {
+        "status": "low",
+        "text": "Memory loss."
+      },
+      {
+        "status": "low",
+        "text": "Recurrent episodes of dizziness and vertigo."
+      }
+    ],
+    "41": [
+      {
+        "status": "low",
+        "text": "Cerebral vasculitis."
+      },
+      {
+        "status": "low",
+        "text": "Mild atrophy in the left hippocampus."
+      },
+      {
+        "status": "low",
+        "text": "Progressive cognitive decline."
+      },
+      {
+        "status": "low",
+        "text": "Memory loss."
+      },
+      {
+        "status": "low",
+        "text": "Recurrent episodes of dizziness and vertigo."
+      }
+    ]
+  },
+  "aiResults": {
+    "1": [
+      {
+        "title": "Detected enhancing mass in the left frontal region.",
+        "options": []
+      },
+      {
+        "title": "Noted surrounding edema and associated mass effect.",
+        "options": []
+      }
+    ],
+    "2": [
+      {
+        "title": "Ischemic stroke (LVO and MEVO):",
+        "options": [
+          "Bilateral temporal lobe hyperintensities suggestive of infarction or inflammation",
+          "Presence of linear or diffuse hypodense lesions in the brain parenchyma",
+          "No evidence of acute hemorrhage or bleeding in the brain"
+        ]
+      },
+      {
+        "title": "Brain aneurysms:",
+        "options": [
+          "No clear visualization of aneurysmal dilatation or saculation in the cerebral arteries",
+          "Absence of flow voids or staining within the aneurysm neck"
+        ]
+      },
+      {
+        "title": "Intracranial hemorrhages:",
+        "options": [
+          "No evidence of intracerebral or intraventricular blood clots",
+          "No signs of subdural, epidural, or subarachnoid hematomas"
+        ]
+      },
+      {
+        "title": "Subdural hemorrhage:",
+        "options": ["No visible hemorrhage or hygroma in the subdural space"]
+      },
+      {
+        "title": "C-spine fractures:",
+        "options": [
+          "No evidence of fracture or deformation of the cervical spine"
+        ]
+      },
+      {
+        "title": "Vertebral compression fractures:",
+        "options": ["No visible deformity or displacement of the vertebrae"]
+      }
+    ],
+    "3": [
+      {
+        "title": "Lung Nodule Detected:",
+        "options": [
+          "Location: Right upper lobe",
+          "Size: 1.2 cm",
+          "Shape: Spiculated",
+          "Margin: Slightly spiculated",
+          "Attenuation: Low",
+          "Enhancement: Not enhances"
+        ]
+      },
+      {
+        "title": "Pleura",
+        "options": ["No pleural effusion or thickening"]
+      },
+      {
+        "title": "Lymph nodes",
+        "options": [
+          "No enlarged lymph nodes",
+          "Emphysema: Scattered emphysematous changes consistent with chronic obstructive pulmonary disease (COPD)"
+        ]
+      },
+      {
+        "title": "Emphysema",
+        "options": [
+          "Scattered emphysematous changes consistent with chronic obstructive pulmonary disease (COPD)"
+        ]
+      }
+    ],
+    "4": [
+      {
+        "title": "Ischemic Stroke (LVO and MEVO):",
+        "options": [
+          "The algorithm identifies the presence of a 2.5 cm enhancing mass lesion in the left temporal lobe, which is suggestive of a primary brain tumor.",
+          "The algorithm notes the absence of midline shift, which is inconsistent with a large ischemic stroke or MCA territory infarction."
+        ]
+      },
+      {
+        "title": "Brain Aneurysms:",
+        "options": [
+          "The algorithm identifies the presence of an enhancing mass lesion in the left temporal lobe, which could be due to a brain aneurysm.",
+          "The algorithm notes the heterogeneous enhancement pattern of the mass, which is consistent with a flow void within the aneurysm."
+        ]
+      },
+      {
+        "title": "Intracranial Hemorrhages:",
+        "options": [
+          "The algorithm identifies the presence of surrounding edema, which is consistent with intracranial hemorrhage.",
+          "The algorithm notes the mild mass effect on the left lateral ventricle, which is consistent with a small hemorrhage."
+        ]
+      },
+      {
+        "title": "Subdural Hemorrhage:",
+        "options": [
+          "The algorithm identifies the presence of surrounding edema, which is consistent with subdural hemorrhage.",
+          "The algorithm notes the mild mass effect on the left lateral ventricle, which is consistent with a small hemorrhage."
+        ]
+      },
+      {
+        "title": "C-Spine Fractures:",
+        "options": [
+          "The algorithm notes the absence of any obvious fractures or deformities in the cervical spine."
+        ]
+      },
+      {
+        "title": "Vertebral Compression Fractures:",
+        "options": [
+          "The algorithm notes the absence of any obvious compression fractures in the thoracic or lumbar spine."
+        ]
+      }
+    ],
+    "5": [
+      {
+        "title": "Detected coronary artery calcifications.",
+        "options": []
+      },
+      {
+        "title": "No pulmonary nodules or other anomalies noted.",
+        "options": []
+      }
+    ],
+    "6": [
+      {
+        "title": "Detected fractures in the left hip region.",
+        "options": []
+      },
+      {
+        "title": "Identified rib fractures without signs of underlying lung injury.",
+        "options": []
+      }
+    ],
+    "7": [
+      {
+        "title": "Identified degenerative changes in the L4-L5 disc.",
+        "options": []
+      },
+      {
+        "title": "Detected herniation with potential nerve root compression.",
+        "options": []
+      }
+    ],
+    "8": [
+      {
+        "title": "Degenerative changes in the C5-C6 and C6-C7 intervertebral discs.",
+        "options": []
+      },
+      {
+        "title": "No spinal cord compression or significant bony deformities detected.",
+        "options": []
+      }
+    ],
+    "9": [
+      {
+        "title": "Enlargement of the heart shadow consistent with cardiomegaly.",
+        "options": []
+      },
+      {
+        "title": "Changes suggestive of chronic bronchitis but no major pulmonary obstructions.",
+        "options": []
+      }
+    ],
+    "10": [
+      {
+        "title": "Indications of early-stage osteoarthritis.",
+        "options": []
+      },
+      {
+        "title": "No fractures or other significant bony abnormalities detected.",
+        "options": []
+      }
+    ],
+    "25": [
+      {
+        "title": "Ischemic stroke (LVO and MEVO):",
+        "options": [
+          "Bilateral temporal lobe hyperintensities suggestive of infarction or inflammation",
+          "Presence of linear or diffuse hypodense lesions in the brain parenchyma",
+          "No evidence of acute hemorrhage or bleeding in the brain"
+        ]
+      },
+      {
+        "title": "Brain aneurysms:",
+        "options": [
+          "No clear visualization of aneurysmal dilatation or saculation in the cerebral arteries",
+          "Absence of flow voids or staining within the aneurysm neck"
+        ]
+      },
+      {
+        "title": "Intracranial hemorrhages:",
+        "options": [
+          "No evidence of intracerebral or intraventricular blood clots",
+          "No signs of subdural, epidural, or subarachnoid hematomas"
+        ]
+      },
+      {
+        "title": "Subdural hemorrhage:",
+        "options": ["No visible hemorrhage or hygroma in the subdural space"]
+      },
+      {
+        "title": "C-spine fractures:",
+        "options": [
+          "No evidence of fracture or deformation of the cervical spine"
+        ]
+      },
+      {
+        "title": "Vertebral compression fractures:",
+        "options": ["No visible deformity or displacement of the vertebrae"]
+      }
+    ],
+    "41": [
+      {
+        "title": "Ischemic stroke (LVO and MEVO):",
+        "options": [
+          "Bilateral temporal lobe hyperintensities suggestive of infarction or inflammation",
+          "Presence of linear or diffuse hypodense lesions in the brain parenchyma",
+          "No evidence of acute hemorrhage or bleeding in the brain"
+        ]
+      },
+      {
+        "title": "Brain aneurysms:",
+        "options": [
+          "No clear visualization of aneurysmal dilatation or saculation in the cerebral arteries",
+          "Absence of flow voids or staining within the aneurysm neck"
+        ]
+      },
+      {
+        "title": "Intracranial hemorrhages:",
+        "options": [
+          "No evidence of intracerebral or intraventricular blood clots",
+          "No signs of subdural, epidural, or subarachnoid hematomas"
+        ]
+      },
+      {
+        "title": "Subdural hemorrhage:",
+        "options": ["No visible hemorrhage or hygroma in the subdural space"]
+      },
+      {
+        "title": "C-spine fractures:",
+        "options": [
+          "No evidence of fracture or deformation of the cervical spine"
+        ]
+      },
+      {
+        "title": "Vertebral compression fractures:",
+        "options": ["No visible deformity or displacement of the vertebrae"]
+      }
+    ]
+  },
+  "medications": {
+    "1": [
+      {
+        "dose": "75 mL/hr",
+        "medication": "D5-NaCl 0.9% IV Premix",
+        "route": "IV",
+        "frequency": "Continuous",
+        "notes": "[Manual Hold]"
+      },
+      {
+        "dose": "10 mg",
+        "medication": "predniSONE tablet 10 mg (DELTASONE)",
+        "route": "Oral",
+        "frequency": "Daily (steroid)",
+        "notes": "[START ON 2025-09-22]"
+      },
+      {
+        "dose": "5 mg",
+        "medication": "predniSONE tablet 5 mg (DELTASONE)",
+        "route": "Oral",
+        "frequency": "Daily (steroid)",
+        "notes": "[START ON 2025-09-27]"
+      },
+      {
+        "dose": "1,000 mg",
+        "medication": "acetaminophen IV Soln (OFIRMEV)",
+        "route": "IV",
+        "frequency": "Q6H",
+        "notes": ""
+      },
+      {
+        "dose": "2.5 mg",
+        "medication": "Albuterol 2.5 mg/0.5 mL Nebulizer (PROVENTIL)",
+        "route": "Nebulization",
+        "frequency": "Q4H PRN",
+        "notes": "PRN"
+      },
+      {
+        "dose": "2.5 mg",
+        "medication": "Albuterol 2.5 mg/0.5 mL Nebulizer (PROVENTIL)",
+        "route": "Nebulization",
+        "frequency": "Q2H PRN",
+        "notes": "PRN"
+      },
+      {
+        "dose": "5 mg",
+        "medication": "Apixaban (ELIQUIS)",
+        "route": "Oral",
+        "frequency": "Q12H",
+        "notes": ""
+      },
+      {
+        "dose": "80 mg",
+        "medication": "Atorvastatin (LIPITOR)",
+        "route": "Oral",
+        "frequency": "Daily",
+        "notes": ""
+      },
+      {
+        "dose": "5 mg",
+        "medication": "Bisacodyl TBEC DR (DULCOLAX)",
+        "route": "Oral",
+        "frequency": "Daily",
+        "notes": ""
+      },
+      {
+        "dose": "5 mg",
+        "medication": "Bisacodyl TBEC DR (DULCOLAX)",
+        "route": "Oral",
+        "frequency": "Daily",
+        "notes": ""
+      },
+      {
+        "dose": "1 g",
+        "medication": "cefTRIAXone Adapter Vial (ROCEPHIN)",
+        "route": "IV",
+        "frequency": "Q24H",
+        "notes": "INPT RN check 1st dose"
+      },
+      {
+        "dose": "1 Puff",
+        "medication": "Ciclesonide 160 mcg/actuation Aerosol inhaler (ALVESCO)",
+        "route": "Inhalation",
+        "frequency": "BID",
+        "notes": ""
+      },
+      {
+        "dose": "5 mg",
+        "medication": "Cyclobenzaprine (FLEXERIL)",
+        "route": "Oral",
+        "frequency": "TID PRN",
+        "notes": "PRN"
+      },
+      {
+        "dose": "20 mL/hr",
+        "medication": "D5W IV premix",
+        "route": "IV",
+        "frequency": "PRN",
+        "notes": "PRN"
+      },
+      {
+        "dose": "100 mg",
+        "medication": "Docusate Sodium (COLACE)",
+        "route": "Oral",
+        "frequency": "BID",
+        "notes": ""
+      },
+      {
+        "dose": "1 mg/kg/dose",
+        "medication": "Enoxaparin Inj Syg (LOVENOX)",
+        "route": "Subcutaneous",
+        "frequency": "Q12H",
+        "notes": "Order-Specific"
+      },
+      {
+        "dose": "1 mg",
+        "medication": "Folic Acid",
+        "route": "Oral",
+        "frequency": "Q24H",
+        "notes": ""
+      },
+      {
+        "dose": "0.5 mg",
+        "medication": "Ipratropium 0.02% Neb Soln (ATROVENT)",
+        "route": "Nebulization",
+        "frequency": "Q4H PRN",
+        "notes": "PRN"
+      },
+      {
+        "dose": "0.1 mL",
+        "medication": "Lidocaine (PF) 1% (XYLOCAINE)",
+        "route": "Intradermal",
+        "frequency": "PRN",
+        "notes": "PRN"
+      },
+      {
+        "dose": "1 Patch",
+        "medication": "Lidocaine 4% Patch (LIDOCARE / ASPERCREME / LIDO KING)",
+        "route": "Transdermal",
+        "frequency": "Daily",
+        "notes": ""
+      },
+      {
+        "dose": "25 mg",
+        "medication": "Metoprolol Tartrate (LOPRESSOR)",
+        "route": "Oral",
+        "frequency": "BID with meals",
+        "notes": ""
+      },
+      {
+        "dose": "4 mg",
+        "medication": "Ondansetron (ZOFRAN)",
+        "route": "IV",
+        "frequency": "Q6H PRN",
+        "notes": "PRN"
+      },
+      {
+        "dose": "80 mg",
+        "medication": "Osimertinib (TAGRISSO)",
+        "route": "Oral",
+        "frequency": "Daily",
+        "notes": ""
+      },
+      {
+        "dose": "40 mg",
+        "medication": "Pantoprazole (PROTONIX)",
+        "route": "IV",
+        "frequency": "Q12H",
+        "notes": ""
+      },
+      {
+        "dose": "0.5 mL",
+        "medication": "Pneumococcal 20-valent Vaccine (PREVNAR 20)",
+        "route": "IM",
+        "frequency": "Prior to Discharge",
+        "notes": ""
+      },
+      {
+        "dose": "17 g",
+        "medication": "Polyethylene Glycol 3350 (MIRALAX/GLYCOLAX)",
+        "route": "Oral",
+        "frequency": "Daily",
+        "notes": ""
+      },
+      {
+        "dose": "20 mg",
+        "medication": "predniSONE (ORASONE)",
+        "route": "Oral",
+        "frequency": "Daily (steroid)",
+        "notes": ""
+      },
+      {
+        "dose": "1 Patch",
+        "medication": "SALONPAS (Camphor-Methyl Salicylate-Menthol)",
+        "route": "Transdermal",
+        "frequency": "Q8H",
+        "notes": ""
+      },
+      {
+        "dose": "250 mL",
+        "medication": "Sodium Chloride 0.9% Inj Soln",
+        "route": "IV",
+        "frequency": "Transfusion",
+        "notes": ""
+      },
+      {
+        "dose": "250 mL",
+        "medication": "Sodium Chloride 0.9% Inj Soln",
+        "route": "IV",
+        "frequency": "Transfusion",
+        "notes": ""
+      },
+      {
+        "dose": "3 mL",
+        "medication": "Sodium Chloride 0.9% injection syringe (NORMAL SALINE FLUSH)",
+        "route": "IV",
+        "frequency": "Q8H while awake",
+        "notes": ""
+      },
+      {
+        "dose": "3 mL",
+        "medication": "Sodium Chloride 0.9% injection syringe (NORMAL SALINE FLUSH)",
+        "route": "IV",
+        "frequency": "PRN",
+        "notes": "PRN"
+      },
+      {
+        "dose": "20 mL/hr",
+        "medication": "Sodium chloride 0.9% IV premix",
+        "route": "IV",
+        "frequency": "PRN",
+        "notes": "PRN"
+      }
+    ],
+
+    "2": [
+      {
+        "dose": "10 mg daily",
+        "medication": "Lisinopril"
+      },
+      {
+        "dose": "40 mg",
+        "medication": "Aspirin"
+      },
+      {
+        "dose": "1 mg",
+        "medication": "Simvastatin"
+      },
+      {
+        "dose": "4 mg",
+        "medication": "Levothyroxine"
+      }
+    ],
+    "3": [
+      {
+        "dose": "1 mg Oral Tab",
+        "medication": "Nicotine patches for smoking cessation"
+      },
+      {
+        "dose": "4 mg",
+        "medication": "Albuterol inhaler PRN for shortness of breath"
+      }
+    ],
+    "4": [
+      {
+        "dose": "400mg",
+        "medication": "Ibuprofen PRN for headaches"
+      }
+    ],
+    "5": [
+      {
+        "dose": "50mg PRN for migraines",
+        "medication": "Sumatriptan"
+      }
+    ],
+    "6": [
+      {
+        "dose": "50mg",
+        "medication": "Atenolol daily for hypertension"
+      },
+      {
+        "dose": "",
+        "medication": "OTC calcium and vitamin D supplements"
+      }
+    ],
+    "7": [
+      {
+        "dose": "600mg",
+        "medication": "Ibuprofen PRN for pain"
+      },
+      {
+        "dose": "300mg",
+        "medication": "Gabapentin at bedtime for neuropathic pain"
+      }
+    ],
+    "8": [
+      {
+        "dose": "250mg",
+        "medication": "Naproxen as needed for pain"
+      }
+    ],
+    "9": [
+      {
+        "dose": "50mg daily",
+        "medication": "Atenolol"
+      },
+      {
+        "dose": "10mg daily",
+        "medication": "Lisinopril"
+      }
+    ],
+    "10": [
+      {
+        "dose": "400mg",
+        "medication": "Ibuprofen as needed for pain"
+      },
+      {
+        "dose": "500mg",
+        "medication": "Paracetamol for pain relief"
+      }
+    ],
+    "25": [
+      {
+        "dose": "10 mg daily",
+        "medication": "Lisinopril"
+      },
+      {
+        "dose": "40 mg",
+        "medication": "Aspirin"
+      },
+      {
+        "dose": "1 mg",
+        "medication": "Simvastatin"
+      },
+      {
+        "dose": "4 mg",
+        "medication": "Levothyroxine"
+      }
+    ],
+    "41": [
+      {
+        "dose": "10 mg daily",
+        "medication": "Lisinopril"
+      },
+      {
+        "dose": "40 mg",
+        "medication": "Aspirin"
+      },
+      {
+        "dose": "1 mg",
+        "medication": "Simvastatin"
+      },
+      {
+        "dose": "4 mg",
+        "medication": "Levothyroxine"
+      }
+    ]
+  },
+  "surgicalHistory": [
+    {
+      "id": 1,
+      "title": "IR SUPERFICIAL LYMPH NODE BIOPSY",
+      "laterality": "Right superficial lymph node",
+      "date": "2025-07-02T00:00:00Z",
+      "description": [
+        "Right superficial lymph node biopsy performed.",
+        "Biopsy showed metastatic pulmonary adenocarcinoma."
+      ]
+    }
+  ],
+  "labResults": {
+    "1": [
+      {
+        "id": 1,
+        "date": "2025-09-18T02:22:00Z",
+        "title": "CBC, Chemistry, Coags, LFTs",
+        "panels": [
+          {
+            "panelName": "CBC",
+            "dates": [
+              "09/18/25 0222",
+              "09/17/25 1423",
+              "09/17/25 0655",
+              "09/16/25 0524",
+              "09/15/25 2255",
+              "Δ",
+              "Trend"
+            ],
+            "tests": [
+              {
+                "test": "WBC",
+                "values": [
+                  "12.4*",
+                  "12.8*",
+                  "12.0*",
+                  "11.3*",
+                  "9.8",
+                  "10.6",
+                  "0.8"
+                ],
+                "trend": "▲"
+              },
+              {
+                "test": "HGB",
+                "values": [
+                  "12.8",
+                  "12.7",
+                  "12",
+                  "11.6",
+                  "11.3*",
+                  "12.7",
+                  "1.4"
+                ],
+                "trend": "▲"
+              },
+              {
+                "test": "HCT",
+                "values": [
+                  "40.5",
+                  "40.6",
+                  "39.2",
+                  "37.5",
+                  "35.6",
+                  "40.7",
+                  "5.1"
+                ],
+                "trend": "▲"
+              },
+              {
+                "test": "PLT",
+                "values": [
+                  "81*",
+                  "81*",
+                  "82*",
+                  "78*",
+                  "DECREASE* | 96* | NORMAL",
+                  "124*",
+                  "28"
+                ],
+                "trend": "▲"
+              }
+            ]
+          },
+          {
+            "panelName": "Chemistry",
+            "dates": [
+              "09/17/25 0655",
+              "09/16/25 0524",
+              "09/15/25 2255",
+              "Δ",
+              "Trend"
+            ],
+            "tests": [
+              {
+                "test": "NA",
+                "values": ["137", "138", "139", "1"],
+                "trend": "▲"
+              },
+              {
+                "test": "K",
+                "values": ["3.8", "3.8", "3.7", "-0.1"],
+                "trend": "▼"
+              },
+              {
+                "test": "CO2",
+                "values": ["25", "25", "28", "3"],
+                "trend": "▲"
+              },
+              {
+                "test": "CL",
+                "values": ["106", "105", "103", "-2"],
+                "trend": "▼"
+              },
+              {
+                "test": "BUN",
+                "values": ["6*", "12", "11", "-1"],
+                "trend": "▼"
+              },
+              {
+                "test": "CR",
+                "values": ["0.57", "0.69", "0.84", "0.15"],
+                "trend": "▲"
+              },
+              {
+                "test": "RBS",
+                "values": ["100", "100", "98", "-2"],
+                "trend": "▼"
+              },
+              {
+                "test": "CA",
+                "values": ["--", "8.4*", "--", ""],
+                "trend": ""
+              },
+              {
+                "test": "MG",
+                "values": ["--", "2.2", "--", ""],
+                "trend": ""
+              }
+            ]
+          },
+          {
+            "panelName": "Coags",
+            "dates": ["09/15/25 2255", "Δ", "Trend"],
+            "tests": [
+              {
+                "test": "PT",
+                "values": ["15.3*", "", ""],
+                "trend": ""
+              },
+              {
+                "test": "INR",
+                "values": ["1.2", "", ""],
+                "trend": ""
+              },
+              {
+                "test": "PTT",
+                "values": ["25.9", "", ""],
+                "trend": ""
+              }
+            ]
+          },
+          {
+            "panelName": "LFTs",
+            "dates": [
+              "09/16/25 0911",
+              "09/16/25 0524",
+              "09/15/25 2255",
+              "Δ",
+              "Trend"
+            ],
+            "tests": [
+              {
+                "test": "AST",
+                "values": ["--", "29", "23", "-6"],
+                "trend": "▼"
+              },
+              {
+                "test": "ALT",
+                "values": ["--", "16", "18", "2"],
+                "trend": "▲"
+              },
+              {
+                "test": "ALKP",
+                "values": ["--", "73", "72", "-1"],
+                "trend": "▼"
+              },
+              {
+                "test": "TBILI",
+                "values": ["0.3", "0.3", "0.3", "0"],
+                "trend": "■"
+              },
+              {
+                "test": "BILIDIRECT",
+                "values": ["0.1", "--", "--", ""],
+                "trend": ""
+              },
+              {
+                "test": "LIPASE",
+                "values": ["--", "--", "13", ""],
+                "trend": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "radiologyDecisions": {
+    "1": [
+      {
+        "finding": "Narrowing of left ICA",
+        "region": "head",
+        "severity": 3,
+        "trend": "worsened",
+        "include": true,
+        "reason": "within Top N",
+        "sources": "CT Angiogram Head and Neck With Contrast 2025-09-16T18:00:00-07:00"
+      },
+      {
+        "finding": "Groundglass and nodular opacities in lungs",
+        "region": "chest",
+        "severity": 3,
+        "trend": "new",
+        "include": false,
+        "reason": "adjacent-region excluded by deterministic rule",
+        "sources": "CT Angiogram Head and Neck With Contrast 2025-09-16T18:00:00-07:00"
+      },
+      {
+        "finding": "Pathologic compression deformity at C7",
+        "region": "spine",
+        "severity": 5,
+        "trend": "new",
+        "include": false,
+        "reason": "adjacent-region excluded by deterministic rule",
+        "sources": "CT Angiogram Head and Neck With Contrast 2025-09-16T18:00:00-07:00"
+      },
+      {
+        "finding": "Lytic osseous metastatic disease",
+        "region": "spine",
+        "severity": 3,
+        "trend": "new",
+        "include": false,
+        "reason": "adjacent-region excluded by deterministic rule",
+        "sources": "CT Angiogram Head and Neck With Contrast 2025-09-16T18:00:00-07:00"
+      },
+      {
+        "finding": "Restricted diffusion",
+        "region": "head",
+        "severity": 4,
+        "trend": "new",
+        "include": true,
+        "reason": "within Top N",
+        "sources": "MRI Brain Without And With Contrast 2025-09-16T14:00:00-07:00"
+      },
+      {
+        "finding": "Microhemorrhages",
+        "region": "head",
+        "severity": 2,
+        "trend": "new",
+        "include": true,
+        "reason": "within Top N",
+        "sources": "MRI Brain Without And With Contrast 2025-09-16T14:00:00-07:00"
+      },
+      {
+        "finding": "Osseous metastases",
+        "region": "spine",
+        "severity": 3,
+        "trend": "new",
+        "include": false,
+        "reason": "adjacent-region excluded by deterministic rule",
+        "sources": "MRI Brain Without And With Contrast 2025-09-16T14:00:00-07:00"
+      },
+      {
+        "finding": "Cytotoxic edema",
+        "region": "head",
+        "severity": 4,
+        "trend": "new",
+        "include": true,
+        "reason": "within Top N",
+        "sources": "CT Head Without Contrast 2025-09-17T13:00:00-07:00"
+      },
+      {
+        "finding": "Punctate hyperdensity",
+        "region": "head",
+        "severity": 4,
+        "trend": "new",
+        "include": true,
+        "reason": "within Top N",
+        "sources": "CT Head Without Contrast 2025-09-17T13:00:00-07:00"
+      },
+      {
+        "finding": "Subarachnoid Hemorrhage",
+        "region": "head",
+        "severity": 3,
+        "trend": "stable",
+        "include": true,
+        "reason": "within Top N",
+        "sources": "CT Head Without Contrast 2025-09-18T01:50:00-07:00"
+      },
+      {
+        "finding": "Bilateral Infarcts",
+        "region": "head",
+        "severity": 3,
+        "trend": "stable",
+        "include": true,
+        "reason": "within Top N",
+        "sources": "CT Head Without Contrast 2025-09-18T01:50:00-07:00"
+      }
+    ]
+  },
+  "problemDecisions": {
+    "1": [
+      {
+        "problem": "Ischemic Stroke",
+        "include": true,
+        "score": 7.4,
+        "essential": true,
+        "body_region": true,
+        "recent": true,
+        "active": true,
+        "sources": ["COND-P12345-0003"]
+      },
+      {
+        "problem": "Acute Encephalopathy",
+        "include": true,
+        "score": 6.97,
+        "essential": true,
+        "body_region": true,
+        "recent": true,
+        "active": true,
+        "sources": ["COND-P12345-0002", "COND-P12345-000?"]
+      },
+      {
+        "problem": "Left Carotid Artery Occlusion",
+        "include": true,
+        "score": 6.9,
+        "essential": true,
+        "body_region": true,
+        "recent": true,
+        "active": true,
+        "sources": ["COND-P12345-0023"]
+      },
+      {
+        "problem": "Headache",
+        "include": true,
+        "score": 6.87,
+        "essential": true,
+        "body_region": true,
+        "recent": true,
+        "active": true,
+        "sources": ["COND-P12345-0011", "COND-P12345-000?"]
+      },
+      {
+        "problem": "Metastatic Cancer",
+        "include": true,
+        "score": 5.8,
+        "essential": true,
+        "body_region": true,
+        "recent": true,
+        "active": true,
+        "sources": ["COND-P12345-0011", "COND-P12345-000?"]
+      },
+      {
+        "problem": "Disseminated Intravascular Coagulation",
+        "include": true,
+        "score": 3.93,
+        "essential": true,
+        "body_region": true,
+        "recent": true,
+        "active": true,
+        "sources": ["N-2025-0918-1"]
+      },
+      {
+        "problem": "Thrombocytopenia",
+        "include": true,
+        "score": 3.4,
+        "essential": true,
+        "body_region": true,
+        "recent": false,
+        "active": true,
+        "sources": ["COND-P12345-0022", "N-2025-0918-1"]
+      },
+      {
+        "problem": "Acute Pulmonary Embolism",
+        "include": true,
+        "score": 2.8,
+        "essential": true,
+        "body_region": true,
+        "recent": false,
+        "active": true,
+        "sources": ["COND-P12345-0015", "N-2025-0918-1"]
+      },
+      {
+        "problem": "HX OF RADIATION THERAPY",
+        "include": true,
+        "score": 2.7,
+        "essential": true,
+        "body_region": true,
+        "recent": false,
+        "active": false,
+        "sources": ["COND-P12345-0021"]
+      },
+      {
+        "problem": "Long Term Non Warfarin Oral Anticoagulant Use",
+        "include": false,
+        "score": 0.9,
+        "essential": true,
+        "body_region": false,
+        "recent": false,
+        "active": true,
+        "sources": ["COND-P12345-0005", "N-2025-0918-1"]
+      },
+      {
+        "problem": "Hypertension",
+        "include": false,
+        "score": 0.5,
+        "essential": true,
+        "body_region": false,
+        "recent": false,
+        "active": true,
+        "sources": ["COND-P12345-0018"]
+      },
+      {
+        "problem": "Anxiety",
+        "include": false,
+        "score": 0.0,
+        "essential": false,
+        "body_region": false,
+        "recent": false,
+        "active": true,
+        "sources": ["COND-P12345-0019"]
+      },
+      {
+        "problem": "COVID-19 Ruled Out",
+        "include": false,
+        "score": -0.67,
+        "essential": false,
+        "body_region": false,
+        "recent": false,
+        "active": true,
+        "sources": ["COND-P12345-0007"]
+      }
+    ]
+  },
+  "statedPurpose": {
+    "1": "bl strokes 2/2 hypercoaguable state from malignancy, with new somnolence, eval for evolving stroke or other etiologies"
+  },
+  "chartAndSummary": {
+    "1": {
+      "purposeOfStudy": "Patient presents with altered mental status and headache. Differential diagnosis includes acute ischemic stroke, intracranial metastases, and encephalopathy. Consider careful attention to left hemispheric dysfunction.",
+      "criticalFindings": [
+        "**Restricted diffusion**: Numerous foci of predominantly cortical restricted diffusion within the cerebral hemispheres bilaterally, largest involving the right parietal, posterior temporal, and occipital lobe with additional foci in the bilateral frontal, parietal, and occipital lobes. — Trend: **new** as of [1]",
+        "**Cytotoxic edema**: Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left, likely sequela of known ischemia. — Trend: **new** as of [2]",
+        "**Punctate focus of hyperdensity**: New punctate focus of hyperdensity in the high left frontal lobe, could represent small focus of subarachnoid hemorrhage versus residual contrast. — Trend: **new** as of [2]"
+      ],
+      "higherPriority": [
+        "**Narrowing of left ICA**: The left mid to upper cervical ICA is progressively narrowed in caliber with minimal opacification seen throughout its superior course. — Trend: **worsened** as of [3]"
+      ],
+      "lowerUrgency": [
+        "**Subarachnoid Hemorrhage**: Stable trace subarachnoid hemorrhage at the left vertex. — Trend: **stable** as of [4]",
+        "**Bilateral Infarcts**: Multiple evolving infarcts bilaterally, right greater than left, not significantly changed. — Trend: **stable** as of [4]",
+        "**Microhemorrhages**: Numerous punctate foci of parenchymal susceptibility, suggestive of microhemorrhages, with a few new from prior. — Trend: **worsened** as of [1]"
+      ],
+      "provenanceReportIds": [1, 3, 5, 1],
+      "problemSummary": [
+        "Ischemic Stroke: Diagnosed: 2025-09-16. Patient experienced extensive bilateral acute ischemic strokes likely due to hypercoagulability from lung adenocarcinoma, with left carotid artery occlusion noted on imaging.",
+        "Acute Encephalopathy: Diagnosed: 2025-09-15. Patient presents with severe encephalopathy of undetermined etiology, with no new focal deficits and a negative initial EEG.",
+        "Left Carotid Artery Occlusion: Diagnosed: 2025-09-16. Imaging reveals occlusion of the left intracranial ICA, contributing to the patient's ischemic stroke.",
+        "Headache: Diagnosed: 2025-09-15. No relevant information.",
+        "Metastatic Cancer: Diagnosed: 2025-07-15. Patient has metastatic lung adenocarcinoma with known metastases to bone, right adrenal gland, multiple lymph nodes, and cervical spine.",
+        "Disseminated Intravascular Coagulation: Patient exhibits low-grade DIC likely secondary to malignancy, with stable platelet counts.",
+        "Thrombocytopenia, Unspecified: Diagnosed: 2025-09-01. Thrombocytopenia of unknown etiology noted, with platelet counts fluctuating but stable above 50K.",
+        "Acute Pulmonary Embolism: Diagnosed: 2025-07-15. Patient has a history of acute pulmonary embolism, currently managed with anticoagulation therapy."
+      ]
+    },
+    "2": {
+      "purposeOfStudy": "The patient presents with a history of progressive cognitive decline, memory loss, and recurrent episodes of dizziness and vertigo.",
+      "criticalFindings": [
+        "Brain CT scan reveals multiple areas of hyperintensity in the bilateral temporal lobes, suggestive of infarction or inflammation."
+      ],
+      "higherPriority": [],
+      "lowerUrgency": ["Prior head CT scans were normal."],
+      "provenanceReportIds": [],
+      "problemSummary": []
+    },
+    "9": {
+      "purposeOfStudy": "Patient presents with progressive cardiopulmonary symptoms and history of smoking. Differential diagnosis includes pulmonary emboli, lymphadenopathy, and metastatic disease.",
+      "criticalFindings": [
+        "**Pulmonary Emboli**: Small intraluminal filling defects in segmental vessels to bilateral upper lobes and left lower lobe compatible with pulmonary emboli. — Trend: **new** as of [4]"
+      ],
+      "higherPriority": [
+        "**Lymphadenopathy**: Worsening anterior mediastinal, subcarinal, right paratracheal, precarinal, and hilar lymphadenopathy. — Latest measurement: Conglomerate nodal mass measuring about 4.0 x 2.4 cm; confluent subcarinal node measuring about 2.5 cm short axis; right hilar adenopathy measuring up to 2.3 cm. — Trend: **worsened** as of [4], [6]",
+        "**Lytic Lesions**: Small lytic lesions in the lower cervical and thoracic spine. — Trend: **new** as of [4]",
+        "**Nodular opacities**: More confluent nodular opacities within groundglass opacities, including a 2 x 2 cm nodule and a 1.3 x 1.1 cm nodule. — Latest measurement: 2 x 2 cm; 1.3 x 1.1 cm — Trend: **worsened** as of [4]",
+        "**Groundglass opacification**: Multiple areas of groundglass opacification in the lungs, right greater than left, may represent an inflammatory/infectious process. — Trend: **stable** as of [5]"
+      ],
+      "lowerUrgency": [
+        "**Left posterior perihilar mass**: Left posterior perihilar mass measuring 5.5 x 4.8 cm. — Latest measurement: 5.5 x 4.8 cm — Trend: **stable** as of [4], [6], [7]",
+        "**Right lung airspace opacities**: Right mid and lower lung airspace opacities are increased and may represent an inflammatory/infectious process. — Trend: **resolved** as of [8]",
+        "**Pleural effusion**: Trace left pleural effusion. — Trend: **new** as of [6]"
+      ],
+      "provenanceReportIds": [4, 5, 6, 7, 8],
+      "problemSummary": []
+    },
+    "52": {
+      "purposeOfStudy": "Patient with history of cancer presents for cervical spine evaluation. Differential diagnosis includes metastatic disease, neural foraminal stenosis, and pathologic fracture.",
+      "criticalFindings": [
+        "**Diffuse marrow signal intensity abnormality**: Diffuse marrow signal intensity abnormality suggestive of metastatic disease. — Trend: **new** as of [1]"
+      ],
+      "higherPriority": [
+        "**Neural foraminal stenosis**: Moderate to severe right neural foraminal stenosis is seen. — Trend: **stable** as of [1]"
+      ],
+      "lowerUrgency": [
+        "**Lytic Osseous Metastatic Disease**: Additional lytic osseous metastatic disease is seen at C2, C4, and T2, similar compared to prior scan. — Trend: **stable** as of [2]",
+        "**Compression Deformity at C7**: There is a pathologic compression deformity at C7 with 3 mm of posterior retropulsion of the C7 vertebral body, unchanged compared to 6/30/2025. — Latest measurement: 3 mm — Trend: **stable** as of [2]",
+        "**Osteolytic lesions**: Osteolytic lesions at C4 and C7 concerning for metastatic disease with pathologic fracture at C7. — Latest measurement: up to 50% height loss at C7 — Trend: **resolved** as of [3]"
+      ],
+      "provenanceReportIds": [1, 2, 3],
+      "problemSummary": []
+    }
+  }
+}

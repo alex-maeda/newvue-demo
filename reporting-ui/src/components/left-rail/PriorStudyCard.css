@@ -1,0 +1,364 @@
+/**
+ * PriorStudyCard styles.
+ *
+ * Key sections:
+ *   - Card container with selection highlight
+ *   - Body: chip row, date row, title
+ *   - Label chips: modality, body region, angio, laterality
+ *   - Bottom row: "Relevant" chip + optional "Summary" button
+ *   - Peek panel: animated expand/collapse for summary text
+ */
+
+/* ── Card Container ── */
+
+.prior-study-card {
+  position: relative;
+  background: var(--color-surface-t3);
+  border: 1px solid transparent;
+  border-radius: var(--radius-t2);
+  cursor: pointer;
+  transition:
+    background var(--motion-t2),
+    border-color var(--motion-t2),
+    box-shadow var(--motion-t3);
+  overflow: hidden;
+}
+
+.prior-study-card:hover {
+  background: var(--color-surface-t4);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.prior-study-card.selected {
+  border-color: var(--color-interactive-t1);
+  background: rgba(110, 110, 196, 0.08);
+  box-shadow: 0 0 0 1px rgba(110, 110, 196, 0.20);
+}
+
+.prior-study-card:focus-visible {
+  outline: 2px solid var(--color-interactive-t1);
+  outline-offset: 1px;
+}
+
+/* ── Card Body ── */
+
+.psc-body {
+  padding: 10px 12px 6px;
+}
+
+/* ── Row 1: All Label Chips ── */
+
+.psc-chip-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-bottom: 4px;
+}
+
+.psc-modality-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 7px;
+  border-radius: 3px;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  min-width: 26px;
+  text-align: center;
+  border: 1px solid rgba(80, 150, 220, 0.2);
+  color: rgba(140, 200, 255, 0.9);
+  background: rgba(80, 150, 220, 0.15);
+  cursor: pointer;
+  transition: opacity var(--motion-t2), transform var(--motion-t1);
+  flex-shrink: 0;
+}
+
+.psc-modality-chip:hover {
+  opacity: 0.85;
+  transform: scale(1.06);
+}
+
+/* ── Label Chips (region, angio, laterality) ── */
+
+.psc-label-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 6px;
+  font-size: 0.5625rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 1.1;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid rgba(80, 150, 220, 0.2);
+  color: rgba(140, 200, 255, 0.9);
+  background: rgba(80, 150, 220, 0.15);
+  transition:
+    background var(--motion-t2),
+    color var(--motion-t2),
+    border-color var(--motion-t2),
+    transform var(--motion-t1);
+}
+
+.psc-label-chip:hover {
+  opacity: 0.85;
+  transform: scale(1.06);
+}
+
+/* ── Active state: deep NewVue purple for all clickable chips ── */
+
+.psc-modality-chip.active,
+.psc-label-chip.active {
+  background: var(--color-interactive-t1) !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+  border-color: var(--color-interactive-t1) !important;
+}
+
+/* ── Row 2: Date + Relative Age ── */
+
+.psc-date-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.psc-date {
+  font-size: 0.6875rem;
+  color: var(--color-content-t3);
+  white-space: nowrap;
+}
+
+.psc-age {
+  font-size: 0.625rem;
+  font-weight: 600;
+  color: var(--color-content-t4);
+  flex-shrink: 0;
+}
+
+/* ── Row 3: Study Title ── */
+
+.psc-title {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-content-t2);
+  line-height: 1.3;
+  /* Allow wrapping at narrow rail widths */
+  word-break: break-word;
+}
+
+/* ── Bottom Row (only for relevant studies) ── */
+
+.psc-bottom-row {
+  padding: 4px 12px 8px;
+  border-top: 1px solid transparent;
+  transition: border-color var(--motion-t2), background var(--motion-t2);
+}
+
+.psc-bottom-row.hovered {
+  border-top-color: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.psc-bottom-chips {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ── Relevant Chip ── */
+
+.psc-relevant-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.92);
+  background: var(--color-interactive-t1);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  line-height: 1;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition:
+    box-shadow var(--motion-t2),
+    border-color var(--motion-t2),
+    transform var(--motion-t1);
+}
+
+.psc-relevant-chip:hover {
+  opacity: 0.9;
+  transform: scale(1.04);
+}
+
+.psc-relevant-chip.active {
+  background: #6E6EC4;
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow:
+    0 0 0 1px rgba(110, 110, 196, 0.5),
+    0 0 8px rgba(110, 110, 196, 0.3);
+}
+
+/* ── Score Percentage Chip ── */
+/* Visually contiguous with the Relevant chip — complementary darker tone */
+
+.psc-score-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  font-size: 0.625rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.80);
+  background: rgba(110, 110, 196, 0.30);
+  border: 1px solid rgba(110, 110, 196, 0.25);
+  border-radius: 3px;
+  line-height: 1;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition:
+    background var(--motion-t2),
+    border-color var(--motion-t2),
+    box-shadow var(--motion-t2),
+    transform var(--motion-t1);
+}
+
+.psc-score-chip:hover {
+  background: rgba(110, 110, 196, 0.40);
+  border-color: rgba(110, 110, 196, 0.45);
+  transform: scale(1.04);
+}
+
+.psc-score-chip.active {
+  color: rgba(255, 255, 255, 0.95);
+  background: rgba(110, 110, 196, 0.55);
+  border-color: rgba(110, 110, 196, 0.70);
+  box-shadow:
+    0 0 0 1px rgba(110, 110, 196, 0.4),
+    0 0 6px rgba(110, 110, 196, 0.25);
+}
+
+/* ── Summary Button ── */
+
+.psc-summary-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  background: rgba(110, 110, 196, 0.10);
+  border: 1px solid rgba(110, 110, 196, 0.18);
+  border-radius: 3px;
+  line-height: 1;
+  flex-shrink: 0;
+  cursor: default;
+  user-select: none;
+}
+
+/* ── Peek Panel ── */
+
+.psc-peek {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    max-height var(--motion-t3),
+    opacity var(--motion-t3);
+}
+
+.psc-peek.open {
+  max-height: var(--peek-h, 200px);
+  opacity: 1;
+  margin-top: 6px;
+}
+
+.psc-peek-content {
+  padding: 0 0 2px;
+}
+
+/* ── Finding List (inside peek) ── */
+
+.psc-finding-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.psc-finding-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.psc-finding-bullet {
+  font-size: 0.625rem;
+  color: var(--color-content-t4);
+  flex-shrink: 0;
+  line-height: 1.5;
+  margin-top: 1px;
+}
+
+.psc-finding-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 3px;
+  min-width: 0;
+}
+
+.psc-finding-name {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  color: var(--color-content-t2);
+  line-height: 1.45;
+  word-break: break-word;
+}
+
+.psc-finding-chips {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  align-items: baseline;
+}
+
+.psc-finding-chip {
+  display: inline-block;
+  font-size: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 1px 4px;
+  border-radius: 2px;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+/* ── Hidden Findings Note ── */
+
+.psc-finding-hidden-note {
+  font-size: 0.5625rem;
+  color: var(--color-content-t4);
+  font-style: italic;
+  margin-top: 4px;
+  padding-left: 13px;
+}
+
+.psc-peek-empty {
+  font-size: 0.75rem;
+  color: var(--color-content-t4);
+  font-style: italic;
+  margin: 0;
+}

@@ -1,0 +1,37 @@
+@import '../../assets/scss/variables';
+
+.correspond-table {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
+  height: 100%;
+  margin-bottom: 0;
+
+  .select-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .select-item {
+      min-width: 180px;
+      height: 32px;
+      &:hover .ant-select-selector,
+      &.ant-select-focused .ant-select-selector,
+      &:active .ant-select-selector {
+        border-color: var(--purple100) !important;
+      }
+    }
+  }
+  
+  .ant-table-tbody > tr.editable-row > td {
+    &:first-child:not(.selected) {
+      background-color: $gray !important;
+    }
+  }
+}

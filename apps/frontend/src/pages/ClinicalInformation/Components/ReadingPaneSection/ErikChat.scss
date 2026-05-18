@@ -1,0 +1,148 @@
+/* ERIK chat bubbles */
+.erik-bubble {
+  max-width: 75%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  line-height: 1.35;
+  font-size: 0.95rem;
+  border: 1px solid transparent;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* ERIK (assistant) on the LEFT */
+.erik-left {
+  align-self: flex-start;
+  background: #2b244a;
+  border-color: #8b7cff;
+  color: #dddedf;
+}
+
+/* Radiologist (user) on the RIGHT */
+.erik-right {
+  align-self: flex-end;
+  background: #0f1620;
+  border-color: #2f3540;
+  color: #dddedf;
+}
+
+/* The ERIK chat itself becomes the sole scroller */
+#erikChat.erik-chat {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  min-height: 0;
+  overflow: auto;
+  padding: 8px;
+}
+
+/* Empty state when no messages */
+.erik-empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #8aa0b4;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Markdown styling for ERIK responses */
+.erik-markdown {
+  white-space: normal;
+
+  p {
+    margin: 0 0 8px 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  strong {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  ol {
+    list-style: decimal;
+    padding-left: 1.5rem;
+  }
+
+  ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+  }
+
+  li {
+    margin-bottom: 4px;
+    line-height: 1.4;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: #fff;
+    margin: 12px 0 8px 0;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+
+  code {
+    background: #1a1a2e;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.9em;
+  }
+
+  pre {
+    background: #1a1a2e;
+    padding: 12px;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 8px 0;
+
+    code {
+      background: none;
+      padding: 0;
+    }
+  }
+
+  blockquote {
+    border-left: 3px solid #8b7cff;
+    margin: 8px 0;
+    padding-left: 12px;
+    color: #aaa;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 8px 0;
+    width: 100%;
+
+    th,
+    td {
+      border: 1px solid #3a3a5a;
+      padding: 6px 10px;
+      text-align: left;
+    }
+
+    th {
+      background: #1a1a2e;
+      color: #fff;
+    }
+  }
+}

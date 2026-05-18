@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "label": "Neuro"
+  },
+  {
+    "id": "2",
+    "label": "Body"
+  },
+  {
+    "id": "3",
+    "label": "Nuc Med"
+  },
+  {
+    "id": "4",
+    "label": "General Radiology"
+  },
+  {
+    "id": "5",
+    "label": "Peds"
+  },
+  {
+    "id": "6",
+    "label": "Vascular"
+  },
+  {
+    "id": "7",
+    "label": "Cardiac"
+  },
+  {
+    "id": "8",
+    "label": "Breast"
+  },
+  {
+    "id": "9",
+    "label": "GI/GU"
+  },
+  {
+    "id": "10",
+    "label": "MSK"
+  }
+]

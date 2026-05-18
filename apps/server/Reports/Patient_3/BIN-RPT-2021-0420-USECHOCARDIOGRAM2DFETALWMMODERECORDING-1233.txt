@@ -1,0 +1,144 @@
+
+Transthoracic Echocardiogram 
+
+Indication: 
+MS, POSSIBLE CHF 
+Rhythm:       Sinus 
+BP:           177/84 
+HR:           97 
+
+Conclusions 
+Mild LVH with hyperdynamic LV systolic function with EF of 70% 
+Grade II diastolic dysfunction with increased left sided filling 
+pressures 
+Moderate to severe left atrial dilation 
+Significant MAC with severe MS with peak and mean gradients of 28 mmHg 
+and 16 mmHg 
+Aortic sclerosis with thickening of the aortic valve with mild AS with 
+peak and mean gradients of 25 and 16 mmHg respectively 
+Moderate-severe pulmonary hypertension with PA pressures of 55-60 mmHg 
+Since prior ECHO in 2018, MS and pulmonary hypertension is worse 
+
+
+Findings     
+
+Left Ventricle: 
+The left ventricular chamber size is normal.  There is moderate left 
+ventricular hypertrophy.  The degree of left ventricular hypertrophy is 
+categorized by mass index measurement.   Global left ventricular wall 
+motion and contractility are within normal limits.  The left ventricle 
+appears hyperdynamic.  The estimated ejection fraction is greater than 
+65%.   The ejection fraction is calculated to be 81% using the Method of 
+Disks.   Severely abnormal left ventricular diastolic function is 
+observed.  
+Left Atrium: 
+The left atrium is moderate to severely dilated.   
+Right Ventricle: 
+The right ventricular cavity size is normal.  The right ventricular 
+global systolic function is normal.  
+Right Atrium: 
+The right atrium is mildly dilated.   
+Aortic Valve: 
+Moderate aortic cusp sclerosis is present.  
+Mitral Valve: 
+The mitral valve leaflets appear normal.  There is mitral annular 
+calcification.  There is mild mitral regurgitation.   There is severe 
+mitral stenosis.   
+Tricuspid Valve: 
+The tricuspid valve leaflets are normal.   There is mild tricuspid 
+regurgitation.  The right ventricular systolic pressure is calculated at 
+58 mmHg.   There is no tricuspid stenosis.  
+Pulmonic Valve: 
+The pulmonic valve appears normal.  There is no evidence of pulmonic 
+regurgitation.  There is no pulmonic stenosis.   
+Pericardium: 
+There is no pericardial effusion.  
+Venous: 
+The inferior vena cava appears normal in size.  There is a greater than 
+50% respiratory change in the inferior vena cava dimension.  CVP is 
+estimated to be normal by IVC parameters.  
+
+Measurements     
+Name                    Value         Normal Range            
+AV cusp separation (MM) 0.41 cm       -                        
+
+Name                    Value         Normal Range            
+RVIDd (AP) 2D           2.93 cm       -                        
+IVSd (2D)               1.36 cm       -                        
+LVPWd (2D)              1.48 cm       -                        
+LVIDd (2D)              3.02 cm       -                        
+LVIDs (2D)              2.03 cm       -                        
+
+Name                    Value         Normal Range            
+LA ESV SP 4CH (A/L)     91.06 ml      -                        
+LA ESV SP 2CH (A/L)     96.83 ml      -                        
+LA ESV BP (A/L)         102.89 ml     -                        
+LA ESV BP (A/L) index   64.14 ml/m2   -                        
+LA ESV SP 4CH (MOD)     86.05 ml      -                        
+LA ESV SP 2CH (MOD)     94.13 ml      -                        
+RA vol (dia)            25 ml         -                        
+RA Vol Index            15 ml/m2      -                        
+LV EDV SP 4CH (MOD)     31.07 ml      -                        
+LV ESV SP 4CH (MOD)     7.37 ml       -                        
+EF SP 4CH (MOD)         76.29 %       -                        
+LV EDV SP 2CH (MOD)     37.63 ml      -                        
+LV ESV SP 2CH (MOD)     6.13 ml       -                        
+EF SP 2CH (MOD)         83.71 %       -                        
+LV EDV BP               34.54 ml      -                        
+LV ESV BP               6.58 ml       -                        
+BP EF (MOD)             80.95 %       -                        
+LV EDV BP index         21.53 ml/m2   -                        
+LV ESV BP index         4.1 ml/m2     -                        
+LV mass (A/L)           163.12 g      -                        
+LV mass (A/L) index     101.69 g/m2   -                        
+
+Name                    Value         Normal Range            
+MV E-wave Vmax          2.23 m/sec    -                        
+MV deceleration time    163.58 msec   -                        
+MV A-wave Vmax          2 m/sec       -                        
+MV E:A ratio            1.12 ratio    -                        
+LV average E:e' ratio   54.85 ratio   -                        
+
+Name                    Value         Normal Range            
+AV Vmax                 2.48 m/sec    -                        
+AV VTI                  51.57 cm      -                        
+AV peak gradient        24.66 mmHg    -                        
+AV mean gradient        16.01 mmHg    -                        
+LVOT diameter           1.71 cm       -                        
+LVOT Vmax               1.18 m/sec    -                        
+LVOT VTI                27.59 cm      -                        
+LVOT peak gradient      5.53 mmHg     -                        
+LVOT mean gradient      3.93 mmHg     -                        
+DOI (VTI)               0.53 ratio    -                        
+SV LVOT                 62.99 ml      -                        
+CO LVOT                 5.88 l/min    -                        
+Cardiac index           3.66 l/min/m2 -                        
+AVA (planimetry)        1.25 cm2      -                        
+AVA (continuity Vmax)   1.08 cm2      -                        
+AVA (continuity Vmax) in0.67 cm2/m2   -                        
+AVA (continuity VTI)    1.22 cm2      -                        
+Ascending Ao            3.37 cm       -                        
+
+Name                    Value         Normal Range            
+MV Vmax                 2.63 m/sec    -                        
+MV VTI                  62.03 cm      -                        
+MV peak gradient        27.66 mmHg    -                        
+MV mean gradient        15.83 mmHg    -                        
+MV PHT                  71.83 msec    -                        
+MR Vmax                 5.36 m/sec    -                        
+MVA (PHT)               3.06 cm2      -                        
+MVA (continuity VTI)    1.02 cm2      -                        
+
+Name                    Value         Normal Range            
+TR Vmax                 3.25 m/sec    -                        
+TR peak gradient        42.15 mmHg    -                        
+RVSP                    58 mmHg       -                        
+TAPSE                   2.2 cm        -                        
+IVC diameter            1.8 cm        -                        
+
+Name                    Value         Normal Range            
+PV Vmax                 1.1 m/sec     -                        
+PV VTI                  22.7 cm       -                        
+PV peak gradient        4.8 mmHg      -                        
+PV mean gradient        2.63 mmHg     - 
+

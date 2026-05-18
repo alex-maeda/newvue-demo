@@ -1,0 +1,9 @@
+.iframe-wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 4px 4px 0px 0px;
+
+  iframe {
+    border: none;
+  }
+}

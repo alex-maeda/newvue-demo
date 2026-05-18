@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "usersOrTitle": "Alice Johnson",
+    "isGroup": false,
+    "messages": [
+      {
+        "text": "Hi!",
+        "isReaded": true,
+        "timestamp": "2023.10.02 13:47:30",
+        "isInterlocutor": true,
+        "author": "Alice Johnson"
+      },
+      {
+        "text": "How are you?",
+        "isReaded": true,
+        "timestamp": "2023.10.02 13:49:30",
+        "isInterlocutor": false
+      },
+      {
+        "text": "Did you get the email?",
+        "isReaded": false,
+        "timestamp": "2023.10.02 13:49:30",
+        "isInterlocutor": true,
+        "author": "Alice Johnson"
+      }
+    ],
+    "lastVisit": "2023.08.15 11:50",
+    "isOnline": true
+  },
+  {
+    "id": 2,
+    "usersOrTitle": "Developers Group",
+    "isGroup": true,
+    "groupUsers": [
+      {
+        "name": "John"
+      },
+      {
+        "name": "Jane"
+      },
+      {
+        "name": "Mike"
+      }
+    ],
+    "messages": [
+      {
+        "text": "Good morning everyone!",
+        "isReaded": true,
+        "timestamp": "2023.10.01 10:01:30",
+        "isInterlocutor": true,
+        "author": "Jane"
+      },
+      {
+        "text": "Let's discuss the new feature.",
+        "isReaded": true,
+        "timestamp": "2023.10.01 10:01:30",
+        "isInterlocutor": true,
+        "author": "Mike"
+      },
+      {
+        "text": "Any updates on the bug?",
+        "isReaded": true,
+        "timestamp": "2023.10.01 10:08:30",
+        "isInterlocutor": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "usersOrTitle": "Customer Support",
+    "isGroup": true,
+    "groupUsers": [
+      {
+        "name": "Support Agent 1"
+      },
+      {
+        "name": "Support Agent 2"
+      }
+    ],
+    "messages": [
+      {
+        "text": "Hello! How can we assist you today?",
+        "isReaded": true,
+        "timestamp": "2023.8.29 19:58:30",
+        "isInterlocutor": true,
+        "author": "Support Agent 1"
+      },
+      {
+        "text": "I have a question about my account.",
+        "isReaded": true,
+        "timestamp": "2023.10.01 20:00:30",
+        "isInterlocutor": false
+      },
+      {
+        "text": "Sure, I'm here to help!",
+        "isReaded": true,
+        "timestamp": "2023.10.01 20:01:30",
+        "isInterlocutor": true,
+        "author": "Support Agent 2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "generalist": [
+    "adult medicine", "community im", "community internal medicine", "community pediatric and adolescent medicine", "community peds",
+    "ed", "emergency dept", "emergency medicine", "er", "exec med", "executive medicine",
+    "family medicine", "fm", "general im", "general internal medicine", "general medicine",
+    "general pediatric and adolescent medicine", "general peds", "geriatrics", "hbs",
+    "hospital medicine", "hospitalist", "internal medicine", "medicine", "neonatology",
+    "nicu", "occupational medicine", "pcp", "pediatric nutrition", "pediatrician", "pediatrics",
+    "peds nutrition", "preventative medicine", "preventive medicine", "primary care", "procedural"
+  ],
+  "whole_body": [
+    "a&i", "allergy", "allergy and immunology", "critical care", "derm", "dermatology",
+    "endo", "endocrinology", "genetics", "hematology", "hematology oncology", "heme",
+    "heme/onc", "icu", "id", "immunology", "infectious disease", "infectious diseases",
+    "intensivist", "interventional radiology", "ir", "oncology", "pain management",
+    "pain med", "pain medicine", "pain rehab", "pain rehabilitation center", "palliative care",
+    "pathology", "pediatric allergy and immunology", "pediatric endocrinology", "pediatric infectious diseases",
+    "pediatric pain medicine", "pediatric physical medicine and rehabilitation", "pediatric rheumatology",
+    "peds allergy", "peds allergy and immunology", "peds endo", "peds id", "peds infectious disease",
+    "peds pain", "peds pm&r", "peds pmr", "peds rheum", "physiatry", "plastic surgery",
+    "pm&r", "pmr", "physical medicine and rehabilitation", "rad onc", "radiation oncology",
+    "rheumatology", "surg onc", "surgical oncology", "ticu", "toxicology", "transplant",
+    "transplant surgery", "trauma critical care and general surgery", "trauma icu", "trauma surgery",
+    "trauma/cc", "vascular medicine", "vascular surgery", "vasc med"
+  ],
+  "region": {
+    "head": [
+      "child and adolescent neurology", "dental", "dental specialties", "ent", "neurological surgery",
+      "neurology", "neuro", "neurointerventional", "neurosurgery", "nir", "nsgy",
+      "omfs", "ophthalmology", "oral and maxillofacial", "oral and maxillofacial surgery",
+      "otolaryngology", "otorhinolaryngology", "pediatric neurology", "pediatric neurosurgery",
+      "pediatric otorhinolaryngology head and neck surgery", "peds ent", "peds neuro",
+      "peds neurosurgery", "peds nsgy"
+    ],
+    "neck": [
+      "anesthesiology", "ent", "otolaryngology", "otorhinolaryngology",
+      "pediatric otorhinolaryngology head and neck surgery", "peds ent"
+    ],
+    "spine": [
+      "anesthesiology", "child and adolescent neurology", "neurological surgery", "neurology",
+      "neurosurgery", "ortho", "ortho surgery", "orthopaedic", "orthopedics", "orthopedic surgery",
+      "pediatric neurology", "pediatric neurosurgery", "pediatric orthopedic surgery",
+      "peds neuro", "peds neurosurgery", "peds nsgy", "peds ortho", "spine", "spine surgery"
+    ],
+    "chest": [
+      "cardiology", "cardiothoracic", "cardiovascular", "cardiovascular disease",
+      "cardiovascular surgery", "cv surgery", "cvd", "cvts", "pediatric pulmonology",
+      "pediatric surgery", "peds pulmonary", "peds pulmonology", "peds surg", "peds surgery",
+      "pulm med", "pulmonary", "pulmonary medicine", "pulmonology", "thoracic surgery"
+    ],
+    "breast": [
+      "breast center", "breast clinic", "breast surgery", "gyn", "gynecologic oncology",
+      "gynecology", "ob/gyn", "obgyn", "obstetrics and gynecology", "pediatric and adolescent gynecology",
+      "peds gyn", "women's health", "womens health", "women’s health"
+    ],
+    "abdomen": [
+      "colon and rectal surgery", "colorectal", "colorectal surgery", "crs", "gastroenterology",
+      "gastroenterology and hepatology", "general surgery", "gi", "hepatobiliary and pancreas surgery",
+      "hepatology", "hpb", "hpb surgery", "nephro", "nephrology", "nephrology and hypertension",
+      "pediatric gastroenterology", "pediatric surgery", "pediatric urology", "peds gi",
+      "peds surg", "peds surgery", "peds urology", "urology"
+    ],
+    "pelvis": [
+      "colon and rectal surgery", "colorectal", "colorectal surgery", "crs", "gastroenterology",
+      "gastroenterology and hepatology", "general surgery", "gi", "gyn", "gynecologic oncology",
+      "gynecology", "l&d", "labor and delivery", "maternal and fetal medicine", "mfm",
+      "nephro", "nephrology", "nephrology and hypertension", "ob/gyn", "obgyn", "obstetrics and gynecology",
+      "pediatric and adolescent gynecology", "pediatric gastroenterology", "pediatric surgery",
+      "pediatric urology", "peds gi", "peds gyn", "peds surg", "peds surgery", "peds urology",
+      "rei", "reproductive endocrinology", "urogynecology", "urology", "women's health",
+      "womens health", "women’s health"
+    ],
+    "arm": [
+      "hand surgery", "ortho", "ortho surgery", "orthopaedic", "orthopedics", "orthopedic surgery",
+      "pediatric orthopedic surgery", "peds ortho", "sports medicine"
+    ],
+    "leg": [
+      "ortho", "ortho surgery", "orthopaedic", "orthopedics", "orthopedic surgery",
+      "pediatric orthopedic surgery", "peds ortho", "podiatry", "sports medicine"
+    ]
+  }
+}

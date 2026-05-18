@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "id": "us-abdomen-complete",
+  "title": "US Abdomen Complete",
+  "modality": "US",
+  "bodyRegion": "abdomen",
+  "description": "System default template",
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "tags": "narrative",
+      "title": "Narrative",
+      "children": [
+        { "id": "sub_study_title", "type": "subsection", "tags": "studyName", "title": "US Abdomen Complete", "children": [] },
+        { "id": "section_history", "type": "section", "tags": "history", "title": "History", "children": [
+          { "id": "content_history_main", "type": "text", "tags": "history", "value": "" }
+        ]},
+        { "id": "section_technique", "type": "section", "tags": "technique", "title": "Technique", "children": [
+          { "id": "content_technique_main", "type": "text", "tags": "technique", "value": "Complete sonographic evaluation of the abdomen was performed in the supine and decubitus positions." }
+        ]},
+        { "id": "section_comparison", "type": "section", "tags": "comparison", "title": "Comparison", "children": [
+          { "id": "content_comparison_main", "type": "text", "tags": "comparison", "value": "" }
+        ]},
+        { "id": "section_findings", "type": "section", "tags": "findings", "title": "Findings", "children": [
+          { "id": "sub_liver", "type": "subsection", "tags": "subFindings", "title": "Liver", "children": [
+            { "id": "content_liver_1", "type": "text", "tags": "normal", "value": "Normal hepatic echotexture. No focal hepatic lesion identified." }
+          ]},
+          { "id": "sub_gallbladder", "type": "subsection", "tags": "subFindings", "title": "Gallbladder / Biliary", "children": [
+            { "id": "content_gb_1", "type": "text", "tags": "normal", "value": "Gallbladder is normal in appearance without cholelithiasis or wall thickening. Common bile duct measures within normal limits." }
+          ]},
+          { "id": "sub_right_kidney", "type": "subsection", "tags": "subFindings", "title": "Right Kidney", "children": [
+            { "id": "content_rk_1", "type": "text", "tags": "normal", "value": "Normal size and echogenicity. No hydronephrosis or calculus." }
+          ]},
+          { "id": "sub_left_kidney", "type": "subsection", "tags": "subFindings", "title": "Left Kidney", "children": [
+            { "id": "content_lk_1", "type": "text", "tags": "normal", "value": "Normal size and echogenicity. No hydronephrosis or calculus." }
+          ]},
+          { "id": "sub_spleen", "type": "subsection", "tags": "subFindings", "title": "Spleen", "children": [
+            { "id": "content_spleen_1", "type": "text", "tags": "normal", "value": "Normal size and homogeneous echotexture." }
+          ]},
+          { "id": "sub_pancreas", "type": "subsection", "tags": "subFindings", "title": "Pancreas", "children": [
+            { "id": "content_pancreas_1", "type": "text", "tags": "normal", "value": "Visualized pancreas appears unremarkable." }
+          ]},
+          { "id": "sub_aorta", "type": "subsection", "tags": "subFindings", "title": "Aorta", "children": [
+            { "id": "content_aorta_1", "type": "text", "tags": "normal", "value": "Normal caliber." }
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "tags": "impression",
+      "title": "Impression",
+      "children": [
+        { "id": "content_impression_main", "type": "text", "tags": "impression", "value": "" }
+      ]
+    }
+  ]
+}

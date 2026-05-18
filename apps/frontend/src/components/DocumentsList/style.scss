@@ -1,0 +1,107 @@
+@import '../../assets/scss/variables';
+
+.document-modal {
+  position: absolute;
+  width: 400px;
+  max-height: 500px;
+  border-radius: 4px;
+  border: 1px solid #383E48;
+  z-index: 102;
+
+  > div {
+    padding: 0;
+    padding-bottom: 5px;
+
+    .panel-header {
+      padding: 16px;
+      border-bottom: 1px solid $darkGray;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 64px;
+
+      p {
+        font-size: 12px;
+        color: $mediumGray;
+      }
+
+      h2 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      ~ .panel-body {
+        overflow: auto;
+      }
+    }
+
+    .ant-list-item {
+      padding: 12px 16px;
+
+      &:hover {
+        background-color: $gray0;
+
+        .document-awatar.link {
+          opacity: 1;
+        }
+      }
+
+      .document-awatar {
+        display: inline-block;
+
+        &.isKonicaBranding {
+          &.file {
+            width: 30px;
+            height: 30px;
+            background: 0 -113px / 30px no-repeat url('../../assets/img/file.svg');
+          }
+        }
+
+        &:not(.isKonicaBranding) {
+          &.file {
+            width: 30px;
+            height: 30px;
+            background: 0 -75px / 30px no-repeat url('../../assets/img/file.svg');
+          }
+        }
+        
+
+        &.link {
+          opacity: 0.6;
+          width: 20px;
+          height: 20px;
+          background: url('../../assets/img/linkCircle.svg') no-repeat 0 0;
+        }
+      }
+
+      &.visited {
+        .document-title {
+          color: $gray60;
+          font-weight: $fontBold;
+          font-size: 16;
+        }
+
+        .document-awatar.file {
+          background-position: 0 0;
+        }
+      }
+
+      p.document-title {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0;
+        line-height: 20px;
+      }
+
+      .document-info {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  button {
+    padding: 0;
+  }
+}

@@ -1,0 +1,106 @@
+variables:
+  REPOSITORY: new-vue
+  APP_SHORT_NAME: frontend-main
+  PROJECT: newvue
+  PROJECT_STATE: demo
+  LATEST: "latest"
+  AWS_S3_BUCKET: "demonstration.newvue.ai"
+
+stages:
+  - build_image
+  - deploy
+
+build_docker_image:
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+  stage: build_image
+  image:
+    name: node:18.16.0
+    entrypoint: [""]
+  extends:
+    - .runner_docker
+    - .common
+    - .only_branches
+    - .artifacts
+    - .cache 
+  script:
+    - pwd
+    - ls -la
+    - export WORK_DIR=$(pwd)
+    - echo $WORK_DIR
+    # - wget https://github.com/DawnBreather/envsubst/releases/download/v0.0.2/envsubst.linux.amd64
+    # - chmod 775 $WORK_DIR/envsubst.linux.amd64
+    # - ls -la
+    # - $WORK_DIR/envsubst.linux.amd64 $WORK_DIR/.env
+    # - ls -la
+    # - cat $WORK_DIR/.env
+    # - ls -al $WORK_DIR/submodules/common-frontend-submodule/
+    # - ls -al $WORK_DIR/submodules/frontend-sso-microservice-submodule/
+    - npm install --legacy-peer-deps
+    - npm run build
+    - ls -la $WORK_DIR
+    - ls -la $WORK_DIR/build
+  only:
+    - prod
+    - stage
+    - develop
+    - demo
+    - demonstration
+  # when: manual    
+
+k8s_deploy:
+  stage: deploy
+  image:
+    name: amazon/aws-cli:latest
+    entrypoint: [""]
+  extends:
+    - .runner_docker
+    - .common
+    - .only_branches
+  script:
+    - pwd
+    - export WORK_DIR=$(pwd)
+    - echo $WORK_DIR
+    - ls -al $WORK_DIR/
+    - export AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+    - export AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+    - export AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}
+    - ls -al $WORK_DIR/build/
+    - aws s3 sync $WORK_DIR/build/ s3://${AWS_S3_BUCKET}/
+  only:
+    - prod
+    - stage
+    - develop
+    - demo
+    - demonstration
+  # when: manual
+
+# EXTENSIONS
+.runner_docker:
+  tags:
+    - docker_runner
+
+.git_strategy_none:
+  variables:
+    GIT_STRATEGY: none
+
+.common:
+  environment:
+    name: $CI_COMMIT_BRANCH
+
+.artifacts:
+  artifacts:
+    paths:
+      - /builds/new-vue/frontend/build/
+
+.cache:
+  cache:
+    paths:
+      - /builds/new-vue/frontend/build/
+
+.only_branches:
+  only:
+    refs:
+      - branches
+    variables:
+      - $CI_COMMIT_REF_PROTECTED == "true"

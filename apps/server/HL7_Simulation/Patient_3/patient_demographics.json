@@ -1,0 +1,22 @@
+{
+  "_comment": "PID segment data for Patient 3 — Cardiopulmonary + brain metastases",
+  "patientId": "Patient_3",
+  "mrn": "MRN00003",
+  "assigningAuthority": "NEWVUE_HOSPITAL",
+  "identifierTypeCode": "MR",
+  "name": {
+    "last": "PANIAGUA",
+    "first": "ELISA",
+    "middle": ""
+  },
+  "dateOfBirth": "19421115",
+  "sex": "F",
+  "address": {
+    "street": "308 MAGNOLIA LN",
+    "city": "TUCSON",
+    "state": "AZ",
+    "zip": "85710",
+    "country": "USA"
+  },
+  "phone": "555-0303"
+}

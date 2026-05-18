@@ -1,0 +1,82 @@
+
+Impression
+
+IMPRESSION:
+1. No evidence of acute pulmonary embolism
+2. A 2.4 x 2.4 cm spiculated nodule is noted in the right lower
+lobe. This is highly worrisome for a malignancy.
+3. A few additional smaller pulmonary nodules are noted in the
+right lung, the largest of which measures 6 mm and is located in
+the right lower lobe. These are indeterminate in etiology.
+4. There is mediastinal and right hilar lymphadenopathy as
+described above, which is nonspecific in etiology.
+5. There are scattered areas of abnormal groundglass density that
+are interspersed between normally aerated lung. There is mild
+interlobular septal thickening noted in the right upper lobe and
+left upper lobe. In the acute setting, this could reflect
+pulmonary edema. Small vessel or small airways disease could also
+have a similar appearance.
+6. Cardiomegaly
+7. Abnormal dilation of the main pulmonary artery could be seen
+with pulmonary arterial hypertension
+
+Narrative
+
+CLINICAL INDICATION:    Shortness Of Breath.      
+
+COMPARISON: None
+
+TECHNIQUE:
+Postcontrast helical CT Angiogram acquisition from lung bases to
+the apices with sagittal and coronal reformats at 2.5mm slice
+thickness. Maximal intensity projection images were created as
+part of this examination.
+
+CTDI(vol): 18.78 mGy. DLP: 359.99 mGy*cm.
+
+CT dose reduction technique utilized with one or more of the
+following: Automated exposure control and/or adjustment of the mA
+and/or kV according to patient size and/or use of iterative
+reconstruction technique.
+
+IV Contrast: 100 mL of Omnipaque 350
+Complications: None.
+
+FINDINGS:
+
+There is no acute pulmonary embolism.
+
+There is dilation of the main pulmonary artery, which measures up
+to 3.6 cm in diameter.
+
+There is no thoracic aortic aneurysm.
+
+There is mediastinal and right hilar lymphadenopathy. For
+reference, a precarinal lymph node on series 2 image 158 measures
+3.0 x 1.5 cm. A right hilar lymph node on series 2 image 183
+measures 2.4 x 2.0 cm. A right infrahilar lymph node on series 2
+image 221 measures 1.6 x 1.7 cm.
+
+There is cardiomegaly. There is no pericardial effusion. There is
+atherosclerotic calcification of the coronary arteries.
+
+The visualized upper abdomen is unremarkable.
+
+There is no pulmonary consolidation, pleural effusion, or
+pneumothorax.
+
+There are scattered areas of abnormal groundglass density that
+are interspersed between normally aerated lung. There is mild
+interlobular septal thickening noted in the right upper lobe and
+left upper lobe.
+
+There is a 2.4 x 2.4 cm spiculated nodule noted in the right
+lower lobe on series 2 image 244. There are a few additional
+smaller pulmonary nodules noted in the right lung, the largest of
+which measures 6 mm and is located in the right lower lobe on
+series 2 image 303. Note is made of a 3 mm nodule in the right
+upper lobe on series 2 image 96.
+
+There is no suspicious lytic or blastic lesion. 
+
+

@@ -1,0 +1,16 @@
+{
+  "name": "newvue-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix apps/frontend --legacy-peer-deps && npm install --prefix apps/server",
+    "dev": "concurrently --kill-others -n frontend,server -c green,cyan \"npm run dev:frontend\" \"npm run dev:server\"",
+    "dev:frontend": "npm run start --prefix apps/frontend",
+    "dev:server": "npm run dev --prefix apps/server",
+    "build": "npm run build --prefix apps/server && npm run build --prefix apps/frontend",
+    "clean": "rm -rf apps/frontend/node_modules apps/server/node_modules node_modules"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

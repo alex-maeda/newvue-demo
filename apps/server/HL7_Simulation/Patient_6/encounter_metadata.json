@@ -1,0 +1,44 @@
+{
+  "_comment": "MSH + PV1 + current study data for Patient 6 — ED, simple chest pain workup",
+  "patientId": "Patient_6",
+  "msh": {
+    "messageDateTime": "20260421120000",
+    "messageControlId": "MSG20260421-P6-001"
+  },
+  "pv1": {
+    "patientClass": "E",
+    "patientClassDescription": "Emergency",
+    "assignedPatientLocation": "ED^BAY-12",
+    "attendingPhysician": {
+      "id": "ATT004",
+      "last": "PATEL",
+      "first": "RAJESH",
+      "mi": "M"
+    },
+    "referringPhysician": {
+      "id": "REF001",
+      "last": "OKAFOR",
+      "first": "CHIOMA",
+      "mi": "N"
+    },
+    "visitNumber": "ENC20260421-0006"
+  },
+  "currentStudies": [
+    {
+      "currentStudyId": "P6-CURRENT-001",
+      "studyDescription": "XR Chest – PA and Lateral",
+      "accessionNumber": "ACC-P6-C001",
+      "studyDateTime": "20260421140000",
+      "orderingPhysician": "Patel, Rajesh M",
+      "clinicalIndication": "Chest pain",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.6.C1",
+      "labels": {
+        "modality": "XR",
+        "bodyRegions": ["chest"],
+        "isAngiographic": false,
+        "laterality": null
+      }
+    }
+  ]
+}

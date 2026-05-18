@@ -1,0 +1,78 @@
+@import '../../assets/scss/variables';
+
+.login-page {
+  height: 100vh;
+  margin-bottom: 40px;
+  background: $black;
+
+  .brand {
+    height: 60px;
+    position: relative;
+    background: $gray;
+
+    > span {
+      display: block;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background: transparent url('../../assets/img/logoNV.svg') no-repeat scroll 0 0;
+      background-size: 40px 40px;
+      margin: 0;
+      padding: 0;
+      top: 10px;
+      left: 0;
+    }
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+    
+      > div {
+        background: $gray;
+        width: 500px;
+        // height: 300px;
+        padding: 20px;
+        border-radius: 8px;
+
+        form {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+        }
+
+        .ant-row {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+        }
+
+        .ant-input:not([type='password']),
+        .ant-input-password {
+          &:active,
+          &:hover,
+          &:focus {
+            border: 1px solid var(--purple100);
+            border-color: var(--purple100);
+          }
+        }
+
+        button[type="submit"] {
+          background-color: var(--purple100);
+
+          &:hover {
+            background-color: var(--purple);
+          }
+        }
+
+        .error-auth {
+          padding: 0;
+          margin-bottom: 24px;
+        }
+      }
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "resourceType": "Practitioner",
+  "id": "PRAC-0001",
+  "name": [{ "text": "Neurologist, MD" }],
+  "qualification": [{ "code": { "text": "Attending physician" } }]
+}

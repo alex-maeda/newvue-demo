@@ -1,0 +1,604 @@
+{
+    "1": {
+        "aiFindings": [
+            {
+                "title": "Detected enhancing mass in the left temporal region.",
+                "info": "Detected enhancing mass in the left temporal region."
+            },
+            {
+                "title": "Noted surrounding edema with mild mass effect on the adjacent ventricle.",
+                "info": "Noted surrounding edema with mild mass effect on the adjacent ventricle."
+            }
+        ],
+        "commonFindings": [
+            {
+                "title": "Age-appropriate cerebral atrophy.",
+                "info": "Age-appropriate cerebral atrophy."
+            },
+            {
+                "title": "Mild white matter changes commonly seen in patients of this age group.",
+                "info": "Mild white matter changes commonly seen in patients of this age group."
+            }
+        ],
+        "differentialDiagnosis": [
+            {
+                "title": "Glioma.",
+                "info": "Glioma."
+            },
+            {
+                "title": "Meningioma.",
+                "info": "Meningioma."
+            },
+            {
+                "title": "Metastatic lesion from an unknown primary.",
+                "info": "Metastatic lesion from an unknown primary."
+            },
+            {
+                "title": "Vascular malformation.",
+                "info": "Vascular malformation."
+            }
+        ],
+        "commonlyMissed": [
+            {
+                "title": "Small vessel ischemic changes or microbleeds can sometimes be overlooked when a more prominent mass lesion is present.",
+                "info": "Small vessel ischemic changes or microbleeds can sometimes be overlooked when a more prominent mass lesion is present."
+            }
+        ],
+        "reference": [
+            {
+                "title": "Walsh, K.M., & Jenkins, R.B. (2017). Gliomas: A Comprehensive Review. Journal of Neuro-Oncology, 28(2), 231-244.",
+                "info": "Walsh, K.M., & Jenkins, R.B. (2017). Gliomas: A Comprehensive Review. Journal of Neuro-Oncology, 28(2), 231-244."
+            },
+            {
+                "title": "Simmons, L.T., & Smith, J.P. (2019). Migraines and Central Nervous System Lesions. Neurology Today, 15(1), 29-36.",
+                "info": "Simmons, L.T., & Smith, J.P. (2019). Migraines and Central Nervous System Lesions. Neurology Today, 15(1), 29-36."
+            },
+            {
+                "title": "Gordon, A., & Collins, A. (2020). Radiological Findings in Brain Tumors. Radiology Perspectives, 10(3), 121-133.",
+                "info": "Gordon, A., & Collins, A. (2020). Radiological Findings in Brain Tumors. Radiology Perspectives, 10(3), 121-133."
+            }
+        ]
+    },
+    "2": {
+        "aiFindings": null,
+        "commonFindings": [
+            {
+                "title": "Hyperintensity in the bilateral temporal lobes",
+                "info": "Hyperintensity in the bilateral temporal lobes, mild atrophy in the left hippocampus."
+            },
+            {
+                "title": "Mild atrophy in the left hippocampus",
+                "info": "Hyperintensity in the bilateral temporal lobes, mild atrophy in the left hippocampus."
+            }
+        ],
+        "differentialDiagnosis": [
+            {
+                "title": "Cerebrovascular disease",
+                "info": "Cerebrovascular disease"
+            },
+            {
+                "title": "autoimmune encephalitis",
+                "info": "autoimmune encephalitis"
+            },
+            {
+                "title": "chronic fatigue syndrome",
+                "info": "chronic fatigue syndrome"
+            },
+            {
+                "title": "depression",
+                "info": "depression"
+            },
+            {
+                "title": "anxiety disorder.",
+                "info": "anxiety disorder."
+            }
+        ],
+        "commonlyMissed": [
+            {
+                "title": "Chronic cerebrospinal venous insufficiency (CCSVI)",
+                "info": "Chronic cerebrospinal venous insufficiency (CCSVI)"
+            },
+            {
+                "title": "sleep apnea",
+                "info": "sleep apnea"
+            },
+            {
+                "title": "hypothyroidism",
+                "info": "hypothyroidism"
+            },
+            {
+                "title": "vitamin B12 deficiency.",
+                "info": "vitamin B12 deficiency."
+            }
+        ],
+        "reference": null
+    },
+    "3": {
+        "aiFindings": [
+            {
+                "title": "Detected spiculated nodule in the right upper lobe.",
+                "info": "Detected spiculated nodule in the right upper lobe."
+            },
+            {
+                "title": "Identified areas consistent with emphysema.",
+                "info": "Identified areas consistent with emphysema."
+            }
+        ],
+        "commonFindings": [
+            {
+                "title": "emphysematous changes",
+                "info": "In long-term smokers, findings often include emphysematous changes, bronchial wall thickening, and small nodules."
+            },
+            {
+                "title": "bronchial wall thickening",
+                "info": "In long-term smokers, findings often include emphysematous changes, bronchial wall thickening, and small nodules."
+            },
+            {
+                "title": "small nodules",
+                "info": "In long-term smokers, findings often include emphysematous changes, bronchial wall thickening, and small nodules."
+            }
+        ],
+        "differentialDiagnosis": [
+            {
+                "title": "Primary lung carcinoma.",
+                "info": "Primary lung carcinoma."
+            },
+            {
+                "title": "Tuberculoma.",
+                "info": "Tuberculoma."
+            },
+            {
+                "title": "Fungal infection.",
+                "info": "Fungal infection."
+            },
+            {
+                "title": "Granuloma.",
+                "info": "Granuloma."
+            }
+        ],
+        "commonlyMissed": null,
+        "reference": null
+    },
+    "4": {
+        "aiFindings": [
+            {
+                "title": "Detected enhancing mass in the left temporal region.",
+                "info": "Detected enhancing mass in the left temporal region."
+            },
+            {
+                "title": "Noted surrounding edema with mild mass effect on the adjacent ventricle.",
+                "info": "Noted surrounding edema with mild mass effect on the adjacent ventricle."
+            }
+        ],
+        "commonFindings": [
+            {
+                "title": "headaches",
+                "info": "In patients presenting with headaches, visual disturbances, and speech issues, brain tumors often manifest as enhancing masses with surrounding edema."
+            },
+            {
+                "title": "visual disturbances",
+                "info": "In patients presenting with headaches, visual disturbances, and speech issues, brain tumors often manifest as enhancing masses with surrounding edema."
+            },
+            {
+                "title": "speech issues",
+                "info": "In patients presenting with headaches, visual disturbances, and speech issues, brain tumors often manifest as enhancing masses with surrounding edema."
+            },
+            {
+                "title": "brain tumors often manifest as enhancing masses with surrounding edema.",
+                "info": "In patients presenting with headaches, visual disturbances, and speech issues, brain tumors often manifest as enhancing masses with surrounding edema."
+            }
+        ],
+        "differentialDiagnosis": [
+            {
+                "title": "Glioblastoma multiforme.",
+                "info": "Glioblastoma multiforme."
+            },
+            {
+                "title": "Anaplastic astrocytoma.",
+                "info": "Anaplastic astrocytoma."
+            },
+            {
+                "title": "Metastatic lesion from an unknown primary.",
+                "info": "Metastatic lesion from an unknown primary."
+            },
+            {
+                "title": "Lymphoma.",
+                "info": "Lymphoma."
+            }
+        ],
+        "commonlyMissed": [
+            {
+                "title": "Subtle signs of increased intracranial pressure, like the effacement of sulci or early transtentorial herniation, might be overlooked if there's a prominent mass lesion.",
+                "info": "Subtle signs of increased intracranial pressure, like the effacement of sulci or early transtentorial herniation, might be overlooked if there's a prominent mass lesion."
+            }
+        ],
+        "reference": [
+            {
+                "title": "Louis, D.N., & Perry, A. (2016). Molecular Pathology of Malignant Gliomas. Annual Review of Pathology, 31(2), 139-159.",
+                "info": "Louis, D.N., & Perry, A. (2016). Molecular Pathology of Malignant Gliomas. Annual Review of Pathology, 31(2), 139-159."
+            },
+            {
+                "title": "Melmed, S., & Polonsky, K.S. (2019). Brain Tumors: Diagnosis and Management. Journal of Neuro-Oncology, 28(3), 205-212.",
+                "info": "Melmed, S., & Polonsky, K.S. (2019). Brain Tumors: Diagnosis and Management. Journal of Neuro-Oncology, 28(3), 205-212."
+            },
+            {
+                "title": "Davies, M.A., & Sampson, J.H. (2020). The Role of MRI in Brain Tumor Management. Neurology Today, 15(1), 29-38.",
+                "info": "Davies, M.A., & Sampson, J.H. (2020). The Role of MRI in Brain Tumor Management. Neurology Today, 15(1), 29-38."
+            }
+        ]
+    },
+    "5": {
+        "aiFindings": [
+            {
+                "title": "Detected coronary artery calcifications.",
+                "info": "Detected coronary artery calcifications."
+            },
+            {
+                "title": "No pulmonary nodules or other anomalies noted.",
+                "info": "No pulmonary nodules or other anomalies noted."
+            }
+        ],
+        "commonFindings": [
+            {
+                "title": "Family history of heart disease",
+                "info": "In patients of this age with a family history of heart disease, coronary artery calcifications are commonly observed."
+            },
+            {
+                "title": "coronary artery calcifications",
+                "info": "In patients of this age with a family history of heart disease, coronary artery calcifications are commonly observed."
+            }
+        ],
+        "differentialDiagnosis": [
+            {
+                "title": "Coronary artery disease.",
+                "info": "Coronary artery disease."
+            },
+            {
+                "title": "Angina pectoris.",
+                "info": "Angina pectoris."
+            },
+            {
+                "title": "Musculoskeletal chest pain.",
+                "info": "Musculoskeletal chest pain."
+            },
+            {
+                "title": "Gastroesophageal reflux disease (GERD).",
+                "info": "Gastroesophageal reflux disease (GERD)."
+            }
+        ],
+        "commonlyMissed": [
+            {
+                "title": "Small pulmonary nodules, especially in the lung bases, or subtle signs of early interstitial lung disease might sometimes be overlooked when larger findings such as coronary calcifications are present.",
+                "info": "Small pulmonary nodules, especially in the lung bases, or subtle signs of early interstitial lung disease might sometimes be overlooked when larger findings such as coronary calcifications are present."
+            }
+        ],
+        "reference": [
+            {
+                "title": "Taylor, A.J., & Bindeman, J. (2018). Coronary Artery Calcifications: Implications in Atherosclerosis and Disease Management. Cardiology Today, 30(2), 214-221.",
+                "info": "Taylor, A.J., & Bindeman, J. (2018). Coronary Artery Calcifications: Implications in Atherosclerosis and Disease Management. Cardiology Today, 30(2), 214-221."
+            },
+            {
+                "title": "White, D., & Silverman, M.G. (2019). The Role of Chest CT in Cardiac Risk Assessment. Radiology Reviews, 12(3), 95-103.",
+                "info": "White, D., & Silverman, M.G. (2019). The Role of Chest CT in Cardiac Risk Assessment. Radiology Reviews, 12(3), 95-103."
+            },
+            {
+                "title": "Anderson, H.L., & Collins, P.A. (2020). Integrating Clinical Presentation with Imaging Findings in Cardiac Disease Assessment. Heart Journal, 8(1), 29-37.",
+                "info": "Anderson, H.L., & Collins, P.A. (2020). Integrating Clinical Presentation with Imaging Findings in Cardiac Disease Assessment. Heart Journal, 8(1), 29-37."
+            }
+        ]
+    },
+    "6": {
+        "aiFindings": [
+            {
+                "title": "Detected fractures in the left hip region.",
+                "info": "Detected fractures in the left hip region."
+            },
+            {
+                "title": "Identified rib fractures without signs of underlying lung injury.",
+                "info": "Identified rib fractures without signs of underlying lung injury."
+            }
+        ],
+        "commonFindings": null,
+        "differentialDiagnosis": [
+            {
+                "title": "Osteoporotic fractures.",
+                "info": "Osteoporotic fractures."
+            },
+            {
+                "title": "Pathological fractures due to underlying malignancy.",
+                "info": "Pathological fractures due to underlying malignancy."
+            },
+            {
+                "title": "Stress fractures.",
+                "info": "Stress fractures."
+            }
+        ],
+        "commonlyMissed": [
+            {
+                "title": "In geriatric patients, even minimal trauma can lead to fractures due to age-related bone density loss.",
+                "info": "In geriatric patients, even minimal trauma can lead to fractures due to age-related bone density loss."
+            },
+            {
+                "title": "Rib fractures are common after falls with a lateral impact.",
+                "info": "Rib fractures are common after falls with a lateral impact."
+            }
+        ],
+        "reference": [
+            {
+                "title": "Thompson, J.D., & Martin, R.F. (2016). Geriatric Trauma: Assessing and Managing Falls in the Elderly. Emergency Medicine Journal, 23(2), 187-193.",
+                "info": "Thompson, J.D., & Martin, R.F. (2016). Geriatric Trauma: Assessing and Managing Falls in the Elderly. Emergency Medicine Journal, 23(2), 187-193."
+            },
+            {
+                "title": "Black, P., & Morrison, T.G. (2019). Fractures in the Elderly: When to Consider Surgical Interventions. Orthopedic Clinics, 14(1), 45-53.",
+                "info": "Black, P., & Morrison, T.G. (2019). Fractures in the Elderly: When to Consider Surgical Interventions. Orthopedic Clinics, 14(1), 45-53."
+            },
+            {
+                "title": "Rivera, L., & Daley, P.C. (2018). Rib Fractures and Associated Complications. Radiology Reviews, 9(3), 101-108.",
+                "info": "Rivera, L., & Daley, P.C. (2018). Rib Fractures and Associated Complications. Radiology Reviews, 9(3), 101-108."
+            }
+        ]
+    },
+    "7": {
+        "aiFindings": [
+            {
+                "title": "Identified degenerative changes in the L4-L5 disc.",
+                "info": "Identified degenerative changes in the L4-L5 disc."
+            },
+            {
+                "title": "Detected herniation with potential nerve root compression.",
+                "info": "Detected herniation with potential nerve root compression."
+            }
+        ],
+        "commonFindings": [
+            {
+                "title": "Degenerative changes in the lumbar spine, especially in those over 60 years.",
+                "info": "Degenerative changes in the lumbar spine, especially in those over 60 years."
+            },
+            {
+                "title": "Disc herniations often at the L4-L5 or L5-S1 levels.",
+                "info": "Disc herniations often at the L4-L5 or L5-S1 levels."
+            },
+            {
+                "title": "Symptoms of radiating leg pain or sciatica, especially with nerve root compression",
+                "info": "Symptoms of radiating leg pain or sciatica, especially with nerve root compression"
+            }
+        ],
+        "differentialDiagnosis": [
+            {
+                "title": "Lumbar radiculopathy.",
+                "info": "Lumbar radiculopathy."
+            },
+            {
+                "title": "Lumbar spinal stenosis.",
+                "info": "Lumbar spinal stenosis."
+            },
+            {
+                "title": "Piriformis syndrome.",
+                "info": "Piriformis syndrome."
+            },
+            {
+                "title": "Lumbar strain.",
+                "info": "Lumbar strain."
+            }
+        ],
+        "commonlyMissed": [
+            {
+                "title": "Facet joint osteoarthritis",
+                "info": "Facet joint osteoarthritis: Osteoarthritic changes in the facet joints can also cause back pain and are sometimes overshadowed by the more obvious disc pathologies on MRI."
+            },
+            {
+                "title": "Annular tears",
+                "info": "Annular tears: Small tears in the annulus fibrosus (outer layer of the disc) can cause significant pain but might not always be evident on standard MR sequences."
+            },
+            {
+                "title": "Sacroiliac joint dysfunction",
+                "info": "Sacroiliac joint dysfunction: Pain from the sacroiliac joints can mimic lumbar spine pathologies. While the lumbar MRI might look at the lowermost part of the sacroiliac joints, it might miss subtle changes."
+            },
+            {
+                "title": "Modic changes",
+                "info": "Modic changes: These are bone marrow changes adjacent to degenerated discs that can be a source of chronic low back pain but might be overlooked if not specifically sought."
+            },
+            {
+                "title": "Piriformis syndrome",
+                "info": "Piriformis syndrome: Although it is a muscular cause, piriformis syndrome can mimic a herniated disc. While it's best diagnosed clinically, it's often missed if one is solely focused on radiographic findings."
+            },
+            {
+                "title": "Adjacent segment disease",
+                "info": "Adjacent segment disease: If a patient had prior lumbar surgery, sometimes the segments above or below the operated level might develop pathologies that can be subtle initially."
+            }
+        ],
+        "reference": [
+            {
+                "title": "Davies, M.J., & Franklin, R.M. (2018). Lumbar Disc Pathologies: A Comprehensive Review. Spine Health Journal, 13(2), 245-253.",
+                "info": "Davies, M.J., & Franklin, R.M. (2018). Lumbar Disc Pathologies: A Comprehensive Review. Spine Health Journal, 13(2), 245-253."
+            },
+            {
+                "title": "Smith, J.R., & Brown, T.L. (2019). Annular Tears and their Implications in Chronic Low Back Pain. Radiology Insights, 7(1), 11-17.",
+                "info": "Smith, J.R., & Brown, T.L. (2019). Annular Tears and their Implications in Chronic Low Back Pain. Radiology Insights, 7(1), 11-17."
+            },
+            {
+                "title": "Martinez, L. & O'Sullivan, P. (2020). Facet Joint Osteoarthritis: A Often Missed Culprit of Back Pain. Back Pain Quarterly, 4(3), 56-61.",
+                "info": "Martinez, L. & O'Sullivan, P. (2020). Facet Joint Osteoarthritis: A Often Missed Culprit of Back Pain. Back Pain Quarterly, 4(3), 56-61."
+            },
+            {
+                "title": "Green, H.F., & Stevenson, W.K. (2021). The Role of Sacroiliac Joint Dysfunction in Lumbar Pain Syndromes. Musculoskeletal Disorders Journal, 9(4), 321-330.",
+                "info": "Green, H.F., & Stevenson, W.K. (2021). The Role of Sacroiliac Joint Dysfunction in Lumbar Pain Syndromes. Musculoskeletal Disorders Journal, 9(4), 321-330."
+            }
+        ]
+    },
+    "8": {
+        "aiFindings": [
+            {
+                "title": "Degenerative changes - in the C5-C6 and C6-C7 intervertebral discs.",
+                "info": "Degenerative changes - in the C5-C6 and C6-C7 intervertebral discs."
+            },
+            {
+                "title": "No spinal cord compression or significant bony deformities detected.",
+                "info": "No spinal cord compression or significant bony deformities detected."
+            }
+        ],
+        "commonFindings": [
+            {
+                "title": "Degenerative changes",
+                "info": "Degenerative changes, particularly disc desiccation, in the mid to lower cervical spine (commonly seen in the C5-C6 and C6-C7 segments)."
+            },
+            {
+                "title": "Disc protrusions or herniations",
+                "info": "Disc protrusions or herniations often affecting the foraminal region, potentially leading to nerve root impingement."
+            }
+        ],
+        "differentialDiagnosis": [
+            {
+                "title": "Cervical spondylosis",
+                "info": "Cervical spondylosis"
+            },
+            {
+                "title": "Thoracic outlet syndrome",
+                "info": "Thoracic outlet syndrome"
+            },
+            {
+                "title": "Cervical radiculopathy",
+                "info": "Cervical radiculopathy"
+            },
+            {
+                "title": "Carpal tunnel syndrome",
+                "info": "Carpal tunnel syndrome"
+            }
+        ],
+        "commonlyMissed": [
+            {
+                "title": "Foraminal narrowing without pronounced disc herniation.",
+                "info": "Foraminal narrowing without pronounced disc herniation."
+            }
+        ],
+        "reference": [
+            {
+                "title": "Hayes, M.J., & Smith, C.P. (2016). Cervical Spondylosis and Radiographic Assessment. Spine Journal.",
+                "info": "Hayes, M.J., & Smith, C.P. (2016). Cervical Spondylosis and Radiographic Assessment. Spine Journal."
+            },
+            {
+                "title": "Warner, F.T., & Collier, R.W. (2018). Degenerative Changes in the Cervical Spine: Implications and Management. Orthopedics Today.",
+                "info": "Warner, F.T., & Collier, R.W. (2018). Degenerative Changes in the Cervical Spine: Implications and Management. Orthopedics Today."
+            },
+            {
+                "title": "Reynolds, K. & O'Neill, A. (2020). CT and MRI in Cervical Spine Assessments: A Comparative Review. Radiology Perspectives.",
+                "info": "Reynolds, K. & O'Neill, A. (2020). CT and MRI in Cervical Spine Assessments: A Comparative Review. Radiology Perspectives."
+            }
+        ]
+    },
+    "9": {
+        "aiFindings": [
+            {
+                "title": "Enlargement of the heart shadow consistent with cardiomegaly.",
+                "info": "Enlargement of the heart shadow consistent with cardiomegaly."
+            },
+            {
+                "title": "Changes suggestive of chronic bronchitis but no major pulmonary obstructions.",
+                "info": "Changes suggestive of chronic bronchitis but no major pulmonary obstructions."
+            }
+        ],
+        "commonFindings": null,
+        "differentialDiagnosis": [
+            {
+                "title": "Congestive heart failure",
+                "info": "Congestive heart failure"
+            },
+            {
+                "title": "Chronic obstructive pulmonary disease (COPD)",
+                "info": "Chronic obstructive pulmonary disease (COPD)"
+            },
+            {
+                "title": "Angina pectoris",
+                "info": "Angina pectoris"
+            },
+            {
+                "title": "Pulmonary hypertension",
+                "info": "Pulmonary hypertension"
+            }
+        ],
+        "commonlyMissed": [
+            {
+                "title": "Early signs of chronic bronchitis in former smokers without significant pulmonary symptoms.",
+                "info": "Early signs of chronic bronchitis in former smokers without significant pulmonary symptoms."
+            }
+        ],
+        "reference": [
+            {
+                "title": "Jenkins, H.S., & Smith, M.L. (2017). Cardiomegaly: Etiology and Diagnostic Imaging. Journal of Cardiac Imaging.",
+                "info": "Jenkins, H.S., & Smith, M.L. (2017). Cardiomegaly: Etiology and Diagnostic Imaging. Journal of Cardiac Imaging."
+            },
+            {
+                "title": "Daniels, J.A., & Turner, T.G. (2018). Chronic Bronchitis and its Radiological Implications. Pulmonary Medicine Today.",
+                "info": "Daniels, J.A., & Turner, T.G. (2018). Chronic Bronchitis and its Radiological Implications. Pulmonary Medicine Today."
+            },
+            {
+                "title": "Bennett, D. & Clarke, A.J. (2020). Role of Radiography in Early Cardiac Assessments. Radiology Diagnostics Review.",
+                "info": "Bennett, D. & Clarke, A.J. (2020). Role of Radiography in Early Cardiac Assessments. Radiology Diagnostics Review."
+            },
+            {
+                "title": "Note: All names, dates, and clinical information provided are entirely fictional and are meant for demonstration purposes only.",
+                "info": "Note: All names, dates, and clinical information provided are entirely fictional and are meant for demonstration purposes only."
+            }
+        ]
+    },
+    "10": {
+        "aiFindings": [
+            {
+                "title": "Indications of early-stage osteoarthritis.",
+                "info": "Indications of early-stage osteoarthritis."
+            },
+            {
+                "title": "No fractures or other significant bony abnormalities detected.",
+                "info": "No fractures or other significant bony abnormalities detected."
+            }
+        ],
+        "commonFindings": [
+            {
+                "title": "Moderate joint space narrowing in the tibiotalar joint.",
+                "info": "Moderate joint space narrowing in the tibiotalar joint."
+            },
+            {
+                "title": "Subchondral sclerosis.",
+                "info": "Subchondral sclerosis."
+            },
+            {
+                "title": "Osteophytic lipping.",
+                "info": "Osteophytic lipping."
+            }
+        ],
+        "differentialDiagnosis": [
+            {
+                "title": "Ankle sprain",
+                "info": "Ankle sprain"
+            },
+            {
+                "title": "Gout",
+                "info": "Gout"
+            },
+            {
+                "title": "Rheumatoid arthritis",
+                "info": "Rheumatoid arthritis"
+            }
+        ],
+        "commonlyMissed": [
+            {
+                "title": "Early degenerative changes in the absence of significant trauma or pain.",
+                "info": "Early degenerative changes in the absence of significant trauma or pain."
+            }
+        ],
+        "reference": [
+            {
+                "title": "Smith, A., & Jones, B. (2019). Osteoarthritis of the Ankle: Diagnostic Criteria and Imaging. Journal of Orthopedic Research.",
+                "info": "Smith, A., & Jones, B. (2019). Osteoarthritis of the Ankle: Diagnostic Criteria and Imaging. Journal of Orthopedic Research."
+            },
+            {
+                "title": "Turner, C. (2020). Ankle Joint Degenerative Changes and Management. American Journal of Sports Medicine.",
+                "info": "Turner, C. (2020). Ankle Joint Degenerative Changes and Management. American Journal of Sports Medicine."
+            },
+            {
+                "title": "Franklin, J., & Gray, K. (2018). Radiological Findings in Early Ankle Osteoarthritis. Radiology Today.",
+                "info": "Franklin, J., & Gray, K. (2018). Radiological Findings in Early Ankle Osteoarthritis. Radiology Today."
+            }
+        ]
+    }
+}

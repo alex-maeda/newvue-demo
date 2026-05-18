@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "label": "Aetna Health Fund"
+  },
+  {
+    "id": "2",
+    "label": "Blue Cross Blue Shield PPO"
+  },
+  {
+    "id": "3",
+    "label": "Cigna Connect Network"
+  },
+  {
+    "id": "4",
+    "label": "Humana Gold Plus"
+  },
+  {
+    "id": "5",
+    "label": "Kaiser Permanente Select Network"
+  },
+  {
+    "id": "6",
+    "label": "UnitedHealthcare Choice Plus"
+  },
+  {
+    "id": "7",
+    "label": "Anthem Blue Cross Bronze Plan"
+  },
+  {
+    "id": "8",
+    "label": "AARP Medicare Supplement Insurance"
+  },
+  {
+    "id": "9",
+    "label": "Harvard Pilgram Healthcare Premier Plan"
+  },
+  {
+    "id": "10",
+    "label": "Surest PPO"
+  }
+]

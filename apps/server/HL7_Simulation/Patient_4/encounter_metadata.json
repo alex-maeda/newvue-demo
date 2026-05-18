@@ -1,0 +1,60 @@
+{
+  "_comment": "MSH + PV1 + current study data for Patient 4 — Emergency, vascular/MSK presentation",
+  "patientId": "Patient_4",
+  "msh": {
+    "messageDateTime": "20250927120000",
+    "messageControlId": "MSG20250927-P4-001"
+  },
+  "pv1": {
+    "patientClass": "E",
+    "patientClassDescription": "Emergency",
+    "assignedPatientLocation": "ED^BAY-7",
+    "attendingPhysician": {
+      "id": "ATT004",
+      "last": "PATEL",
+      "first": "RAJESH",
+      "mi": "M"
+    },
+    "referringPhysician": {
+      "id": "REF005",
+      "last": "BANKS",
+      "first": "TANYA",
+      "mi": "S"
+    },
+    "visitNumber": "ENC20250927-0004"
+  },
+  "currentStudies": [
+    {
+      "currentStudyId": "P4-CURRENT-001",
+      "studyDescription": "XR Foot 2 Views – Right",
+      "accessionNumber": "ACC-P4-C001",
+      "studyDateTime": "20250927140000",
+      "orderingPhysician": "Patel, Rajesh M",
+      "clinicalIndication": "Foot pain",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.4.C1",
+      "labels": {
+        "modality": "XR",
+        "bodyRegions": ["foot"],
+        "isAngiographic": false,
+        "laterality": "right"
+      }
+    },
+    {
+      "currentStudyId": "P4-CURRENT-002",
+      "studyDescription": "US Doppler Extremity Artery Right",
+      "accessionNumber": "ACC-P4-C002",
+      "studyDateTime": "20250927141500",
+      "orderingPhysician": "Banks, Tanya S",
+      "clinicalIndication": "Foot pain. Severe PAD",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.4.C2",
+      "labels": {
+        "modality": "US",
+        "bodyRegions": ["extremity"],
+        "isAngiographic": true,
+        "laterality": "right"
+      }
+    }
+  ]
+}

@@ -1,0 +1,963 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "title": "MG Breast Bilateral Screening",
+  "modality": "MG",
+  "bodyRegion": "breast",
+  "description": "System default template",
+  "templateId": "mg-breast-bilateral-screening",
+  "fileTemplateId": "MG_breast_bilateral_screening",
+  "reportId": "report-1778109815185-dsvjuw",
+  "sessionId": "report-1778109815185-dsvjuw",
+  "status": "in-progress",
+  "author": null,
+  "createdAt": "2026-05-06T23:24:03.690Z",
+  "updatedAt": "2026-05-06T23:24:03.691Z",
+  "signedAt": null,
+  "patient": null,
+  "study": null,
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "typeAttribute": [
+        "narrative"
+      ],
+      "parentId": null,
+      "children": [
+        {
+          "id": "sub_study_title",
+          "type": "subsection",
+          "typeAttribute": [
+            "studyName"
+          ],
+          "parentId": "headline_narrative",
+          "children": [],
+          "label": "MG Breast Bilateral Screening",
+          "text": "MG Breast Bilateral Screening",
+          "templateText": "MG Breast Bilateral Screening",
+          "currentText": "MG Breast Bilateral Screening",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_history",
+          "type": "section",
+          "typeAttribute": [
+            "history"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_history_main",
+              "type": "content",
+              "typeAttribute": [
+                "history"
+              ],
+              "parentId": "section_history",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "History",
+          "text": "History",
+          "childrenId": [
+            "content_history_main"
+          ],
+          "templateText": "History",
+          "currentText": "History",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_technique",
+          "type": "section",
+          "typeAttribute": [
+            "technique"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_technique_main",
+              "type": "content",
+              "typeAttribute": [
+                "technique"
+              ],
+              "parentId": "section_technique",
+              "children": [],
+              "text": "Standard bilateral screening mammographic views (CC and MLO) were obtained.",
+              "inputType": "text",
+              "templateText": "Standard bilateral screening mammographic views (CC and MLO) were obtained.",
+              "currentText": "Standard bilateral screening mammographic views (CC and MLO) were obtained.",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "Standard bilateral screening mammographic views (CC and MLO) were obtained.",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "Technique",
+          "text": "Technique",
+          "childrenId": [
+            "content_technique_main"
+          ],
+          "templateText": "Technique",
+          "currentText": "Technique",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_comparison",
+          "type": "section",
+          "typeAttribute": [
+            "comparison"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_comparison_main",
+              "type": "content",
+              "typeAttribute": [
+                "comparison"
+              ],
+              "parentId": "section_comparison",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "Comparison",
+          "text": "Comparison",
+          "childrenId": [
+            "content_comparison_main"
+          ],
+          "templateText": "Comparison",
+          "currentText": "Comparison",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_findings",
+          "type": "section",
+          "typeAttribute": [
+            "findings"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "sub_breast_composition",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_comp_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_breast_composition",
+                  "children": [],
+                  "text": "The breasts are heterogeneously dense, which may obscure small masses.",
+                  "inputType": "text",
+                  "normalIndex": 0,
+                  "templateText": "The breasts are heterogeneously dense, which may obscure small masses.",
+                  "currentText": "The breasts are heterogeneously dense, which may obscure small masses.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "The breasts are heterogeneously dense, which may obscure small masses.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Breast Composition",
+              "text": "Breast Composition",
+              "childrenId": [
+                "content_comp_1"
+              ],
+              "templateText": "Breast Composition",
+              "currentText": "Breast Composition",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_right_breast",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_rb_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_right_breast",
+                  "children": [],
+                  "text": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                  "inputType": "text",
+                  "normalIndex": 1,
+                  "templateText": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                  "currentText": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": true,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [
+                      "seg_1778109834574_ryr1g3"
+                    ],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Right Breast",
+              "text": "Right Breast",
+              "childrenId": [
+                "content_rb_1"
+              ],
+              "templateText": "Right Breast",
+              "currentText": "Right Breast",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_left_breast",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_pass2_1778109840498_mni1",
+                  "type": "content",
+                  "text": "Left breast with large spiculated calcified mass in the retroareolar tissue measuring 5 by 4 by 3 cm.",
+                  "children": [],
+                  "pass2Inserted": true,
+                  "typeAttribute": [],
+                  "typeData": {},
+                  "parentId": "sub_left_breast",
+                  "childrenId": [],
+                  "orderIndex": 0,
+                  "misc": {},
+                  "templateText": "Left breast with large spiculated calcified mass in the retroareolar tissue measuring 5 by 4 by 3 cm.",
+                  "currentText": "Left breast with large spiculated calcified mass in the retroareolar tissue measuring 5 by 4 by 3 cm.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "",
+                    "picklists": null,
+                    "pass2Inserted": true,
+                    "sourceSegmentIds": [
+                      "seg_1778109834574_ryr1g3"
+                    ],
+                    "pass2RunId": "P2_2_1778109835935",
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                },
+                {
+                  "id": "content_lb_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_left_breast",
+                  "children": [],
+                  "text": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                  "inputType": "text",
+                  "normalIndex": 2,
+                  "templateText": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                  "currentText": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": true,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [
+                      "seg_1778109834574_ryr1g3"
+                    ],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Left Breast",
+              "text": "Left Breast",
+              "childrenId": [
+                "content_pass2_1778109840498_mni1",
+                "content_lb_1"
+              ],
+              "templateText": "Left Breast",
+              "currentText": "Left Breast",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_axillary_ln",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_ax_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_axillary_ln",
+                  "children": [],
+                  "text": "Bilateral axillary lymph nodes appear morphologically normal.",
+                  "inputType": "text",
+                  "normalIndex": 3,
+                  "templateText": "Bilateral axillary lymph nodes appear morphologically normal.",
+                  "currentText": "Bilateral axillary lymph nodes appear morphologically normal.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Bilateral axillary lymph nodes appear morphologically normal.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Axillary Lymph Nodes",
+              "text": "Axillary Lymph Nodes",
+              "childrenId": [
+                "content_ax_1"
+              ],
+              "templateText": "Axillary Lymph Nodes",
+              "currentText": "Axillary Lymph Nodes",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_assessment",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_assess_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_assessment",
+                  "children": [],
+                  "text": "BI-RADS 1: Negative.",
+                  "inputType": "text",
+                  "normalIndex": 4,
+                  "templateText": "BI-RADS 1: Negative.",
+                  "currentText": "BI-RADS 1: Negative.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": true,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "BI-RADS 1: Negative.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [
+                      "seg_1778109834574_ryr1g3"
+                    ],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Assessment",
+              "text": "Assessment",
+              "childrenId": [
+                "content_assess_1"
+              ],
+              "templateText": "Assessment",
+              "currentText": "Assessment",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            }
+          ],
+          "label": "Findings",
+          "text": "Findings",
+          "childrenId": [
+            "sub_breast_composition",
+            "sub_right_breast",
+            "sub_left_breast",
+            "sub_axillary_ln",
+            "sub_assessment"
+          ],
+          "templateText": "Findings",
+          "currentText": "Findings",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        }
+      ],
+      "label": "Narrative",
+      "text": "Narrative",
+      "childrenId": [
+        "sub_study_title",
+        "section_history",
+        "section_technique",
+        "section_comparison",
+        "section_findings"
+      ],
+      "templateText": "Narrative",
+      "currentText": "Narrative",
+      "state": {
+        "edited": false,
+        "syntheticSection": false,
+        "syntheticSectionType": null,
+        "impressionDerived": false
+      }
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "typeAttribute": [
+        "impression"
+      ],
+      "parentId": null,
+      "children": [
+        {
+          "id": "content_imp_1778109843690_8itd",
+          "type": "content",
+          "text": "1. Large spiculated calcified mass in the left retroareolar tissue measuring 5 by 4 by 3 cm.",
+          "children": [],
+          "typeAttribute": [],
+          "typeData": {},
+          "parentId": "headline_impression",
+          "childrenId": [],
+          "orderIndex": 0,
+          "misc": {},
+          "templateText": "1. Large spiculated calcified mass in the left retroareolar tissue measuring 5 by 4 by 3 cm.",
+          "currentText": "1. Large spiculated calcified mass in the left retroareolar tissue measuring 5 by 4 by 3 cm.",
+          "state": {
+            "version": 0,
+            "manuallyEdited": false,
+            "deleted": false,
+            "inputType": "text",
+            "options": null,
+            "selectedOptionIndex": 0,
+            "defaultOptionIndex": 0,
+            "originalText": "",
+            "picklists": null,
+            "pass2Inserted": false,
+            "sourceSegmentIds": [],
+            "pass2RunId": null,
+            "suppressedBySegmentIds": [],
+            "editedBySegmentIds": [],
+            "impressionGenerated": true,
+            "impressionRunId": "IG_1_1778109841800",
+            "isCritical": false,
+            "guideline": "BI-RADS 5 (Malignant): Spiculated calcified breast mass warrants urgent diagnostic evaluation and biopsy.",
+            "recommendation": "Recommend urgent diagnostic mammography with spot compression views and ultrasound correlation. Consider breast MRI for staging. Recommend urgent referral to breast surgery for evaluation and possible biopsy.",
+            "syntheticContent": null,
+            "sourceImpressionBoxId": null
+          }
+        },
+        {
+          "id": "section_synth_recommendations_1778109843690_177z",
+          "type": "section",
+          "label": "Recommendations",
+          "text": "Recommendations",
+          "children": [
+            {
+              "id": "content_synth_recommendations_1778109843690_ztmk",
+              "type": "content",
+              "text": "Recommend urgent diagnostic mammography with spot compression views and ultrasound correlation. Consider breast MRI for staging. Recommend urgent referral to breast surgery for evaluation and possible biopsy.",
+              "children": [],
+              "typeAttribute": [],
+              "typeData": {},
+              "parentId": "section_synth_recommendations_1778109843690_177z",
+              "childrenId": [],
+              "orderIndex": 0,
+              "misc": {},
+              "templateText": "Recommend urgent diagnostic mammography with spot compression views and ultrasound correlation. Consider breast MRI for staging. Recommend urgent referral to breast surgery for evaluation and possible biopsy.",
+              "currentText": "Recommend urgent diagnostic mammography with spot compression views and ultrasound correlation. Consider breast MRI for staging. Recommend urgent referral to breast surgery for evaluation and possible biopsy.",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": true,
+                "impressionRunId": "IG_1_1778109841800",
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": "recommendations",
+                "sourceImpressionBoxId": "content_imp_1778109843690_8itd"
+              }
+            }
+          ],
+          "syntheticSection": true,
+          "syntheticSectionType": "recommendations",
+          "impressionDerived": true,
+          "impressionRunId": "IG_1_1778109841800",
+          "typeAttribute": [],
+          "typeData": {},
+          "parentId": "headline_impression",
+          "childrenId": [
+            "content_synth_recommendations_1778109843690_ztmk"
+          ],
+          "orderIndex": 0,
+          "misc": {},
+          "templateText": "Recommendations",
+          "currentText": "Recommendations",
+          "state": {
+            "edited": false,
+            "syntheticSection": true,
+            "syntheticSectionType": "recommendations",
+            "impressionDerived": true
+          }
+        },
+        {
+          "id": "section_synth_guidelines_1778109843690_dtcy",
+          "type": "section",
+          "label": "Guidelines",
+          "text": "Guidelines",
+          "children": [
+            {
+              "id": "content_synth_guidelines_1778109843690_s6sy",
+              "type": "content",
+              "text": "BI-RADS 5 (Malignant): Spiculated calcified breast mass warrants urgent diagnostic evaluation and biopsy.",
+              "children": [],
+              "typeAttribute": [],
+              "typeData": {},
+              "parentId": "section_synth_guidelines_1778109843690_dtcy",
+              "childrenId": [],
+              "orderIndex": 0,
+              "misc": {},
+              "templateText": "BI-RADS 5 (Malignant): Spiculated calcified breast mass warrants urgent diagnostic evaluation and biopsy.",
+              "currentText": "BI-RADS 5 (Malignant): Spiculated calcified breast mass warrants urgent diagnostic evaluation and biopsy.",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": true,
+                "impressionRunId": "IG_1_1778109841800",
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": "guidelines",
+                "sourceImpressionBoxId": "content_imp_1778109843690_8itd"
+              }
+            }
+          ],
+          "syntheticSection": true,
+          "syntheticSectionType": "guidelines",
+          "impressionDerived": true,
+          "impressionRunId": "IG_1_1778109841800",
+          "typeAttribute": [],
+          "typeData": {},
+          "parentId": "headline_impression",
+          "childrenId": [
+            "content_synth_guidelines_1778109843690_s6sy"
+          ],
+          "orderIndex": 0,
+          "misc": {},
+          "templateText": "Guidelines",
+          "currentText": "Guidelines",
+          "state": {
+            "edited": false,
+            "syntheticSection": true,
+            "syntheticSectionType": "guidelines",
+            "impressionDerived": true
+          }
+        }
+      ],
+      "label": "Impression",
+      "text": "Impression",
+      "childrenId": [
+        "content_imp_1778109843690_8itd",
+        "section_synth_recommendations_1778109843690_177z",
+        "section_synth_guidelines_1778109843690_dtcy"
+      ],
+      "templateText": "Impression",
+      "currentText": "Impression",
+      "state": {
+        "edited": false,
+        "syntheticSection": false,
+        "syntheticSectionType": null,
+        "impressionDerived": false
+      }
+    }
+  ],
+  "segments": {
+    "dictation-box": [
+      {
+        "segmentId": "seg_1778109834574_ryr1g3",
+        "textareaTarget": "dictation-box",
+        "startOffset": 0,
+        "endOffset": 101,
+        "length": 101,
+        "text": "Left breast with large spiculated calcified mass in the retroareolar tissue measuring 5 by 4 by 3 cm.",
+        "status": "structured",
+        "sourceActionId": null
+      }
+    ],
+    "content_technique_main": [
+      {
+        "segmentId": "seg_1778109815185_6xsoxz",
+        "textareaTarget": "content_technique_main",
+        "startOffset": 0,
+        "endOffset": 75,
+        "length": 75,
+        "text": "Standard bilateral screening mammographic views (CC and MLO) were obtained.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_comp_1": [
+      {
+        "segmentId": "seg_1778109815185_ru6oxq",
+        "textareaTarget": "content_comp_1",
+        "startOffset": 0,
+        "endOffset": 70,
+        "length": 70,
+        "text": "The breasts are heterogeneously dense, which may obscure small masses.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_rb_1": [
+      {
+        "segmentId": "seg_1778109815185_q5g5li",
+        "textareaTarget": "content_rb_1",
+        "startOffset": 0,
+        "endOffset": 74,
+        "length": 74,
+        "text": "No suspicious mass, architectural distortion, or suspicious calcification.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_lb_1": [
+      {
+        "segmentId": "seg_1778109815185_fy44hx",
+        "textareaTarget": "content_lb_1",
+        "startOffset": 0,
+        "endOffset": 74,
+        "length": 74,
+        "text": "No suspicious mass, architectural distortion, or suspicious calcification.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_ax_1": [
+      {
+        "segmentId": "seg_1778109815185_vl4oqe",
+        "textareaTarget": "content_ax_1",
+        "startOffset": 0,
+        "endOffset": 61,
+        "length": 61,
+        "text": "Bilateral axillary lymph nodes appear morphologically normal.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_assess_1": [
+      {
+        "segmentId": "seg_1778109815185_k58kh4",
+        "textareaTarget": "content_assess_1",
+        "startOffset": 0,
+        "endOffset": 20,
+        "length": 20,
+        "text": "BI-RADS 1: Negative.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_pass2_1778109840498_mni1": [
+      {
+        "segmentId": "seg_1778109840498_6ijy0s",
+        "textareaTarget": "content_pass2_1778109840498_mni1",
+        "startOffset": 0,
+        "endOffset": 101,
+        "length": 101,
+        "text": "Left breast with large spiculated calcified mass in the retroareolar tissue measuring 5 by 4 by 3 cm.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_imp_1778109843690_8itd": [
+      {
+        "segmentId": "seg_1778109843690_lwkgk0",
+        "textareaTarget": "content_imp_1778109843690_8itd",
+        "startOffset": 0,
+        "endOffset": 92,
+        "length": 92,
+        "text": "1. Large spiculated calcified mass in the left retroareolar tissue measuring 5 by 4 by 3 cm.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_synth_recommendations_1778109843690_ztmk": [
+      {
+        "segmentId": "seg_1778109843690_cnpa18",
+        "textareaTarget": "content_synth_recommendations_1778109843690_ztmk",
+        "startOffset": 0,
+        "endOffset": 208,
+        "length": 208,
+        "text": "Recommend urgent diagnostic mammography with spot compression views and ultrasound correlation. Consider breast MRI for staging. Recommend urgent referral to breast surgery for evaluation and possible biopsy.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_synth_guidelines_1778109843690_s6sy": [
+      {
+        "segmentId": "seg_1778109843690_nd8lpn",
+        "textareaTarget": "content_synth_guidelines_1778109843690_s6sy",
+        "startOffset": 0,
+        "endOffset": 105,
+        "length": 105,
+        "text": "BI-RADS 5 (Malignant): Spiculated calcified breast mass warrants urgent diagnostic evaluation and biopsy.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ]
+  },
+  "tokenUsage": {
+    "pass1": {
+      "inputTokens": 1125,
+      "outputTokens": 33
+    },
+    "pass2a": {
+      "inputTokens": 1537,
+      "outputTokens": 23
+    },
+    "pass2b": {
+      "inputTokens": 1083,
+      "outputTokens": 62
+    },
+    "impression": {
+      "inputTokens": 1912,
+      "outputTokens": 167
+    }
+  },
+  "dictationText": "Left breast with large spiculated calcified mass in the retroareolar tissue measuring 5 by 4 by 3 cm."
+}

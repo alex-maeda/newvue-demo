@@ -1,0 +1,11 @@
+{
+  "resourceType": "MedicationAdministration",
+  "id": "MAD-P12345-INP-0002",
+  "status": "completed",
+  "medicationCodeableConcept": { "text": "cefTRIAXone 1 g IV" },
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "effectiveDateTime": "2025-09-17T12:42:00-07:00",
+  "request": { "reference": "MedicationRequest/MRX-P12345-INP-0002" },
+  "dosage": { "route": { "text": "IV" }, "dose": { "value": 1, "unit": "g" } }
+}

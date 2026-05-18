@@ -1,0 +1,172 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "id": "mri-brain-with-contrast",
+  "title": "MRI Brain with Contrast",
+  "modality": "MR",
+  "bodyRegion": "brain",
+  "description": "System default template",
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "tags": "narrative",
+      "title": "Narrative",
+      "children": [
+        {
+          "id": "sub_study_title",
+          "type": "subsection",
+          "tags": "studyName",
+          "title": "MRI Brain with Contrast",
+          "children": []
+        },
+        {
+          "id": "section_history",
+          "type": "section",
+          "tags": "history",
+          "title": "History",
+          "children": [
+            {
+              "id": "content_history_main",
+              "type": "text",
+              "tags": "history",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "section_technique",
+          "type": "section",
+          "tags": "technique",
+          "title": "Technique",
+          "children": [
+            {
+              "id": "content_technique_main",
+              "type": "text",
+              "tags": "technique",
+              "value": "MR images of the brain acquired before and after intravenous administration of gadolinium contrast."
+            }
+          ]
+        },
+        {
+          "id": "section_comparison",
+          "type": "section",
+          "tags": "comparison",
+          "title": "Comparison",
+          "children": [
+            {
+              "id": "content_comparison_main",
+              "type": "text",
+              "tags": "comparison",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "section_findings",
+          "type": "section",
+          "tags": "findings",
+          "title": "Findings",
+          "children": [
+            {
+              "id": "sub_brain_parenchyma",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Brain Parenchyma",
+              "children": [
+                {
+                  "id": "content_bp_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No acute infarct or hemorrhage."
+                },
+                {
+                  "id": "content_bp_2",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "Age-appropriate appearance of white matter."
+                }
+              ]
+            },
+            {
+              "id": "sub_enhancement",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Enhancement",
+              "children": [
+                {
+                  "id": "content_enh_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No abnormal parenchymal or meningeal enhancement."
+                }
+              ]
+            },
+            {
+              "id": "sub_ventricles_extraaxial",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Ventricles / Extra-Axial Spaces",
+              "children": [
+                {
+                  "id": "content_vent_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No hydrocephalus or extra-axial fluid collections."
+                }
+              ]
+            },
+            {
+              "id": "sub_flow_voids",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Flow Voids",
+              "children": [
+                {
+                  "id": "content_flow_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "Intact."
+                }
+              ]
+            },
+            {
+              "id": "sub_extracranial_structures",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Extracranial Structures",
+              "children": [
+                {
+                  "id": "content_extra_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "Appropriate aeration of visualized sinuses."
+                },
+                {
+                  "id": "content_extra_2",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No soft tissue abnormalities."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "tags": "impression",
+      "title": "Impression",
+      "children": [
+        {
+          "id": "content_impression_main",
+          "type": "text",
+          "tags": "impression",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

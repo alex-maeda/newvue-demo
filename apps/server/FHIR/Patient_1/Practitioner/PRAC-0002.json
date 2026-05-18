@@ -1,0 +1,6 @@
+{
+  "resourceType": "Practitioner",
+  "id": "PRAC-0002",
+  "name": [{ "text": "Hospitalist, MD" }],
+  "qualification": [{ "code": { "text": "Attending physician" } }]
+}

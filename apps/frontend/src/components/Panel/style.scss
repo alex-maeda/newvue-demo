@@ -1,0 +1,170 @@
+@import '../../assets/scss/variables';
+
+.panel {
+  background-color: $black;
+  margin-bottom: $pagePadding;
+  width: 100%;
+
+  > div {
+    padding: 24px 16px;
+    overflow: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .rs-checkbox {
+    font-size: 16px;
+
+    &.rs-checkbox-checked {
+      color: var(--green);
+    }
+  }
+
+  &.void {
+    height: 100%;
+  }
+
+  &.loading {
+    .panel-header {
+      padding-right: 24px;
+
+      .wide-center {
+        display: flex;
+        justify-content: space-between;
+        .stack-item {
+          margin: 0;
+          justify-content: center;
+        }
+
+        & + svg {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &:not(.expanded) {
+    min-height: 78px;
+    flex-grow: 0;
+
+    .panel-body {
+      height: 0;
+    }
+  }
+
+  &.expanded {
+    &.table-panel {
+      flex-grow: 1;
+      min-height: 223px;
+    }
+
+    .panel-body {
+      height: 100% !important;
+    }
+  }
+
+  .panel-header {
+    padding-bottom: 24px;
+    position: relative;
+
+    ~ .panel-body {
+      padding-top: 0;
+    }
+
+    + .rs-anim-collapse {
+      display: block;
+    }
+
+    .panel-title.stack {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &.wide-center .input-group {
+        flex-grow: 1;
+      }
+      
+      & > .stack-item {
+        margin-right: 20px;
+
+        &:first-child {
+          h1 {
+            max-width: 250px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+      }
+
+      .header-icon {
+        position: absolute;
+        right: 60px;
+        top: calc(50% - 12px);
+        padding: 4px 0;
+        background-color: $mediumGray;
+        border: none;
+
+        &:hover,
+        &:focus,
+        &:active {
+          border: none;
+          box-shadow: none;
+        }
+
+        &:last-child {
+          right: 20px;
+          background-color: transparent;
+          padding: 0;
+        }
+
+        svg {
+          transition: transform .5s ease;
+        }
+
+        &.collapse-icon svg {
+          transform: rotate(180deg);
+        }
+      }
+
+      .search {
+        margin: auto;
+        max-width: 300px;
+        min-width: 200px;
+        border: none;
+        position: relative;
+
+        input {
+          border-radius: 15px;
+          height: 36px;
+          padding-right: 36px;
+        }
+
+        button {
+          background: white;
+          border-radius: 50%;
+          width: 28px;
+          height: 28px;
+          padding: 3px;
+          margin: 4px;
+          color: $red;
+          position: absolute;
+          z-index: 4;
+          top: 0;
+          left: inherit;
+          right: 0;
+
+          &:hover {
+            background: lightgray;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+Impression
+ 
+No significant change in evolving bilateral infarcts and trace subarachnoid hemorrhage at the left vertex.
+ 
+ 
+ Narrative
+CT HEAD WITHOUT CONTRAST
+ 
+** HISTORY **:
+65 years old, evaluate evolving stroke/stability, 
+ 
+** TECHNIQUE **:
+CT images of the head acquired without intravenous contrast.
+ 
+CTDI: 0.04,48.19 mGy
+DLP: 0.81,687.3 mGy-cm
+ 
+COMPARISON: CTs 9/17/2025, 9/16/2025
+ 
+** FINDINGS **: 
+Stable trace subarachnoid hemorrhage at the left vertex. Multiple evolving infarcts bilaterally, right greater than left, not significantly changed. Unremarkable basal cisterns and ventricles. No herniation. Osseous structures intact.

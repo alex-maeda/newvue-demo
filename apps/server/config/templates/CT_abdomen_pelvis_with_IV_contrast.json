@@ -1,0 +1,331 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "id": "ct-abdomen-pelvis-with-iv-contrast",
+  "title": "CT Abdomen Pelvis with IV Contrast",
+  "modality": "CT",
+  "bodyRegion": [
+    "abdomen",
+    "pelvis"
+  ],
+  "description": "System default template",
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "tags": "narrative",
+      "title": "Narrative",
+      "children": [
+        {
+          "id": "sub_study_title",
+          "type": "subsection",
+          "tags": "studyName",
+          "title": "CT Abdomen Pelvis with IV Contrast",
+          "children": []
+        },
+        {
+          "id": "section_history",
+          "type": "section",
+          "tags": "history",
+          "title": "History",
+          "children": [
+            {
+              "id": "content_history_main",
+              "type": "text",
+              "tags": "history",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "section_technique",
+          "type": "section",
+          "tags": "technique",
+          "title": "Technique",
+          "children": [
+            {
+              "id": "content_technique_main",
+              "type": "text",
+              "tags": "technique",
+              "value": ""
+            },
+            {
+              "id": "sub_ctdi",
+              "type": "subsection",
+              "tags": "dose",
+              "title": "CTDI",
+              "children": [
+                {
+                  "id": "content_ctdi_main",
+                  "type": "text",
+                  "tags": "dose",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "id": "sub_dlp",
+              "type": "subsection",
+              "tags": "dose",
+              "title": "DLP",
+              "children": [
+                {
+                  "id": "content_dlp_main",
+                  "type": "text",
+                  "tags": "dose",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section_comparison",
+          "type": "section",
+          "tags": "comparison",
+          "title": "Comparison",
+          "children": [
+            {
+              "id": "content_comparison_main",
+              "type": "text",
+              "tags": "comparison",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "section_findings",
+          "type": "section",
+          "tags": "findings",
+          "title": "Findings",
+          "children": [
+            {
+              "id": "sub_lower_chest",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Lower Chest",
+              "children": [
+                {
+                  "id": "content_lower_chest_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "The lung bases are clear."
+                }
+              ]
+            },
+            {
+              "id": "sub_liver",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Liver",
+              "children": [
+                {
+                  "id": "content_liver_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No acute abnormalities."
+                }
+              ]
+            },
+            {
+              "id": "sub_gallbladder_biliary",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Gallbladder / Biliary Tree",
+              "children": [
+                {
+                  "id": "content_gallbladder_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "There is no biliary ductal dilation."
+                }
+              ]
+            },
+            {
+              "id": "sub_spleen",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Spleen",
+              "children": [
+                {
+                  "id": "content_spleen_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "Normal in size."
+                }
+              ]
+            },
+            {
+              "id": "sub_pancreas",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Pancreas",
+              "children": [
+                {
+                  "id": "content_pancreas_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No suspicious pancreatic abnormality."
+                }
+              ]
+            },
+            {
+              "id": "sub_adrenals",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Adrenals",
+              "children": [
+                {
+                  "id": "content_adrenals_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No acute abnormalities."
+                }
+              ]
+            },
+            {
+              "id": "sub_kidneys",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Kidneys",
+              "children": [
+                {
+                  "id": "content_kidneys_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "Kidneys enhance symmetrically without hydronephrosis. No associated solid enhancing components. No suspicious renal mass."
+                }
+              ]
+            },
+            {
+              "id": "sub_bladder",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Bladder",
+              "children": [
+                {
+                  "id": "content_bladder_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "Unremarkable for technique."
+                }
+              ]
+            },
+            {
+              "id": "sub_reproductive_organs",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Reproductive Organs",
+              "children": [
+                {
+                  "id": "content_repro_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No acute abnormalities."
+                }
+              ]
+            },
+            {
+              "id": "sub_intestines",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Intestines",
+              "children": [
+                {
+                  "id": "content_intestines_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No acute abnormalities. There is no evidence of intestinal obstruction. No findings of acute appendicitis."
+                }
+              ]
+            },
+            {
+              "id": "sub_lymph_nodes",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Lymph Nodes",
+              "children": [
+                {
+                  "id": "content_lymph_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No pathologically enlarged retroperitoneal and mesenteric lymph nodes."
+                }
+              ]
+            },
+            {
+              "id": "sub_peritoneum",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Peritoneum",
+              "children": [
+                {
+                  "id": "content_peritoneum_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "There is no pneumoperitoneum."
+                }
+              ]
+            },
+            {
+              "id": "sub_vessels",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Vessels",
+              "children": [
+                {
+                  "id": "content_vessels_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "Normal abdominal aortic diameter (less than 3 cm). The splenic and portal veins appear adequately patent."
+                }
+              ]
+            },
+            {
+              "id": "sub_soft_tissues",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Soft Tissues",
+              "children": [
+                {
+                  "id": "content_soft_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No acute abnormalities."
+                }
+              ]
+            },
+            {
+              "id": "sub_bones",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Bones",
+              "children": [
+                {
+                  "id": "content_bones_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No acute abnormalities."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "tags": "impression",
+      "title": "Impression",
+      "children": [
+        {
+          "id": "content_impression_main",
+          "type": "text",
+          "tags": "impression",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

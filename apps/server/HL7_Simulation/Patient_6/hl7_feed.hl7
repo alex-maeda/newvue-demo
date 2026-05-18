@@ -1,0 +1,17 @@
+MSH|^~\&|NEWVUE_RIS|RADIOLOGY_DEPT|NEWVUE_EHR|NEWVUE_HOSPITAL|20260421120000||ORU^R01|MSG20260421-P6-001|P|2.5.1
+PID|1||MRN00006^^^NEWVUE_HOSPITAL^MR||TANNER^FRANKLIN^^^^L||19780612|M|||917 BIRCHWOOD AVE^^MADISON^WI^53703^USA||555-0606
+PV1|1|E|ED^BAY-12||||ATT004^PATEL^RAJESH^M|REF001^OKAFOR^CHIOMA^N|||||||||||ENC20260421-0006
+OBR|1||ACC-P6-0001|36643-5^XR Chest 2 Views^LN|||20250914120100||||||CHEST PAIN||||||||||||F
+OBX|1|TX|36643-5^XR Chest 2 Views^LN|1|CLINICAL INDICATION: 48 years old, CHEST PAIN||||||F
+OBX|2|TX|36643-5^XR Chest 2 Views^LN|2|TECHNIQUE: 1 view of the chest acquired.||||||F
+OBX|3|TX|36643-5^XR Chest 2 Views^LN|3|COMPARISON: None available.||||||F
+OBX|4|FT|36643-5^XR Chest 2 Views^LN|4|FINDINGS: LUNGS: No consolidation. Right midlung linear scarring or atelectasis. No pleural effusion.   MEDIASTINUM/OTHER: Normal heart size and mediastinal contours.||||||F
+OBX|5|TX|36643-5^XR Chest 2 Views^LN|5|IMPRESSION: No acute abnormality.||||||F
+ZDS|1.2.840.113619.2.55.3.6.1^NEWVUE_PACS^Application^DICOM
+OBR|2||ACC-P6-0002|36643-5^XR Chest 2 Views^LN|||20260123120000||||||SHORTNESS OF BREATH||||||||||||F
+OBX|1|TX|36643-5^XR Chest 2 Views^LN|1|CLINICAL INDICATION: 48 years old, SHORTNESS OF BREATH||||||F
+OBX|2|TX|36643-5^XR Chest 2 Views^LN|2|TECHNIQUE: 1 view of the chest acquired.||||||F
+OBX|3|TX|36643-5^XR Chest 2 Views^LN|3|COMPARISON: Radiograph 9/14/2025||||||F
+OBX|4|FT|36643-5^XR Chest 2 Views^LN|4|FINDINGS: LINES/TUBES: None.   LUNGS: Low lung volumes. No focal lung consolidation. No pleural effusion or pneumothorax.   MEDIASTINUM/OTHER: Normal heart size and mediastinal contours. Aortic atherosclerosis.||||||F
+OBX|5|TX|36643-5^XR Chest 2 Views^LN|5|IMPRESSION: No acute disease.||||||F
+ZDS|1.2.840.113619.2.55.3.6.2^NEWVUE_PACS^Application^DICOM

@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "id": "ac_1776230208928",
+      "input": "factor ten a",
+      "output": "Factor Xa",
+      "nickname": "Factor Xa"
+    },
+    {
+      "id": "ac_1776233959128",
+      "input": "bravo",
+      "output": "BRAVO",
+      "nickname": "Bravo"
+    },
+    {
+      "id": "ac_1776233996699",
+      "input": "fiesta",
+      "output": "FIESTA",
+      "nickname": "Fiesta"
+    },
+    {
+      "id": "ac_1776234023338",
+      "input": "heart failure with preserved ejection fraction",
+      "output": "HFpEF",
+      "nickname": "HFpEF"
+    },
+    {
+      "id": "ac_1778107602730",
+      "input": "speculated",
+      "output": "spiculated",
+      "nickname": "Spiculated"
+    }
+  ]
+}

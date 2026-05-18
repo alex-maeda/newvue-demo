@@ -1,0 +1,60 @@
+{
+  "_comment": "MSH + PV1 + current study data for Patient 5 — Inpatient, surgical/sepsis",
+  "patientId": "Patient_5",
+  "msh": {
+    "messageDateTime": "20250928120000",
+    "messageControlId": "MSG20250928-P5-001"
+  },
+  "pv1": {
+    "patientClass": "I",
+    "patientClassDescription": "Inpatient",
+    "assignedPatientLocation": "SURG^RM305^BED-A",
+    "attendingPhysician": {
+      "id": "ATT005",
+      "last": "WRIGHT",
+      "first": "JAMES",
+      "mi": "T"
+    },
+    "referringPhysician": {
+      "id": "REF001",
+      "last": "OKAFOR",
+      "first": "CHIOMA",
+      "mi": "N"
+    },
+    "visitNumber": "ENC20250914-0005"
+  },
+  "currentStudies": [
+    {
+      "currentStudyId": "P5-CURRENT-001",
+      "studyDescription": "CT Abdomen Pelvis with Contrast",
+      "accessionNumber": "ACC-P5-C001",
+      "studyDateTime": "20250928140000",
+      "orderingPhysician": "Wright, James T",
+      "clinicalIndication": "Prior splenic abscess. Eval change",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.5.C1",
+      "labels": {
+        "modality": "CT",
+        "bodyRegions": ["abdomen", "pelvis"],
+        "isAngiographic": false,
+        "laterality": null
+      }
+    },
+    {
+      "currentStudyId": "P5-CURRENT-002",
+      "studyDescription": "XR Chest – PA Only",
+      "accessionNumber": "ACC-P5-C002",
+      "studyDateTime": "20250928141500",
+      "orderingPhysician": "Wright, James T",
+      "clinicalIndication": "SOB",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.5.C2",
+      "labels": {
+        "modality": "XR",
+        "bodyRegions": ["chest"],
+        "isAngiographic": false,
+        "laterality": null
+      }
+    }
+  ]
+}

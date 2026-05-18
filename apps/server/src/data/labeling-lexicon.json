@@ -1,0 +1,7286 @@
+{
+  "version": "1.0",
+  "description": "Labeling lexicon for prior study name classification. Converted from 001_Labeling_Lexicon.xlsx. Entries sorted by descending token count for longest-match-first scanning.",
+  "lastUpdated": "2026-04-25",
+  "totalEntries": 1011,
+  "categories": {
+    "modality": 51,
+    "region": 875,
+    "angiography": 71,
+    "laterality": 14
+  },
+  "entries": [
+    {
+      "term": "SKULL BASE- MIDDLE THIGH",
+      "element": "region",
+      "termTokens": [
+        "skull",
+        "base-",
+        "middle",
+        "thigh"
+      ]
+    },
+    {
+      "term": "aorto- bi- iliac",
+      "element": "region",
+      "termTokens": [
+        "aorto-",
+        "bi-",
+        "iliac"
+      ]
+    },
+    {
+      "term": "Circle of Willis",
+      "element": "region",
+      "termTokens": [
+        "circle",
+        "of",
+        "willis"
+      ]
+    },
+    {
+      "term": "common bile duct",
+      "element": "region",
+      "termTokens": [
+        "common",
+        "bile",
+        "duct"
+      ]
+    },
+    {
+      "term": "deep vein thrombosis",
+      "element": "angiography",
+      "termTokens": [
+        "deep",
+        "vein",
+        "thrombosis"
+      ]
+    },
+    {
+      "term": "external carotid artery",
+      "element": "region",
+      "termTokens": [
+        "external",
+        "carotid",
+        "artery"
+      ]
+    },
+    {
+      "term": "inferior vena cava",
+      "element": "region",
+      "termTokens": [
+        "inferior",
+        "vena",
+        "cava"
+      ]
+    },
+    {
+      "term": "internal auditory canal",
+      "element": "region",
+      "termTokens": [
+        "internal",
+        "auditory",
+        "canal"
+      ]
+    },
+    {
+      "term": "internal carotid artery",
+      "element": "region",
+      "termTokens": [
+        "internal",
+        "carotid",
+        "artery"
+      ]
+    },
+    {
+      "term": "left atrial APPENDAGE",
+      "element": "region",
+      "termTokens": [
+        "left",
+        "atrial",
+        "appendage"
+      ]
+    },
+    {
+      "term": "middle brain artery",
+      "element": "region",
+      "termTokens": [
+        "middle",
+        "brain",
+        "artery"
+      ]
+    },
+    {
+      "term": "OUTSIDE XA HEART",
+      "element": "modality",
+      "termTokens": [
+        "outside",
+        "xa",
+        "heart"
+      ]
+    },
+    {
+      "term": "SKULL BASE- THIGH",
+      "element": "region",
+      "termTokens": [
+        "skull",
+        "base-",
+        "thigh"
+      ]
+    },
+    {
+      "term": "skull to thigh",
+      "element": "region",
+      "termTokens": [
+        "skull",
+        "to",
+        "thigh"
+      ]
+    },
+    {
+      "term": "SUPERIOR SAGITTAL SINUS",
+      "element": "region",
+      "termTokens": [
+        "superior",
+        "sagittal",
+        "sinus"
+      ]
+    },
+    {
+      "term": "SUPERIOR VENA CAVA",
+      "element": "region",
+      "termTokens": [
+        "superior",
+        "vena",
+        "cava"
+      ]
+    },
+    {
+      "term": "thoracic aortic aneurysm",
+      "element": "region",
+      "termTokens": [
+        "thoracic",
+        "aortic",
+        "aneurysm"
+      ]
+    },
+    {
+      "term": "UPPER RENAL TRACT",
+      "element": "region",
+      "termTokens": [
+        "upper",
+        "renal",
+        "tract"
+      ]
+    },
+    {
+      "term": "WITH RUN- OFF",
+      "element": "angiography",
+      "termTokens": [
+        "with",
+        "run-",
+        "off"
+      ]
+    },
+    {
+      "term": "A- AO",
+      "element": "region",
+      "termTokens": [
+        "a-",
+        "ao"
+      ]
+    },
+    {
+      "term": "A- BIILIAC",
+      "element": "region",
+      "termTokens": [
+        "a-",
+        "biiliac"
+      ]
+    },
+    {
+      "term": "A- UNILAC",
+      "element": "region",
+      "termTokens": [
+        "a-",
+        "unilac"
+      ]
+    },
+    {
+      "term": "abdomen aorta",
+      "element": "region",
+      "termTokens": [
+        "abdomen",
+        "aorta"
+      ]
+    },
+    {
+      "term": "adrenal glands",
+      "element": "region",
+      "termTokens": [
+        "adrenal",
+        "glands"
+      ]
+    },
+    {
+      "term": "aorto- aortic",
+      "element": "region",
+      "termTokens": [
+        "aorto-",
+        "aortic"
+      ]
+    },
+    {
+      "term": "aorto- uniliac",
+      "element": "region",
+      "termTokens": [
+        "aorto-",
+        "uniliac"
+      ]
+    },
+    {
+      "term": "ARTERY- VEIN",
+      "element": "region",
+      "termTokens": [
+        "artery-",
+        "vein"
+      ]
+    },
+    {
+      "term": "auditory canal",
+      "element": "region",
+      "termTokens": [
+        "auditory",
+        "canal"
+      ]
+    },
+    {
+      "term": "BASILAR ARTERY",
+      "element": "region",
+      "termTokens": [
+        "basilar",
+        "artery"
+      ]
+    },
+    {
+      "term": "basilic vein",
+      "element": "region",
+      "termTokens": [
+        "basilic",
+        "vein"
+      ]
+    },
+    {
+      "term": "BASIVERTEBRAL NERVE",
+      "element": "region",
+      "termTokens": [
+        "basivertebral",
+        "nerve"
+      ]
+    },
+    {
+      "term": "bile duct",
+      "element": "region",
+      "termTokens": [
+        "bile",
+        "duct"
+      ]
+    },
+    {
+      "term": "blood flow",
+      "element": "angiography",
+      "termTokens": [
+        "blood",
+        "flow"
+      ]
+    },
+    {
+      "term": "bone marrow",
+      "element": "region",
+      "termTokens": [
+        "bone",
+        "marrow"
+      ]
+    },
+    {
+      "term": "brachial plexus",
+      "element": "region",
+      "termTokens": [
+        "brachial",
+        "plexus"
+      ]
+    },
+    {
+      "term": "Brain STEM",
+      "element": "region",
+      "termTokens": [
+        "brain",
+        "stem"
+      ]
+    },
+    {
+      "term": "BYPASS GRAFTS",
+      "element": "region",
+      "termTokens": [
+        "bypass",
+        "grafts"
+      ]
+    },
+    {
+      "term": "c thoracic",
+      "element": "region",
+      "termTokens": [
+        "c",
+        "thoracic"
+      ]
+    },
+    {
+      "term": "C1- TWO",
+      "element": "region",
+      "termTokens": [
+        "c1-",
+        "two"
+      ]
+    },
+    {
+      "term": "celiac artery",
+      "element": "region",
+      "termTokens": [
+        "celiac",
+        "artery"
+      ]
+    },
+    {
+      "term": "celiac plexus",
+      "element": "region",
+      "termTokens": [
+        "celiac",
+        "plexus"
+      ]
+    },
+    {
+      "term": "cerebrospinal fluid",
+      "element": "region",
+      "termTokens": [
+        "cerebrospinal",
+        "fluid"
+      ]
+    },
+    {
+      "term": "cervical thoracic",
+      "element": "region",
+      "termTokens": [
+        "cervical",
+        "thoracic"
+      ]
+    },
+    {
+      "term": "chorionic villi",
+      "element": "region",
+      "termTokens": [
+        "chorionic",
+        "villi"
+      ]
+    },
+    {
+      "term": "chorionic villus",
+      "element": "region",
+      "termTokens": [
+        "chorionic",
+        "villus"
+      ]
+    },
+    {
+      "term": "circle willis",
+      "element": "region",
+      "termTokens": [
+        "circle",
+        "willis"
+      ]
+    },
+    {
+      "term": "COLIC ARTERY",
+      "element": "region",
+      "termTokens": [
+        "colic",
+        "artery"
+      ]
+    },
+    {
+      "term": "COLLAR BONE",
+      "element": "region",
+      "termTokens": [
+        "collar",
+        "bone"
+      ]
+    },
+    {
+      "term": "computed tomography",
+      "element": "modality",
+      "termTokens": [
+        "computed",
+        "tomography"
+      ]
+    },
+    {
+      "term": "corpora cavernosa",
+      "element": "region",
+      "termTokens": [
+        "corpora",
+        "cavernosa"
+      ]
+    },
+    {
+      "term": "CRANIAL nerves",
+      "element": "region",
+      "termTokens": [
+        "cranial",
+        "nerves"
+      ]
+    },
+    {
+      "term": "ductus venosus",
+      "element": "region",
+      "termTokens": [
+        "ductus",
+        "venosus"
+      ]
+    },
+    {
+      "term": "DUODENAL JEJUNAL",
+      "element": "region",
+      "termTokens": [
+        "duodenal",
+        "jejunal"
+      ]
+    },
+    {
+      "term": "DUODENUM JEJUNUM",
+      "element": "region",
+      "termTokens": [
+        "duodenum",
+        "jejunum"
+      ]
+    },
+    {
+      "term": "DUP- SCAN",
+      "element": "angiography",
+      "termTokens": [
+        "dup-",
+        "scan"
+      ]
+    },
+    {
+      "term": "DUPLEX SCAN",
+      "element": "angiography",
+      "termTokens": [
+        "duplex",
+        "scan"
+      ]
+    },
+    {
+      "term": "extremity lower",
+      "element": "region",
+      "termTokens": [
+        "extremity",
+        "lower"
+      ]
+    },
+    {
+      "term": "extremity upper",
+      "element": "region",
+      "termTokens": [
+        "extremity",
+        "upper"
+      ]
+    },
+    {
+      "term": "face bone",
+      "element": "region",
+      "termTokens": [
+        "face",
+        "bone"
+      ]
+    },
+    {
+      "term": "face bones",
+      "element": "region",
+      "termTokens": [
+        "face",
+        "bones"
+      ]
+    },
+    {
+      "term": "facial bone",
+      "element": "region",
+      "termTokens": [
+        "facial",
+        "bone"
+      ]
+    },
+    {
+      "term": "facial bones",
+      "element": "region",
+      "termTokens": [
+        "facial",
+        "bones"
+      ]
+    },
+    {
+      "term": "fallopian tube",
+      "element": "region",
+      "termTokens": [
+        "fallopian",
+        "tube"
+      ]
+    },
+    {
+      "term": "fallopian tubes",
+      "element": "region",
+      "termTokens": [
+        "fallopian",
+        "tubes"
+      ]
+    },
+    {
+      "term": "fluid collection",
+      "element": "region",
+      "termTokens": [
+        "fluid",
+        "collection"
+      ]
+    },
+    {
+      "term": "FORAMEN OVALE",
+      "element": "region",
+      "termTokens": [
+        "foramen",
+        "ovale"
+      ]
+    },
+    {
+      "term": "G colon",
+      "element": "region",
+      "termTokens": [
+        "g",
+        "colon"
+      ]
+    },
+    {
+      "term": "gall bladder",
+      "element": "region",
+      "termTokens": [
+        "gall",
+        "bladder"
+      ]
+    },
+    {
+      "term": "gastric mucosa",
+      "element": "region",
+      "termTokens": [
+        "gastric",
+        "mucosa"
+      ]
+    },
+    {
+      "term": "gastrointestinal tract",
+      "element": "region",
+      "termTokens": [
+        "gastrointestinal",
+        "tract"
+      ]
+    },
+    {
+      "term": "gestational sac",
+      "element": "region",
+      "termTokens": [
+        "gestational",
+        "sac"
+      ]
+    },
+    {
+      "term": "GLUTEAL ARTERY",
+      "element": "region",
+      "termTokens": [
+        "gluteal",
+        "artery"
+      ]
+    },
+    {
+      "term": "HEAD- THIGH",
+      "element": "region",
+      "termTokens": [
+        "head-",
+        "thigh"
+      ]
+    },
+    {
+      "term": "HEAD- TOE",
+      "element": "region",
+      "termTokens": [
+        "head-",
+        "toe"
+      ]
+    },
+    {
+      "term": "ILIO- ILIAC",
+      "element": "region",
+      "termTokens": [
+        "ilio-",
+        "iliac"
+      ]
+    },
+    {
+      "term": "INFERIOR SAGITTAL",
+      "element": "region",
+      "termTokens": [
+        "inferior",
+        "sagittal"
+      ]
+    },
+    {
+      "term": "INNER EAR",
+      "element": "region",
+      "termTokens": [
+        "inner",
+        "ear"
+      ]
+    },
+    {
+      "term": "innominate artery",
+      "element": "region",
+      "termTokens": [
+        "innominate",
+        "artery"
+      ]
+    },
+    {
+      "term": "INNOMINATE VEIN",
+      "element": "region",
+      "termTokens": [
+        "innominate",
+        "vein"
+      ]
+    },
+    {
+      "term": "intervertebral disc",
+      "element": "region",
+      "termTokens": [
+        "intervertebral",
+        "disc"
+      ]
+    },
+    {
+      "term": "L- 2",
+      "element": "region",
+      "termTokens": [
+        "l-",
+        "2"
+      ]
+    },
+    {
+      "term": "L- EXT",
+      "element": "region",
+      "termTokens": [
+        "l-",
+        "ext"
+      ]
+    },
+    {
+      "term": "L- S",
+      "element": "region",
+      "termTokens": [
+        "l-",
+        "s"
+      ]
+    },
+    {
+      "term": "L- SPINE",
+      "element": "region",
+      "termTokens": [
+        "l-",
+        "spine"
+      ]
+    },
+    {
+      "term": "L2 vertebra",
+      "element": "region",
+      "termTokens": [
+        "l2",
+        "vertebra"
+      ]
+    },
+    {
+      "term": "lacrimal duct",
+      "element": "region",
+      "termTokens": [
+        "lacrimal",
+        "duct"
+      ]
+    },
+    {
+      "term": "left atrium",
+      "element": "region",
+      "termTokens": [
+        "left",
+        "atrium"
+      ]
+    },
+    {
+      "term": "left ventricle",
+      "element": "region",
+      "termTokens": [
+        "left",
+        "ventricle"
+      ]
+    },
+    {
+      "term": "lower back",
+      "element": "region",
+      "termTokens": [
+        "lower",
+        "back"
+      ]
+    },
+    {
+      "term": "lower extremity",
+      "element": "region",
+      "termTokens": [
+        "lower",
+        "extremity"
+      ]
+    },
+    {
+      "term": "lymph node",
+      "element": "region",
+      "termTokens": [
+        "lymph",
+        "node"
+      ]
+    },
+    {
+      "term": "magnetic resonance",
+      "element": "modality",
+      "termTokens": [
+        "magnetic",
+        "resonance"
+      ]
+    },
+    {
+      "term": "meckels diverticulum",
+      "element": "region",
+      "termTokens": [
+        "meckels",
+        "diverticulum"
+      ]
+    },
+    {
+      "term": "MID- THIGH",
+      "element": "region",
+      "termTokens": [
+        "mid-",
+        "thigh"
+      ]
+    },
+    {
+      "term": "MIDBRAIN- THIGH",
+      "element": "region",
+      "termTokens": [
+        "midbrain-",
+        "thigh"
+      ]
+    },
+    {
+      "term": "mortons neuroma",
+      "element": "region",
+      "termTokens": [
+        "mortons",
+        "neuroma"
+      ]
+    },
+    {
+      "term": "nerves cranial",
+      "element": "region",
+      "termTokens": [
+        "nerves",
+        "cranial"
+      ]
+    },
+    {
+      "term": "NON- JOINT",
+      "element": "region",
+      "termTokens": [
+        "non-",
+        "joint"
+      ]
+    },
+    {
+      "term": "NUCLEAR MEDICINE",
+      "element": "modality",
+      "termTokens": [
+        "nuclear",
+        "medicine"
+      ]
+    },
+    {
+      "term": "ONE EXTREMITY",
+      "element": "region",
+      "termTokens": [
+        "one",
+        "extremity"
+      ]
+    },
+    {
+      "term": "OUTSIDE PHOTO",
+      "element": "modality",
+      "termTokens": [
+        "outside",
+        "photo"
+      ]
+    },
+    {
+      "term": "OUTSIDE XA",
+      "element": "modality",
+      "termTokens": [
+        "outside",
+        "xa"
+      ]
+    },
+    {
+      "term": "PANCREATICODUODENAL ARTERY",
+      "element": "region",
+      "termTokens": [
+        "pancreaticoduodenal",
+        "artery"
+      ]
+    },
+    {
+      "term": "PERI- JOINT",
+      "element": "region",
+      "termTokens": [
+        "peri-",
+        "joint"
+      ]
+    },
+    {
+      "term": "PERIPHERAL NERVE",
+      "element": "region",
+      "termTokens": [
+        "peripheral",
+        "nerve"
+      ]
+    },
+    {
+      "term": "petrous ridge",
+      "element": "region",
+      "termTokens": [
+        "petrous",
+        "ridge"
+      ]
+    },
+    {
+      "term": "PHRENIC ARTERY",
+      "element": "region",
+      "termTokens": [
+        "phrenic",
+        "artery"
+      ]
+    },
+    {
+      "term": "R- T",
+      "element": "region",
+      "termTokens": [
+        "r-",
+        "t"
+      ]
+    },
+    {
+      "term": "rectus abdominis",
+      "element": "region",
+      "termTokens": [
+        "rectus",
+        "abdominis"
+      ]
+    },
+    {
+      "term": "RIB CAGE",
+      "element": "region",
+      "termTokens": [
+        "rib",
+        "cage"
+      ]
+    },
+    {
+      "term": "right atrium",
+      "element": "region",
+      "termTokens": [
+        "right",
+        "atrium"
+      ]
+    },
+    {
+      "term": "right ventricle",
+      "element": "region",
+      "termTokens": [
+        "right",
+        "ventricle"
+      ]
+    },
+    {
+      "term": "RING FINGER",
+      "element": "region",
+      "termTokens": [
+        "ring",
+        "finger"
+      ]
+    },
+    {
+      "term": "rotator cuff",
+      "element": "region",
+      "termTokens": [
+        "rotator",
+        "cuff"
+      ]
+    },
+    {
+      "term": "RUN- OFF",
+      "element": "angiography",
+      "termTokens": [
+        "run-",
+        "off"
+      ]
+    },
+    {
+      "term": "sacral plexus",
+      "element": "region",
+      "termTokens": [
+        "sacral",
+        "plexus"
+      ]
+    },
+    {
+      "term": "sacrum iliac",
+      "element": "region",
+      "termTokens": [
+        "sacrum",
+        "iliac"
+      ]
+    },
+    {
+      "term": "SAGITTAL SINUS",
+      "element": "region",
+      "termTokens": [
+        "sagittal",
+        "sinus"
+      ]
+    },
+    {
+      "term": "salivary gland",
+      "element": "region",
+      "termTokens": [
+        "salivary",
+        "gland"
+      ]
+    },
+    {
+      "term": "seminal vesicle",
+      "element": "region",
+      "termTokens": [
+        "seminal",
+        "vesicle"
+      ]
+    },
+    {
+      "term": "SENTINEL NODE",
+      "element": "region",
+      "termTokens": [
+        "sentinel",
+        "node"
+      ]
+    },
+    {
+      "term": "SHOULDER BLADE",
+      "element": "region",
+      "termTokens": [
+        "shoulder",
+        "blade"
+      ]
+    },
+    {
+      "term": "SKULL BASE-",
+      "element": "region",
+      "termTokens": [
+        "skull",
+        "base-"
+      ]
+    },
+    {
+      "term": "Skull VERTEX",
+      "element": "region",
+      "termTokens": [
+        "skull",
+        "vertex"
+      ]
+    },
+    {
+      "term": "SKULL- THIGH",
+      "element": "region",
+      "termTokens": [
+        "skull-",
+        "thigh"
+      ]
+    },
+    {
+      "term": "SMALL BOWEL",
+      "element": "region",
+      "termTokens": [
+        "small",
+        "bowel"
+      ]
+    },
+    {
+      "term": "small intestine",
+      "element": "region",
+      "termTokens": [
+        "small",
+        "intestine"
+      ]
+    },
+    {
+      "term": "soft tissue",
+      "element": "region",
+      "termTokens": [
+        "soft",
+        "tissue"
+      ]
+    },
+    {
+      "term": "spinal cord",
+      "element": "region",
+      "termTokens": [
+        "spinal",
+        "cord"
+      ]
+    },
+    {
+      "term": "spine cord",
+      "element": "region",
+      "termTokens": [
+        "spine",
+        "cord"
+      ]
+    },
+    {
+      "term": "spine T-",
+      "element": "region",
+      "termTokens": [
+        "spine",
+        "t-"
+      ]
+    },
+    {
+      "term": "SPINE- CERVICAL",
+      "element": "region",
+      "termTokens": [
+        "spine-",
+        "cervical"
+      ]
+    },
+    {
+      "term": "SPINE- LUMBAR",
+      "element": "region",
+      "termTokens": [
+        "spine-",
+        "lumbar"
+      ]
+    },
+    {
+      "term": "SPINE- THORACIC",
+      "element": "region",
+      "termTokens": [
+        "spine-",
+        "thoracic"
+      ]
+    },
+    {
+      "term": "stomach colon",
+      "element": "region",
+      "termTokens": [
+        "stomach",
+        "colon"
+      ]
+    },
+    {
+      "term": "subclavian artery",
+      "element": "region",
+      "termTokens": [
+        "subclavian",
+        "artery"
+      ]
+    },
+    {
+      "term": "SUPERIOR SAGITTAL",
+      "element": "region",
+      "termTokens": [
+        "superior",
+        "sagittal"
+      ]
+    },
+    {
+      "term": "symphysis pubis",
+      "element": "region",
+      "termTokens": [
+        "symphysis",
+        "pubis"
+      ]
+    },
+    {
+      "term": "synovial cyst",
+      "element": "region",
+      "termTokens": [
+        "synovial",
+        "cyst"
+      ]
+    },
+    {
+      "term": "T lymphocyte",
+      "element": "region",
+      "termTokens": [
+        "t",
+        "lymphocyte"
+      ]
+    },
+    {
+      "term": "T- CELL",
+      "element": "region",
+      "termTokens": [
+        "t-",
+        "cell"
+      ]
+    },
+    {
+      "term": "T- SPINE",
+      "element": "region",
+      "termTokens": [
+        "t-",
+        "spine"
+      ]
+    },
+    {
+      "term": "TEAR duct",
+      "element": "region",
+      "termTokens": [
+        "tear",
+        "duct"
+      ]
+    },
+    {
+      "term": "temporal bone",
+      "element": "region",
+      "termTokens": [
+        "temporal",
+        "bone"
+      ]
+    },
+    {
+      "term": "temporal bones",
+      "element": "region",
+      "termTokens": [
+        "temporal",
+        "bones"
+      ]
+    },
+    {
+      "term": "temporomandibular joint",
+      "element": "region",
+      "termTokens": [
+        "temporomandibular",
+        "joint"
+      ]
+    },
+    {
+      "term": "tendon sheath",
+      "element": "region",
+      "termTokens": [
+        "tendon",
+        "sheath"
+      ]
+    },
+    {
+      "term": "thoracic aorta",
+      "element": "region",
+      "termTokens": [
+        "thoracic",
+        "aorta"
+      ]
+    },
+    {
+      "term": "Thyroid Metastases",
+      "element": "region",
+      "termTokens": [
+        "thyroid",
+        "metastases"
+      ]
+    },
+    {
+      "term": "TIBIA- FIBULA",
+      "element": "region",
+      "termTokens": [
+        "tibia-",
+        "fibula"
+      ]
+    },
+    {
+      "term": "TIBIAL- PERONEAL",
+      "element": "region",
+      "termTokens": [
+        "tibial-",
+        "peroneal"
+      ]
+    },
+    {
+      "term": "trigeminal nerve",
+      "element": "region",
+      "termTokens": [
+        "trigeminal",
+        "nerve"
+      ]
+    },
+    {
+      "term": "umbilical cord",
+      "element": "region",
+      "termTokens": [
+        "umbilical",
+        "cord"
+      ]
+    },
+    {
+      "term": "upper back",
+      "element": "region",
+      "termTokens": [
+        "upper",
+        "back"
+      ]
+    },
+    {
+      "term": "upper extremity",
+      "element": "region",
+      "termTokens": [
+        "upper",
+        "extremity"
+      ]
+    },
+    {
+      "term": "upper gastrointestinal",
+      "element": "region",
+      "termTokens": [
+        "upper",
+        "gastrointestinal"
+      ]
+    },
+    {
+      "term": "urinary bladder",
+      "element": "region",
+      "termTokens": [
+        "urinary",
+        "bladder"
+      ]
+    },
+    {
+      "term": "vas deferens",
+      "element": "region",
+      "termTokens": [
+        "vas",
+        "deferens"
+      ]
+    },
+    {
+      "term": "vascular flow",
+      "element": "angiography",
+      "termTokens": [
+        "vascular",
+        "flow"
+      ]
+    },
+    {
+      "term": "VEN- ARTL",
+      "element": "angiography",
+      "termTokens": [
+        "ven-",
+        "artl"
+      ]
+    },
+    {
+      "term": "vena cava",
+      "element": "region",
+      "termTokens": [
+        "vena",
+        "cava"
+      ]
+    },
+    {
+      "term": "VENOUS- ARTERIAL",
+      "element": "angiography",
+      "termTokens": [
+        "venous-",
+        "arterial"
+      ]
+    },
+    {
+      "term": "VESTIBULAR SCHWANNOMA",
+      "element": "region",
+      "termTokens": [
+        "vestibular",
+        "schwannoma"
+      ]
+    },
+    {
+      "term": "whole body",
+      "element": "region",
+      "termTokens": [
+        "whole",
+        "body"
+      ]
+    },
+    {
+      "term": "WITH CHEST-",
+      "element": "region",
+      "termTokens": [
+        "with",
+        "chest-"
+      ]
+    },
+    {
+      "term": "with doppler",
+      "element": "angiography",
+      "termTokens": [
+        "with",
+        "doppler"
+      ]
+    },
+    {
+      "term": "with duplex",
+      "element": "angiography",
+      "termTokens": [
+        "with",
+        "duplex"
+      ]
+    },
+    {
+      "term": "X ray",
+      "element": "modality",
+      "termTokens": [
+        "x",
+        "ray"
+      ]
+    },
+    {
+      "term": "X ray",
+      "element": "modality",
+      "termTokens": [
+        "x",
+        "ray"
+      ]
+    },
+    {
+      "term": "X rays",
+      "element": "modality",
+      "termTokens": [
+        "x",
+        "rays"
+      ]
+    },
+    {
+      "term": "X- ray",
+      "element": "modality",
+      "termTokens": [
+        "x-",
+        "ray"
+      ]
+    },
+    {
+      "term": "X- RAY",
+      "element": "modality",
+      "termTokens": [
+        "x-",
+        "ray"
+      ]
+    },
+    {
+      "term": "X- rays",
+      "element": "modality",
+      "termTokens": [
+        "x-",
+        "rays"
+      ]
+    },
+    {
+      "term": "X- RAYS",
+      "element": "modality",
+      "termTokens": [
+        "x-",
+        "rays"
+      ]
+    },
+    {
+      "term": "yolk sac",
+      "element": "region",
+      "termTokens": [
+        "yolk",
+        "sac"
+      ]
+    },
+    {
+      "term": "1XTR",
+      "element": "region",
+      "termTokens": [
+        "1xtr"
+      ]
+    },
+    {
+      "term": "ABCESS",
+      "element": "region",
+      "termTokens": [
+        "abcess"
+      ]
+    },
+    {
+      "term": "ABDO",
+      "element": "region",
+      "termTokens": [
+        "abdo"
+      ]
+    },
+    {
+      "term": "ABDOM",
+      "element": "region",
+      "termTokens": [
+        "abdom"
+      ]
+    },
+    {
+      "term": "ABDOMAN",
+      "element": "region",
+      "termTokens": [
+        "abdoman"
+      ]
+    },
+    {
+      "term": "abdomen",
+      "element": "region",
+      "termTokens": [
+        "abdomen"
+      ]
+    },
+    {
+      "term": "ABDOMEN-",
+      "element": "region",
+      "termTokens": [
+        "abdomen-"
+      ]
+    },
+    {
+      "term": "ABDOMENUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "abdomenunchcsrad"
+      ]
+    },
+    {
+      "term": "ABDOMINAL",
+      "element": "region",
+      "termTokens": [
+        "abdominal"
+      ]
+    },
+    {
+      "term": "ABDOMINIS",
+      "element": "region",
+      "termTokens": [
+        "abdominis"
+      ]
+    },
+    {
+      "term": "ABDOMINL",
+      "element": "region",
+      "termTokens": [
+        "abdominl"
+      ]
+    },
+    {
+      "term": "ABDPEL",
+      "element": "region",
+      "termTokens": [
+        "abdpel"
+      ]
+    },
+    {
+      "term": "ABS",
+      "element": "region",
+      "termTokens": [
+        "abs"
+      ]
+    },
+    {
+      "term": "ABSC",
+      "element": "region",
+      "termTokens": [
+        "absc"
+      ]
+    },
+    {
+      "term": "ABSCE",
+      "element": "region",
+      "termTokens": [
+        "absce"
+      ]
+    },
+    {
+      "term": "abscess",
+      "element": "region",
+      "termTokens": [
+        "abscess"
+      ]
+    },
+    {
+      "term": "ABSCESSUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "abscessunchcsrad"
+      ]
+    },
+    {
+      "term": "ACETABULUM",
+      "element": "region",
+      "termTokens": [
+        "acetabulum"
+      ]
+    },
+    {
+      "term": "ACHILLES",
+      "element": "region",
+      "termTokens": [
+        "achilles"
+      ]
+    },
+    {
+      "term": "acromioclavicular",
+      "element": "region",
+      "termTokens": [
+        "acromioclavicular"
+      ]
+    },
+    {
+      "term": "adenoid",
+      "element": "region",
+      "termTokens": [
+        "adenoid"
+      ]
+    },
+    {
+      "term": "ADNEXAL",
+      "element": "region",
+      "termTokens": [
+        "adnexal"
+      ]
+    },
+    {
+      "term": "adrenal",
+      "element": "region",
+      "termTokens": [
+        "adrenal"
+      ]
+    },
+    {
+      "term": "ADRENALS",
+      "element": "region",
+      "termTokens": [
+        "adrenals"
+      ]
+    },
+    {
+      "term": "AMNIOTIC",
+      "element": "region",
+      "termTokens": [
+        "amniotic"
+      ]
+    },
+    {
+      "term": "AMPULLA",
+      "element": "region",
+      "termTokens": [
+        "ampulla"
+      ]
+    },
+    {
+      "term": "ANGI",
+      "element": "angiography",
+      "termTokens": [
+        "angi"
+      ]
+    },
+    {
+      "term": "angiogram",
+      "element": "angiography",
+      "termTokens": [
+        "angiogram"
+      ]
+    },
+    {
+      "term": "ANGIOGRAPH",
+      "element": "angiography",
+      "termTokens": [
+        "angiograph"
+      ]
+    },
+    {
+      "term": "angiography",
+      "element": "angiography",
+      "termTokens": [
+        "angiography"
+      ]
+    },
+    {
+      "term": "ANGIOGRAPHY",
+      "element": "angiography",
+      "termTokens": [
+        "angiography"
+      ]
+    },
+    {
+      "term": "ANGIOGRAPRHY",
+      "element": "angiography",
+      "termTokens": [
+        "angiograprhy"
+      ]
+    },
+    {
+      "term": "angioplasty",
+      "element": "angiography",
+      "termTokens": [
+        "angioplasty"
+      ]
+    },
+    {
+      "term": "angioplasty",
+      "element": "angiography",
+      "termTokens": [
+        "angioplasty"
+      ]
+    },
+    {
+      "term": "ANGIOPLSTY",
+      "element": "angiography",
+      "termTokens": [
+        "angioplsty"
+      ]
+    },
+    {
+      "term": "ankle",
+      "element": "region",
+      "termTokens": [
+        "ankle"
+      ]
+    },
+    {
+      "term": "ANKLES",
+      "element": "region",
+      "termTokens": [
+        "ankles"
+      ]
+    },
+    {
+      "term": "anus",
+      "element": "region",
+      "termTokens": [
+        "anus"
+      ]
+    },
+    {
+      "term": "AORA",
+      "element": "region",
+      "termTokens": [
+        "aora"
+      ]
+    },
+    {
+      "term": "aorta",
+      "element": "region",
+      "termTokens": [
+        "aorta"
+      ]
+    },
+    {
+      "term": "AORTAGRAM",
+      "element": "angiography",
+      "termTokens": [
+        "aortagram"
+      ]
+    },
+    {
+      "term": "AORTAIVCILIACS",
+      "element": "region",
+      "termTokens": [
+        "aortaivciliacs"
+      ]
+    },
+    {
+      "term": "AORTAUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "aortaunchcsrad"
+      ]
+    },
+    {
+      "term": "AORTIC",
+      "element": "region",
+      "termTokens": [
+        "aortic"
+      ]
+    },
+    {
+      "term": "AORTO",
+      "element": "region",
+      "termTokens": [
+        "aorto"
+      ]
+    },
+    {
+      "term": "AORTOBIFEMORAL",
+      "element": "region",
+      "termTokens": [
+        "aortobifemoral"
+      ]
+    },
+    {
+      "term": "AORTOG",
+      "element": "angiography",
+      "termTokens": [
+        "aortog"
+      ]
+    },
+    {
+      "term": "AORTOGRAM",
+      "element": "angiography",
+      "termTokens": [
+        "aortogram"
+      ]
+    },
+    {
+      "term": "AORTOGRAPHY",
+      "element": "angiography",
+      "termTokens": [
+        "aortography"
+      ]
+    },
+    {
+      "term": "AORTOILIAC",
+      "element": "region",
+      "termTokens": [
+        "aortoiliac"
+      ]
+    },
+    {
+      "term": "AORTOILIOFEMORAL",
+      "element": "region",
+      "termTokens": [
+        "aortoiliofemoral"
+      ]
+    },
+    {
+      "term": "APPENDICEAL",
+      "element": "region",
+      "termTokens": [
+        "appendiceal"
+      ]
+    },
+    {
+      "term": "appendix",
+      "element": "region",
+      "termTokens": [
+        "appendix"
+      ]
+    },
+    {
+      "term": "APPENDIXUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "appendixunchcsrad"
+      ]
+    },
+    {
+      "term": "ARMPIT",
+      "element": "region",
+      "termTokens": [
+        "armpit"
+      ]
+    },
+    {
+      "term": "ARMUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "armunchcsrad"
+      ]
+    },
+    {
+      "term": "ARTERIAL",
+      "element": "angiography",
+      "termTokens": [
+        "arterial"
+      ]
+    },
+    {
+      "term": "ARTERIES",
+      "element": "angiography",
+      "termTokens": [
+        "arteries"
+      ]
+    },
+    {
+      "term": "arteriogram",
+      "element": "angiography",
+      "termTokens": [
+        "arteriogram"
+      ]
+    },
+    {
+      "term": "artery",
+      "element": "angiography",
+      "termTokens": [
+        "artery"
+      ]
+    },
+    {
+      "term": "artery-",
+      "element": "angiography",
+      "termTokens": [
+        "artery-"
+      ]
+    },
+    {
+      "term": "ARTICULARIS",
+      "element": "region",
+      "termTokens": [
+        "articularis"
+      ]
+    },
+    {
+      "term": "ARTRL",
+      "element": "angiography",
+      "termTokens": [
+        "artrl"
+      ]
+    },
+    {
+      "term": "ATR",
+      "element": "region",
+      "termTokens": [
+        "atr"
+      ]
+    },
+    {
+      "term": "ATRIAL",
+      "element": "region",
+      "termTokens": [
+        "atrial"
+      ]
+    },
+    {
+      "term": "ATRIAL-",
+      "element": "region",
+      "termTokens": [
+        "atrial-"
+      ]
+    },
+    {
+      "term": "ATRIUM",
+      "element": "region",
+      "termTokens": [
+        "atrium"
+      ]
+    },
+    {
+      "term": "AX",
+      "element": "region",
+      "termTokens": [
+        "ax"
+      ]
+    },
+    {
+      "term": "axilla",
+      "element": "region",
+      "termTokens": [
+        "axilla"
+      ]
+    },
+    {
+      "term": "AXILLARY",
+      "element": "region",
+      "termTokens": [
+        "axillary"
+      ]
+    },
+    {
+      "term": "AZYGOS",
+      "element": "region",
+      "termTokens": [
+        "azygos"
+      ]
+    },
+    {
+      "term": "back",
+      "element": "region",
+      "termTokens": [
+        "back"
+      ]
+    },
+    {
+      "term": "BASILAR",
+      "element": "region",
+      "termTokens": [
+        "basilar"
+      ]
+    },
+    {
+      "term": "BASILIC",
+      "element": "region",
+      "termTokens": [
+        "basilic"
+      ]
+    },
+    {
+      "term": "BILA",
+      "element": "laterality",
+      "termTokens": [
+        "bila"
+      ]
+    },
+    {
+      "term": "BILATARAL",
+      "element": "laterality",
+      "termTokens": [
+        "bilataral"
+      ]
+    },
+    {
+      "term": "BILATE",
+      "element": "laterality",
+      "termTokens": [
+        "bilate"
+      ]
+    },
+    {
+      "term": "BILATER",
+      "element": "laterality",
+      "termTokens": [
+        "bilater"
+      ]
+    },
+    {
+      "term": "BILATERA",
+      "element": "laterality",
+      "termTokens": [
+        "bilatera"
+      ]
+    },
+    {
+      "term": "bilateral",
+      "element": "laterality",
+      "termTokens": [
+        "bilateral"
+      ]
+    },
+    {
+      "term": "BILEDUCT",
+      "element": "region",
+      "termTokens": [
+        "bileduct"
+      ]
+    },
+    {
+      "term": "bladder",
+      "element": "region",
+      "termTokens": [
+        "bladder"
+      ]
+    },
+    {
+      "term": "BLADDERRETROPERITONEAL",
+      "element": "region",
+      "termTokens": [
+        "bladderretroperitoneal"
+      ]
+    },
+    {
+      "term": "BLADE",
+      "element": "region",
+      "termTokens": [
+        "blade"
+      ]
+    },
+    {
+      "term": "BLDR",
+      "element": "region",
+      "termTokens": [
+        "bldr"
+      ]
+    },
+    {
+      "term": "BLE",
+      "element": "region",
+      "termTokens": [
+        "ble"
+      ]
+    },
+    {
+      "term": "bone",
+      "element": "region",
+      "termTokens": [
+        "bone"
+      ]
+    },
+    {
+      "term": "BONERIBSPINEOUS",
+      "element": "region",
+      "termTokens": [
+        "boneribspineous"
+      ]
+    },
+    {
+      "term": "BONESUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "bonesunchcsrad"
+      ]
+    },
+    {
+      "term": "BOWEL",
+      "element": "region",
+      "termTokens": [
+        "bowel"
+      ]
+    },
+    {
+      "term": "BRAC",
+      "element": "region",
+      "termTokens": [
+        "brac"
+      ]
+    },
+    {
+      "term": "BRACHIAL",
+      "element": "region",
+      "termTokens": [
+        "brachial"
+      ]
+    },
+    {
+      "term": "BRACHIOCEPALIC",
+      "element": "region",
+      "termTokens": [
+        "brachiocepalic"
+      ]
+    },
+    {
+      "term": "brachiocephalic",
+      "element": "region",
+      "termTokens": [
+        "brachiocephalic"
+      ]
+    },
+    {
+      "term": "brain",
+      "element": "region",
+      "termTokens": [
+        "brain"
+      ]
+    },
+    {
+      "term": "BRAINORBIT",
+      "element": "region",
+      "termTokens": [
+        "brainorbit"
+      ]
+    },
+    {
+      "term": "brainstem",
+      "element": "region",
+      "termTokens": [
+        "brainstem"
+      ]
+    },
+    {
+      "term": "BRANCH",
+      "element": "region",
+      "termTokens": [
+        "branch"
+      ]
+    },
+    {
+      "term": "BRCH",
+      "element": "region",
+      "termTokens": [
+        "brch"
+      ]
+    },
+    {
+      "term": "BREAS",
+      "element": "region",
+      "termTokens": [
+        "breas"
+      ]
+    },
+    {
+      "term": "breast",
+      "element": "region",
+      "termTokens": [
+        "breast"
+      ]
+    },
+    {
+      "term": "BREASTBONE",
+      "element": "region",
+      "termTokens": [
+        "breastbone"
+      ]
+    },
+    {
+      "term": "BREASTS",
+      "element": "region",
+      "termTokens": [
+        "breasts"
+      ]
+    },
+    {
+      "term": "BRNCH",
+      "element": "region",
+      "termTokens": [
+        "brnch"
+      ]
+    },
+    {
+      "term": "BRONCHIAL",
+      "element": "region",
+      "termTokens": [
+        "bronchial"
+      ]
+    },
+    {
+      "term": "BRONCHUS",
+      "element": "region",
+      "termTokens": [
+        "bronchus"
+      ]
+    },
+    {
+      "term": "BRST",
+      "element": "region",
+      "termTokens": [
+        "brst"
+      ]
+    },
+    {
+      "term": "BUE",
+      "element": "region",
+      "termTokens": [
+        "bue"
+      ]
+    },
+    {
+      "term": "BURSA",
+      "element": "region",
+      "termTokens": [
+        "bursa"
+      ]
+    },
+    {
+      "term": "buttock",
+      "element": "region",
+      "termTokens": [
+        "buttock"
+      ]
+    },
+    {
+      "term": "BUTTOCKPERINEUM",
+      "element": "region",
+      "termTokens": [
+        "buttockperineum"
+      ]
+    },
+    {
+      "term": "BVN",
+      "element": "region",
+      "termTokens": [
+        "bvn"
+      ]
+    },
+    {
+      "term": "BWL",
+      "element": "region",
+      "termTokens": [
+        "bwl"
+      ]
+    },
+    {
+      "term": "C1-",
+      "element": "region",
+      "termTokens": [
+        "c1-"
+      ]
+    },
+    {
+      "term": "CALCANEAL",
+      "element": "region",
+      "termTokens": [
+        "calcaneal"
+      ]
+    },
+    {
+      "term": "CALCANEOUS",
+      "element": "region",
+      "termTokens": [
+        "calcaneous"
+      ]
+    },
+    {
+      "term": "calcaneus",
+      "element": "region",
+      "termTokens": [
+        "calcaneus"
+      ]
+    },
+    {
+      "term": "CALCIS",
+      "element": "region",
+      "termTokens": [
+        "calcis"
+      ]
+    },
+    {
+      "term": "calf",
+      "element": "region",
+      "termTokens": [
+        "calf"
+      ]
+    },
+    {
+      "term": "CANAL+CONTENTS",
+      "element": "region",
+      "termTokens": [
+        "canal+contents"
+      ]
+    },
+    {
+      "term": "CAPILLARY",
+      "element": "region",
+      "termTokens": [
+        "capillary"
+      ]
+    },
+    {
+      "term": "CARDIAC",
+      "element": "region",
+      "termTokens": [
+        "cardiac"
+      ]
+    },
+    {
+      "term": "CARDIOPULMONARY",
+      "element": "region",
+      "termTokens": [
+        "cardiopulmonary"
+      ]
+    },
+    {
+      "term": "CARINA",
+      "element": "region",
+      "termTokens": [
+        "carina"
+      ]
+    },
+    {
+      "term": "CAROTD",
+      "element": "region",
+      "termTokens": [
+        "carotd"
+      ]
+    },
+    {
+      "term": "carotid",
+      "element": "region",
+      "termTokens": [
+        "carotid"
+      ]
+    },
+    {
+      "term": "CARPAL",
+      "element": "region",
+      "termTokens": [
+        "carpal"
+      ]
+    },
+    {
+      "term": "CARTILAGE",
+      "element": "region",
+      "termTokens": [
+        "cartilage"
+      ]
+    },
+    {
+      "term": "CAVOGRAM",
+      "element": "angiography",
+      "termTokens": [
+        "cavogram"
+      ]
+    },
+    {
+      "term": "CBD",
+      "element": "region",
+      "termTokens": [
+        "cbd"
+      ]
+    },
+    {
+      "term": "CER",
+      "element": "region",
+      "termTokens": [
+        "cer"
+      ]
+    },
+    {
+      "term": "CEREBRAL",
+      "element": "region",
+      "termTokens": [
+        "cerebral"
+      ]
+    },
+    {
+      "term": "CEREBROSPINAL",
+      "element": "region",
+      "termTokens": [
+        "cerebrospinal"
+      ]
+    },
+    {
+      "term": "cervical",
+      "element": "region",
+      "termTokens": [
+        "cervical"
+      ]
+    },
+    {
+      "term": "CERVICL",
+      "element": "region",
+      "termTokens": [
+        "cervicl"
+      ]
+    },
+    {
+      "term": "CERVICOCEREBRAL",
+      "element": "region",
+      "termTokens": [
+        "cervicocerebral"
+      ]
+    },
+    {
+      "term": "CERVICOTHOR",
+      "element": "region",
+      "termTokens": [
+        "cervicothor"
+      ]
+    },
+    {
+      "term": "CERVIX",
+      "element": "region",
+      "termTokens": [
+        "cervix"
+      ]
+    },
+    {
+      "term": "CHANNELS",
+      "element": "region",
+      "termTokens": [
+        "channels"
+      ]
+    },
+    {
+      "term": "chest",
+      "element": "region",
+      "termTokens": [
+        "chest"
+      ]
+    },
+    {
+      "term": "CHEST-",
+      "element": "region",
+      "termTokens": [
+        "chest-"
+      ]
+    },
+    {
+      "term": "CHESTUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "chestunchcsrad"
+      ]
+    },
+    {
+      "term": "CHESTX",
+      "element": "region",
+      "termTokens": [
+        "chestx"
+      ]
+    },
+    {
+      "term": "CHORIONIC",
+      "element": "region",
+      "termTokens": [
+        "chorionic"
+      ]
+    },
+    {
+      "term": "CHST",
+      "element": "region",
+      "termTokens": [
+        "chst"
+      ]
+    },
+    {
+      "term": "CISTERNAL",
+      "element": "region",
+      "termTokens": [
+        "cisternal"
+      ]
+    },
+    {
+      "term": "CISTERNS",
+      "element": "region",
+      "termTokens": [
+        "cisterns"
+      ]
+    },
+    {
+      "term": "CLAV",
+      "element": "region",
+      "termTokens": [
+        "clav"
+      ]
+    },
+    {
+      "term": "CLAVICAL",
+      "element": "region",
+      "termTokens": [
+        "clavical"
+      ]
+    },
+    {
+      "term": "clavicle",
+      "element": "region",
+      "termTokens": [
+        "clavicle"
+      ]
+    },
+    {
+      "term": "CLAVICLES",
+      "element": "region",
+      "termTokens": [
+        "clavicles"
+      ]
+    },
+    {
+      "term": "coccyx",
+      "element": "region",
+      "termTokens": [
+        "coccyx"
+      ]
+    },
+    {
+      "term": "COCCYXUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "coccyxunchcsrad"
+      ]
+    },
+    {
+      "term": "COLIC",
+      "element": "region",
+      "termTokens": [
+        "colic"
+      ]
+    },
+    {
+      "term": "COLLAR",
+      "element": "region",
+      "termTokens": [
+        "collar"
+      ]
+    },
+    {
+      "term": "colon",
+      "element": "region",
+      "termTokens": [
+        "colon"
+      ]
+    },
+    {
+      "term": "COLUMN",
+      "element": "region",
+      "termTokens": [
+        "column"
+      ]
+    },
+    {
+      "term": "conjunctiva",
+      "element": "region",
+      "termTokens": [
+        "conjunctiva"
+      ]
+    },
+    {
+      "term": "CONTRALATERAL",
+      "element": "laterality",
+      "termTokens": [
+        "contralateral"
+      ]
+    },
+    {
+      "term": "CORD",
+      "element": "region",
+      "termTokens": [
+        "cord"
+      ]
+    },
+    {
+      "term": "cornea",
+      "element": "region",
+      "termTokens": [
+        "cornea"
+      ]
+    },
+    {
+      "term": "CORONARIES",
+      "element": "region",
+      "termTokens": [
+        "coronaries"
+      ]
+    },
+    {
+      "term": "CORONARY",
+      "element": "region",
+      "termTokens": [
+        "coronary"
+      ]
+    },
+    {
+      "term": "CORPORA",
+      "element": "region",
+      "termTokens": [
+        "corpora"
+      ]
+    },
+    {
+      "term": "costochondral",
+      "element": "region",
+      "termTokens": [
+        "costochondral"
+      ]
+    },
+    {
+      "term": "CRANIAL",
+      "element": "region",
+      "termTokens": [
+        "cranial"
+      ]
+    },
+    {
+      "term": "CRANIOFACIAL",
+      "element": "region",
+      "termTokens": [
+        "craniofacial"
+      ]
+    },
+    {
+      "term": "CRANIUM",
+      "element": "region",
+      "termTokens": [
+        "cranium"
+      ]
+    },
+    {
+      "term": "CRUCIATE",
+      "element": "region",
+      "termTokens": [
+        "cruciate"
+      ]
+    },
+    {
+      "term": "CRV",
+      "element": "region",
+      "termTokens": [
+        "crv"
+      ]
+    },
+    {
+      "term": "csf",
+      "element": "region",
+      "termTokens": [
+        "csf"
+      ]
+    },
+    {
+      "term": "CT",
+      "element": "modality",
+      "termTokens": [
+        "ct"
+      ]
+    },
+    {
+      "term": "CT-",
+      "element": "modality",
+      "termTokens": [
+        "ct-"
+      ]
+    },
+    {
+      "term": "CYS",
+      "element": "region",
+      "termTokens": [
+        "cys"
+      ]
+    },
+    {
+      "term": "cyst",
+      "element": "region",
+      "termTokens": [
+        "cyst"
+      ]
+    },
+    {
+      "term": "CYSTERN",
+      "element": "region",
+      "termTokens": [
+        "cystern"
+      ]
+    },
+    {
+      "term": "CYSTOURETERAL",
+      "element": "region",
+      "termTokens": [
+        "cystoureteral"
+      ]
+    },
+    {
+      "term": "CYSTS",
+      "element": "region",
+      "termTokens": [
+        "cysts"
+      ]
+    },
+    {
+      "term": "DEFERENS",
+      "element": "region",
+      "termTokens": [
+        "deferens"
+      ]
+    },
+    {
+      "term": "DENTAL",
+      "element": "region",
+      "termTokens": [
+        "dental"
+      ]
+    },
+    {
+      "term": "DENTITION",
+      "element": "region",
+      "termTokens": [
+        "dentition"
+      ]
+    },
+    {
+      "term": "dermal",
+      "element": "region",
+      "termTokens": [
+        "dermal"
+      ]
+    },
+    {
+      "term": "DIAPHRAGM",
+      "element": "region",
+      "termTokens": [
+        "diaphragm"
+      ]
+    },
+    {
+      "term": "DIGITS",
+      "element": "region",
+      "termTokens": [
+        "digits"
+      ]
+    },
+    {
+      "term": "DISC",
+      "element": "region",
+      "termTokens": [
+        "disc"
+      ]
+    },
+    {
+      "term": "DISK",
+      "element": "region",
+      "termTokens": [
+        "disk"
+      ]
+    },
+    {
+      "term": "DOP",
+      "element": "angiography",
+      "termTokens": [
+        "dop"
+      ]
+    },
+    {
+      "term": "doppler",
+      "element": "angiography",
+      "termTokens": [
+        "doppler"
+      ]
+    },
+    {
+      "term": "DOPPLERS",
+      "element": "angiography",
+      "termTokens": [
+        "dopplers"
+      ]
+    },
+    {
+      "term": "DPLX",
+      "element": "angiography",
+      "termTokens": [
+        "dplx"
+      ]
+    },
+    {
+      "term": "DSA",
+      "element": "angiography",
+      "termTokens": [
+        "dsa"
+      ]
+    },
+    {
+      "term": "DUCTAL",
+      "element": "region",
+      "termTokens": [
+        "ductal"
+      ]
+    },
+    {
+      "term": "DUOD",
+      "element": "region",
+      "termTokens": [
+        "duod"
+      ]
+    },
+    {
+      "term": "DUODENAL",
+      "element": "region",
+      "termTokens": [
+        "duodenal"
+      ]
+    },
+    {
+      "term": "duodenum",
+      "element": "region",
+      "termTokens": [
+        "duodenum"
+      ]
+    },
+    {
+      "term": "duplex",
+      "element": "angiography",
+      "termTokens": [
+        "duplex"
+      ]
+    },
+    {
+      "term": "DUPLX",
+      "element": "angiography",
+      "termTokens": [
+        "duplx"
+      ]
+    },
+    {
+      "term": "DUPUYTREN",
+      "element": "region",
+      "termTokens": [
+        "dupuytren"
+      ]
+    },
+    {
+      "term": "DURA",
+      "element": "region",
+      "termTokens": [
+        "dura"
+      ]
+    },
+    {
+      "term": "DV",
+      "element": "region",
+      "termTokens": [
+        "dv"
+      ]
+    },
+    {
+      "term": "DVT",
+      "element": "angiography",
+      "termTokens": [
+        "dvt"
+      ]
+    },
+    {
+      "term": "EAR",
+      "element": "region",
+      "termTokens": [
+        "ear"
+      ]
+    },
+    {
+      "term": "ECA",
+      "element": "region",
+      "termTokens": [
+        "eca"
+      ]
+    },
+    {
+      "term": "ECCRINE",
+      "element": "region",
+      "termTokens": [
+        "eccrine"
+      ]
+    },
+    {
+      "term": "ECHOGRAP",
+      "element": "modality",
+      "termTokens": [
+        "echograp"
+      ]
+    },
+    {
+      "term": "EJACUL",
+      "element": "region",
+      "termTokens": [
+        "ejacul"
+      ]
+    },
+    {
+      "term": "EJACULATORY",
+      "element": "region",
+      "termTokens": [
+        "ejaculatory"
+      ]
+    },
+    {
+      "term": "elbow",
+      "element": "region",
+      "termTokens": [
+        "elbow"
+      ]
+    },
+    {
+      "term": "ELBOWS",
+      "element": "region",
+      "termTokens": [
+        "elbows"
+      ]
+    },
+    {
+      "term": "ENDOANAL",
+      "element": "region",
+      "termTokens": [
+        "endoanal"
+      ]
+    },
+    {
+      "term": "ENDOMETR",
+      "element": "region",
+      "termTokens": [
+        "endometr"
+      ]
+    },
+    {
+      "term": "ENDOMETRIAL",
+      "element": "region",
+      "termTokens": [
+        "endometrial"
+      ]
+    },
+    {
+      "term": "endometrium",
+      "element": "region",
+      "termTokens": [
+        "endometrium"
+      ]
+    },
+    {
+      "term": "ENDOMYOCARDIAL",
+      "element": "region",
+      "termTokens": [
+        "endomyocardial"
+      ]
+    },
+    {
+      "term": "ENDOMYOCARDIUM",
+      "element": "region",
+      "termTokens": [
+        "endomyocardium"
+      ]
+    },
+    {
+      "term": "endovascular",
+      "element": "angiography",
+      "termTokens": [
+        "endovascular"
+      ]
+    },
+    {
+      "term": "ENDOVEN",
+      "element": "angiography",
+      "termTokens": [
+        "endoven"
+      ]
+    },
+    {
+      "term": "endovenous",
+      "element": "angiography",
+      "termTokens": [
+        "endovenous"
+      ]
+    },
+    {
+      "term": "endovenous",
+      "element": "angiography",
+      "termTokens": [
+        "endovenous"
+      ]
+    },
+    {
+      "term": "EOS",
+      "element": "modality",
+      "termTokens": [
+        "eos"
+      ]
+    },
+    {
+      "term": "EPICARDIAL",
+      "element": "region",
+      "termTokens": [
+        "epicardial"
+      ]
+    },
+    {
+      "term": "epicardium",
+      "element": "region",
+      "termTokens": [
+        "epicardium"
+      ]
+    },
+    {
+      "term": "EPIDIDYMIS",
+      "element": "region",
+      "termTokens": [
+        "epididymis"
+      ]
+    },
+    {
+      "term": "epidural",
+      "element": "region",
+      "termTokens": [
+        "epidural"
+      ]
+    },
+    {
+      "term": "EPIGASTRIC",
+      "element": "region",
+      "termTokens": [
+        "epigastric"
+      ]
+    },
+    {
+      "term": "ESOPH",
+      "element": "region",
+      "termTokens": [
+        "esoph"
+      ]
+    },
+    {
+      "term": "ESOPHA",
+      "element": "region",
+      "termTokens": [
+        "esopha"
+      ]
+    },
+    {
+      "term": "ESOPHAGOGASTRC",
+      "element": "region",
+      "termTokens": [
+        "esophagogastrc"
+      ]
+    },
+    {
+      "term": "esophagogastric",
+      "element": "region",
+      "termTokens": [
+        "esophagogastric"
+      ]
+    },
+    {
+      "term": "esophagus",
+      "element": "region",
+      "termTokens": [
+        "esophagus"
+      ]
+    },
+    {
+      "term": "ETHMOID",
+      "element": "region",
+      "termTokens": [
+        "ethmoid"
+      ]
+    },
+    {
+      "term": "EXTRACRANIAL",
+      "element": "region",
+      "termTokens": [
+        "extracranial"
+      ]
+    },
+    {
+      "term": "EXTRE",
+      "element": "region",
+      "termTokens": [
+        "extre"
+      ]
+    },
+    {
+      "term": "EXTREMETIES",
+      "element": "region",
+      "termTokens": [
+        "extremeties"
+      ]
+    },
+    {
+      "term": "EXTREMITIESUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "extremitiesunchcsrad"
+      ]
+    },
+    {
+      "term": "extremity",
+      "element": "region",
+      "termTokens": [
+        "extremity"
+      ]
+    },
+    {
+      "term": "EXTREMTY",
+      "element": "region",
+      "termTokens": [
+        "extremty"
+      ]
+    },
+    {
+      "term": "EYE",
+      "element": "region",
+      "termTokens": [
+        "eye"
+      ]
+    },
+    {
+      "term": "EYELID",
+      "element": "region",
+      "termTokens": [
+        "eyelid"
+      ]
+    },
+    {
+      "term": "EYES",
+      "element": "region",
+      "termTokens": [
+        "eyes"
+      ]
+    },
+    {
+      "term": "FAC",
+      "element": "region",
+      "termTokens": [
+        "fac"
+      ]
+    },
+    {
+      "term": "face",
+      "element": "region",
+      "termTokens": [
+        "face"
+      ]
+    },
+    {
+      "term": "facet",
+      "element": "region",
+      "termTokens": [
+        "facet"
+      ]
+    },
+    {
+      "term": "FALLOPIAN",
+      "element": "region",
+      "termTokens": [
+        "fallopian"
+      ]
+    },
+    {
+      "term": "FASCIAL",
+      "element": "region",
+      "termTokens": [
+        "fascial"
+      ]
+    },
+    {
+      "term": "FEMORAL",
+      "element": "region",
+      "termTokens": [
+        "femoral"
+      ]
+    },
+    {
+      "term": "FEMOROPOPLITEAL",
+      "element": "region",
+      "termTokens": [
+        "femoropopliteal"
+      ]
+    },
+    {
+      "term": "femur",
+      "element": "region",
+      "termTokens": [
+        "femur"
+      ]
+    },
+    {
+      "term": "FETUS",
+      "element": "region",
+      "termTokens": [
+        "fetus"
+      ]
+    },
+    {
+      "term": "FETUSS",
+      "element": "region",
+      "termTokens": [
+        "fetuss"
+      ]
+    },
+    {
+      "term": "fibula",
+      "element": "region",
+      "termTokens": [
+        "fibula"
+      ]
+    },
+    {
+      "term": "finger",
+      "element": "region",
+      "termTokens": [
+        "finger"
+      ]
+    },
+    {
+      "term": "FL",
+      "element": "modality",
+      "termTokens": [
+        "fl"
+      ]
+    },
+    {
+      "term": "FLANK",
+      "element": "region",
+      "termTokens": [
+        "flank"
+      ]
+    },
+    {
+      "term": "FLU",
+      "element": "modality",
+      "termTokens": [
+        "flu"
+      ]
+    },
+    {
+      "term": "FLUO",
+      "element": "modality",
+      "termTokens": [
+        "fluo"
+      ]
+    },
+    {
+      "term": "FLUOR",
+      "element": "modality",
+      "termTokens": [
+        "fluor"
+      ]
+    },
+    {
+      "term": "fluoroscopy",
+      "element": "modality",
+      "termTokens": [
+        "fluoroscopy"
+      ]
+    },
+    {
+      "term": "FLUOROSCOPY",
+      "element": "modality",
+      "termTokens": [
+        "fluoroscopy"
+      ]
+    },
+    {
+      "term": "FLUR",
+      "element": "modality",
+      "termTokens": [
+        "flur"
+      ]
+    },
+    {
+      "term": "FLURO",
+      "element": "modality",
+      "termTokens": [
+        "fluro"
+      ]
+    },
+    {
+      "term": "foot",
+      "element": "region",
+      "termTokens": [
+        "foot"
+      ]
+    },
+    {
+      "term": "forearm",
+      "element": "region",
+      "termTokens": [
+        "forearm"
+      ]
+    },
+    {
+      "term": "FOREFOOT",
+      "element": "region",
+      "termTokens": [
+        "forefoot"
+      ]
+    },
+    {
+      "term": "FOREGUT",
+      "element": "region",
+      "termTokens": [
+        "foregut"
+      ]
+    },
+    {
+      "term": "FOSSA",
+      "element": "region",
+      "termTokens": [
+        "fossa"
+      ]
+    },
+    {
+      "term": "FUNDUS",
+      "element": "region",
+      "termTokens": [
+        "fundus"
+      ]
+    },
+    {
+      "term": "GALL",
+      "element": "region",
+      "termTokens": [
+        "gall"
+      ]
+    },
+    {
+      "term": "gallbladder",
+      "element": "region",
+      "termTokens": [
+        "gallbladder"
+      ]
+    },
+    {
+      "term": "GALLBLADDERUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "gallbladderunchcsrad"
+      ]
+    },
+    {
+      "term": "GANGL",
+      "element": "region",
+      "termTokens": [
+        "gangl"
+      ]
+    },
+    {
+      "term": "ganglion",
+      "element": "region",
+      "termTokens": [
+        "ganglion"
+      ]
+    },
+    {
+      "term": "GASTRIC",
+      "element": "region",
+      "termTokens": [
+        "gastric"
+      ]
+    },
+    {
+      "term": "GASTRO",
+      "element": "region",
+      "termTokens": [
+        "gastro"
+      ]
+    },
+    {
+      "term": "GASTRODUODENAL",
+      "element": "region",
+      "termTokens": [
+        "gastroduodenal"
+      ]
+    },
+    {
+      "term": "GASTROESOPHAGEAL",
+      "element": "region",
+      "termTokens": [
+        "gastroesophageal"
+      ]
+    },
+    {
+      "term": "GASTROINTESTINAL",
+      "element": "region",
+      "termTokens": [
+        "gastrointestinal"
+      ]
+    },
+    {
+      "term": "GASTROJEJUN",
+      "element": "region",
+      "termTokens": [
+        "gastrojejun"
+      ]
+    },
+    {
+      "term": "GASTROJEJUNAL",
+      "element": "region",
+      "termTokens": [
+        "gastrojejunal"
+      ]
+    },
+    {
+      "term": "GB",
+      "element": "region",
+      "termTokens": [
+        "gb"
+      ]
+    },
+    {
+      "term": "GENICULAR",
+      "element": "region",
+      "termTokens": [
+        "genicular"
+      ]
+    },
+    {
+      "term": "GENIGULAR",
+      "element": "region",
+      "termTokens": [
+        "genigular"
+      ]
+    },
+    {
+      "term": "GENITAL",
+      "element": "region",
+      "termTokens": [
+        "genital"
+      ]
+    },
+    {
+      "term": "GENITALIA",
+      "element": "region",
+      "termTokens": [
+        "genitalia"
+      ]
+    },
+    {
+      "term": "GENITOURINARY",
+      "element": "region",
+      "termTokens": [
+        "genitourinary"
+      ]
+    },
+    {
+      "term": "GLBLDR",
+      "element": "region",
+      "termTokens": [
+        "glbldr"
+      ]
+    },
+    {
+      "term": "GLUTEAL",
+      "element": "region",
+      "termTokens": [
+        "gluteal"
+      ]
+    },
+    {
+      "term": "GNCLR",
+      "element": "region",
+      "termTokens": [
+        "gnclr"
+      ]
+    },
+    {
+      "term": "GONADAL",
+      "element": "region",
+      "termTokens": [
+        "gonadal"
+      ]
+    },
+    {
+      "term": "groin",
+      "element": "region",
+      "termTokens": [
+        "groin"
+      ]
+    },
+    {
+      "term": "GROINUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "groinunchcsrad"
+      ]
+    },
+    {
+      "term": "GSTRST",
+      "element": "region",
+      "termTokens": [
+        "gstrst"
+      ]
+    },
+    {
+      "term": "HAMSTRING",
+      "element": "region",
+      "termTokens": [
+        "hamstring"
+      ]
+    },
+    {
+      "term": "hand",
+      "element": "region",
+      "termTokens": [
+        "hand"
+      ]
+    },
+    {
+      "term": "HANDS",
+      "element": "region",
+      "termTokens": [
+        "hands"
+      ]
+    },
+    {
+      "term": "head",
+      "element": "region",
+      "termTokens": [
+        "head"
+      ]
+    },
+    {
+      "term": "HEAD-",
+      "element": "region",
+      "termTokens": [
+        "head-"
+      ]
+    },
+    {
+      "term": "HEADUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "headunchcsrad"
+      ]
+    },
+    {
+      "term": "heart",
+      "element": "region",
+      "termTokens": [
+        "heart"
+      ]
+    },
+    {
+      "term": "HEEL",
+      "element": "region",
+      "termTokens": [
+        "heel"
+      ]
+    },
+    {
+      "term": "HEMATOMA",
+      "element": "region",
+      "termTokens": [
+        "hematoma"
+      ]
+    },
+    {
+      "term": "HEMATOP",
+      "element": "region",
+      "termTokens": [
+        "hematop"
+      ]
+    },
+    {
+      "term": "HEMATOPOIETIC",
+      "element": "region",
+      "termTokens": [
+        "hematopoietic"
+      ]
+    },
+    {
+      "term": "HEMIC",
+      "element": "region",
+      "termTokens": [
+        "hemic"
+      ]
+    },
+    {
+      "term": "HEMORRHOIDAL",
+      "element": "region",
+      "termTokens": [
+        "hemorrhoidal"
+      ]
+    },
+    {
+      "term": "HEPATIC",
+      "element": "region",
+      "termTokens": [
+        "hepatic"
+      ]
+    },
+    {
+      "term": "HEPATOBILIARY",
+      "element": "region",
+      "termTokens": [
+        "hepatobiliary"
+      ]
+    },
+    {
+      "term": "HEPATOBILIARYUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "hepatobiliaryunchcsrad"
+      ]
+    },
+    {
+      "term": "HEPATOBILLARY",
+      "element": "region",
+      "termTokens": [
+        "hepatobillary"
+      ]
+    },
+    {
+      "term": "HEPATOPORTAL",
+      "element": "region",
+      "termTokens": [
+        "hepatoportal"
+      ]
+    },
+    {
+      "term": "hernia",
+      "element": "region",
+      "termTokens": [
+        "hernia"
+      ]
+    },
+    {
+      "term": "HILUM",
+      "element": "region",
+      "termTokens": [
+        "hilum"
+      ]
+    },
+    {
+      "term": "HINDFOOT",
+      "element": "region",
+      "termTokens": [
+        "hindfoot"
+      ]
+    },
+    {
+      "term": "hip",
+      "element": "region",
+      "termTokens": [
+        "hip"
+      ]
+    },
+    {
+      "term": "HMTMA",
+      "element": "region",
+      "termTokens": [
+        "hmtma"
+      ]
+    },
+    {
+      "term": "HRTCOR",
+      "element": "region",
+      "termTokens": [
+        "hrtcor"
+      ]
+    },
+    {
+      "term": "humerus",
+      "element": "region",
+      "termTokens": [
+        "humerus"
+      ]
+    },
+    {
+      "term": "HYPOGAS",
+      "element": "region",
+      "termTokens": [
+        "hypogas"
+      ]
+    },
+    {
+      "term": "hypogastric",
+      "element": "region",
+      "termTokens": [
+        "hypogastric"
+      ]
+    },
+    {
+      "term": "HYPOPHARYNX",
+      "element": "region",
+      "termTokens": [
+        "hypopharynx"
+      ]
+    },
+    {
+      "term": "IAC",
+      "element": "region",
+      "termTokens": [
+        "iac"
+      ]
+    },
+    {
+      "term": "IACS",
+      "element": "region",
+      "termTokens": [
+        "iacs"
+      ]
+    },
+    {
+      "term": "IC",
+      "element": "region",
+      "termTokens": [
+        "ic"
+      ]
+    },
+    {
+      "term": "ICA",
+      "element": "region",
+      "termTokens": [
+        "ica"
+      ]
+    },
+    {
+      "term": "ICR",
+      "element": "region",
+      "termTokens": [
+        "icr"
+      ]
+    },
+    {
+      "term": "ILEUM",
+      "element": "region",
+      "termTokens": [
+        "ileum"
+      ]
+    },
+    {
+      "term": "iliac",
+      "element": "region",
+      "termTokens": [
+        "iliac"
+      ]
+    },
+    {
+      "term": "ILIACS",
+      "element": "region",
+      "termTokens": [
+        "iliacs"
+      ]
+    },
+    {
+      "term": "ILIO",
+      "element": "region",
+      "termTokens": [
+        "ilio"
+      ]
+    },
+    {
+      "term": "ILIOFEM",
+      "element": "region",
+      "termTokens": [
+        "iliofem"
+      ]
+    },
+    {
+      "term": "ILIOFEMORAL",
+      "element": "region",
+      "termTokens": [
+        "iliofemoral"
+      ]
+    },
+    {
+      "term": "ILIOHYPOGASTRIC",
+      "element": "region",
+      "termTokens": [
+        "iliohypogastric"
+      ]
+    },
+    {
+      "term": "ILIOINGUINAL",
+      "element": "region",
+      "termTokens": [
+        "ilioinguinal"
+      ]
+    },
+    {
+      "term": "ILIOPSOAS",
+      "element": "region",
+      "termTokens": [
+        "iliopsoas"
+      ]
+    },
+    {
+      "term": "ILIUM",
+      "element": "region",
+      "termTokens": [
+        "ilium"
+      ]
+    },
+    {
+      "term": "INFRAMALLEOLAR",
+      "element": "region",
+      "termTokens": [
+        "inframalleolar"
+      ]
+    },
+    {
+      "term": "INGUINAL",
+      "element": "region",
+      "termTokens": [
+        "inguinal"
+      ]
+    },
+    {
+      "term": "INGUINOFEM",
+      "element": "region",
+      "termTokens": [
+        "inguinofem"
+      ]
+    },
+    {
+      "term": "INGUINOFEMORAL",
+      "element": "region",
+      "termTokens": [
+        "inguinofemoral"
+      ]
+    },
+    {
+      "term": "INNOMINATE",
+      "element": "region",
+      "termTokens": [
+        "innominate"
+      ]
+    },
+    {
+      "term": "INOM",
+      "element": "region",
+      "termTokens": [
+        "inom"
+      ]
+    },
+    {
+      "term": "INTERCOSTAL",
+      "element": "region",
+      "termTokens": [
+        "intercostal"
+      ]
+    },
+    {
+      "term": "INTERDISCAL",
+      "element": "region",
+      "termTokens": [
+        "interdiscal"
+      ]
+    },
+    {
+      "term": "INTERVERT",
+      "element": "region",
+      "termTokens": [
+        "intervert"
+      ]
+    },
+    {
+      "term": "intervertebral",
+      "element": "region",
+      "termTokens": [
+        "intervertebral"
+      ]
+    },
+    {
+      "term": "INTEST",
+      "element": "region",
+      "termTokens": [
+        "intest"
+      ]
+    },
+    {
+      "term": "INTESTINAL",
+      "element": "region",
+      "termTokens": [
+        "intestinal"
+      ]
+    },
+    {
+      "term": "INTESTINE",
+      "element": "region",
+      "termTokens": [
+        "intestine"
+      ]
+    },
+    {
+      "term": "INTESTINES",
+      "element": "region",
+      "termTokens": [
+        "intestines"
+      ]
+    },
+    {
+      "term": "INTRAARTICULAR",
+      "element": "region",
+      "termTokens": [
+        "intraarticular"
+      ]
+    },
+    {
+      "term": "INTRACARDIAC",
+      "element": "region",
+      "termTokens": [
+        "intracardiac"
+      ]
+    },
+    {
+      "term": "INTRACRAN",
+      "element": "region",
+      "termTokens": [
+        "intracran"
+      ]
+    },
+    {
+      "term": "INTRACRANIAL",
+      "element": "region",
+      "termTokens": [
+        "intracranial"
+      ]
+    },
+    {
+      "term": "INTRAFALLOPIAN",
+      "element": "region",
+      "termTokens": [
+        "intrafallopian"
+      ]
+    },
+    {
+      "term": "INTRAHEPATIC",
+      "element": "region",
+      "termTokens": [
+        "intrahepatic"
+      ]
+    },
+    {
+      "term": "INTRAOCULAR",
+      "element": "region",
+      "termTokens": [
+        "intraocular"
+      ]
+    },
+    {
+      "term": "INTRAOSSEOUS",
+      "element": "region",
+      "termTokens": [
+        "intraosseous"
+      ]
+    },
+    {
+      "term": "INTRAPERITNL",
+      "element": "region",
+      "termTokens": [
+        "intraperitnl"
+      ]
+    },
+    {
+      "term": "INTRAPERITO",
+      "element": "region",
+      "termTokens": [
+        "intraperito"
+      ]
+    },
+    {
+      "term": "INTRAPERITONEAL",
+      "element": "region",
+      "termTokens": [
+        "intraperitoneal"
+      ]
+    },
+    {
+      "term": "INTRASPINAL",
+      "element": "region",
+      "termTokens": [
+        "intraspinal"
+      ]
+    },
+    {
+      "term": "INTRATHORACIC",
+      "element": "region",
+      "termTokens": [
+        "intrathoracic"
+      ]
+    },
+    {
+      "term": "INTRAUTERINE",
+      "element": "region",
+      "termTokens": [
+        "intrauterine"
+      ]
+    },
+    {
+      "term": "intravascular",
+      "element": "angiography",
+      "termTokens": [
+        "intravascular"
+      ]
+    },
+    {
+      "term": "INTREHEPATIC",
+      "element": "region",
+      "termTokens": [
+        "intrehepatic"
+      ]
+    },
+    {
+      "term": "IR",
+      "element": "modality",
+      "termTokens": [
+        "ir"
+      ]
+    },
+    {
+      "term": "ISCHIOFEMORAL",
+      "element": "region",
+      "termTokens": [
+        "ischiofemoral"
+      ]
+    },
+    {
+      "term": "IVUS",
+      "element": "angiography",
+      "termTokens": [
+        "ivus"
+      ]
+    },
+    {
+      "term": "JAW",
+      "element": "region",
+      "termTokens": [
+        "jaw"
+      ]
+    },
+    {
+      "term": "JAWS",
+      "element": "region",
+      "termTokens": [
+        "jaws"
+      ]
+    },
+    {
+      "term": "JEJ",
+      "element": "region",
+      "termTokens": [
+        "jej"
+      ]
+    },
+    {
+      "term": "JEJUNAL",
+      "element": "region",
+      "termTokens": [
+        "jejunal"
+      ]
+    },
+    {
+      "term": "jejunum",
+      "element": "region",
+      "termTokens": [
+        "jejunum"
+      ]
+    },
+    {
+      "term": "joint",
+      "element": "region",
+      "termTokens": [
+        "joint"
+      ]
+    },
+    {
+      "term": "JOINTS",
+      "element": "region",
+      "termTokens": [
+        "joints"
+      ]
+    },
+    {
+      "term": "JOINTSUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "jointsunchcsrad"
+      ]
+    },
+    {
+      "term": "JUG",
+      "element": "region",
+      "termTokens": [
+        "jug"
+      ]
+    },
+    {
+      "term": "JUGULAR",
+      "element": "region",
+      "termTokens": [
+        "jugular"
+      ]
+    },
+    {
+      "term": "K",
+      "element": "region",
+      "termTokens": [
+        "k"
+      ]
+    },
+    {
+      "term": "kidney",
+      "element": "region",
+      "termTokens": [
+        "kidney"
+      ]
+    },
+    {
+      "term": "KIDNEYS",
+      "element": "region",
+      "termTokens": [
+        "kidneys"
+      ]
+    },
+    {
+      "term": "KN",
+      "element": "region",
+      "termTokens": [
+        "kn"
+      ]
+    },
+    {
+      "term": "KNE",
+      "element": "region",
+      "termTokens": [
+        "kne"
+      ]
+    },
+    {
+      "term": "knee",
+      "element": "region",
+      "termTokens": [
+        "knee"
+      ]
+    },
+    {
+      "term": "KUB",
+      "element": "region",
+      "termTokens": [
+        "kub"
+      ]
+    },
+    {
+      "term": "LACRIMAL",
+      "element": "region",
+      "termTokens": [
+        "lacrimal"
+      ]
+    },
+    {
+      "term": "LARYNX",
+      "element": "region",
+      "termTokens": [
+        "larynx"
+      ]
+    },
+    {
+      "term": "left",
+      "element": "laterality",
+      "termTokens": [
+        "left"
+      ]
+    },
+    {
+      "term": "LENS",
+      "element": "region",
+      "termTokens": [
+        "lens"
+      ]
+    },
+    {
+      "term": "LIGAMENT",
+      "element": "region",
+      "termTokens": [
+        "ligament"
+      ]
+    },
+    {
+      "term": "LINING",
+      "element": "region",
+      "termTokens": [
+        "lining"
+      ]
+    },
+    {
+      "term": "liver",
+      "element": "region",
+      "termTokens": [
+        "liver"
+      ]
+    },
+    {
+      "term": "LIVER-",
+      "element": "region",
+      "termTokens": [
+        "liver-"
+      ]
+    },
+    {
+      "term": "LIVERUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "liverunchcsrad"
+      ]
+    },
+    {
+      "term": "LLE",
+      "element": "region",
+      "termTokens": [
+        "lle"
+      ]
+    },
+    {
+      "term": "LNG",
+      "element": "region",
+      "termTokens": [
+        "lng"
+      ]
+    },
+    {
+      "term": "LUE",
+      "element": "region",
+      "termTokens": [
+        "lue"
+      ]
+    },
+    {
+      "term": "LUM",
+      "element": "region",
+      "termTokens": [
+        "lum"
+      ]
+    },
+    {
+      "term": "LUMB",
+      "element": "region",
+      "termTokens": [
+        "lumb"
+      ]
+    },
+    {
+      "term": "lumbar",
+      "element": "region",
+      "termTokens": [
+        "lumbar"
+      ]
+    },
+    {
+      "term": "LUMBARSACRAL",
+      "element": "region",
+      "termTokens": [
+        "lumbarsacral"
+      ]
+    },
+    {
+      "term": "LUMBOSAC",
+      "element": "region",
+      "termTokens": [
+        "lumbosac"
+      ]
+    },
+    {
+      "term": "lumbosacral",
+      "element": "region",
+      "termTokens": [
+        "lumbosacral"
+      ]
+    },
+    {
+      "term": "lung",
+      "element": "region",
+      "termTokens": [
+        "lung"
+      ]
+    },
+    {
+      "term": "LVRSPLEEN",
+      "element": "region",
+      "termTokens": [
+        "lvrspleen"
+      ]
+    },
+    {
+      "term": "LYMP",
+      "element": "region",
+      "termTokens": [
+        "lymp"
+      ]
+    },
+    {
+      "term": "LYMPHANG",
+      "element": "angiography",
+      "termTokens": [
+        "lymphang"
+      ]
+    },
+    {
+      "term": "LYMPHATIC",
+      "element": "region",
+      "termTokens": [
+        "lymphatic"
+      ]
+    },
+    {
+      "term": "LYMPHNODE",
+      "element": "region",
+      "termTokens": [
+        "lymphnode"
+      ]
+    },
+    {
+      "term": "LYMPHOVASCULAR",
+      "element": "region",
+      "termTokens": [
+        "lymphovascular"
+      ]
+    },
+    {
+      "term": "LYMPHTC",
+      "element": "region",
+      "termTokens": [
+        "lymphtc"
+      ]
+    },
+    {
+      "term": "MACULA",
+      "element": "region",
+      "termTokens": [
+        "macula"
+      ]
+    },
+    {
+      "term": "MAM-",
+      "element": "modality",
+      "termTokens": [
+        "mam-"
+      ]
+    },
+    {
+      "term": "MAMMARY",
+      "element": "region",
+      "termTokens": [
+        "mammary"
+      ]
+    },
+    {
+      "term": "MAMMOGRAPHY",
+      "element": "modality",
+      "termTokens": [
+        "mammography"
+      ]
+    },
+    {
+      "term": "mandible",
+      "element": "region",
+      "termTokens": [
+        "mandible"
+      ]
+    },
+    {
+      "term": "MARROWUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "marrowunchcsrad"
+      ]
+    },
+    {
+      "term": "MASS",
+      "element": "region",
+      "termTokens": [
+        "mass"
+      ]
+    },
+    {
+      "term": "MASSUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "massunchcsrad"
+      ]
+    },
+    {
+      "term": "mastoid",
+      "element": "region",
+      "termTokens": [
+        "mastoid"
+      ]
+    },
+    {
+      "term": "MAXILLA",
+      "element": "region",
+      "termTokens": [
+        "maxilla"
+      ]
+    },
+    {
+      "term": "MAXILLARY",
+      "element": "region",
+      "termTokens": [
+        "maxillary"
+      ]
+    },
+    {
+      "term": "MAXILLO",
+      "element": "region",
+      "termTokens": [
+        "maxillo"
+      ]
+    },
+    {
+      "term": "MAXILLOFACIAL",
+      "element": "region",
+      "termTokens": [
+        "maxillofacial"
+      ]
+    },
+    {
+      "term": "MCA",
+      "element": "region",
+      "termTokens": [
+        "mca"
+      ]
+    },
+    {
+      "term": "MEATI",
+      "element": "region",
+      "termTokens": [
+        "meati"
+      ]
+    },
+    {
+      "term": "meatus",
+      "element": "region",
+      "termTokens": [
+        "meatus"
+      ]
+    },
+    {
+      "term": "MEDIASTINAL",
+      "element": "region",
+      "termTokens": [
+        "mediastinal"
+      ]
+    },
+    {
+      "term": "MEDIASTINUM",
+      "element": "region",
+      "termTokens": [
+        "mediastinum"
+      ]
+    },
+    {
+      "term": "MEDULLA",
+      "element": "region",
+      "termTokens": [
+        "medulla"
+      ]
+    },
+    {
+      "term": "mesentery",
+      "element": "region",
+      "termTokens": [
+        "mesentery"
+      ]
+    },
+    {
+      "term": "MG",
+      "element": "modality",
+      "termTokens": [
+        "mg"
+      ]
+    },
+    {
+      "term": "MIDBRAIN",
+      "element": "region",
+      "termTokens": [
+        "midbrain"
+      ]
+    },
+    {
+      "term": "MIDBRAIN-",
+      "element": "region",
+      "termTokens": [
+        "midbrain-"
+      ]
+    },
+    {
+      "term": "MIDFOOT",
+      "element": "region",
+      "termTokens": [
+        "midfoot"
+      ]
+    },
+    {
+      "term": "MIDTHIGH",
+      "element": "region",
+      "termTokens": [
+        "midthigh"
+      ]
+    },
+    {
+      "term": "mitral",
+      "element": "region",
+      "termTokens": [
+        "mitral"
+      ]
+    },
+    {
+      "term": "MORTONS",
+      "element": "region",
+      "termTokens": [
+        "mortons"
+      ]
+    },
+    {
+      "term": "MOUTH",
+      "element": "region",
+      "termTokens": [
+        "mouth"
+      ]
+    },
+    {
+      "term": "MR",
+      "element": "modality",
+      "termTokens": [
+        "mr"
+      ]
+    },
+    {
+      "term": "MRIUNCHCSRAD",
+      "element": "modality",
+      "termTokens": [
+        "mriunchcsrad"
+      ]
+    },
+    {
+      "term": "MSK",
+      "element": "region",
+      "termTokens": [
+        "msk"
+      ]
+    },
+    {
+      "term": "MSKUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "mskunchcsrad"
+      ]
+    },
+    {
+      "term": "MUSC",
+      "element": "region",
+      "termTokens": [
+        "musc"
+      ]
+    },
+    {
+      "term": "MUSCL",
+      "element": "region",
+      "termTokens": [
+        "muscl"
+      ]
+    },
+    {
+      "term": "muscle",
+      "element": "region",
+      "termTokens": [
+        "muscle"
+      ]
+    },
+    {
+      "term": "MUSCLES",
+      "element": "region",
+      "termTokens": [
+        "muscles"
+      ]
+    },
+    {
+      "term": "MUSCSKEL",
+      "element": "region",
+      "termTokens": [
+        "muscskel"
+      ]
+    },
+    {
+      "term": "MUSCULOSKELETAL",
+      "element": "region",
+      "termTokens": [
+        "musculoskeletal"
+      ]
+    },
+    {
+      "term": "MYCARDIAL",
+      "element": "region",
+      "termTokens": [
+        "mycardial"
+      ]
+    },
+    {
+      "term": "myocardium",
+      "element": "region",
+      "termTokens": [
+        "myocardium"
+      ]
+    },
+    {
+      "term": "MYOCUTANEOUS",
+      "element": "region",
+      "termTokens": [
+        "myocutaneous"
+      ]
+    },
+    {
+      "term": "NASOPHARYNX",
+      "element": "region",
+      "termTokens": [
+        "nasopharynx"
+      ]
+    },
+    {
+      "term": "neck",
+      "element": "region",
+      "termTokens": [
+        "neck"
+      ]
+    },
+    {
+      "term": "NECK-",
+      "element": "region",
+      "termTokens": [
+        "neck-"
+      ]
+    },
+    {
+      "term": "NECK-",
+      "element": "region",
+      "termTokens": [
+        "neck-"
+      ]
+    },
+    {
+      "term": "NECKCHEST",
+      "element": "region",
+      "termTokens": [
+        "neckchest"
+      ]
+    },
+    {
+      "term": "NECKUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "neckunchcsrad"
+      ]
+    },
+    {
+      "term": "NEPH",
+      "element": "region",
+      "termTokens": [
+        "neph"
+      ]
+    },
+    {
+      "term": "NEPHR",
+      "element": "region",
+      "termTokens": [
+        "nephr"
+      ]
+    },
+    {
+      "term": "NEPHRO",
+      "element": "region",
+      "termTokens": [
+        "nephro"
+      ]
+    },
+    {
+      "term": "NEPHROTOMOGRAPHY",
+      "element": "modality",
+      "termTokens": [
+        "nephrotomography"
+      ]
+    },
+    {
+      "term": "NEPHROURETRL",
+      "element": "region",
+      "termTokens": [
+        "nephrouretrl"
+      ]
+    },
+    {
+      "term": "NEPHRU",
+      "element": "region",
+      "termTokens": [
+        "nephru"
+      ]
+    },
+    {
+      "term": "NEPHRURET",
+      "element": "region",
+      "termTokens": [
+        "nephruret"
+      ]
+    },
+    {
+      "term": "NEPHTRAC",
+      "element": "region",
+      "termTokens": [
+        "nephtrac"
+      ]
+    },
+    {
+      "term": "nerve",
+      "element": "region",
+      "termTokens": [
+        "nerve"
+      ]
+    },
+    {
+      "term": "NERVES",
+      "element": "region",
+      "termTokens": [
+        "nerves"
+      ]
+    },
+    {
+      "term": "NERVOUS",
+      "element": "region",
+      "termTokens": [
+        "nervous"
+      ]
+    },
+    {
+      "term": "neuroma",
+      "element": "region",
+      "termTokens": [
+        "neuroma"
+      ]
+    },
+    {
+      "term": "NIR",
+      "element": "modality",
+      "termTokens": [
+        "nir"
+      ]
+    },
+    {
+      "term": "NM",
+      "element": "modality",
+      "termTokens": [
+        "nm"
+      ]
+    },
+    {
+      "term": "NMTC99SESTAMIBIWITHBODYIMAGING",
+      "element": "modality",
+      "termTokens": [
+        "nmtc99sestamibiwithbodyimaging"
+      ]
+    },
+    {
+      "term": "NOD",
+      "element": "region",
+      "termTokens": [
+        "nod"
+      ]
+    },
+    {
+      "term": "NODAL",
+      "element": "region",
+      "termTokens": [
+        "nodal"
+      ]
+    },
+    {
+      "term": "NODE",
+      "element": "region",
+      "termTokens": [
+        "node"
+      ]
+    },
+    {
+      "term": "NODES",
+      "element": "region",
+      "termTokens": [
+        "nodes"
+      ]
+    },
+    {
+      "term": "NODULE",
+      "element": "region",
+      "termTokens": [
+        "nodule"
+      ]
+    },
+    {
+      "term": "NODULES",
+      "element": "region",
+      "termTokens": [
+        "nodules"
+      ]
+    },
+    {
+      "term": "NONCORONARY",
+      "element": "region",
+      "termTokens": [
+        "noncoronary"
+      ]
+    },
+    {
+      "term": "nose",
+      "element": "region",
+      "termTokens": [
+        "nose"
+      ]
+    },
+    {
+      "term": "NRVS",
+      "element": "region",
+      "termTokens": [
+        "nrvs"
+      ]
+    },
+    {
+      "term": "NTRCOST",
+      "element": "region",
+      "termTokens": [
+        "ntrcost"
+      ]
+    },
+    {
+      "term": "NUCHAL",
+      "element": "region",
+      "termTokens": [
+        "nuchal"
+      ]
+    },
+    {
+      "term": "NUCLR",
+      "element": "modality",
+      "termTokens": [
+        "nuclr"
+      ]
+    },
+    {
+      "term": "OCCIPITAL",
+      "element": "region",
+      "termTokens": [
+        "occipital"
+      ]
+    },
+    {
+      "term": "OCCIPTAL",
+      "element": "region",
+      "termTokens": [
+        "occiptal"
+      ]
+    },
+    {
+      "term": "OCCIPUT",
+      "element": "region",
+      "termTokens": [
+        "occiput"
+      ]
+    },
+    {
+      "term": "OCPL",
+      "element": "region",
+      "termTokens": [
+        "ocpl"
+      ]
+    },
+    {
+      "term": "OCULAR",
+      "element": "region",
+      "termTokens": [
+        "ocular"
+      ]
+    },
+    {
+      "term": "OLECRANON",
+      "element": "region",
+      "termTokens": [
+        "olecranon"
+      ]
+    },
+    {
+      "term": "OOCYTE",
+      "element": "region",
+      "termTokens": [
+        "oocyte"
+      ]
+    },
+    {
+      "term": "OPHTHALMIC",
+      "element": "region",
+      "termTokens": [
+        "ophthalmic"
+      ]
+    },
+    {
+      "term": "OPTIC",
+      "element": "region",
+      "termTokens": [
+        "optic"
+      ]
+    },
+    {
+      "term": "ORB",
+      "element": "region",
+      "termTokens": [
+        "orb"
+      ]
+    },
+    {
+      "term": "orbit",
+      "element": "region",
+      "termTokens": [
+        "orbit"
+      ]
+    },
+    {
+      "term": "ORBITAL",
+      "element": "region",
+      "termTokens": [
+        "orbital"
+      ]
+    },
+    {
+      "term": "ORBITFACENECK",
+      "element": "region",
+      "termTokens": [
+        "orbitfaceneck"
+      ]
+    },
+    {
+      "term": "ORBT",
+      "element": "region",
+      "termTokens": [
+        "orbt"
+      ]
+    },
+    {
+      "term": "ORIGIN",
+      "element": "region",
+      "termTokens": [
+        "origin"
+      ]
+    },
+    {
+      "term": "OROPHARYNX",
+      "element": "region",
+      "termTokens": [
+        "oropharynx"
+      ]
+    },
+    {
+      "term": "OVA",
+      "element": "region",
+      "termTokens": [
+        "ova"
+      ]
+    },
+    {
+      "term": "OVARIAN",
+      "element": "region",
+      "termTokens": [
+        "ovarian"
+      ]
+    },
+    {
+      "term": "ovary",
+      "element": "region",
+      "termTokens": [
+        "ovary"
+      ]
+    },
+    {
+      "term": "palate",
+      "element": "region",
+      "termTokens": [
+        "palate"
+      ]
+    },
+    {
+      "term": "PALATINE",
+      "element": "region",
+      "termTokens": [
+        "palatine"
+      ]
+    },
+    {
+      "term": "PALMAR",
+      "element": "region",
+      "termTokens": [
+        "palmar"
+      ]
+    },
+    {
+      "term": "pancreas",
+      "element": "region",
+      "termTokens": [
+        "pancreas"
+      ]
+    },
+    {
+      "term": "PANCREATIC",
+      "element": "region",
+      "termTokens": [
+        "pancreatic"
+      ]
+    },
+    {
+      "term": "PANCREATICODUODENAL",
+      "element": "region",
+      "termTokens": [
+        "pancreaticoduodenal"
+      ]
+    },
+    {
+      "term": "PARACERVICAL",
+      "element": "region",
+      "termTokens": [
+        "paracervical"
+      ]
+    },
+    {
+      "term": "PARACHYMAL",
+      "element": "region",
+      "termTokens": [
+        "parachymal"
+      ]
+    },
+    {
+      "term": "PARACRV",
+      "element": "region",
+      "termTokens": [
+        "paracrv"
+      ]
+    },
+    {
+      "term": "PARALAMINAR",
+      "element": "region",
+      "termTokens": [
+        "paralaminar"
+      ]
+    },
+    {
+      "term": "PARANASAL",
+      "element": "region",
+      "termTokens": [
+        "paranasal"
+      ]
+    },
+    {
+      "term": "PARASPINE",
+      "element": "region",
+      "termTokens": [
+        "paraspine"
+      ]
+    },
+    {
+      "term": "PARASPINOUS",
+      "element": "region",
+      "termTokens": [
+        "paraspinous"
+      ]
+    },
+    {
+      "term": "PARATHY",
+      "element": "region",
+      "termTokens": [
+        "parathy"
+      ]
+    },
+    {
+      "term": "PARATHYRD",
+      "element": "region",
+      "termTokens": [
+        "parathyrd"
+      ]
+    },
+    {
+      "term": "parathyroid",
+      "element": "region",
+      "termTokens": [
+        "parathyroid"
+      ]
+    },
+    {
+      "term": "PARAVERT",
+      "element": "region",
+      "termTokens": [
+        "paravert"
+      ]
+    },
+    {
+      "term": "PARAVERTEBRAL",
+      "element": "region",
+      "termTokens": [
+        "paravertebral"
+      ]
+    },
+    {
+      "term": "parenchyma",
+      "element": "region",
+      "termTokens": [
+        "parenchyma"
+      ]
+    },
+    {
+      "term": "PARENCHYMAL",
+      "element": "region",
+      "termTokens": [
+        "parenchymal"
+      ]
+    },
+    {
+      "term": "PARNCHYMA",
+      "element": "region",
+      "termTokens": [
+        "parnchyma"
+      ]
+    },
+    {
+      "term": "parotid",
+      "element": "region",
+      "termTokens": [
+        "parotid"
+      ]
+    },
+    {
+      "term": "PATELL",
+      "element": "region",
+      "termTokens": [
+        "patell"
+      ]
+    },
+    {
+      "term": "patella",
+      "element": "region",
+      "termTokens": [
+        "patella"
+      ]
+    },
+    {
+      "term": "PATELLAR",
+      "element": "region",
+      "termTokens": [
+        "patellar"
+      ]
+    },
+    {
+      "term": "PEDAL",
+      "element": "region",
+      "termTokens": [
+        "pedal"
+      ]
+    },
+    {
+      "term": "PEL",
+      "element": "region",
+      "termTokens": [
+        "pel"
+      ]
+    },
+    {
+      "term": "PEL+C",
+      "element": "region",
+      "termTokens": [
+        "pel+c"
+      ]
+    },
+    {
+      "term": "PELUS",
+      "element": "region",
+      "termTokens": [
+        "pelus"
+      ]
+    },
+    {
+      "term": "pelvis",
+      "element": "region",
+      "termTokens": [
+        "pelvis"
+      ]
+    },
+    {
+      "term": "PELVISFROG",
+      "element": "region",
+      "termTokens": [
+        "pelvisfrog"
+      ]
+    },
+    {
+      "term": "PELVISUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "pelvisunchcsrad"
+      ]
+    },
+    {
+      "term": "PENILE",
+      "element": "region",
+      "termTokens": [
+        "penile"
+      ]
+    },
+    {
+      "term": "penis",
+      "element": "region",
+      "termTokens": [
+        "penis"
+      ]
+    },
+    {
+      "term": "perforator",
+      "element": "region",
+      "termTokens": [
+        "perforator"
+      ]
+    },
+    {
+      "term": "PERIANAL",
+      "element": "region",
+      "termTokens": [
+        "perianal"
+      ]
+    },
+    {
+      "term": "PERIARTICULAR",
+      "element": "region",
+      "termTokens": [
+        "periarticular"
+      ]
+    },
+    {
+      "term": "PERINEAL",
+      "element": "region",
+      "termTokens": [
+        "perineal"
+      ]
+    },
+    {
+      "term": "perineum",
+      "element": "region",
+      "termTokens": [
+        "perineum"
+      ]
+    },
+    {
+      "term": "PERINUEM",
+      "element": "region",
+      "termTokens": [
+        "perinuem"
+      ]
+    },
+    {
+      "term": "PERITON",
+      "element": "region",
+      "termTokens": [
+        "periton"
+      ]
+    },
+    {
+      "term": "PERITONEAL",
+      "element": "region",
+      "termTokens": [
+        "peritoneal"
+      ]
+    },
+    {
+      "term": "PERITONEOCAVAL",
+      "element": "region",
+      "termTokens": [
+        "peritoneocaval"
+      ]
+    },
+    {
+      "term": "peritoneum",
+      "element": "region",
+      "termTokens": [
+        "peritoneum"
+      ]
+    },
+    {
+      "term": "PERITONSILLAR",
+      "element": "region",
+      "termTokens": [
+        "peritonsillar"
+      ]
+    },
+    {
+      "term": "PERIURETHRAL",
+      "element": "region",
+      "termTokens": [
+        "periurethral"
+      ]
+    },
+    {
+      "term": "PERIVERT",
+      "element": "region",
+      "termTokens": [
+        "perivert"
+      ]
+    },
+    {
+      "term": "PERO",
+      "element": "region",
+      "termTokens": [
+        "pero"
+      ]
+    },
+    {
+      "term": "PERONEAL",
+      "element": "region",
+      "termTokens": [
+        "peroneal"
+      ]
+    },
+    {
+      "term": "PETROSAL",
+      "element": "region",
+      "termTokens": [
+        "petrosal"
+      ]
+    },
+    {
+      "term": "PETROUS",
+      "element": "region",
+      "termTokens": [
+        "petrous"
+      ]
+    },
+    {
+      "term": "PHARYNGEAL",
+      "element": "region",
+      "termTokens": [
+        "pharyngeal"
+      ]
+    },
+    {
+      "term": "pharynx",
+      "element": "region",
+      "termTokens": [
+        "pharynx"
+      ]
+    },
+    {
+      "term": "PHOTO",
+      "element": "modality",
+      "termTokens": [
+        "photo"
+      ]
+    },
+    {
+      "term": "PHRENIC",
+      "element": "region",
+      "termTokens": [
+        "phrenic"
+      ]
+    },
+    {
+      "term": "PHRNX",
+      "element": "region",
+      "termTokens": [
+        "phrnx"
+      ]
+    },
+    {
+      "term": "PIRIFORMIS",
+      "element": "region",
+      "termTokens": [
+        "piriformis"
+      ]
+    },
+    {
+      "term": "PIT",
+      "element": "region",
+      "termTokens": [
+        "pit"
+      ]
+    },
+    {
+      "term": "PITUATARY",
+      "element": "region",
+      "termTokens": [
+        "pituatary"
+      ]
+    },
+    {
+      "term": "PITUITARY",
+      "element": "region",
+      "termTokens": [
+        "pituitary"
+      ]
+    },
+    {
+      "term": "PLACENTA",
+      "element": "region",
+      "termTokens": [
+        "placenta"
+      ]
+    },
+    {
+      "term": "PLACENTAL",
+      "element": "region",
+      "termTokens": [
+        "placental"
+      ]
+    },
+    {
+      "term": "PLANTAR",
+      "element": "region",
+      "termTokens": [
+        "plantar"
+      ]
+    },
+    {
+      "term": "PLASMA",
+      "element": "region",
+      "termTokens": [
+        "plasma"
+      ]
+    },
+    {
+      "term": "pleura",
+      "element": "region",
+      "termTokens": [
+        "pleura"
+      ]
+    },
+    {
+      "term": "PLEURAL",
+      "element": "region",
+      "termTokens": [
+        "pleural"
+      ]
+    },
+    {
+      "term": "PLEX",
+      "element": "region",
+      "termTokens": [
+        "plex"
+      ]
+    },
+    {
+      "term": "plexus",
+      "element": "region",
+      "termTokens": [
+        "plexus"
+      ]
+    },
+    {
+      "term": "PLM",
+      "element": "region",
+      "termTokens": [
+        "plm"
+      ]
+    },
+    {
+      "term": "PLTR",
+      "element": "region",
+      "termTokens": [
+        "pltr"
+      ]
+    },
+    {
+      "term": "PLV",
+      "element": "region",
+      "termTokens": [
+        "plv"
+      ]
+    },
+    {
+      "term": "PLVS",
+      "element": "region",
+      "termTokens": [
+        "plvs"
+      ]
+    },
+    {
+      "term": "PLXS",
+      "element": "region",
+      "termTokens": [
+        "plxs"
+      ]
+    },
+    {
+      "term": "PN",
+      "element": "region",
+      "termTokens": [
+        "pn"
+      ]
+    },
+    {
+      "term": "POLITEAL",
+      "element": "region",
+      "termTokens": [
+        "politeal"
+      ]
+    },
+    {
+      "term": "POLYP",
+      "element": "region",
+      "termTokens": [
+        "polyp"
+      ]
+    },
+    {
+      "term": "POP",
+      "element": "region",
+      "termTokens": [
+        "pop"
+      ]
+    },
+    {
+      "term": "POPLITEAL",
+      "element": "region",
+      "termTokens": [
+        "popliteal"
+      ]
+    },
+    {
+      "term": "PORTAL",
+      "element": "region",
+      "termTokens": [
+        "portal"
+      ]
+    },
+    {
+      "term": "PORTOGRAM",
+      "element": "angiography",
+      "termTokens": [
+        "portogram"
+      ]
+    },
+    {
+      "term": "PORTOSYSTEMIC",
+      "element": "region",
+      "termTokens": [
+        "portosystemic"
+      ]
+    },
+    {
+      "term": "PORTRGM",
+      "element": "angiography",
+      "termTokens": [
+        "portrgm"
+      ]
+    },
+    {
+      "term": "PPELVIS",
+      "element": "region",
+      "termTokens": [
+        "ppelvis"
+      ]
+    },
+    {
+      "term": "PRFRATR",
+      "element": "region",
+      "termTokens": [
+        "prfratr"
+      ]
+    },
+    {
+      "term": "PROS",
+      "element": "region",
+      "termTokens": [
+        "pros"
+      ]
+    },
+    {
+      "term": "prostate",
+      "element": "region",
+      "termTokens": [
+        "prostate"
+      ]
+    },
+    {
+      "term": "PROSTATIC",
+      "element": "region",
+      "termTokens": [
+        "prostatic"
+      ]
+    },
+    {
+      "term": "PUBIC",
+      "element": "region",
+      "termTokens": [
+        "pubic"
+      ]
+    },
+    {
+      "term": "PUDENDAL",
+      "element": "region",
+      "termTokens": [
+        "pudendal"
+      ]
+    },
+    {
+      "term": "PULMONARY",
+      "element": "region",
+      "termTokens": [
+        "pulmonary"
+      ]
+    },
+    {
+      "term": "PYLORIC",
+      "element": "region",
+      "termTokens": [
+        "pyloric"
+      ]
+    },
+    {
+      "term": "PYLORUS",
+      "element": "region",
+      "termTokens": [
+        "pylorus"
+      ]
+    },
+    {
+      "term": "RADIOGRAPH",
+      "element": "modality",
+      "termTokens": [
+        "radiograph"
+      ]
+    },
+    {
+      "term": "RADIOGRAPHIC",
+      "element": "modality",
+      "termTokens": [
+        "radiographic"
+      ]
+    },
+    {
+      "term": "RADIOGRAPHY",
+      "element": "modality",
+      "termTokens": [
+        "radiography"
+      ]
+    },
+    {
+      "term": "rectum",
+      "element": "region",
+      "termTokens": [
+        "rectum"
+      ]
+    },
+    {
+      "term": "RECTUS",
+      "element": "region",
+      "termTokens": [
+        "rectus"
+      ]
+    },
+    {
+      "term": "RENAL",
+      "element": "region",
+      "termTokens": [
+        "renal"
+      ]
+    },
+    {
+      "term": "RENALKIDNEYS",
+      "element": "region",
+      "termTokens": [
+        "renalkidneys"
+      ]
+    },
+    {
+      "term": "RESP",
+      "element": "region",
+      "termTokens": [
+        "resp"
+      ]
+    },
+    {
+      "term": "RESPIRATORY",
+      "element": "region",
+      "termTokens": [
+        "respiratory"
+      ]
+    },
+    {
+      "term": "RETINA",
+      "element": "region",
+      "termTokens": [
+        "retina"
+      ]
+    },
+    {
+      "term": "RETINAL",
+      "element": "region",
+      "termTokens": [
+        "retinal"
+      ]
+    },
+    {
+      "term": "RETROPER",
+      "element": "region",
+      "termTokens": [
+        "retroper"
+      ]
+    },
+    {
+      "term": "RETROPERITONEALUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "retroperitonealunchcsrad"
+      ]
+    },
+    {
+      "term": "RETROPERITONEUM",
+      "element": "region",
+      "termTokens": [
+        "retroperitoneum"
+      ]
+    },
+    {
+      "term": "RETROPERITONIUM",
+      "element": "region",
+      "termTokens": [
+        "retroperitonium"
+      ]
+    },
+    {
+      "term": "RETROPRTONL",
+      "element": "region",
+      "termTokens": [
+        "retroprtonl"
+      ]
+    },
+    {
+      "term": "rib",
+      "element": "region",
+      "termTokens": [
+        "rib"
+      ]
+    },
+    {
+      "term": "right",
+      "element": "laterality",
+      "termTokens": [
+        "right"
+      ]
+    },
+    {
+      "term": "RIGHT",
+      "element": "region",
+      "termTokens": [
+        "right"
+      ]
+    },
+    {
+      "term": "RLE",
+      "element": "region",
+      "termTokens": [
+        "rle"
+      ]
+    },
+    {
+      "term": "RNAL",
+      "element": "region",
+      "termTokens": [
+        "rnal"
+      ]
+    },
+    {
+      "term": "RUE",
+      "element": "region",
+      "termTokens": [
+        "rue"
+      ]
+    },
+    {
+      "term": "rump",
+      "element": "region",
+      "termTokens": [
+        "rump"
+      ]
+    },
+    {
+      "term": "RUN-",
+      "element": "angiography",
+      "termTokens": [
+        "run-"
+      ]
+    },
+    {
+      "term": "RV",
+      "element": "region",
+      "termTokens": [
+        "rv"
+      ]
+    },
+    {
+      "term": "SAC",
+      "element": "region",
+      "termTokens": [
+        "sac"
+      ]
+    },
+    {
+      "term": "SACR",
+      "element": "region",
+      "termTokens": [
+        "sacr"
+      ]
+    },
+    {
+      "term": "SACRAL",
+      "element": "region",
+      "termTokens": [
+        "sacral"
+      ]
+    },
+    {
+      "term": "SACRO",
+      "element": "region",
+      "termTokens": [
+        "sacro"
+      ]
+    },
+    {
+      "term": "sacroiliac",
+      "element": "region",
+      "termTokens": [
+        "sacroiliac"
+      ]
+    },
+    {
+      "term": "SACROILLIAC",
+      "element": "region",
+      "termTokens": [
+        "sacroilliac"
+      ]
+    },
+    {
+      "term": "sacrum",
+      "element": "region",
+      "termTokens": [
+        "sacrum"
+      ]
+    },
+    {
+      "term": "SADDLE",
+      "element": "region",
+      "termTokens": [
+        "saddle"
+      ]
+    },
+    {
+      "term": "SALIV",
+      "element": "region",
+      "termTokens": [
+        "saliv"
+      ]
+    },
+    {
+      "term": "salivary",
+      "element": "region",
+      "termTokens": [
+        "salivary"
+      ]
+    },
+    {
+      "term": "SAPH",
+      "element": "region",
+      "termTokens": [
+        "saph"
+      ]
+    },
+    {
+      "term": "SAPHENOUS",
+      "element": "region",
+      "termTokens": [
+        "saphenous"
+      ]
+    },
+    {
+      "term": "SB",
+      "element": "region",
+      "termTokens": [
+        "sb"
+      ]
+    },
+    {
+      "term": "SCALENE",
+      "element": "region",
+      "termTokens": [
+        "scalene"
+      ]
+    },
+    {
+      "term": "SCALP",
+      "element": "region",
+      "termTokens": [
+        "scalp"
+      ]
+    },
+    {
+      "term": "SCAPHOID",
+      "element": "region",
+      "termTokens": [
+        "scaphoid"
+      ]
+    },
+    {
+      "term": "scapula",
+      "element": "region",
+      "termTokens": [
+        "scapula"
+      ]
+    },
+    {
+      "term": "SCIATIC",
+      "element": "region",
+      "termTokens": [
+        "sciatic"
+      ]
+    },
+    {
+      "term": "SCROT",
+      "element": "region",
+      "termTokens": [
+        "scrot"
+      ]
+    },
+    {
+      "term": "SCROTAL",
+      "element": "region",
+      "termTokens": [
+        "scrotal"
+      ]
+    },
+    {
+      "term": "scrotum",
+      "element": "region",
+      "termTokens": [
+        "scrotum"
+      ]
+    },
+    {
+      "term": "SCROTUMUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "scrotumunchcsrad"
+      ]
+    },
+    {
+      "term": "sella",
+      "element": "region",
+      "termTokens": [
+        "sella"
+      ]
+    },
+    {
+      "term": "SEMINALE",
+      "element": "region",
+      "termTokens": [
+        "seminale"
+      ]
+    },
+    {
+      "term": "sentinel",
+      "element": "region",
+      "termTokens": [
+        "sentinel"
+      ]
+    },
+    {
+      "term": "SENTINL",
+      "element": "region",
+      "termTokens": [
+        "sentinl"
+      ]
+    },
+    {
+      "term": "SEPTAL",
+      "element": "region",
+      "termTokens": [
+        "septal"
+      ]
+    },
+    {
+      "term": "SESAMOID",
+      "element": "region",
+      "termTokens": [
+        "sesamoid"
+      ]
+    },
+    {
+      "term": "shoulder",
+      "element": "region",
+      "termTokens": [
+        "shoulder"
+      ]
+    },
+    {
+      "term": "SHOULDERS",
+      "element": "region",
+      "termTokens": [
+        "shoulders"
+      ]
+    },
+    {
+      "term": "SIGMOID",
+      "element": "region",
+      "termTokens": [
+        "sigmoid"
+      ]
+    },
+    {
+      "term": "sinus",
+      "element": "region",
+      "termTokens": [
+        "sinus"
+      ]
+    },
+    {
+      "term": "SKELETAL",
+      "element": "region",
+      "termTokens": [
+        "skeletal"
+      ]
+    },
+    {
+      "term": "SKELETON",
+      "element": "region",
+      "termTokens": [
+        "skeleton"
+      ]
+    },
+    {
+      "term": "skull",
+      "element": "region",
+      "termTokens": [
+        "skull"
+      ]
+    },
+    {
+      "term": "SOCKET",
+      "element": "region",
+      "termTokens": [
+        "socket"
+      ]
+    },
+    {
+      "term": "SONO",
+      "element": "modality",
+      "termTokens": [
+        "sono"
+      ]
+    },
+    {
+      "term": "SONOGRAPHY",
+      "element": "modality",
+      "termTokens": [
+        "sonography"
+      ]
+    },
+    {
+      "term": "SPENOPALATINE",
+      "element": "region",
+      "termTokens": [
+        "spenopalatine"
+      ]
+    },
+    {
+      "term": "SPHENOID",
+      "element": "region",
+      "termTokens": [
+        "sphenoid"
+      ]
+    },
+    {
+      "term": "sphenopalatine",
+      "element": "region",
+      "termTokens": [
+        "sphenopalatine"
+      ]
+    },
+    {
+      "term": "spine",
+      "element": "region",
+      "termTokens": [
+        "spine"
+      ]
+    },
+    {
+      "term": "SPINE-",
+      "element": "region",
+      "termTokens": [
+        "spine-"
+      ]
+    },
+    {
+      "term": "SPINEUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "spineunchcsrad"
+      ]
+    },
+    {
+      "term": "spleen",
+      "element": "region",
+      "termTokens": [
+        "spleen"
+      ]
+    },
+    {
+      "term": "SPLEENUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "spleenunchcsrad"
+      ]
+    },
+    {
+      "term": "SPLENIC",
+      "element": "region",
+      "termTokens": [
+        "splenic"
+      ]
+    },
+    {
+      "term": "SPLENOPORTOGRAM",
+      "element": "angiography",
+      "termTokens": [
+        "splenoportogram"
+      ]
+    },
+    {
+      "term": "SPLNUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "splnunchcsrad"
+      ]
+    },
+    {
+      "term": "SPRSCAP",
+      "element": "region",
+      "termTokens": [
+        "sprscap"
+      ]
+    },
+    {
+      "term": "STELLATE",
+      "element": "region",
+      "termTokens": [
+        "stellate"
+      ]
+    },
+    {
+      "term": "sternochondral",
+      "element": "region",
+      "termTokens": [
+        "sternochondral"
+      ]
+    },
+    {
+      "term": "STERNOCLAVIC",
+      "element": "region",
+      "termTokens": [
+        "sternoclavic"
+      ]
+    },
+    {
+      "term": "sternoclavicular",
+      "element": "region",
+      "termTokens": [
+        "sternoclavicular"
+      ]
+    },
+    {
+      "term": "sternum",
+      "element": "region",
+      "termTokens": [
+        "sternum"
+      ]
+    },
+    {
+      "term": "stomach",
+      "element": "region",
+      "termTokens": [
+        "stomach"
+      ]
+    },
+    {
+      "term": "STOOL",
+      "element": "region",
+      "termTokens": [
+        "stool"
+      ]
+    },
+    {
+      "term": "STRENOCLAVIC",
+      "element": "region",
+      "termTokens": [
+        "strenoclavic"
+      ]
+    },
+    {
+      "term": "SUBARACHNOID",
+      "element": "region",
+      "termTokens": [
+        "subarachnoid"
+      ]
+    },
+    {
+      "term": "SUBCL",
+      "element": "region",
+      "termTokens": [
+        "subcl"
+      ]
+    },
+    {
+      "term": "SUBCLAVIAN",
+      "element": "region",
+      "termTokens": [
+        "subclavian"
+      ]
+    },
+    {
+      "term": "subdiaphragmatic",
+      "element": "region",
+      "termTokens": [
+        "subdiaphragmatic"
+      ]
+    },
+    {
+      "term": "SUBDURAL",
+      "element": "region",
+      "termTokens": [
+        "subdural"
+      ]
+    },
+    {
+      "term": "SUBMANDIBULAR",
+      "element": "region",
+      "termTokens": [
+        "submandibular"
+      ]
+    },
+    {
+      "term": "SUBSEGMENTAL",
+      "element": "region",
+      "termTokens": [
+        "subsegmental"
+      ]
+    },
+    {
+      "term": "SUBTALAR",
+      "element": "region",
+      "termTokens": [
+        "subtalar"
+      ]
+    },
+    {
+      "term": "SUPRASCAPULAR",
+      "element": "region",
+      "termTokens": [
+        "suprascapular"
+      ]
+    },
+    {
+      "term": "SUPREPUBIC",
+      "element": "region",
+      "termTokens": [
+        "suprepubic"
+      ]
+    },
+    {
+      "term": "SVC",
+      "element": "region",
+      "termTokens": [
+        "svc"
+      ]
+    },
+    {
+      "term": "SYMPHYSIS",
+      "element": "region",
+      "termTokens": [
+        "symphysis"
+      ]
+    },
+    {
+      "term": "SYRINX",
+      "element": "region",
+      "termTokens": [
+        "syrinx"
+      ]
+    },
+    {
+      "term": "TAA",
+      "element": "region",
+      "termTokens": [
+        "taa"
+      ]
+    },
+    {
+      "term": "TAILBONE",
+      "element": "region",
+      "termTokens": [
+        "tailbone"
+      ]
+    },
+    {
+      "term": "TALONAVICULAR",
+      "element": "region",
+      "termTokens": [
+        "talonavicular"
+      ]
+    },
+    {
+      "term": "TEETH",
+      "element": "region",
+      "termTokens": [
+        "teeth"
+      ]
+    },
+    {
+      "term": "TEMPORAL",
+      "element": "region",
+      "termTokens": [
+        "temporal"
+      ]
+    },
+    {
+      "term": "TEMPORALMANDIBULAR",
+      "element": "region",
+      "termTokens": [
+        "temporalmandibular"
+      ]
+    },
+    {
+      "term": "temporomandibular",
+      "element": "region",
+      "termTokens": [
+        "temporomandibular"
+      ]
+    },
+    {
+      "term": "TENDON",
+      "element": "region",
+      "termTokens": [
+        "tendon"
+      ]
+    },
+    {
+      "term": "TESTES",
+      "element": "region",
+      "termTokens": [
+        "testes"
+      ]
+    },
+    {
+      "term": "testicle",
+      "element": "region",
+      "termTokens": [
+        "testicle"
+      ]
+    },
+    {
+      "term": "TESTICLES",
+      "element": "region",
+      "termTokens": [
+        "testicles"
+      ]
+    },
+    {
+      "term": "TESTICULAR",
+      "element": "region",
+      "termTokens": [
+        "testicular"
+      ]
+    },
+    {
+      "term": "TESTIS",
+      "element": "region",
+      "termTokens": [
+        "testis"
+      ]
+    },
+    {
+      "term": "TFRM",
+      "element": "region",
+      "termTokens": [
+        "tfrm"
+      ]
+    },
+    {
+      "term": "thigh",
+      "element": "region",
+      "termTokens": [
+        "thigh"
+      ]
+    },
+    {
+      "term": "THIGHS",
+      "element": "region",
+      "termTokens": [
+        "thighs"
+      ]
+    },
+    {
+      "term": "THIGHUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "thighunchcsrad"
+      ]
+    },
+    {
+      "term": "THORA",
+      "element": "region",
+      "termTokens": [
+        "thora"
+      ]
+    },
+    {
+      "term": "THORAC",
+      "element": "region",
+      "termTokens": [
+        "thorac"
+      ]
+    },
+    {
+      "term": "THORACI",
+      "element": "region",
+      "termTokens": [
+        "thoraci"
+      ]
+    },
+    {
+      "term": "thoracic",
+      "element": "region",
+      "termTokens": [
+        "thoracic"
+      ]
+    },
+    {
+      "term": "THORACOABDOMINAL",
+      "element": "region",
+      "termTokens": [
+        "thoracoabdominal"
+      ]
+    },
+    {
+      "term": "THORACOLMB",
+      "element": "region",
+      "termTokens": [
+        "thoracolmb"
+      ]
+    },
+    {
+      "term": "thoracolumbar",
+      "element": "region",
+      "termTokens": [
+        "thoracolumbar"
+      ]
+    },
+    {
+      "term": "THORAX",
+      "element": "region",
+      "termTokens": [
+        "thorax"
+      ]
+    },
+    {
+      "term": "THRC",
+      "element": "region",
+      "termTokens": [
+        "thrc"
+      ]
+    },
+    {
+      "term": "THROAT",
+      "element": "region",
+      "termTokens": [
+        "throat"
+      ]
+    },
+    {
+      "term": "THYMUS",
+      "element": "region",
+      "termTokens": [
+        "thymus"
+      ]
+    },
+    {
+      "term": "THYR",
+      "element": "region",
+      "termTokens": [
+        "thyr"
+      ]
+    },
+    {
+      "term": "thyroid",
+      "element": "region",
+      "termTokens": [
+        "thyroid"
+      ]
+    },
+    {
+      "term": "THYROID-",
+      "element": "region",
+      "termTokens": [
+        "thyroid-"
+      ]
+    },
+    {
+      "term": "THYROIDUNCHCSRAD",
+      "element": "region",
+      "termTokens": [
+        "thyroidunchcsrad"
+      ]
+    },
+    {
+      "term": "TIBFIB",
+      "element": "region",
+      "termTokens": [
+        "tibfib"
+      ]
+    },
+    {
+      "term": "tibia",
+      "element": "region",
+      "termTokens": [
+        "tibia"
+      ]
+    },
+    {
+      "term": "TIBIA-",
+      "element": "region",
+      "termTokens": [
+        "tibia-"
+      ]
+    },
+    {
+      "term": "TIBIAL",
+      "element": "region",
+      "termTokens": [
+        "tibial"
+      ]
+    },
+    {
+      "term": "TIBIO",
+      "element": "region",
+      "termTokens": [
+        "tibio"
+      ]
+    },
+    {
+      "term": "TIBIOPERONEAL",
+      "element": "region",
+      "termTokens": [
+        "tibioperoneal"
+      ]
+    },
+    {
+      "term": "TIBPER",
+      "element": "region",
+      "termTokens": [
+        "tibper"
+      ]
+    },
+    {
+      "term": "TIBPERON",
+      "element": "region",
+      "termTokens": [
+        "tibperon"
+      ]
+    },
+    {
+      "term": "TIBRERONEAL",
+      "element": "region",
+      "termTokens": [
+        "tibreroneal"
+      ]
+    },
+    {
+      "term": "TMJ",
+      "element": "region",
+      "termTokens": [
+        "tmj"
+      ]
+    },
+    {
+      "term": "toe",
+      "element": "region",
+      "termTokens": [
+        "toe"
+      ]
+    },
+    {
+      "term": "TORSO",
+      "element": "region",
+      "termTokens": [
+        "torso"
+      ]
+    },
+    {
+      "term": "TRACHEA",
+      "element": "region",
+      "termTokens": [
+        "trachea"
+      ]
+    },
+    {
+      "term": "TRANSPL",
+      "element": "region",
+      "termTokens": [
+        "transpl"
+      ]
+    },
+    {
+      "term": "TRANSPLANT",
+      "element": "region",
+      "termTokens": [
+        "transplant"
+      ]
+    },
+    {
+      "term": "TRANSVERSUS",
+      "element": "region",
+      "termTokens": [
+        "transversus"
+      ]
+    },
+    {
+      "term": "TRIBUTARIES",
+      "element": "angiography",
+      "termTokens": [
+        "tributaries"
+      ]
+    },
+    {
+      "term": "TRICUSPID",
+      "element": "region",
+      "termTokens": [
+        "tricuspid"
+      ]
+    },
+    {
+      "term": "TRIGEMINAL",
+      "element": "region",
+      "termTokens": [
+        "trigeminal"
+      ]
+    },
+    {
+      "term": "TUB",
+      "element": "region",
+      "termTokens": [
+        "tub"
+      ]
+    },
+    {
+      "term": "tubule",
+      "element": "region",
+      "termTokens": [
+        "tubule"
+      ]
+    },
+    {
+      "term": "TUM",
+      "element": "region",
+      "termTokens": [
+        "tum"
+      ]
+    },
+    {
+      "term": "TUMOR",
+      "element": "region",
+      "termTokens": [
+        "tumor"
+      ]
+    },
+    {
+      "term": "TUMORS",
+      "element": "region",
+      "termTokens": [
+        "tumors"
+      ]
+    },
+    {
+      "term": "TURCICA",
+      "element": "region",
+      "termTokens": [
+        "turcica"
+      ]
+    },
+    {
+      "term": "ultrasound",
+      "element": "modality",
+      "termTokens": [
+        "ultrasound"
+      ]
+    },
+    {
+      "term": "ULTRASOUND",
+      "element": "modality",
+      "termTokens": [
+        "ultrasound"
+      ]
+    },
+    {
+      "term": "UMB",
+      "element": "region",
+      "termTokens": [
+        "umb"
+      ]
+    },
+    {
+      "term": "umbilical",
+      "element": "region",
+      "termTokens": [
+        "umbilical"
+      ]
+    },
+    {
+      "term": "UNILATE",
+      "element": "laterality",
+      "termTokens": [
+        "unilate"
+      ]
+    },
+    {
+      "term": "UNILATER",
+      "element": "laterality",
+      "termTokens": [
+        "unilater"
+      ]
+    },
+    {
+      "term": "UNILATERA",
+      "element": "laterality",
+      "termTokens": [
+        "unilatera"
+      ]
+    },
+    {
+      "term": "unilateral",
+      "element": "laterality",
+      "termTokens": [
+        "unilateral"
+      ]
+    },
+    {
+      "term": "UNILATERALLTD",
+      "element": "laterality",
+      "termTokens": [
+        "unilateralltd"
+      ]
+    },
+    {
+      "term": "URET",
+      "element": "region",
+      "termTokens": [
+        "uret"
+      ]
+    },
+    {
+      "term": "ureter",
+      "element": "region",
+      "termTokens": [
+        "ureter"
+      ]
+    },
+    {
+      "term": "URETERAL",
+      "element": "region",
+      "termTokens": [
+        "ureteral"
+      ]
+    },
+    {
+      "term": "URETERO",
+      "element": "region",
+      "termTokens": [
+        "uretero"
+      ]
+    },
+    {
+      "term": "URETERS",
+      "element": "region",
+      "termTokens": [
+        "ureters"
+      ]
+    },
+    {
+      "term": "URETH",
+      "element": "region",
+      "termTokens": [
+        "ureth"
+      ]
+    },
+    {
+      "term": "urethra",
+      "element": "region",
+      "termTokens": [
+        "urethra"
+      ]
+    },
+    {
+      "term": "URETHROVESICAL",
+      "element": "region",
+      "termTokens": [
+        "urethrovesical"
+      ]
+    },
+    {
+      "term": "URETR",
+      "element": "region",
+      "termTokens": [
+        "uretr"
+      ]
+    },
+    {
+      "term": "URT",
+      "element": "region",
+      "termTokens": [
+        "urt"
+      ]
+    },
+    {
+      "term": "URTRL",
+      "element": "region",
+      "termTokens": [
+        "urtrl"
+      ]
+    },
+    {
+      "term": "US",
+      "element": "modality",
+      "termTokens": [
+        "us"
+      ]
+    },
+    {
+      "term": "US-",
+      "element": "modality",
+      "termTokens": [
+        "us-"
+      ]
+    },
+    {
+      "term": "US76705",
+      "element": "modality",
+      "termTokens": [
+        "us76705"
+      ]
+    },
+    {
+      "term": "US76857",
+      "element": "modality",
+      "termTokens": [
+        "us76857"
+      ]
+    },
+    {
+      "term": "US93926LOL",
+      "element": "modality",
+      "termTokens": [
+        "us93926lol"
+      ]
+    },
+    {
+      "term": "UTERI",
+      "element": "region",
+      "termTokens": [
+        "uteri"
+      ]
+    },
+    {
+      "term": "UTERINE",
+      "element": "region",
+      "termTokens": [
+        "uterine"
+      ]
+    },
+    {
+      "term": "UTERO",
+      "element": "region",
+      "termTokens": [
+        "utero"
+      ]
+    },
+    {
+      "term": "uterus",
+      "element": "region",
+      "termTokens": [
+        "uterus"
+      ]
+    },
+    {
+      "term": "UXTR",
+      "element": "region",
+      "termTokens": [
+        "uxtr"
+      ]
+    },
+    {
+      "term": "VA",
+      "element": "region",
+      "termTokens": [
+        "va"
+      ]
+    },
+    {
+      "term": "VAGAL",
+      "element": "region",
+      "termTokens": [
+        "vagal"
+      ]
+    },
+    {
+      "term": "VAGINA",
+      "element": "region",
+      "termTokens": [
+        "vagina"
+      ]
+    },
+    {
+      "term": "vaginal",
+      "element": "region",
+      "termTokens": [
+        "vaginal"
+      ]
+    },
+    {
+      "term": "VAGUS",
+      "element": "region",
+      "termTokens": [
+        "vagus"
+      ]
+    },
+    {
+      "term": "VARICES",
+      "element": "region",
+      "termTokens": [
+        "varices"
+      ]
+    },
+    {
+      "term": "vascular",
+      "element": "angiography",
+      "termTokens": [
+        "vascular"
+      ]
+    },
+    {
+      "term": "VASCULATURE",
+      "element": "angiography",
+      "termTokens": [
+        "vasculature"
+      ]
+    },
+    {
+      "term": "VASULAR",
+      "element": "angiography",
+      "termTokens": [
+        "vasular"
+      ]
+    },
+    {
+      "term": "vein",
+      "element": "angiography",
+      "termTokens": [
+        "vein"
+      ]
+    },
+    {
+      "term": "VEINS",
+      "element": "angiography",
+      "termTokens": [
+        "veins"
+      ]
+    },
+    {
+      "term": "VEN+",
+      "element": "angiography",
+      "termTokens": [
+        "ven+"
+      ]
+    },
+    {
+      "term": "VENACAVA",
+      "element": "region",
+      "termTokens": [
+        "venacava"
+      ]
+    },
+    {
+      "term": "VENO",
+      "element": "angiography",
+      "termTokens": [
+        "veno"
+      ]
+    },
+    {
+      "term": "VENOCAVAGRAM",
+      "element": "angiography",
+      "termTokens": [
+        "venocavagram"
+      ]
+    },
+    {
+      "term": "VENOGM",
+      "element": "angiography",
+      "termTokens": [
+        "venogm"
+      ]
+    },
+    {
+      "term": "VENOGRAM",
+      "element": "angiography",
+      "termTokens": [
+        "venogram"
+      ]
+    },
+    {
+      "term": "venography",
+      "element": "angiography",
+      "termTokens": [
+        "venography"
+      ]
+    },
+    {
+      "term": "VENOGRM",
+      "element": "angiography",
+      "termTokens": [
+        "venogrm"
+      ]
+    },
+    {
+      "term": "VENOUS",
+      "element": "angiography",
+      "termTokens": [
+        "venous"
+      ]
+    },
+    {
+      "term": "venous-",
+      "element": "angiography",
+      "termTokens": [
+        "venous-"
+      ]
+    },
+    {
+      "term": "VENTRCLGRPHY",
+      "element": "angiography",
+      "termTokens": [
+        "ventrclgrphy"
+      ]
+    },
+    {
+      "term": "VENTRICLE",
+      "element": "region",
+      "termTokens": [
+        "ventricle"
+      ]
+    },
+    {
+      "term": "VENTRICLES",
+      "element": "region",
+      "termTokens": [
+        "ventricles"
+      ]
+    },
+    {
+      "term": "VENTRICLGRPHY",
+      "element": "angiography",
+      "termTokens": [
+        "ventriclgrphy"
+      ]
+    },
+    {
+      "term": "VENTRICULOATRIAL",
+      "element": "region",
+      "termTokens": [
+        "ventriculoatrial"
+      ]
+    },
+    {
+      "term": "ventriculography",
+      "element": "angiography",
+      "termTokens": [
+        "ventriculography"
+      ]
+    },
+    {
+      "term": "ventriculography",
+      "element": "angiography",
+      "termTokens": [
+        "ventriculography"
+      ]
+    },
+    {
+      "term": "ventriculojugular",
+      "element": "region",
+      "termTokens": [
+        "ventriculojugular"
+      ]
+    },
+    {
+      "term": "ventriculoperitoneal",
+      "element": "region",
+      "termTokens": [
+        "ventriculoperitoneal"
+      ]
+    },
+    {
+      "term": "VERT",
+      "element": "region",
+      "termTokens": [
+        "vert"
+      ]
+    },
+    {
+      "term": "VERTEBRA",
+      "element": "region",
+      "termTokens": [
+        "vertebra"
+      ]
+    },
+    {
+      "term": "VERTEBRAFEMURHUMERUS",
+      "element": "region",
+      "termTokens": [
+        "vertebrafemurhumerus"
+      ]
+    },
+    {
+      "term": "vertebral",
+      "element": "region",
+      "termTokens": [
+        "vertebral"
+      ]
+    },
+    {
+      "term": "VERTEBRO",
+      "element": "region",
+      "termTokens": [
+        "vertebro"
+      ]
+    },
+    {
+      "term": "VERTEX",
+      "element": "region",
+      "termTokens": [
+        "vertex"
+      ]
+    },
+    {
+      "term": "VESICAL",
+      "element": "region",
+      "termTokens": [
+        "vesical"
+      ]
+    },
+    {
+      "term": "VESICLES",
+      "element": "region",
+      "termTokens": [
+        "vesicles"
+      ]
+    },
+    {
+      "term": "VESSEL",
+      "element": "angiography",
+      "termTokens": [
+        "vessel"
+      ]
+    },
+    {
+      "term": "VESSELS",
+      "element": "angiography",
+      "termTokens": [
+        "vessels"
+      ]
+    },
+    {
+      "term": "VGNL",
+      "element": "region",
+      "termTokens": [
+        "vgnl"
+      ]
+    },
+    {
+      "term": "VILLUS",
+      "element": "region",
+      "termTokens": [
+        "villus"
+      ]
+    },
+    {
+      "term": "VISC",
+      "element": "region",
+      "termTokens": [
+        "visc"
+      ]
+    },
+    {
+      "term": "VISCERA",
+      "element": "region",
+      "termTokens": [
+        "viscera"
+      ]
+    },
+    {
+      "term": "VISCERAL",
+      "element": "region",
+      "termTokens": [
+        "visceral"
+      ]
+    },
+    {
+      "term": "WHOLEBODY",
+      "element": "region",
+      "termTokens": [
+        "wholebody"
+      ]
+    },
+    {
+      "term": "wrist",
+      "element": "region",
+      "termTokens": [
+        "wrist"
+      ]
+    },
+    {
+      "term": "XA",
+      "element": "modality",
+      "termTokens": [
+        "xa"
+      ]
+    },
+    {
+      "term": "XR",
+      "element": "modality",
+      "termTokens": [
+        "xr"
+      ]
+    },
+    {
+      "term": "XTR",
+      "element": "region",
+      "termTokens": [
+        "xtr"
+      ]
+    },
+    {
+      "term": "XTREMITY",
+      "element": "region",
+      "termTokens": [
+        "xtremity"
+      ]
+    },
+    {
+      "term": "XTRM",
+      "element": "region",
+      "termTokens": [
+        "xtrm"
+      ]
+    },
+    {
+      "term": "XTRMT",
+      "element": "region",
+      "termTokens": [
+        "xtrmt"
+      ]
+    },
+    {
+      "term": "XTRMTY",
+      "element": "region",
+      "termTokens": [
+        "xtrmty"
+      ]
+    },
+    {
+      "term": "YOLK",
+      "element": "region",
+      "termTokens": [
+        "yolk"
+      ]
+    },
+    {
+      "term": "zygoma",
+      "element": "region",
+      "termTokens": [
+        "zygoma"
+      ]
+    },
+    {
+      "term": "ZYGOMATIC",
+      "element": "region",
+      "termTokens": [
+        "zygomatic"
+      ]
+    }
+  ]
+}

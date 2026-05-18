@@ -1,0 +1,95 @@
+/**
+ * ProblemCard styles.
+ *
+ * Follows the NoteCard/PriorStudyCard visual pattern with matching
+ * spacing, borders, and typography. No filter chips on problem cards.
+ */
+
+/* ── Card Container ── */
+
+.problem-card {
+  position: relative;
+  background: var(--color-surface-t3);
+  border: 1px solid transparent;
+  border-radius: var(--radius-t2);
+  cursor: pointer;
+  transition:
+    background var(--motion-t2),
+    border-color var(--motion-t2),
+    box-shadow var(--motion-t3);
+  overflow: hidden;
+}
+
+.problem-card:hover {
+  background: var(--color-surface-t4);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.problem-card.selected {
+  border-color: var(--color-interactive-t1);
+  background: rgba(110, 110, 196, 0.08);
+  box-shadow: 0 0 0 1px rgba(110, 110, 196, 0.20);
+}
+
+.problem-card:focus-visible {
+  outline: 2px solid var(--color-interactive-t1);
+  outline-offset: 1px;
+}
+
+/* ── Card Body ── */
+
+.pc-body {
+  padding: 10px 12px 8px;
+}
+
+/* ── Row 1: Problem Name + Dx Date ── */
+
+.pc-name-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.pc-name {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-content-t2);
+  line-height: 1.3;
+  word-break: break-word;
+  flex: 1;
+  min-width: 0;
+}
+
+.pc-dx-date {
+  font-size: 0.625rem;
+  font-weight: 600;
+  color: var(--color-content-t4);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* ── Status line (only for non-active problems) ── */
+
+.pc-status {
+  font-size: 0.6875rem;
+  color: var(--color-content-t4);
+  margin-top: 2px;
+  line-height: 1.3;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+/* ── Note / annotation text (clamped to 3 lines) ── */
+
+.pc-note {
+  font-size: 0.6875rem;
+  color: var(--color-content-t4);
+  margin-top: 3px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

@@ -1,0 +1,34 @@
+Impression
+ 
+No acute intracranial abnormality.
+ 
+ 
+ 
+Findings discussed with referring doctor on 2/11/2021 10:01 AM PST per Regional Stroke Alert workflow.
+ 
+#ELW #TS
+ 
+#SACT
+ 
+ Narrative
+CT HEAD WITHOUT CONTRAST
+ 
+** HISTORY **:
+76 years old, STROKE symptoms
+ 
+** TECHNIQUE **:
+CT images of the head acquired without intravenous contrast.
+ 
+CTDI: 47.07 mGy
+DLP: 785.48 mGy-cm
+ 
+COMPARISON: None available.
+ 
+** FINDINGS **: 
+BRAIN PARENCHYMA: No acute hemorrhage. No mass effect or herniation. Gray-white differentiation is maintained. White matter chronic small vessel ischemic changes.
+ 
+ASPECT score: 10
+ 
+VENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus or extra-axial fluid collections. Calcified atherosclerotic plaques of the bilateral cavernous ICAs.
+ 
+EXTRACRANIAL STRUCTURES: Chronic complete opacification of the right sphenoid sinus with periosteal thickening. The mastoid air cells are clear. The orbits are unremarkable.

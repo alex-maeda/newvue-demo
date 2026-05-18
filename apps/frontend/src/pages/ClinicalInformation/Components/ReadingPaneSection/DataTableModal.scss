@@ -1,0 +1,221 @@
+/* ========== MODAL DIALOG BOX ========== */
+/* Modal container - full screen overlay */
+@import '../../../../assets/scss/variables';
+.nv-modal.hidden {
+  display: none;
+}
+
+.nv-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 5000;
+}
+
+/* Semi-transparent backdrop */
+.nv-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal panel - the actual dialog box */
+.nv-modal__panel {
+  position: absolute;
+  right: 40px;
+  top: 60px;
+  width: min(1100px, calc(100vw - 80px));
+  max-height: 70vh;
+  background: var(--panel, #141720);
+  border: 1px solid var(--border, #2b2f3a);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+
+/* Modal header with title and close button */
+.nv-modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border, #2b2f3a);
+  background: var(--panel-2, #181b25);
+  color: #dddedf;
+
+  h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #dddedf;
+  }
+}
+
+/* Modal body - scrollable content area */
+.nv-modal__body {
+  padding: 12px 14px;
+  overflow: auto;
+  max-height: calc(70vh - 48px);
+}
+
+/* Close button (X) */
+.nv-icon-btn {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+/* ========== DECISION LOG TABLE (RADIOLOGY) ========== */
+/* Table container using CSS Grid */
+.dl-table {
+  display: grid;
+  grid-auto-rows: auto;
+  row-gap: 6px;
+}
+
+/* Table row - 7 columns: Finding | Region | Severity | Trend | Include | Reason | Sources */
+.dl-row {
+  display: grid;
+  grid-template-columns: 2fr 0.8fr 0.6fr 0.9fr 0.6fr 1.4fr 1.5fr;
+  column-gap: 10px;
+  align-items: start;
+}
+
+/* Table header row */
+.dl-head {
+  font-weight: 600;
+  color: #dddedf;
+}
+
+/* Table cells */
+.dl-row > div {
+  word-break: break-word;
+  color: #dddedf;
+}
+
+.dl-row .small {
+  opacity: 0.9;
+  font-size: 12px;
+}
+
+/* ========== PROBLEM DECISION LOG TABLE (VARIANT) ========== */
+.dl-table.dl-problems {
+  display: grid;
+  gap: 6px;
+}
+
+/* Problem table row - 8 columns */
+.dl-table.dl-problems .dl-row {
+  display: grid;
+  grid-template-columns: 1.6fr 72px 78px 92px 110px 82px 80px 1.2fr;
+  gap: 10px;
+  align-items: start;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--border, #2b2f3a);
+}
+
+.dl-table.dl-problems .dl-row:last-child {
+  border-bottom: none;
+}
+
+.dl-table.dl-problems .dl-head {
+  font-weight: 700;
+  color: #dddedf;
+  background: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid var(--border, #2b2f3a);
+}
+
+.dl-table.dl-problems .dl-problem {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dl-table.dl-problems .dl-src {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dl-table.dl-problems .dl-inc,
+.dl-table.dl-problems .dl-num,
+.dl-table.dl-problems .dl-flag {
+  text-align: center;
+}
+
+/* Checkmark tokens (✓ / ✗) */
+.dl-check {
+  display: inline-block;
+  min-width: 1.25em;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.dl-check.yes {
+  color: $green-status; /* green */
+}
+
+.dl-check.no {
+  color: $red-status; /* soft red */
+}
+
+/* ========== RESPONSIVE BREAKPOINTS ========== */
+/* Medium screens */
+@media (max-width: 1100px) {
+  .dl-table.dl-problems .dl-row {
+    grid-template-columns: 1.5fr 64px 72px 84px 100px 78px 74px 1fr;
+    gap: 8px;
+  }
+}
+
+/* Small screens - stack columns */
+@media (max-width: 860px) {
+  .dl-table.dl-problems .dl-row {
+    grid-template-columns: 1.8fr 60px 70px 80px 1fr;
+    grid-auto-flow: row;
+    row-gap: 4px;
+  }
+
+  .dl-table.dl-problems .dl-src {
+    grid-column: 1 / -1; /* push sources onto its own line */
+  }
+}
+
+/* ========== BUTTON (for opening modal) ========== */
+.nv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border, #2b2f3a);
+  background: var(--panel, #1a1d24);
+  color: var(--fg, #e7e9ee);
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.nv-btn.small {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.nv-btn.nv-btn-ghost {
+  background: transparent;
+}
+
+.nv-btn:hover {
+  filter: brightness(1.1);
+  border-color: #6e6ec4;
+}

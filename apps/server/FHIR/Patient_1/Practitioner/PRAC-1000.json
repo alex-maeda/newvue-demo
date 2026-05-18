@@ -1,0 +1,6 @@
+{
+  "resourceType": "Practitioner",
+  "id": "PRAC-1000",
+  "name": [{ "text": "Radiologist, MD" }],
+  "qualification": [{ "code": { "text": "Diagnostic Radiology" } }]
+}

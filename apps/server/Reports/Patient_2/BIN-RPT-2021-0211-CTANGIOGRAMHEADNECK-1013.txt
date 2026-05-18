@@ -1,0 +1,42 @@
+Impression
+ 
+No flow-limiting stenosis, occlusion or aneurysm in the intracranial circulation.
+ 
+No flow limiting steno-occlusive disease in the extracranial circulation.
+ 
+Incidental 1.3 cm left thyroid nodule without suspicious features. Consider further evaluation with ultrasound versus no further evaluation if limited life expectancy and/or co-morbidities.
+  
+#ELW #TS
+ 
+#imag1
+ 
+#SACTA
+ 
+ Narrative
+CT ANGIOGRAM HEAD AND NECK WITH CONTRAST
+ 
+** HISTORY **:
+76 years old, stroke-like symptoms. Stroke Alert.
+ 
+** TECHNIQUE **:
+CT angiogram images of the head and neck acquired with 100 mL Omnipaque 350 intravenous contrast. Maximum intensity projection (MIP) vessel images were obtained. 
+ 
+CTDI: 4.62,18.48,33.51 mGy
+DLP: 2.31,9.24,1276.41 mGy-cm
+ 
+COMPARISON: CT 2/11/2021
+ 
+** FINDINGS **: 
+CTA HEAD: Calcified atherosclerotic plaques in the bilateral cavernous ICAs with mild stenosis. Distal flow is maintained. No occlusion. No aneurysm.
+ 
+CTA NECK
+GREAT VESSELS: Visualized segments are patent. Aortic atherosclerosis.
+ 
+RIGHT ICA: No stenosis or significant plaque.  No dissection.
+ 
+LEFT ICA: No stenosis or occlusion. Mild calcified plaque.  No dissection.
+ 
+VERTEBRAL ARTERIES: Patent extracranial segments.  No dissection.
+ 
+OTHER: Suggestion of 1.3 cm left thyroid gland nodule. The right thyroid gland is small. Small calcified granuloma in the right upper lobe. Degenerative changes of the cervical spine. Chronic complete opacification of the right sphenoid sinus.
+

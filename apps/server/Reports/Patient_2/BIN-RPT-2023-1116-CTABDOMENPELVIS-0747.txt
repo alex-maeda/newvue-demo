@@ -1,0 +1,46 @@
+Impression
+ 
+1. Peripherally enhancing gas and fluid containing collection along the left anorectal canal measuring 2.5 cm which could reflect an intramural abscess though necrotic tumor is not excluded. Adjacent enhancement of the anal wall and possible sinus tract extending inferiorly without communication to the skin surface. Recommend GI referral for further workup and management.
+ 
+2. Postsurgical changes right partial nephrectomy without definite recurrent or residual disease.
+ 
+3. New age-indeterminate moderate L1 anterior vertebral body compression fracture with approximately 40% loss of anterior vertebral body height.
+ 
+4. Cholelithiasis, colonic diverticulosis, aortic atherosclerosis, and additional chronic and incidental findings as described.  
+ 
+ 
+ 
+ 
+Action required. + 
+#d14
+ 
+ Narrative
+CT ABDOMEN AND PELVIS WITH CONTRAST
+ 
+** HISTORY **:
+79 years old, with history of prostate cancer, calcium, and weight loss.
+ 
+** TECHNIQUE **: 
+CT images of the abdomen and pelvis acquired with 96 mL Omnipaque 300 intravenous contrast.
+ 
+CTDI: 9.14, 8.99 mGy
+DLP: 810.67 mGy-cm
+ 
+COMPARISON: CTs 4/29/2020, 9/29/2012
+ 
+** FINDINGS **:
+LUNG BASES: Please see chest CT results performed concurrently.
+LIVER: Normal.
+GALLBLADDER/BILE DUCTS: Gallbladder is mildly distended with layering calcified gallstone measuring 1.7 cm. No significant biliary dilation.
+SPLEEN: Normal.
+PANCREAS: Normal.
+ADRENALS: Normal.
+KIDNEYS: Status post right partial nephrectomy involving the posterior superior pole without definite nodular enhancement to suggest recurrence. Linear hyperdensity most likely representing postsurgical changes. No hydronephrosis. No suspicious renal mass.
+GI TRACT: Peripherally enhancing gas and fluid containing collection along the left anorectal canal measuring 1.8 x 1.4 x 2.5 cm (axial image 79, coronal image 61). There is mild enhancement of the adjacent anal wall. Possible sinus tract extending inferiorly without definite fistula communicating to the skin surface (coronal image 65). Colonic diverticulosis without evidence of acute diverticulitis. Small bowel anastomosis within the mid abdomen without complication or obstruction. Appendix is not well seen, but there are no secondary findings for acute appendicitis. Small duodenal diverticulum.
+MESENTERY/LYMPH NODES: No suspicious lymph nodes.
+PERITONEUM: No significant free fluid. No free air.
+AORTA/VESSELS: Normal abdominal aortic diameter (<3cm). Aortic atherosclerosis.
+BLADDER: No significant abnormality.
+PELVIC STRUCTURES: No significant abnormality.
+SOFT TISSUES: No significant abnormality.
+BONES: There is moderate L1 anterior vertebral body compression fracture with approximately 40% loss of anterior vertebral body height and no retropulsion of fracture fragments. Probable chronic T12 anterior compression fracture.

@@ -1,0 +1,8 @@
+{
+  "resourceType": "Procedure",
+  "id": "PROC-P12345-0003",
+  "status": "completed",
+  "code": { "text": "RIGHT CARPAL TUNNEL RELEASE" },
+  "subject": { "reference": "Patient/P12345" },
+  "performedDateTime": "2023-10-18"
+}

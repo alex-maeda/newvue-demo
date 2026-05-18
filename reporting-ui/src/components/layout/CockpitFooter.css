@@ -1,0 +1,170 @@
+/**
+ * CockpitFooter styles.
+ */
+
+.zone-cockpit-footer {
+  grid-area: footer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+  height: var(--zone-footer-h);
+  background: var(--color-surface-t2);
+  border-top: var(--border-t2);
+  gap: 14px;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-center {
+  flex: 1;
+}
+
+.footer-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  min-width: 44px;
+}
+
+.footer-stat-n {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-content-t2);
+  line-height: 1;
+}
+
+.footer-stat-l {
+  font-size: 0.625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-content-t4);
+}
+
+.footer-stat.alert .footer-stat-n {
+  color: var(--danger);
+}
+
+/* ── QA Trigger Button ── */
+
+.cockpit-qa-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-content-t3);
+  background: var(--color-surface-t3);
+  border: var(--border-t2);
+  border-radius: var(--radius-t2);
+  cursor: pointer;
+  transition:
+    color var(--motion-t2),
+    background var(--motion-t2),
+    border-color var(--motion-t2);
+}
+
+.cockpit-qa-btn:hover {
+  color: var(--color-content-t1);
+  background: var(--color-surface-t4);
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+.cockpit-qa-btn--active {
+  color: var(--color-interactive-t2);
+  background: rgba(110, 110, 196, 0.12);
+  border-color: rgba(110, 110, 196, 0.30);
+}
+
+.cockpit-qa-btn--active:hover {
+  background: rgba(110, 110, 196, 0.18);
+  border-color: rgba(110, 110, 196, 0.40);
+}
+
+.cockpit-qa-btn-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.cockpit-qa-btn-label {
+  line-height: 1;
+}
+
+/* ── EHR Integration Toggle ── */
+
+.ehr-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ehr-toggle-label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-content-t4);
+  white-space: nowrap;
+  user-select: none;
+  transition: color var(--motion-t2);
+}
+
+.ehr-toggle:hover .ehr-toggle-label {
+  color: var(--color-content-t3);
+}
+
+.ehr-toggle-pill {
+  position: relative;
+  width: 36px;
+  height: 20px;
+  border-radius: 10px;
+  background: var(--color-surface-t4);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  cursor: pointer;
+  transition:
+    background var(--motion-t3),
+    border-color var(--motion-t3);
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.ehr-toggle-pill:hover {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+/* On state — purple background */
+.ehr-toggle-pill--on {
+  background: var(--color-interactive-t1);
+  border-color: var(--color-interactive-t1);
+}
+
+.ehr-toggle-pill--on:hover {
+  background: rgba(110, 110, 196, 0.85);
+  border-color: rgba(110, 110, 196, 0.85);
+}
+
+.ehr-toggle-knob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.90);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: transform var(--motion-t3);
+}
+
+.ehr-toggle-pill--on .ehr-toggle-knob {
+  transform: translateX(16px);
+}
+

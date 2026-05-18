@@ -1,0 +1,11 @@
+{
+  "resourceType": "MedicationAdministration",
+  "id": "MAD-P12345-INP-0033",
+  "status": "completed",
+  "medicationCodeableConcept": { "text": "Ondansetron 4 mg IV" },
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "effectiveDateTime": "2025-09-16T11:12:00-07:00",
+  "request": { "reference": "MedicationRequest/MRX-P12345-INP-0033" },
+  "dosage": { "route": { "text": "IV" }, "dose": { "value": 4, "unit": "mg" } }
+}

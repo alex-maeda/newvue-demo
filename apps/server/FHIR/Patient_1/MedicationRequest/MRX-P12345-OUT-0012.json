@@ -1,0 +1,14 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "MRX-P12345-OUT-0012",
+  "status": "active",
+  "intent": "order",
+  "category": [
+    { "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category", "code": "outpatient", "display": "Outpatient" }] }
+  ],
+  "subject": { "reference": "Patient/P12345" },
+  "medicationCodeableConcept": { "text": "HYDROmorphone (DILAUDID)" },
+  "dosageInstruction": [
+    { "text": "2 mg, Oral, EVERY 4 HOURS AS NEEDED" }
+  ]
+}

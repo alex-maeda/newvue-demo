@@ -1,0 +1,43 @@
+
+Impression
+RIGHT:  There is an indeterminate degree of peripheral arterial occlusive disease in the right lower extremity due to noncompressibility. However there is a grossly abnormal with monophasic dorsalis pedis waveform and no obtainable waveform in the posterior tibial artery. This is suggestive of severe peripheral arterial occlusive disease. There is severe digital ischemia in the right foot with no measurable toe pressure.
+ 
+LEFT: There is an indeterminate degree of peripheral arterial occlusive disease in the left lower extremity due to an element of noncompressibility however the posterior tibial waveform is biphasic more consistent with a mild or moderate degree of stenosis..  There is moderate digital ischemia in the left foot. 
+ 
+Consider referral to Vascular Surgery if patient has following:
+1. Disabling claudication
+2. Ischemic rest pain
+3. Ischemic ulcer or gangrene
+ 
+Consider following recommendations for patients with vascular claudication:
+1. Aggressive risk factor modification
+2. Smoking cessation
+3. Graded walking exercise
+ 
+ 
+ 
+ Narrative
+LE ARTERIAL STUDY
+ 
+** HISTORY **:
+ATHSCL NATIVE ARTERIES OF LEFT LEG W ULCERATION OTH PRT FOOT
+NON-PRESSURE CHRONIC ULCER OTH PRT LEFT FOOT W UNSP SEVERITY 
+ 
+No previous ABI
+ 
+** FINDINGS **:
+Exercise exam: NOT ORDERED
+ 
+RIGHT
+ 
+DP >254/NC monophasic         
+PT COULD NOT OBTAIN WAVEFORM N/A         
+ 
+TBI COULD NOT OBTAIN WAVEFORM
+ 
+LEFT
+ 
+DP >254/NC monophasic         
+PT 160/.86 biphasic         
+ 
+TBI 73/.39

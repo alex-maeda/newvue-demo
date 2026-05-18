@@ -1,0 +1,174 @@
+/**
+ * NoteTextView styles.
+ *
+ * Mirrors the MainStage toolbar, banner, and body patterns used for
+ * prior report compare view, with note-specific colors and layout.
+ */
+
+/* ── Container ── */
+
+.note-text-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+}
+
+/* ── Toolbar ── */
+
+.ntv-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  min-height: 40px;
+  border-bottom: var(--border-t1);
+  border-bottom-color: rgba(94, 220, 226, 0.12);
+  flex-shrink: 0;
+}
+
+.ntv-toolbar-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 7px;
+  border-radius: 3px;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  flex-shrink: 0;
+  /* Uniform blue — matches NoteCard chip styling */
+  border: 1px solid rgba(80, 150, 220, 0.2);
+  color: rgba(140, 200, 255, 0.9);
+  background: rgba(80, 150, 220, 0.15);
+}
+
+.ntv-toolbar-status {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-content-t2);
+}
+
+.ntv-toolbar-date {
+  font-size: 0.75rem;
+  color: var(--color-content-t4);
+  flex: 1;
+}
+
+.ntv-close-btn {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  color: var(--color-content-t4);
+  border-radius: var(--radius-t1);
+  flex-shrink: 0;
+  transition: color var(--motion-t2), background var(--motion-t2);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.ntv-close-btn:hover {
+  color: var(--color-content-t1);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* ── Banner ── */
+
+.ntv-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 14px;
+  background: rgba(94, 220, 226, 0.06);
+  border-bottom: 1px solid rgba(94, 220, 226, 0.10);
+  flex-shrink: 0;
+}
+
+.ntv-banner-text {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: rgba(94, 220, 226, 0.85);
+  letter-spacing: 0.03em;
+}
+
+.ntv-banner-pill {
+  font-size: 0.5625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--warn);
+  background: rgba(255, 183, 77, 0.10);
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+/* ── Body ── */
+
+.ntv-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 16px 20px 24px;
+}
+
+/* ── Header ── */
+
+.ntv-header {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.ntv-header-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-content-t1);
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.ntv-header-meta {
+  font-size: 0.75rem;
+  color: var(--color-content-t4);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ntv-meta-sep {
+  opacity: 0.5;
+}
+
+/* ── Content ── */
+
+.ntv-content {
+  min-height: 100px;
+}
+
+.ntv-text {
+  font-size: 0.8125rem;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--color-content-t2);
+  line-height: 1.65;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.ntv-loading {
+  font-size: 0.8125rem;
+  color: var(--color-content-t4);
+  font-style: italic;
+  padding: 20px 0;
+}
+
+.ntv-error {
+  font-size: 0.8125rem;
+  color: var(--warn);
+  font-style: italic;
+  padding: 20px 0;
+}

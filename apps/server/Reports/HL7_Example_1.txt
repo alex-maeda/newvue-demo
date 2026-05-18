@@ -1,0 +1,15 @@
+MSH|^~\&|RIS_SYSTEM|RADIOLOGY|EHR_SYSTEM|HOSPITAL|20260423101500||ORU^R01|MSG987654|P|2.5.1
+PID|1||MRN99999^^^HOSPITAL^MR||DOE^JOHN^A^^^L||19800101|M|||123 MAIN ST^^CITY^ST^12345^USA||555-1234
+PV1|1|E|ED^RM10||||12345^SMITH^BARON^H||||||||||||V100293
+OBR|1||ACC10001|30746-2^Portable XR Chest Views^LN|||20260423090000||||||Fever and cough||||||||||||F
+OBX|1|TX|30746-2^Portable XR Chest Views^LN|1|CLINICAL INDICATION: Fever and cough.||||||F
+OBX|2|TX|30746-2^Portable XR Chest Views^LN|2|COMPARISON: None.||||||F
+OBX|3|FT|30746-2^Portable XR Chest Views^LN|3|FINDINGS:\.br\Lines and Tubes: None.\.br\Lungs and Pleura: Lungs are clear. No pneumothorax or pleural effusion.\.br\Heart and Mediastinum: Cardiomediastinal silhouette is within normal limits.\.br\Bones: Visualized osseous structures are unremarkable.||||||F
+OBX|4|TX|30746-2^Portable XR Chest Views^LN|4|IMPRESSION: No acute abnormality.||||||F
+ZDS|1.2.840.113619.2.55.3.123456.100^HOSPITAL_PACS^Application^DICOM
+OBR|2||ACC10002|30107-7^CT Angiogram Chest with Contrast^LN|||20260423094500||||||Rule out pulmonary embolism.||||||||||||F
+OBX|1|TX|30107-7^CT Angiogram Chest with Contrast^LN|1|CLINICAL INDICATION: Rule out pulmonary embolism.||||||F
+OBX|2|TX|30107-7^CT Angiogram Chest with Contrast^LN|2|TECHNIQUE: Fine slice post contrast helical CT images were obtained from the lung apices to the lung bases. Mediastinal and lung windows were reconstructed.||||||F
+OBX|3|FT|30107-7^CT Angiogram Chest with Contrast^LN|3|FINDINGS:\.br\The heart, great vessels, trachea and oesophagus have a normal appearance.\.br\There is no lymphadenopathy.\.br\The pulmonary vessels and bronchi are normal, as is the pulmonary parenchyma.\.br\The pleural spaces are clear.\.br\No bony abnormality is identified.||||||F
+OBX|4|TX|30107-7^CT Angiogram Chest with Contrast^LN|4|IMPRESSION: Normal CT Chest. No evidence of pulmonary embolism.||||||F
+ZDS|1.2.840.113619.2.55.3.123456.200^HOSPITAL_PACS^Application^DICOM

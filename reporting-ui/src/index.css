@@ -1,0 +1,197 @@
+/**
+ * NewVue Cockpit — Design Token System
+ *
+ * Merged from:
+ *   - newVue_CSS_reference.css (brand tokens)
+ *   - nv-cockpit-v6.42.html (cockpit layout tokens)
+ *
+ * Font: Inter (Google Fonts)
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* ── Root Design Tokens ─────────────────────────────────────────────── */
+
+:root {
+  /* ── Font ── */
+  --font-primary: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* ── NewVue Brand (from newVue_CSS_reference.css) ── */
+  --bg: #000100;
+  --surface: #141a20;
+  --surface-2: #141a20;
+  --surface-elevated: #1e242c;
+  --text: #e6edf3;
+  --text-bright: #fff;
+  --muted: #8aa0b4;
+  --text-content: #c8d4e0;
+  --primary: #6aa9ff;
+  --accent: #7bd4ff;
+  --purple: #6E6EC4;
+  --purple-soft: rgba(110, 110, 196, 0.15);
+  --purple-text: #8b7cff;
+  --purple-glow: rgba(139, 124, 255, 0.12);
+  --ok: #2bd07f;
+  --ok-soft: rgba(43, 208, 127, 0.08);
+  --ok-border: rgba(43, 208, 127, 0.25);
+  --warn: #e0a500;
+  --danger: #ff6b5e;
+  --outline: #1e2735;
+  --border: #253145;
+  --border-hover: #6E6EC4;
+  --chip: #1a2331;
+
+  /* ── Cockpit Surface Tiers (from prototype) ── */
+  --color-surface-t1: #0d1117;
+  --color-surface-t2: #141a20;
+  --color-surface-t3: #1a2028;
+  --color-surface-t4: #212930;
+  --color-surface-overlay: rgba(20, 30, 40, 0.98);
+
+  /* ── Cockpit Content Tiers ── */
+  --color-content-t1: rgba(255, 255, 255, 0.92);
+  --color-content-t2: rgba(255, 255, 255, 0.72);
+  --color-content-t3: rgba(255, 255, 255, 0.48);
+  --color-content-t4: rgba(255, 255, 255, 0.30);
+
+  /* ── Interactive (newVue Purple) ── */
+  --color-interactive-t1: #6E6EC4;
+  --color-interactive-t2: #8b7cff;
+
+  /* ── Stage Surface States ── */
+  --color-surface-stage-current: #141a20;
+  --color-surface-stage-prior: #141a20;
+  --color-surface-anchor: var(--color-surface-stage-current);
+  --color-surface-selected: var(--color-surface-stage-prior);
+  --color-surface-unselected: #141b20;
+  --color-surface-unselected-hover: #1a2128;
+
+  /* ── Prior Banner ── */
+  --color-prior-banner: rgba(110, 110, 196, 0.14);
+  --color-prior-banner-strong: rgba(110, 110, 196, 0.26);
+
+  /* ── Borders ── */
+  --border-t1: 1px solid rgba(255, 255, 255, 0.06);
+  --border-t2: 1px solid rgba(255, 255, 255, 0.08);
+  --border-t3: 1px solid rgba(255, 255, 255, 0.12);
+
+  /* ── Radius ── */
+  --radius-t1: 3px;
+  --radius-t2: 5px;
+  --radius-t3: 7px;
+
+  /* ── Motion ── */
+  --motion-t1: 80ms ease;
+  --motion-t2: 120ms ease;
+  --motion-t3: 200ms ease;
+  --motion-t4: 300ms ease;
+
+  /* ── Layout Zone Sizes ── */
+  --zone-header-h: 52px;
+  --zone-footer-h: 62px;
+  --zone-rail-w: 300px;
+  --zone-action-w: 0px;
+  --zone-bottomtimeline-h: 0px;
+  --zone-divider-w: 6px;
+
+  /* ── Action Panel (expanded) ── */
+  --zone-action-expanded-w: 264px;
+}
+
+/* ── Base Reset ─────────────────────────────────────────────────────── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-primary);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Scrollbar Styling ──────────────────────────────────────────────── */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.10);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* ── Selection ──────────────────────────────────────────────────────── */
+
+::selection {
+  background: rgba(110, 110, 196, 0.30);
+  color: var(--text-bright);
+}
+
+/* ── Button Reset ───────────────────────────────────────────────────── */
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+/* ── Focus Visible ──────────────────────────────────────────────────── */
+
+:focus-visible {
+  outline: 2px solid var(--color-interactive-t1);
+  outline-offset: 2px;
+}
+
+/* ── Select Reset ───────────────────────────────────────────────────── */
+
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: var(--color-surface-t3);
+  border: var(--border-t2);
+  border-radius: var(--radius-t2);
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+select:hover {
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+select option {
+  background: var(--color-surface-t2);
+  color: var(--text);
+}

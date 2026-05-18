@@ -1,0 +1,24 @@
+
+Impression
+
+IMPRESSION: 1. The enlarged cardiac silhouette could reflect
+cardiomegaly or a pericardial effusion
+2. Diffuse interstitial prominence could reflect pulmonary edema
+or pneumonitis. A followup PA/lateral radiograph of the chest is
+recommended to document resolution.
+
+Narrative
+
+EXAM DESC: XR CHEST PORTABLE
+
+CLINICAL HISTORY: Chest Pain.      
+
+COMPARISON: None
+
+TECHNIQUE: 1 view of the chest was obtained.
+
+FINDINGS: The cardiac silhouette is enlarged. There is diffuse
+interstitial prominence. There is no consolidation, pleural
+effusion, or pneumothorax.
+
+

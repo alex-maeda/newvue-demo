@@ -1,0 +1,112 @@
+{
+  "_comment": "Note type scoring tiers for clinical note relevance scoring. Matched case-insensitively against DocumentReference.type.text. Tiers are an ordered array — checked top-to-bottom, first synonym match wins.",
+  "tiers": [
+    {
+      "name": "discharge_summary",
+      "points": 4,
+      "synonyms": [
+        "discharge summary",
+        "discharge note",
+        "death summary",
+        "transfer summary",
+        "transition of care summary"
+      ]
+    },
+    {
+      "name": "consult_or_hp",
+      "points": 3,
+      "synonyms": [
+        "consult",
+        "consult note",
+        "consultation",
+        "consultation note",
+        "initial consultation",
+        "specialty consult",
+        "specialty consultation",
+        "h&p",
+        "h and p",
+        "history and physical",
+        "history & physical",
+        "admission note",
+        "admission h&p",
+        "initial assessment",
+        "new patient note",
+        "new patient evaluation",
+        "preoperative note",
+        "pre-op note",
+        "preop evaluation",
+        "surgical evaluation"
+      ]
+    },
+    {
+      "name": "ed_note",
+      "points": 3,
+      "synonyms": [
+        "ed note",
+        "ed provider note",
+        "emergency note",
+        "emergency department note",
+        "emergency room note",
+        "er note",
+        "ed physician note",
+        "ed attending note"
+      ]
+    },
+    {
+      "name": "operative_procedure",
+      "points": 3,
+      "synonyms": [
+        "operative note",
+        "operative report",
+        "op note",
+        "procedure note",
+        "procedure report",
+        "interventional note",
+        "interventional report",
+        "surgical note",
+        "surgical report",
+        "brief op note"
+      ]
+    },
+    {
+      "name": "office_visit",
+      "points": 2,
+      "synonyms": [
+        "office visit",
+        "office note",
+        "outpatient visit",
+        "outpatient note",
+        "clinic visit",
+        "clinic note",
+        "follow-up",
+        "follow-up visit",
+        "follow-up note",
+        "followup",
+        "followup visit",
+        "followup note",
+        "f/u visit",
+        "return visit",
+        "established patient visit",
+        "annual visit",
+        "annual exam",
+        "annual physical",
+        "well visit",
+        "well child visit",
+        "preventive visit"
+      ]
+    },
+    {
+      "name": "critical_care",
+      "points": 1,
+      "synonyms": [
+        "critical care note",
+        "icu note",
+        "icu progress note",
+        "icu daily note",
+        "intensive care note",
+        "critical care progress note"
+      ]
+    }
+  ],
+  "default_points": 0
+}

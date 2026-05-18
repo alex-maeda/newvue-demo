@@ -1,0 +1,18 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "IMG-2025-0917-CTHEAD-1",
+  "identifier": [
+    { "system": "urn:dicom:accession", "value": "A000000002" }
+  ],
+  "status": "available",
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "started": "2025-09-17T13:00:00-07:00",
+  "modality": [
+    { "system": "http://dicom.nema.org/resources/ontology/DCM", "code": "CT" }
+  ],
+  "description": "CT Head Without Contrast",
+  "basedOn": [
+    { "reference": "ServiceRequest/SR-2025-0917-CTHEAD-1" }
+  ]
+}

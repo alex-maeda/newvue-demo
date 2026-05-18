@@ -1,0 +1,11 @@
+{
+  "resourceType": "MedicationAdministration",
+  "id": "MAD-P12345-INP-0022",
+  "status": "completed",
+  "medicationCodeableConcept": { "text": "Metoprolol Tartrate 25 mg PO" },
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "effectiveDateTime": "2025-09-17T17:45:00-07:00",
+  "request": { "reference": "MedicationRequest/MRX-P12345-INP-0022" },
+  "dosage": { "route": { "text": "Oral" }, "dose": { "value": 25, "unit": "mg" } }
+}

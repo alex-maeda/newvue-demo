@@ -1,0 +1,39 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "RPT-2025-0917-CTHEAD-1",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        { "system": "http://terminology.hl7.org/CodeSystem/v2-0074", "code": "RAD", "display": "Radiology" }
+      ]
+    }
+  ],
+  "code": {
+    "text": "CT Head Without Contrast"
+  },
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "effectiveDateTime": "2025-09-17T13:00:00-07:00",
+  "issued": "2025-09-17T13:29:00-07:00",
+  "performer": [
+    { "reference": "Organization/ORG-001", "display": "Acute Care Hospital" },
+    { "reference": "Practitioner/PRAC-1000", "display": "Radiologist, MD" }
+  ],
+  "imagingStudy": [
+    { "reference": "ImagingStudy/IMG-2025-0917-CTHEAD-1" }
+  ],
+  "basedOn": [
+    { "reference": "ServiceRequest/SR-2025-0917-CTHEAD-1" }
+  ],
+  "conclusion": "1. Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left, likely sequela of known ischemia.\n2. There is a new punctate focus of hyperdensity in the high left frontal lobe. It could represent small focus of subarachnoid hemorrhage versus residual intravascular contrast. Short-term follow-up is suggested.",
+  "presentedForm": [
+    {
+      "contentType": "text/plain",
+      "language": "en",
+      "url": "Binary/BIN-RPT-2025-0917-CTHEAD-1",
+      "title": "CT Head Without Contrast",
+      "creation": "2025-09-17T13:29:00-07:00"
+    }
+  ]
+}

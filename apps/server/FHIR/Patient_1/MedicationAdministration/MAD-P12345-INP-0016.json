@@ -1,0 +1,11 @@
+{
+  "resourceType": "MedicationAdministration",
+  "id": "MAD-P12345-INP-0016",
+  "status": "completed",
+  "medicationCodeableConcept": { "text": "Normal Saline Flush 3 mL IV" },
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "effectiveDateTime": "2025-09-18T07:03:00-07:00",
+  "request": { "reference": "MedicationRequest/MRX-P12345-INP-0016" },
+  "dosage": { "route": { "text": "IV" }, "dose": { "value": 3, "unit": "mL" } }
+}

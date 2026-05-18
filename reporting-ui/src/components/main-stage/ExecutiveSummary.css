@@ -1,0 +1,783 @@
+/**
+ * ExecutiveSummary styles — Two-layer executive summary display.
+ * Now renders in the left half of a split view.
+ */
+
+/* ── Container ── */
+
+.exec-summary {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+}
+
+/* ── Section Title Bar (reusable across all sections) ── */
+
+.exec-section-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-bottom: 1px solid rgba(110, 110, 196, 0.10);
+  flex-shrink: 0;
+  background: rgba(110, 110, 196, 0.05);
+}
+
+.exec-section-bar-icon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  color: var(--color-interactive-t2);
+}
+
+.exec-rec-status-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  color: var(--color-interactive-t2);
+}
+
+.exec-section-bar-title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--color-content-t1);
+  white-space: nowrap;
+}
+
+.exec-section-bar-spacer {
+  flex: 1;
+}
+
+/* ── Section Bar — interactive toggle mode ── */
+
+.exec-section-bar--collapsible {
+  cursor: pointer;
+  transition: background var(--motion-t2);
+}
+
+.exec-section-bar--collapsible:hover {
+  background: rgba(110, 110, 196, 0.08);
+}
+
+/* ── Section Chevron (right-angle > icon) ── */
+
+.exec-section-chevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  color: var(--color-interactive-t2, rgba(160, 160, 220, 0.9));
+  transition: transform 0.18s ease;
+  /* Default: points right (collapsed state uses rotate to point left) */
+}
+
+/* Expanded: chevron rotates to point downward */
+.exec-section-chevron--open {
+  transform: rotate(90deg);
+}
+
+/* Collapsed: chevron rotates to point left (toward hidden content) */
+.exec-section-chevron--closed {
+  transform: rotate(180deg);
+}
+
+/* ── Close button (reused from header) ── */
+
+.exec-header-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  font-size: 0.8125rem;
+  color: var(--color-content-t4);
+  border-radius: var(--radius-t1);
+  cursor: pointer;
+  transition: color var(--motion-t2), background var(--motion-t2);
+  flex-shrink: 0;
+}
+
+.exec-header-close:hover {
+  color: var(--color-content-t2);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* ── One Liner content ── */
+
+.exec-oneliner-content {
+  padding: 8px 16px 10px;
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: var(--color-content-t1);
+  border-bottom: 1px solid rgba(110, 110, 196, 0.08);
+}
+
+/* ── Reason for Study content ── */
+
+.exec-reason-content {
+  padding: 6px 16px 8px;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--color-content-t2);
+  font-style: italic;
+  border-bottom: 1px solid rgba(110, 110, 196, 0.08);
+}
+
+/* ── Expanded Reason for Study ── */
+
+.exec-reason-expanded {
+  padding: 6px 16px 8px;
+  border-bottom: 1px solid rgba(110, 110, 196, 0.08);
+}
+
+.exec-reason-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 3px 0;
+}
+
+.exec-reason-label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--color-interactive-t2, rgba(160, 160, 220, 0.9));
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  white-space: normal;
+  min-width: 90px;
+  max-width: 90px;
+  flex-shrink: 0;
+  padding-top: 1px;
+  line-height: 1.4;
+}
+
+.exec-reason-value {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.exec-reason-value--indication {
+  font-style: italic;
+}
+
+.exec-reason-value--secondary {
+  color: var(--color-content-t3, rgba(200, 200, 220, 0.55));
+}
+
+.exec-reason-bullet {
+  color: var(--color-interactive-t2, rgba(160, 160, 220, 0.9));
+}
+
+.exec-reason-separator {
+  border: none;
+  border-top: 1px solid rgba(110, 110, 196, 0.08);
+  margin: 4px 0;
+}
+
+.exec-purpose-chip {
+  display: inline-block;
+  font-size: 0.5625rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 1px 8px;
+  border-radius: 3px;
+  white-space: nowrap;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.90);
+  background: rgba(110, 110, 196, 0.35);
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+/* ── Body (flows naturally; parent .stage-body handles scrolling) ── */
+
+.exec-body {
+  padding: 8px 0;
+}
+
+/* ── Region Group ── */
+
+.exec-region {
+  margin-bottom: 2px;
+}
+
+/* ── Section Bar Count Chip ── */
+
+.exec-section-bar-count {
+  font-size: 0.625rem;
+  font-weight: 700;
+  color: var(--color-content-t4);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1px 6px;
+  border-radius: 8px;
+  margin-left: auto;
+}
+
+/* ── Section Bar Count Chip — purple variant (Findings / Problems bars) ── */
+
+.exec-section-bar-count.exec-section-bar-count--purple {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.92);
+  background: var(--color-interactive-t1);
+  border: 1px solid transparent;
+  padding: 1px 7px;
+  border-radius: 3px;
+  margin-left: 8px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+/* ── Relevancy Category Header (MORE/LESS RELEVANT) ── */
+
+.exec-category {
+  margin-bottom: 2px;
+}
+
+.exec-category-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 7px 16px 7px 13px;
+  text-align: left;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: var(--color-interactive-t2, rgba(160, 160, 220, 0.9));
+  background: transparent;
+  border: none;
+  border-left: 3px solid rgba(110, 110, 196, 0.30);
+  cursor: pointer;
+  transition: background var(--motion-t2), border-color var(--motion-t2);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.exec-category-header:hover {
+  background: rgba(110, 110, 196, 0.05);
+  border-left-color: rgba(110, 110, 196, 0.50);
+}
+
+.exec-category-header--expanded {
+  border-bottom: 1px solid rgba(110, 110, 196, 0.08);
+  border-left-color: rgba(110, 110, 196, 0.45);
+}
+
+.exec-category-label {
+  flex: 1;
+}
+
+/* ── Subtitle hover preview (floating card for collapsed bars) ── */
+
+.exec-subtitle-preview {
+  background: var(--color-bg-t1, #1e1e2e);
+  border: 1px solid rgba(110, 110, 196, 0.25);
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 1px rgba(110, 110, 196, 0.3);
+  padding: 8px 14px;
+  z-index: 200;
+  animation: exec-overlay-reveal 0.12s ease-out;
+  pointer-events: auto;
+  max-width: 340px;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.exec-subtitle-preview-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.exec-subtitle-preview-list li {
+  position: relative;
+  padding: 2px 0 2px 12px;
+  font-size: 0.75rem;
+  color: var(--color-content-t2);
+  line-height: 1.5;
+}
+
+.exec-subtitle-preview-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--color-interactive-t2, rgba(160, 160, 220, 0.9));
+  font-weight: 800;
+}
+
+.exec-region-chevron {
+  font-size: 0.5625rem;
+  color: var(--color-content-t4);
+  flex-shrink: 0;
+  width: 10px;
+}
+
+.exec-region-name {
+  flex: 1;
+}
+
+.exec-region-count {
+  font-size: 0.625rem;
+  font-weight: 700;
+  color: var(--color-content-t4);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1px 6px;
+  border-radius: 8px;
+  min-width: 18px;
+  text-align: center;
+}
+
+/* ── Region Body ── */
+
+.exec-region-body {
+  padding: 2px 0 6px;
+}
+
+/* ── Finding Row ── */
+
+.exec-finding {
+  padding: 0 16px 0 32px;
+  margin-bottom: 1px;
+  transition: background var(--motion-t2);
+  position: relative; /* anchor for the floating overlay */
+}
+
+.exec-finding:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.exec-finding--expanded {
+  background: rgba(110, 110, 196, 0.04);
+}
+
+/* Hover-only preview: subtle highlight, no border shift */
+.exec-finding--expanded:not(.exec-finding--pinned) {
+  z-index: 10; /* float above siblings */
+}
+
+/* Pinned: solid left border, inline expansion */
+.exec-finding--pinned {
+  border-left: 2px solid var(--color-interactive-t1);
+  padding-left: 30px;
+  background: rgba(110, 110, 196, 0.06);
+}
+
+.exec-finding-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  text-align: left;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.exec-finding-chevron {
+  font-size: 0.5625rem;
+  color: var(--color-content-t4);
+  flex-shrink: 0;
+  width: 10px;
+  margin-top: 2px;
+  transition: color var(--motion-t2);
+}
+
+.exec-finding--expanded .exec-finding-chevron {
+  color: var(--color-interactive-t2);
+}
+
+.exec-finding-name {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-content-t1);
+  flex: 1;
+  line-height: 1.4;
+}
+
+.exec-finding--expanded .exec-finding-name {
+  color: var(--color-interactive-t2);
+  font-weight: 600;
+}
+
+.exec-finding-chips {
+  display: flex;
+  gap: 3px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.exec-chip {
+  display: inline-block;
+  font-size: 0.5625rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 1px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+  line-height: 1.5;
+}
+
+.exec-finding-entry-count {
+  font-size: 0.5625rem;
+  font-weight: 600;
+  color: var(--color-content-t4);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1px 5px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  min-width: 14px;
+  text-align: center;
+}
+
+/* ── Study Entries ── */
+
+.exec-finding-entries {
+  padding: 6px 4px 8px 16px;
+}
+
+/* Hover preview: floating card near cursor (position set via inline style) */
+.exec-finding-entries--preview {
+  background: var(--color-bg-t1, #1e1e2e);
+  border: 1px solid rgba(110, 110, 196, 0.25);
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 1px rgba(110, 110, 196, 0.3);
+  padding: 8px 12px;
+  z-index: 100;
+  animation: exec-overlay-reveal 0.12s ease-out;
+  pointer-events: auto;
+}
+
+/* Pinned entries: inline flow, pushes siblings down */
+.exec-finding-entries--pinned {
+  position: relative;
+  animation: exec-entries-reveal 0.15s ease-out;
+}
+
+@keyframes exec-overlay-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes exec-entries-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.exec-entry {
+  padding: 4px 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.06);
+  padding-left: 10px;
+  margin-left: 2px;
+}
+
+/* Consolidated entry: grouped finding with multiple source studies */
+.exec-entry--consolidated {
+  padding: 6px 0;
+}
+
+/* Finding names list with citation superscripts */
+.exec-entry-finding-names {
+  list-style: none;
+  margin: 0 0 4px 0;
+  padding: 0;
+}
+
+.exec-entry-finding-names li {
+  position: relative;
+  padding-left: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.5;
+}
+
+.exec-entry-finding-names li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--color-interactive-t2, rgba(160, 160, 220, 0.9));
+  font-weight: 800;
+}
+
+/* Purple superscript citation numbers */
+.exec-citation-sup {
+  font-size: 0.5625rem;
+  font-weight: 700;
+  color: var(--color-interactive-t2, rgba(160, 160, 220, 0.9));
+  margin-left: 1px;
+  vertical-align: super;
+  line-height: 0;
+}
+
+/* Inline measurement after finding name */
+.exec-entry-measurement-inline {
+  font-size: 0.6875rem;
+  font-weight: 400;
+  color: var(--color-content-t3);
+}
+
+/* Numbered citation list (source snippets) */
+.exec-citation-list {
+  margin: 4px 0 2px 0;
+  padding-left: 22px;
+  list-style: decimal;
+}
+
+.exec-citation-list li {
+  font-size: 0.6875rem;
+  color: var(--color-content-t3);
+  line-height: 1.5;
+  padding: 1px 0;
+}
+
+.exec-citation-list li::marker {
+  color: var(--color-interactive-t2, rgba(160, 160, 220, 0.9));
+  font-size: 0.625rem;
+  font-weight: 700;
+}
+
+/* ── Clickable Study Entry Chip ── */
+
+.exec-entry-study-chip {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  background: var(--color-interactive-t1);
+  padding: 2px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background var(--motion-t2), box-shadow var(--motion-t2), transform var(--motion-t2);
+  white-space: nowrap;
+}
+
+.exec-entry-study-chip:hover {
+  background: var(--color-interactive-t2);
+  box-shadow: 0 1px 6px rgba(110, 110, 196, 0.35);
+  transform: translateY(-1px);
+}
+
+.exec-entry-study-chip:active {
+  transform: translateY(0);
+}
+
+/* ── Entry Data Container ── */
+
+.exec-entry-data {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 3px;
+}
+
+.exec-entry-measurement {
+  font-size: 0.6875rem;
+  color: var(--color-interactive-t2);
+  font-weight: 600;
+}
+
+/* ── Source Excerpt (verbatim from report — mirrors .rpt-source-excerpt) ── */
+
+.exec-entry-excerpt {
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--color-content-t2);
+  margin: 4px 0 6px;
+  font-style: italic;
+  border-left: 2px solid rgba(110, 110, 196, 0.25);
+  padding-left: 10px;
+}
+
+/* ── Change Statement with Trend Chip (mirrors .rpt-change-statement) ── */
+
+.exec-entry-trend {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.exec-entry-trend-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.5625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-interactive-t2, rgba(160, 160, 220, 0.9));
+  background: rgba(110, 110, 196, 0.12);
+  padding: 2px 6px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  line-height: 1.2;
+}
+
+.exec-entry-trend-text {
+  font-size: 0.6875rem;
+  color: var(--color-content-t3);
+  font-style: italic;
+  line-height: 1.5;
+  padding-top: 1px; /* Align text baseline with chip */
+}
+
+/* ── Sections (Similar Presentations, Recommendations) ── */
+
+.exec-section {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: var(--border-t2);
+}
+
+.exec-section-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+}
+
+.exec-section-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  color: var(--color-interactive-t2);
+}
+
+.exec-section-title {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-content-t3);
+  flex: 1;
+}
+
+.exec-section-count {
+  font-size: 0.625rem;
+  font-weight: 700;
+  color: var(--color-content-t4);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1px 6px;
+  border-radius: 8px;
+}
+
+.exec-section-body {
+  padding: 4px 16px 8px 32px;
+}
+
+/* ── Similar Presentations ── */
+
+.exec-presentation {
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.exec-presentation:last-child {
+  border-bottom: none;
+}
+
+.exec-presentation-indication {
+  font-size: 0.6875rem;
+  color: var(--color-content-t3);
+  font-style: italic;
+  margin: 4px 0 2px;
+}
+
+.exec-presentation-findings {
+  font-size: 0.625rem;
+  color: var(--color-content-t4);
+  line-height: 1.4;
+}
+
+/* ── Recommendations ── */
+
+.exec-recommendation {
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.exec-recommendation:last-child {
+  border-bottom: none;
+}
+
+.exec-rec-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.exec-rec-status {
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+.exec-rec-action {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.exec-rec-meta {
+  font-size: 0.625rem;
+  color: var(--color-content-t4);
+  margin-top: 2px;
+  padding-left: 22px;
+  line-height: 1.4;
+}
+
+/* ── Normal Statement ── */
+
+.exec-normal-statement {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 10px 16px;
+  margin-top: 8px;
+  border-top: var(--border-t2);
+  font-size: 0.6875rem;
+  color: var(--color-content-t4);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.exec-normal-icon {
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+/* ── Note Chip Row (note chip + ordering provider star) ── */
+
+.exec-note-chip-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.exec-ordering-star {
+  font-size: 0.875rem;
+  color: #d4a944;
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 2px rgba(212, 169, 68, 0.4));
+}

@@ -1,0 +1,28 @@
+Impression
+Negative for pulmonary embolism (#pe0).
+ 
+ Narrative
+CT PULMONARY ANGIOGRAM
+ 
+** HISTORY **:
+76 years old,  R/O PULMONARY EMBOLISM
+ 
+** TECHNIQUE **: 
+CT angiogram images of the chest acquired with 111 mL Omnipaque 350 intravenous contrast. Multiplanar reformations performed.
+ 
+CTDI: 3.39,32.86,19.68 mGy
+DLP: 13.56,16.43,599.99 mGy-cm
+ 
+COMPARISON: None available.
+ 
+** FINDINGS **:
+PULMONARY ARTERIES: No pulmonary embolism.
+ 
+HEART AND GREAT VESSELS: Heart size normal.
+LYMPH NODES: No suspicious lymph nodes.
+OTHER MEDIASTINUM: No significant abnormality.
+LUNGS: Normal.
+PLEURAL SPACE: Normal.
+UPPER ABDOMEN: Gallbladder stones without acute inflammatory changes.
+SOFT TISSUES: No significant abnormality.
+BONES: No significant abnormality.

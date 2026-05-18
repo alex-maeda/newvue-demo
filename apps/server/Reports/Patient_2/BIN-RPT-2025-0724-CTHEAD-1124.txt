@@ -1,0 +1,33 @@
+Impression
+ 
+There is an extra-axial fluid collection in the left frontal extra-axial space, extending to the vertex, where it measures up to 2.3 cm thickness. There is mixed attenuation, with some hyperattenuating component in keeping with acute age blood products. 
+ 
+There is some mass effect, with approximately 1 cm midline shift to the right. No acute hydrocephalus.
+ 
+ 
+This report has been flagged to the referring provider in Health Connect.  +
+ 
+ 
+ 
+ 
+ Narrative
+CT HEAD WITHOUT CONTRAST
+ 
+** HISTORY **:
+80 years old,  Neuro deficit, acute, stroke suspected
+ 
+** TECHNIQUE **:
+CT images of the head acquired without intravenous contrast.
+ 
+CTDI: 0.04,48.27 mGy
+DLP: 0.81,785.48 mGy-cm
+ 
+COMPARISON: CTs 1/2/2025, 11/27/2024
+ 
+** FINDINGS **: 
+BRAIN PARENCHYMA: There is an extra-axial fluid collection in the left frontal extra-axial space, extending to the vertex, where it measures up to 2.3 cm thickness. There is mixed attenuation, with some hyperattenuating component in keeping with acute age blood products. There is some mass effect, with approximately 1 cm midline shift to the right. Gray-white differentiation is maintained. White matter chronic small vessel ischemic changes.
+ 
+VENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus or extra-axial fluid collections.
+ 
+EXTRACRANIAL STRUCTURES: Normal bones and soft tissues. Visualized paranasal sinuses and mastoids demonstrate no significant abnormality.
+

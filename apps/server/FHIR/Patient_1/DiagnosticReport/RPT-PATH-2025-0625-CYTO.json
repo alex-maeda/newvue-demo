@@ -1,0 +1,26 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "RPT-PATH-2025-0625-CYTO",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        { "system": "http://terminology.hl7.org/CodeSystem/v2-0074", "code": "PAT", "display": "Pathology" }
+      ],
+      "text": "Pathology"
+    }
+  ],
+  "code": { "text": "Cytology Report" },
+  "subject": { "reference": "Patient/P12345" },
+  "effectiveDateTime": "2025-06-25T00:00:00-07:00",
+  "issued": "2025-06-25T00:00:00-07:00",
+  "specimen": [{ "reference": "Specimen/SPC-2025-0625-SPUTUM" }],
+  "presentedForm": [
+    {
+      "contentType": "text/plain",
+      "language": "en",
+      "title": "Cytology Report (Sputum) – Final",
+      "url": "file://./docs/pathology/BIN-RPT-PATH-2025-0625-CYTO.txt"
+    }
+  ]
+}

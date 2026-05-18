@@ -1,0 +1,273 @@
+{
+  "version": "1.0",
+  "description": "Anatomical subregion vocabulary for LLM finding classification. Each canonical body region maps to mutually exclusive subregion options derived from standard radiology report section headings. Used by the summarization prompt builder to constrain the LLM's region assignments for extracted findings.",
+  "lastUpdated": "2026-04-25",
+  "designPrinciples": [
+    "Derived from actual radiology report section headings",
+    "8-15 mutually exclusive subregions per canonical region",
+    "Plain language labels recognizable to any radiologist",
+    "Every finding should fit exactly one subregion",
+    "Includes 'Other' as escape valve for edge cases"
+  ],
+  "excludedCanonicalRegions": {
+    "note": "Mass, Soft, Bone, and Joint are generic canonical regions that apply across body areas. Their anatomy is incorporated as subregions within the specific canonical regions below (e.g., 'Bones and Marrow' within Arm, 'Joint Spaces' within Calf). These generic regions are excluded from this vocabulary because they rarely appear as primary study regions and their findings are better classified within the anatomical context of a specific body area.",
+    "excluded": ["Mass", "Soft", "Bone", "Joint"]
+  },
+  "regions": {
+    "Head": {
+      "description": "For CT Head, MR Brain, CT/MR Head studies",
+      "subregions": [
+        "Brain Parenchyma",
+        "Ventricles and CSF Spaces",
+        "Meninges and Extra-axial Spaces",
+        "Intracranial Vessels",
+        "Sella and Pituitary",
+        "Cranial Nerves",
+        "Skull and Calvarium",
+        "Orbits",
+        "Scalp and Soft Tissues",
+        "Other"
+      ]
+    },
+    "Face": {
+      "description": "For CT Face, CT/MR Sinuses, CT/MR Temporal Bones, CT/MR Orbits, Panorex studies",
+      "subregions": [
+        "Orbits and Globes",
+        "Paranasal Sinuses",
+        "Nasal Cavity",
+        "Oral Cavity and Oropharynx",
+        "Nasopharynx",
+        "Temporal Bones and Mastoids",
+        "Mandible and TMJ",
+        "Salivary Glands",
+        "Facial Bones",
+        "Soft Tissues",
+        "Other"
+      ]
+    },
+    "Neck": {
+      "description": "For CT Neck, MR Neck, CT Angiogram Neck studies",
+      "subregions": [
+        "Pharynx and Larynx",
+        "Thyroid and Parathyroid",
+        "Cervical Lymph Nodes",
+        "Cervical Vessels",
+        "Trachea and Esophagus",
+        "Salivary and Parotid Glands",
+        "Brachial Plexus",
+        "Cervical Soft Tissues",
+        "Bones",
+        "Other"
+      ]
+    },
+    "Spine": {
+      "description": "For general spine studies spanning multiple spinal segments (e.g., MR Whole Spine, CT Spine)",
+      "subregions": [
+        "Vertebral Bodies and Alignment",
+        "Intervertebral Discs",
+        "Spinal Canal and Cord",
+        "Neural Foramina and Nerve Roots",
+        "Facet Joints",
+        "Paraspinal Soft Tissues",
+        "Other"
+      ]
+    },
+    "Cervical": {
+      "description": "For MR C-Spine, CT C-Spine, XR C-Spine studies",
+      "subregions": [
+        "Vertebral Bodies and Alignment",
+        "Intervertebral Discs",
+        "Spinal Canal and Cord",
+        "Neural Foramina and Nerve Roots",
+        "Facet Joints",
+        "Craniocervical Junction",
+        "Prevertebral Soft Tissues",
+        "Paraspinal Soft Tissues",
+        "Other"
+      ]
+    },
+    "Thoracic": {
+      "description": "For MR T-Spine, CT T-Spine, XR T-Spine studies",
+      "subregions": [
+        "Vertebral Bodies and Alignment",
+        "Intervertebral Discs",
+        "Spinal Canal and Cord",
+        "Neural Foramina",
+        "Facet Joints",
+        "Paraspinal Soft Tissues",
+        "Posterior Ribs",
+        "Other"
+      ]
+    },
+    "Lumbar": {
+      "description": "For MR L-Spine, CT L-Spine, XR L-Spine studies",
+      "subregions": [
+        "Vertebral Bodies and Alignment",
+        "Intervertebral Discs",
+        "Spinal Canal and Cauda Equina",
+        "Neural Foramina and Nerve Roots",
+        "Facet Joints",
+        "Sacrum and Coccyx",
+        "Paraspinal Soft Tissues",
+        "Other"
+      ]
+    },
+    "Chest": {
+      "description": "For CT Chest, XR Chest, CT Pulmonary Angiogram, CT Chest Angiogram studies",
+      "subregions": [
+        "Lungs",
+        "Airways",
+        "Pleura",
+        "Mediastinum",
+        "Lymph Nodes",
+        "Heart and Pericardium",
+        "Great Vessels",
+        "Chest Wall and Ribs",
+        "Upper Abdomen",
+        "Soft Tissues",
+        "Bones",
+        "Other"
+      ]
+    },
+    "Breast": {
+      "description": "For Mammography, Breast MRI, Breast Ultrasound studies. Uses ACR BI-RADS structured reporting conventions.",
+      "subregions": [
+        "Breast Parenchyma",
+        "Masses and Calcifications",
+        "Axillary Lymph Nodes",
+        "Skin and Nipple Complex",
+        "Chest Wall",
+        "Implants",
+        "Other"
+      ]
+    },
+    "Abdomen": {
+      "description": "For CT Abdomen, US Abdomen, MR Abdomen, CT Abdomen/Pelvis (abdomen portion) studies",
+      "subregions": [
+        "Liver",
+        "Gallbladder and Bile Ducts",
+        "Pancreas",
+        "Spleen",
+        "Kidneys and Ureters",
+        "Adrenal Glands",
+        "Gastrointestinal Tract",
+        "Mesentery and Lymph Nodes",
+        "Peritoneum",
+        "Abdominal Vessels",
+        "Retroperitoneum",
+        "Abdominal Wall and Soft Tissues",
+        "Bones",
+        "Other"
+      ]
+    },
+    "Pelvis": {
+      "description": "For CT Pelvis, MR Pelvis, US Pelvis, CT Abdomen/Pelvis (pelvis portion) studies",
+      "subregions": [
+        "Bladder and Urethra",
+        "Colon and Rectum",
+        "Reproductive Organs",
+        "Pelvic Lymph Nodes",
+        "Pelvic Vessels",
+        "Pelvic Bones",
+        "Inguinal Region",
+        "Pelvic Soft Tissues",
+        "Other"
+      ]
+    },
+    "Arm": {
+      "description": "For MR Shoulder, XR Shoulder, XR Humerus, US Shoulder studies",
+      "subregions": [
+        "Shoulder Joint",
+        "Rotator Cuff and Tendons",
+        "Labrum and Cartilage",
+        "AC and SC Joints",
+        "Humerus and Clavicle",
+        "Bursae",
+        "Muscles and Soft Tissues",
+        "Vessels",
+        "Other"
+      ]
+    },
+    "Forearm": {
+      "description": "For MR Elbow, XR Elbow, XR Forearm studies",
+      "subregions": [
+        "Elbow Joint",
+        "Radius and Ulna",
+        "Tendons and Ligaments",
+        "Muscles and Soft Tissues",
+        "Vessels",
+        "Other"
+      ]
+    },
+    "Hand": {
+      "description": "For MR Wrist, XR Hand, XR Wrist, XR Fingers studies",
+      "subregions": [
+        "Wrist Joint",
+        "Carpal Bones",
+        "Metacarpals and Phalanges",
+        "Tendons and Ligaments",
+        "Soft Tissues",
+        "Other"
+      ]
+    },
+    "Leg": {
+      "description": "For MR Hip, XR Hip, XR Femur, CT Lower Extremity studies",
+      "subregions": [
+        "Hip Joint",
+        "Labrum and Cartilage",
+        "Femur",
+        "Muscles and Tendons",
+        "Soft Tissues",
+        "Vessels",
+        "Other"
+      ]
+    },
+    "Calf": {
+      "description": "For MR Knee, XR Knee, XR Tibia/Fibula studies",
+      "subregions": [
+        "Knee Joint",
+        "Menisci",
+        "Cruciate and Collateral Ligaments",
+        "Extensor Mechanism",
+        "Tibia and Fibula",
+        "Bones and Marrow",
+        "Muscles and Soft Tissues",
+        "Popliteal Region",
+        "Vessels",
+        "Other"
+      ]
+    },
+    "Foot": {
+      "description": "For MR Ankle, XR Ankle, XR Foot, MR Foot studies",
+      "subregions": [
+        "Ankle Joint",
+        "Tarsal Bones",
+        "Metatarsals and Phalanges",
+        "Tendons and Ligaments",
+        "Plantar Structures",
+        "Soft Tissues",
+        "Other"
+      ]
+    },
+    "Whole": {
+      "description": "For PET/CT Whole Body, PET/CT Skull Base to Mid-Thigh, NM Bone Scan studies",
+      "subregions": [
+        "Head and Neck",
+        "Lungs",
+        "Mediastinum and Lymph Nodes",
+        "Heart and Pericardium",
+        "Liver",
+        "Spleen",
+        "Pancreas",
+        "Kidneys and Adrenals",
+        "Gastrointestinal Tract",
+        "Pelvic Organs",
+        "Lymph Nodes",
+        "Peritoneum and Retroperitoneum",
+        "Musculoskeletal",
+        "Soft Tissues",
+        "Other"
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "resourceType": "Specimen",
+  "id": "SPC-2025-0702-RSCLN",
+  "subject": { "reference": "Patient/P12345" },
+  "type": { "text": "Right supraclavicular lymph node core needle biopsies" },
+  "receivedTime": "2025-07-02T00:00:00-07:00"
+}

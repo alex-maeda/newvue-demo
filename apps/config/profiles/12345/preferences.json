@@ -1,0 +1,20 @@
+{
+  "impressionSettings": {
+    "structure": "numbered",
+    "verbosity": "medium",
+    "hedging": "medium",
+    "normalFindings": "exclude",
+    "acronymExpansion": false,
+    "guidelines": true,
+    "recommendations": "imaging_clinical"
+  },
+  "priorImpressionSamples": [],
+  "dictationPanel": {
+    "collapsed": false
+  },
+  "layout": {
+    "railWidth": 463.39471435546875,
+    "compareSplitRatio": 0.5,
+    "actionPanelWidth": 360
+  }
+}

@@ -1,0 +1,963 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "title": "XR Chest PA Lateral",
+  "modality": "XR",
+  "bodyRegion": "chest",
+  "description": "System default template",
+  "templateId": "xr-chest-pa-lateral",
+  "fileTemplateId": "XR_chest_PA_lateral",
+  "reportId": "report-1778107518018-5upgo0",
+  "sessionId": "report-1778107518018-5upgo0",
+  "status": "in-progress",
+  "author": null,
+  "createdAt": "2026-05-06T22:45:47.415Z",
+  "updatedAt": "2026-05-06T22:48:24.107Z",
+  "signedAt": null,
+  "patient": null,
+  "study": null,
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "typeAttribute": [
+        "narrative"
+      ],
+      "parentId": null,
+      "children": [
+        {
+          "id": "sub_study_title",
+          "type": "subsection",
+          "typeAttribute": [
+            "studyName"
+          ],
+          "parentId": "headline_narrative",
+          "children": [],
+          "label": "XR Chest – PA and Lateral",
+          "text": "XR Chest – PA and Lateral",
+          "templateText": "XR Chest – PA and Lateral",
+          "currentText": "XR Chest – PA and Lateral",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_history",
+          "type": "section",
+          "typeAttribute": [
+            "history"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_history_main",
+              "type": "content",
+              "typeAttribute": [
+                "history"
+              ],
+              "parentId": "section_history",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "History",
+          "text": "History",
+          "childrenId": [
+            "content_history_main"
+          ],
+          "templateText": "History",
+          "currentText": "History",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_technique",
+          "type": "section",
+          "typeAttribute": [
+            "technique"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_technique_main",
+              "type": "content",
+              "typeAttribute": [
+                "technique"
+              ],
+              "parentId": "section_technique",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "Technique",
+          "text": "Technique",
+          "childrenId": [
+            "content_technique_main"
+          ],
+          "templateText": "Technique",
+          "currentText": "Technique",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_comparison",
+          "type": "section",
+          "typeAttribute": [
+            "comparison"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_comparison_main",
+              "type": "content",
+              "typeAttribute": [
+                "comparison"
+              ],
+              "parentId": "section_comparison",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "Comparison",
+          "text": "Comparison",
+          "childrenId": [
+            "content_comparison_main"
+          ],
+          "templateText": "Comparison",
+          "currentText": "Comparison",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_findings",
+          "type": "section",
+          "typeAttribute": [
+            "findings"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "sub_lines_tubes",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_lines_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_lines_tubes",
+                  "children": [],
+                  "text": "None.",
+                  "inputType": "text",
+                  "normalIndex": 0,
+                  "templateText": "None.",
+                  "currentText": "None.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": true,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "None.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [
+                      "seg_1778107697969_9n732x"
+                    ],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Lines / Tubes",
+              "text": "Lines / Tubes",
+              "childrenId": [
+                "content_lines_1"
+              ],
+              "templateText": "Lines / Tubes",
+              "currentText": "Lines / Tubes",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_cardiac_mediastinal",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_cardiac_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_cardiac_mediastinal",
+                  "children": [],
+                  "text": "Cardiomediastinal silhouette and pulmonary vascularity are within normal limits.",
+                  "inputType": "text",
+                  "normalIndex": 1,
+                  "templateText": "Cardiomediastinal silhouette and pulmonary vascularity are within normal limits.",
+                  "currentText": "Cardiomediastinal silhouette and pulmonary vascularity are within normal limits.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Cardiomediastinal silhouette and pulmonary vascularity are within normal limits.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Cardiac, Mediastinal, and Hilar Contours",
+              "text": "Cardiac, Mediastinal, and Hilar Contours",
+              "childrenId": [
+                "content_cardiac_1"
+              ],
+              "templateText": "Cardiac, Mediastinal, and Hilar Contours",
+              "currentText": "Cardiac, Mediastinal, and Hilar Contours",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_lungs",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_pass2_1778107701033_fzro",
+                  "type": "content",
+                  "text": "Large spiculated lung nodule in the left upper lobe measuring 3 by 4 by 4 cm.",
+                  "children": [],
+                  "pass2Inserted": true,
+                  "typeAttribute": [],
+                  "typeData": {},
+                  "parentId": "sub_lungs",
+                  "childrenId": [],
+                  "orderIndex": 0,
+                  "misc": {},
+                  "templateText": "Large spiculated lung nodule in the left upper lobe measuring 3 by 4 by 4 cm.",
+                  "currentText": "Large spiculated lung nodule in the left upper lobe measuring 3 by 4 by 4 cm.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "",
+                    "picklists": null,
+                    "pass2Inserted": true,
+                    "sourceSegmentIds": [
+                      "seg_1778107697969_9n732x"
+                    ],
+                    "pass2RunId": "P2_2_1778107699332",
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                },
+                {
+                  "id": "content_lungs_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_lungs",
+                  "children": [],
+                  "text": "No focal consolidation or atelectasis. No appreciable pleural effusion or pneumothorax detected.",
+                  "inputType": "text",
+                  "normalIndex": 2,
+                  "templateText": "No focal consolidation or atelectasis. No appreciable pleural effusion or pneumothorax detected.",
+                  "currentText": "No focal consolidation or atelectasis. No appreciable pleural effusion or pneumothorax detected.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No focal consolidation or atelectasis. No appreciable pleural effusion or pneumothorax detected.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Lungs",
+              "text": "Lungs",
+              "childrenId": [
+                "content_pass2_1778107701033_fzro",
+                "content_lungs_1"
+              ],
+              "templateText": "Lungs",
+              "currentText": "Lungs",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_bones",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_bones_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_bones",
+                  "children": [],
+                  "text": "Grossly unremarkable.",
+                  "inputType": "text",
+                  "normalIndex": 3,
+                  "templateText": "Grossly unremarkable.",
+                  "currentText": "Grossly unremarkable.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": true,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Grossly unremarkable.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [
+                      "seg_1778107697969_9n732x"
+                    ],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Bones",
+              "text": "Bones",
+              "childrenId": [
+                "content_bones_1"
+              ],
+              "templateText": "Bones",
+              "currentText": "Bones",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_soft_tissues",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_soft_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_soft_tissues",
+                  "children": [],
+                  "text": "Grossly unremarkable.",
+                  "inputType": "text",
+                  "normalIndex": 4,
+                  "templateText": "Grossly unremarkable.",
+                  "currentText": "Grossly unremarkable.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": true,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Grossly unremarkable.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [
+                      "seg_1778107697969_9n732x"
+                    ],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Soft Tissues",
+              "text": "Soft Tissues",
+              "childrenId": [
+                "content_soft_1"
+              ],
+              "templateText": "Soft Tissues",
+              "currentText": "Soft Tissues",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            }
+          ],
+          "label": "Findings",
+          "text": "Findings",
+          "childrenId": [
+            "sub_lines_tubes",
+            "sub_cardiac_mediastinal",
+            "sub_lungs",
+            "sub_bones",
+            "sub_soft_tissues"
+          ],
+          "templateText": "Findings",
+          "currentText": "Findings",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        }
+      ],
+      "label": "Narrative",
+      "text": "Narrative",
+      "childrenId": [
+        "sub_study_title",
+        "section_history",
+        "section_technique",
+        "section_comparison",
+        "section_findings"
+      ],
+      "templateText": "Narrative",
+      "currentText": "Narrative",
+      "state": {
+        "edited": false,
+        "syntheticSection": false,
+        "syntheticSectionType": null,
+        "impressionDerived": false
+      }
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "typeAttribute": [
+        "impression"
+      ],
+      "parentId": null,
+      "children": [
+        {
+          "id": "content_imp_1778107704107_d0v6",
+          "type": "content",
+          "text": "1. Large spiculated lung nodule in the left upper lobe measuring 3 by 4 by 4 cm.",
+          "children": [],
+          "typeAttribute": [],
+          "typeData": {},
+          "parentId": "headline_impression",
+          "childrenId": [],
+          "orderIndex": 0,
+          "misc": {},
+          "templateText": "1. Large spiculated lung nodule in the left upper lobe measuring 3 by 4 by 4 cm.",
+          "currentText": "1. Large spiculated lung nodule in the left upper lobe measuring 3 by 4 by 4 cm.",
+          "state": {
+            "version": 0,
+            "manuallyEdited": false,
+            "deleted": false,
+            "inputType": "text",
+            "options": null,
+            "selectedOptionIndex": 0,
+            "defaultOptionIndex": 0,
+            "originalText": "",
+            "picklists": null,
+            "pass2Inserted": false,
+            "sourceSegmentIds": [],
+            "pass2RunId": null,
+            "suppressedBySegmentIds": [],
+            "editedBySegmentIds": [],
+            "impressionGenerated": true,
+            "impressionRunId": "IG_2_1778107702335",
+            "isCritical": true,
+            "guideline": "Fleischner Society 2017: Nodules ≥30 mm require immediate further evaluation with CT and consideration of PET-CT and/or biopsy.",
+            "recommendation": "Recommend urgent chest CT with contrast for further characterization. Consider PET-CT and/or biopsy to evaluate for malignancy. Pulmonology consultation recommended.",
+            "syntheticContent": null,
+            "sourceImpressionBoxId": null
+          }
+        },
+        {
+          "id": "section_synth_recommendations_1778107704107_1qsa",
+          "type": "section",
+          "label": "Recommendations",
+          "text": "Recommendations",
+          "children": [
+            {
+              "id": "content_synth_recommendations_1778107704107_wapz",
+              "type": "content",
+              "text": "Recommend urgent chest CT with contrast for further characterization. Consider PET-CT and/or biopsy to evaluate for malignancy. Pulmonology consultation recommended.",
+              "children": [],
+              "typeAttribute": [],
+              "typeData": {},
+              "parentId": "section_synth_recommendations_1778107704107_1qsa",
+              "childrenId": [],
+              "orderIndex": 0,
+              "misc": {},
+              "templateText": "Recommend urgent chest CT with contrast for further characterization. Consider PET-CT and/or biopsy to evaluate for malignancy. Pulmonology consultation recommended.",
+              "currentText": "Recommend urgent chest CT with contrast for further characterization. Consider PET-CT and/or biopsy to evaluate for malignancy. Pulmonology consultation recommended.",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": true,
+                "impressionRunId": "IG_2_1778107702335",
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": "recommendations",
+                "sourceImpressionBoxId": "content_imp_1778107704107_d0v6"
+              }
+            }
+          ],
+          "syntheticSection": true,
+          "syntheticSectionType": "recommendations",
+          "impressionDerived": true,
+          "impressionRunId": "IG_2_1778107702335",
+          "typeAttribute": [],
+          "typeData": {},
+          "parentId": "headline_impression",
+          "childrenId": [
+            "content_synth_recommendations_1778107704107_wapz"
+          ],
+          "orderIndex": 0,
+          "misc": {},
+          "templateText": "Recommendations",
+          "currentText": "Recommendations",
+          "state": {
+            "edited": false,
+            "syntheticSection": true,
+            "syntheticSectionType": "recommendations",
+            "impressionDerived": true
+          }
+        },
+        {
+          "id": "section_synth_guidelines_1778107704107_4zq1",
+          "type": "section",
+          "label": "Guidelines",
+          "text": "Guidelines",
+          "children": [
+            {
+              "id": "content_synth_guidelines_1778107704107_kvow",
+              "type": "content",
+              "text": "Fleischner Society 2017: Nodules ≥30 mm require immediate further evaluation with CT and consideration of PET-CT and/or biopsy.",
+              "children": [],
+              "typeAttribute": [],
+              "typeData": {},
+              "parentId": "section_synth_guidelines_1778107704107_4zq1",
+              "childrenId": [],
+              "orderIndex": 0,
+              "misc": {},
+              "templateText": "Fleischner Society 2017: Nodules ≥30 mm require immediate further evaluation with CT and consideration of PET-CT and/or biopsy.",
+              "currentText": "Fleischner Society 2017: Nodules ≥30 mm require immediate further evaluation with CT and consideration of PET-CT and/or biopsy.",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": true,
+                "impressionRunId": "IG_2_1778107702335",
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": "guidelines",
+                "sourceImpressionBoxId": "content_imp_1778107704107_d0v6"
+              }
+            }
+          ],
+          "syntheticSection": true,
+          "syntheticSectionType": "guidelines",
+          "impressionDerived": true,
+          "impressionRunId": "IG_2_1778107702335",
+          "typeAttribute": [],
+          "typeData": {},
+          "parentId": "headline_impression",
+          "childrenId": [
+            "content_synth_guidelines_1778107704107_kvow"
+          ],
+          "orderIndex": 0,
+          "misc": {},
+          "templateText": "Guidelines",
+          "currentText": "Guidelines",
+          "state": {
+            "edited": false,
+            "syntheticSection": true,
+            "syntheticSectionType": "guidelines",
+            "impressionDerived": true
+          }
+        }
+      ],
+      "label": "Impression",
+      "text": "Impression",
+      "childrenId": [
+        "content_imp_1778107704107_d0v6",
+        "section_synth_recommendations_1778107704107_1qsa",
+        "section_synth_guidelines_1778107704107_4zq1"
+      ],
+      "templateText": "Impression",
+      "currentText": "Impression",
+      "state": {
+        "edited": false,
+        "syntheticSection": false,
+        "syntheticSectionType": null,
+        "impressionDerived": false
+      }
+    }
+  ],
+  "segments": {
+    "dictation-box": [
+      {
+        "segmentId": "seg_1778107697969_9n732x",
+        "textareaTarget": "dictation-box",
+        "startOffset": 0,
+        "endOffset": 77,
+        "length": 77,
+        "text": "Large spiculated lung nodule in the left upper lobe measuring 3 by 4 by 4 cm.",
+        "status": "structured",
+        "sourceActionId": null
+      }
+    ],
+    "content_lines_1": [
+      {
+        "segmentId": "seg_1778107518017_3reils",
+        "textareaTarget": "content_lines_1",
+        "startOffset": 0,
+        "endOffset": 5,
+        "length": 5,
+        "text": "None.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_cardiac_1": [
+      {
+        "segmentId": "seg_1778107518017_xdjq18",
+        "textareaTarget": "content_cardiac_1",
+        "startOffset": 0,
+        "endOffset": 80,
+        "length": 80,
+        "text": "Cardiomediastinal silhouette and pulmonary vascularity are within normal limits.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_lungs_1": [
+      {
+        "segmentId": "seg_1778107518017_xk57i1",
+        "textareaTarget": "content_lungs_1",
+        "startOffset": 0,
+        "endOffset": 96,
+        "length": 96,
+        "text": "No focal consolidation or atelectasis. No appreciable pleural effusion or pneumothorax detected.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_bones_1": [
+      {
+        "segmentId": "seg_1778107518017_b35zu2",
+        "textareaTarget": "content_bones_1",
+        "startOffset": 0,
+        "endOffset": 21,
+        "length": 21,
+        "text": "Grossly unremarkable.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_soft_1": [
+      {
+        "segmentId": "seg_1778107518017_ouc5xw",
+        "textareaTarget": "content_soft_1",
+        "startOffset": 0,
+        "endOffset": 21,
+        "length": 21,
+        "text": "Grossly unremarkable.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_pass2_1778107544132_i7ao": [
+      {
+        "segmentId": "seg_1778107544132_yjobb5",
+        "textareaTarget": "content_pass2_1778107544132_i7ao",
+        "startOffset": 0,
+        "endOffset": 77,
+        "length": 77,
+        "text": "Large speculated lung nodule in the left upper lobe measuring 3 by 4 by 4 cm.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_pass2_1778107701033_fzro": [
+      {
+        "segmentId": "seg_1778107701033_ejda0u",
+        "textareaTarget": "content_pass2_1778107701033_fzro",
+        "startOffset": 0,
+        "endOffset": 77,
+        "length": 77,
+        "text": "Large spiculated lung nodule in the left upper lobe measuring 3 by 4 by 4 cm.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_imp_1778107704107_d0v6": [
+      {
+        "segmentId": "seg_1778107704107_0nyqgv",
+        "textareaTarget": "content_imp_1778107704107_d0v6",
+        "startOffset": 0,
+        "endOffset": 80,
+        "length": 80,
+        "text": "1. Large spiculated lung nodule in the left upper lobe measuring 3 by 4 by 4 cm.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_synth_recommendations_1778107704107_wapz": [
+      {
+        "segmentId": "seg_1778107704107_he0kf0",
+        "textareaTarget": "content_synth_recommendations_1778107704107_wapz",
+        "startOffset": 0,
+        "endOffset": 165,
+        "length": 165,
+        "text": "Recommend urgent chest CT with contrast for further characterization. Consider PET-CT and/or biopsy to evaluate for malignancy. Pulmonology consultation recommended.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_synth_guidelines_1778107704107_kvow": [
+      {
+        "segmentId": "seg_1778107704107_eantae",
+        "textareaTarget": "content_synth_guidelines_1778107704107_kvow",
+        "startOffset": 0,
+        "endOffset": 127,
+        "length": 127,
+        "text": "Fleischner Society 2017: Nodules ≥30 mm require immediate further evaluation with CT and consideration of PET-CT and/or biopsy.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ]
+  },
+  "tokenUsage": {
+    "pass1": {
+      "inputTokens": 5591,
+      "outputTokens": 104
+    },
+    "pass2a": {
+      "inputTokens": 3096,
+      "outputTokens": 46
+    },
+    "pass2b": {
+      "inputTokens": 2143,
+      "outputTokens": 124
+    },
+    "impression": {
+      "inputTokens": 5785,
+      "outputTokens": 411
+    }
+  },
+  "dictationText": "Large spiculated lung nodule in the left upper lobe measuring 3 by 4 by 4 cm."
+}

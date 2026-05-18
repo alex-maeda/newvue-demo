@@ -1,0 +1,248 @@
+{
+  "_comment": "Maps study type codes (from report filenames) to LOINC codes and human-readable descriptions for OBR-4. Best-effort mapping; some IR/US procedure codes are approximate.",
+  "CTABDOMEN": {
+    "loincCode": "24531-6",
+    "description": "CT Abdomen",
+    "codingSystem": "LN"
+  },
+  "CTABDOMENANDPELVIS": {
+    "loincCode": "24532-4",
+    "description": "CT Abdomen and Pelvis",
+    "codingSystem": "LN"
+  },
+  "CTABDOMENPELVIS": {
+    "loincCode": "24532-4",
+    "description": "CT Abdomen and Pelvis",
+    "codingSystem": "LN"
+  },
+  "CTAHEADNECK": {
+    "loincCode": "30578-9",
+    "description": "CTA Head and Neck",
+    "codingSystem": "LN"
+  },
+  "CTANGIOGRAMCHESTFORPE": {
+    "loincCode": "36813-4",
+    "description": "CT Angiogram Chest for PE",
+    "codingSystem": "LN"
+  },
+  "CTANGIOGRAMCHESTNONCORONARY": {
+    "loincCode": "36813-4",
+    "description": "CT Angiogram Chest Non-Coronary",
+    "codingSystem": "LN"
+  },
+  "CTANGIOGRAMCHESTPULMONARYARTERIES": {
+    "loincCode": "36813-4",
+    "description": "CT Angiogram Chest Pulmonary Arteries",
+    "codingSystem": "LN"
+  },
+  "CTANGIOGRAMHEADNECK": {
+    "loincCode": "30578-9",
+    "description": "CTA Head and Neck",
+    "codingSystem": "LN"
+  },
+  "CTCHEST": {
+    "loincCode": "24627-2",
+    "description": "CT Chest",
+    "codingSystem": "LN"
+  },
+  "CTFUABDOMENPELVIS": {
+    "loincCode": "24532-4",
+    "description": "CT Follow-Up Abdomen and Pelvis",
+    "codingSystem": "LN"
+  },
+  "CTHEAD": {
+    "loincCode": "24725-4",
+    "description": "CT Head",
+    "codingSystem": "LN"
+  },
+  "CTMUSCULOSKELETAL": {
+    "loincCode": "24566-2",
+    "description": "CT Musculoskeletal",
+    "codingSystem": "LN"
+  },
+  "CTNECK": {
+    "loincCode": "24623-1",
+    "description": "CT Neck",
+    "codingSystem": "LN"
+  },
+  "CTPELVIS": {
+    "loincCode": "24630-6",
+    "description": "CT Pelvis",
+    "codingSystem": "LN"
+  },
+  "IRBIOPSY": {
+    "loincCode": "24601-7",
+    "description": "US-Guided Biopsy",
+    "codingSystem": "LN"
+  },
+  "IRDRAINAGEPROC": {
+    "loincCode": "43468-8",
+    "description": "IR Drainage Procedure",
+    "codingSystem": "LN"
+  },
+  "IRVASCULARPROC": {
+    "loincCode": "43469-6",
+    "description": "IR Vascular Procedure",
+    "codingSystem": "LN"
+  },
+  "MGSCREENINGBILATERALCAD": {
+    "loincCode": "42174-3",
+    "description": "Screening Mammogram Bilateral with CAD",
+    "codingSystem": "LN"
+  },
+  "MRBRAIN": {
+    "loincCode": "24590-2",
+    "description": "MR Brain",
+    "codingSystem": "LN"
+  },
+  "MRHEAD": {
+    "loincCode": "24590-2",
+    "description": "MR Head",
+    "codingSystem": "LN"
+  },
+  "MRSPINECERVICAL": {
+    "loincCode": "24586-0",
+    "description": "MR Cervical Spine",
+    "codingSystem": "LN"
+  },
+  "MRSPINELUMBAR": {
+    "loincCode": "24588-6",
+    "description": "MR Lumbar Spine",
+    "codingSystem": "LN"
+  },
+  "MRSPINETHORACIC": {
+    "loincCode": "24589-4",
+    "description": "MR Thoracic Spine",
+    "codingSystem": "LN"
+  },
+  "NMPETCTBODY": {
+    "loincCode": "44136-0",
+    "description": "PET-CT Whole Body",
+    "codingSystem": "LN"
+  },
+  "USABDOMENAORTOILIACSCREENING": {
+    "loincCode": "24533-2",
+    "description": "US Abdominal Aorto-Iliac Screening",
+    "codingSystem": "LN"
+  },
+  "USDIAGNOSTICBREASTLEFTLTD": {
+    "loincCode": "24604-1",
+    "description": "US Diagnostic Breast Left Limited",
+    "codingSystem": "LN"
+  },
+  "USECHOCARDIOGRAM2DFETALWMMODERECORDING": {
+    "loincCode": "34552-0",
+    "description": "Echocardiogram 2D with M-Mode",
+    "codingSystem": "LN"
+  },
+  "USECHOTTECOMPLETECARDCV": {
+    "loincCode": "34552-0",
+    "description": "TTE Echocardiogram Complete",
+    "codingSystem": "LN"
+  },
+  "USRENAL": {
+    "loincCode": "24689-2",
+    "description": "US Renal",
+    "codingSystem": "LN"
+  },
+  "USRETROPERITONEALBSCANCOMPLETE": {
+    "loincCode": "24690-0",
+    "description": "US Retroperitoneal Complete",
+    "codingSystem": "LN"
+  },
+  "USVASCULAR": {
+    "loincCode": "24615-7",
+    "description": "US Vascular Lower Extremity",
+    "codingSystem": "LN"
+  },
+  "XRABDOMEN": {
+    "loincCode": "43462-1",
+    "description": "XR Abdomen",
+    "codingSystem": "LN"
+  },
+  "XRACUTEABDOMENCOMPLETE": {
+    "loincCode": "43462-1",
+    "description": "XR Acute Abdomen Complete",
+    "codingSystem": "LN"
+  },
+  "XRANKLE3ORMOREVIEWS": {
+    "loincCode": "37665-7",
+    "description": "XR Ankle 3+ Views",
+    "codingSystem": "LN"
+  },
+  "XRBILATKNEESPAIN": {
+    "loincCode": "37074-2",
+    "description": "XR Bilateral Knees",
+    "codingSystem": "LN"
+  },
+  "XRBILATKNEESSTANDINGAP": {
+    "loincCode": "37074-2",
+    "description": "XR Bilateral Knees Standing AP",
+    "codingSystem": "LN"
+  },
+  "XRBILATSHOULDERS2ORMOREVIEWS": {
+    "loincCode": "36572-6",
+    "description": "XR Bilateral Shoulders 2+ Views",
+    "codingSystem": "LN"
+  },
+  "XRCHEST": {
+    "loincCode": "36643-5",
+    "description": "XR Chest 2 Views",
+    "codingSystem": "LN"
+  },
+  "XRCHESTERAL": {
+    "loincCode": "36643-5",
+    "description": "XR Chest",
+    "codingSystem": "LN"
+  },
+  "XRKNEE3VIEW": {
+    "loincCode": "37555-0",
+    "description": "XR Knee 3 Views",
+    "codingSystem": "LN"
+  },
+  "XRKNEEAPANDLAT": {
+    "loincCode": "47373-6",
+    "description": "XR Knee AP and Lateral",
+    "codingSystem": "LN"
+  },
+  "XRKNEECOMPLETE4VIEW": {
+    "loincCode": "37555-0",
+    "description": "XR Knee Complete 4 Views",
+    "codingSystem": "LN"
+  },
+  "XRLEFTFEMUR": {
+    "loincCode": "36654-2",
+    "description": "XR Left Femur",
+    "codingSystem": "LN"
+  },
+  "XRLEFTHIP": {
+    "loincCode": "69058-6",
+    "description": "XR Left Hip",
+    "codingSystem": "LN"
+  },
+  "XRRIGHTFINGER": {
+    "loincCode": "37450-4",
+    "description": "XR Right Finger",
+    "codingSystem": "LN"
+  },
+  "XRRIGHTFOOT": {
+    "loincCode": "37699-6",
+    "description": "XR Right Foot",
+    "codingSystem": "LN"
+  },
+  "XRRIGHTSHOULDER": {
+    "loincCode": "36668-2",
+    "description": "XR Right Shoulder",
+    "codingSystem": "LN"
+  },
+  "XRWRIST": {
+    "loincCode": "37827-3",
+    "description": "XR Wrist",
+    "codingSystem": "LN"
+  },
+  "XRWRIST3ORMOREVIEWS": {
+    "loincCode": "37827-3",
+    "description": "XR Wrist 3+ Views",
+    "codingSystem": "LN"
+  }
+}

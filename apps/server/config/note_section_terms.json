@@ -1,0 +1,228 @@
+{
+  "_comment": "Canonical clinical note section header vocabulary for deterministic section extraction. Used by noteRelevanceService to parse physician notes into CC/HPI/PEX/AP/COURSE sections.",
+
+  "SECTION_HEADERS": {
+    "CC": [
+      "c.c.",
+      "cc",
+      "chief complaint",
+      "id",
+      "p.c.",
+      "pc",
+      "presenting complaint",
+      "presenting problem",
+      "primary complaint",
+      "reason for consultation",
+      "reason for encounter",
+      "reason for visit"
+    ],
+    "HPI": [
+      "h.p.i.",
+      "hpi",
+      "history of present illness",
+      "hx",
+      "s",
+      "s/",
+      "subjective"
+    ],
+    "PEX": [
+      "exam",
+      "exam findings",
+      "o",
+      "o/",
+      "objective",
+      "objective data",
+      "p.e.",
+      "p.e.x.",
+      "pex",
+      "phys exam",
+      "physical",
+      "physical exam",
+      "physical examination"
+    ],
+    "AP": [
+      "a&p",
+      "a/p",
+      "a.p.",
+      "ap",
+      "assessment",
+      "assessment and plan",
+      "conclusion",
+      "conclusions",
+      "e/m",
+      "medical decision making",
+      "mdm",
+      "plan"
+    ],
+    "COURSE": [
+      "assessment and clinical course",
+      "brief hospital course",
+      "clinical course",
+      "clinical summary",
+      "course in hospital",
+      "course of hospitalization",
+      "course of illness",
+      "course of treatment",
+      "events since last visit",
+      "hospital course",
+      "hospital summary",
+      "interim history",
+      "interval events",
+      "interval history",
+      "summary of hospitalization",
+      "treatment course",
+      "update since last visit"
+    ]
+  },
+
+  "STOP_HEADERS": {
+    "PAST_MEDICAL_HISTORY": [
+      "active ambulatory problems",
+      "active problems",
+      "chronic conditions",
+      "diagnosis list",
+      "dx list",
+      "medical history",
+      "medical hx",
+      "med hx",
+      "past medical history",
+      "patient active problem list",
+      "pmh",
+      "pmhx",
+      "problem list",
+      "problems"
+    ],
+    "PAST_SURGICAL_HISTORY": [
+      "operative history",
+      "p.s.h.",
+      "past surgical history",
+      "psh",
+      "s.h.",
+      "sh",
+      "surg hx",
+      "surgeries",
+      "surgical procedures"
+    ],
+    "MEDICATIONS": [
+      "current meds",
+      "home meds",
+      "medication list",
+      "medications",
+      "meds",
+      "meds/allergies",
+      "prescription list",
+      "prescriptions",
+      "rx list"
+    ],
+    "ALLERGIES": [
+      "allergies",
+      "allergic reactions",
+      "allergy hx",
+      "nkda"
+    ],
+    "FAMILY_HISTORY": [
+      "f.h.",
+      "fam history",
+      "fam hx",
+      "family history",
+      "family hx",
+      "fh",
+      "fhx"
+    ],
+    "SOCIAL_HISTORY": [
+      "s h",
+      "s.h.",
+      "sh",
+      "shx",
+      "soc history",
+      "soc hx",
+      "social history",
+      "social hx"
+    ],
+    "REVIEW_OF_SYSTEMS": [
+      "r.o.s.",
+      "review of symptoms",
+      "review of systems",
+      "ros"
+    ],
+    "VITALS": [
+      "vital signs",
+      "vitals"
+    ],
+    "INTAKE_OUTPUT": [
+      "i/o",
+      "intake/output"
+    ],
+    "LABS": [
+      "cbc",
+      "chem",
+      "lab results",
+      "laboratory data",
+      "labs",
+      "results",
+      "studies"
+    ],
+    "IMAGING": [
+      "diagnostic imaging",
+      "films",
+      "imaging",
+      "rads",
+      "radiology"
+    ],
+    "DISCHARGE_SECTIONS": [
+      "condition at discharge",
+      "discharge condition",
+      "discharge diagnosis",
+      "discharge instructions",
+      "discharge medications",
+      "discharge plan",
+      "follow-up",
+      "follow-up appointments",
+      "followup",
+      "followup appointments"
+    ],
+    "SIGNATURE": [
+      "signature"
+    ]
+  },
+
+  "AMBIGUOUS_STRICT": [
+    "assessment",
+    "exam",
+    "hx",
+    "id",
+    "objective",
+    "physical",
+    "plan",
+    "subjective"
+  ],
+
+  "NOTE_CATEGORY_EXCLUDE": [
+    "nursing",
+    "nurse",
+    "rn note",
+    "lpn",
+    "social work",
+    "sw note",
+    "case management",
+    "nutrition",
+    "dietitian",
+    "dietician",
+    "pharmacy",
+    "pharmacist",
+    "therapy",
+    "physical therapy",
+    "occupational therapy",
+    "speech therapy",
+    "respiratory therapy",
+    "rt note",
+    "chaplain",
+    "pastoral",
+    "patient education",
+    "patient instruction",
+    "consent",
+    "advance directive",
+    "telephone message",
+    "patient message"
+  ]
+}

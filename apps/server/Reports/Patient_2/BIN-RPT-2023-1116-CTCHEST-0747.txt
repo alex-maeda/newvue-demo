@@ -1,0 +1,40 @@
+Impression
+ 
+1. No CT evidence of malignancy to the chest.
+ 
+2. Likely chronic mild anterior T12 vertebral body compression fracture.
+ 
+3. Aortic and coronary artery calcifications.
+  
+ 
+ Narrative
+CT CHEST WITH CONTRAST
+ 
+** HISTORY **:
+79 years old, with history of prostate cancer, calcium, and weight loss.
+ 
+** TECHNIQUE **: 
+CT images of the chest acquired with 96 mL Omnipaque 300 intravenous contrast.
+ 
+CTDI: 9.14, 8.99 mGy
+DLP: 810.67 mGy-cm
+ 
+COMPARISON: CT 2/24/2021
+ 
+** FINDINGS **:
+HEART: Heart size normal.  
+VESSELS: Coronary and aortic calcification.
+LYMPH NODES: No suspicious lymph nodes. Small mediastinal and hilar calcified lymph nodes compatible with remote granulomatous disease.
+OTHER MEDIASTINUM: No significant abnormality.
+LUNGS: Small bilateral calcified granulomas. No suspicious pulmonary nodule. Atelectatic changes are present at the lung bases.
+PLEURAL SPACE: Normal.
+UPPER ABDOMEN: Please see abdominal and pelvic CT results performed concurrently.
+SOFT TISSUES: No significant abnormality.
+BONES: No suspicious lytic or blastic lesions. Degenerative changes of the spine. Mild anterior T12 vertebral body compression fracture, appearing likely chronic. There is also an age-indeterminate L1 vertebral body compression fracture, better characterized on dedicated abdomen and pelvis CT reported separately.
+
+
+
+
+STUDIES COPIED TO HERE:
+
+

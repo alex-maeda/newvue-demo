@@ -1,0 +1,168 @@
+/* Base askbar styles */
+.askbar {
+  background: #0f1620;
+  border: 1px solid var(--outline);
+  border-radius: 12px;
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+
+  input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text);
+  }
+
+  button {
+    border: none;
+    background: #212a3a;
+    color: #cfe3ff;
+    border-radius: 999px;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+}
+
+/* Compact inline variant that sits inside the tabs row, aligned right */
+.askbar-inline {
+  padding: 4px 10px;
+  border-radius: 10px;
+  flex: 0 1 auto;
+  min-width: 200px;
+  max-width: 320px;
+  height: 40px;
+
+  &:hover {
+    border-color: #6e6ec4;
+  }
+
+  input {
+    font-size: 13px;
+  }
+
+  button {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    flex-shrink: 0;
+
+    svg {
+      width: 14px;
+      height: 14px;
+    }
+  }
+
+  /* Optional hover/focus polish */
+  &:focus-within {
+    border-color: #6e6ec4;
+    box-shadow: 0 0 0 2px rgba(110, 110, 196, 0.15);
+  }
+}
+
+/* Hide sparkles unless the askbar is hovered or focused */
+.erik-sparkle-layer {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 150ms ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: inherit;
+}
+
+#erikAskbar:hover .erik-sparkle-layer,
+#erikAskbar:focus-within .erik-sparkle-layer {
+  opacity: 1;
+}
+
+/* Sparkle animations */
+.spark {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  opacity: 0;
+  animation: sparkle 2s ease-in-out infinite;
+
+  &.s1 {
+    top: 10%;
+    left: 15%;
+    animation-delay: 0s;
+  }
+  &.s2 {
+    top: 20%;
+    left: 80%;
+    animation-delay: 0.2s;
+  }
+  &.s3 {
+    top: 50%;
+    left: 10%;
+    animation-delay: 0.4s;
+  }
+  &.s4 {
+    top: 60%;
+    left: 85%;
+    animation-delay: 0.6s;
+  }
+  &.s5 {
+    top: 80%;
+    left: 20%;
+    animation-delay: 0.8s;
+  }
+  &.s6 {
+    top: 15%;
+    left: 50%;
+    animation-delay: 1s;
+  }
+  &.s7 {
+    top: 70%;
+    left: 60%;
+    animation-delay: 1.2s;
+  }
+  &.s8 {
+    top: 30%;
+    left: 90%;
+    animation-delay: 1.4s;
+  }
+  &.s9 {
+    top: 85%;
+    left: 75%;
+    animation-delay: 1.6s;
+  }
+  &.s10 {
+    top: 40%;
+    left: 40%;
+    animation-delay: 1.8s;
+  }
+  &.s11 {
+    top: 25%;
+    left: 65%;
+    animation-delay: 0.3s;
+  }
+  &.s12 {
+    top: 55%;
+    left: 30%;
+    animation-delay: 0.9s;
+  }
+}
+
+@keyframes sparkle {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1) rotate(180deg);
+  }
+}

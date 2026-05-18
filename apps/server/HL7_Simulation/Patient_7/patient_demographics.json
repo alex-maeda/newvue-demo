@@ -1,0 +1,22 @@
+{
+  "_comment": "PID segment data for Patient 7 — Simple screening mammogram",
+  "patientId": "Patient_7",
+  "mrn": "MRN00007",
+  "assigningAuthority": "NEWVUE_HOSPITAL",
+  "identifierTypeCode": "MR",
+  "name": {
+    "last": "JOHNSON",
+    "first": "CELESTE",
+    "middle": ""
+  },
+  "dateOfBirth": "19830327",
+  "sex": "F",
+  "address": {
+    "street": "4010 HARBOR VIEW DR",
+    "city": "SAVANNAH",
+    "state": "GA",
+    "zip": "31401",
+    "country": "USA"
+  },
+  "phone": "555-0707"
+}

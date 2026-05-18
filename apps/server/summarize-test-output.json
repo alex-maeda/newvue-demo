@@ -1,0 +1,2346 @@
+{
+  "currentStudyId": "P1-CURRENT-001",
+  "individualAnalyses": [
+    {
+      "studyName": "MR Head",
+      "studyDate": "20250918120000",
+      "accessionNumber": "ACC-P1-0020",
+      "clinicalPresentation": "65 years old, WITH AND WITHOUT CONTRAST, bl strokes 2/2 hypercoaguable state from malignancy, with new somnolence, eval for evolving stroke or other etiologies",
+      "findings": [
+        {
+          "name": "Interval new large area of restricted diffusion, left frontal lobe",
+          "description": "Interval new large area of restricted diffusion with corresponding low ADC value involving the left frontal lobe and likely partially the superior aspect of the left temporal lobe concerning for an acute infarction.",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "both",
+          "severity": null,
+          "actionability": null,
+          "trend": "new",
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": "Interval new large area of restricted diffusion",
+          "recommendation": null,
+          "comparisonStudyReference": "MRI 9/15/2025",
+          "sourceExcerpt": "Interval new large area of restricted diffusion with corresponding low ADC value involving the left frontal lobe and likely partially the superior aspect of the left temporal lobe concerning for an acute infarction."
+        },
+        {
+          "name": "Multifocal bilateral cerebral foci of restricted diffusion",
+          "description": "Continued evolution of multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes with several smaller new foci of restricted diffusion noted. Small foci of cortical restricted diffusion are again seen in the left posterior frontal and parietal lobe, including perirolandic involvement.",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "findings",
+          "severity": null,
+          "actionability": null,
+          "trend": "progressing",
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": "Continued evolution of multifocal bilateral cerebral foci of restricted diffusion",
+          "recommendation": null,
+          "comparisonStudyReference": "MRI 9/15/2025",
+          "sourceExcerpt": "Continued evolution of multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes with several smaller new foci of restricted diffusion noted."
+        },
+        {
+          "name": "Possible focus of restricted diffusion, left basal ganglia/deep white matter",
+          "description": "It is again unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact.",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "findings",
+          "severity": null,
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": "MRI 9/15/2025",
+          "sourceExcerpt": "It is again unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact."
+        },
+        {
+          "name": "T2 hyperintense areas of restricted diffusion",
+          "description": "These areas of restricted diffusion are again T2 hyperintense.",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "findings",
+          "severity": null,
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "These areas of restricted diffusion are again T2 hyperintense."
+        },
+        {
+          "name": "Punctate foci of cortical parenchymal susceptibility, cerebral hemispheres",
+          "description": "The previously identified numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres are better appreciated on the prior MRI study.",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "findings",
+          "severity": null,
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": "MRI 9/15/2025",
+          "sourceExcerpt": "The previously identified numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres are better appreciated on the prior MRI study."
+        },
+        {
+          "name": "T1 hypointense marrow signal abnormality, C4 vertebral body",
+          "description": "Foci of T1 hypointense marrow signal abnormality at the C4 vertebral body, likely reflecting known osseous metastases.",
+          "bodySubregion": "Other",
+          "subregionSource": "overlap",
+          "reportSubsection": "EXTRACRANIAL STRUCTURES",
+          "sourceSection": "findings",
+          "severity": null,
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "Foci of T1 hypointense marrow signal abnormality at the C4 vertebral body, likely reflecting known osseous metastases."
+        },
+        {
+          "name": "Limited examination secondary to motion degradation and metallic artifact",
+          "description": "Limited examination secondary to motion degradation and metallic dental hardware (braces) artifact. Metallic dental hardware artifact (braces) again obscures facial structures and produces intracranial artifact on multiple sequences.",
+          "bodySubregion": "Other",
+          "subregionSource": "overlap",
+          "reportSubsection": "FINDINGS",
+          "sourceSection": "both",
+          "severity": null,
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": {
+            "action": "Recommend a repeat contrast MRI study to assess for metastases in the future when the patient is able to tolerate the examination and as clinically indicated.",
+            "timeframe": null,
+            "guideline": null
+          },
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "Limited examination secondary to motion degradation and metallic dental hardware (braces) artifact."
+        }
+      ],
+      "referencedPriorStudies": [
+        {
+          "studyType": "MRI",
+          "studyDate": "9/15/2025",
+          "context": "comparison"
+        }
+      ],
+      "narrativeSummary": "MR brain demonstrates interval new large area of restricted diffusion in the left frontal lobe extending into the superior left temporal lobe concerning for acute infarction, with continued evolution of multifocal bilateral cerebral foci of restricted diffusion including in the right parietal, temporal, and occipital lobes. The examination is limited by motion degradation and metallic dental hardware artifact. Repeat contrast MRI is recommended when clinically feasible to assess for metastases."
+    },
+    {
+      "studyName": "MR Head",
+      "studyDate": "20250916000100",
+      "accessionNumber": "ACC-P1-0015",
+      "clinicalPresentation": "65 years old, likely had seizure. Known metastatic cancer.",
+      "findings": [
+        {
+          "name": "Multifocal bilateral cerebral restricted diffusion",
+          "description": "Multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes. Small foci of cortical restricted diffusion are seen in the left posterior frontal and parietal lobe, including perirolandic involvement. There are numerous additional punctate foci of cortical restricted diffusion in the bilateral frontal, parietal, and occipital lobes, with perhaps punctate foci also present in the left superior cerebellum.",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "findings",
+          "severity": null,
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "Multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes. Small foci of cortical restricted diffusion are seen in the left posterior frontal and parietal lobe, including perirolandic involvement. There are numerous additional punctate foci of cortical restricted diffusion in the bilateral frontal, parietal, and occipital lobes, with perhaps punctate foci also present in the left superior cerebellum."
+        },
+        {
+          "name": "Possible restricted diffusion at left basal ganglia/deep white matter",
+          "description": "It is unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact.",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "findings",
+          "severity": null,
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "It is unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact."
+        },
+        {
+          "name": "T2/FLAIR hyperintense foci",
+          "description": "These areas of restricted diffusion are T2/FLAIR hyperintense.",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "findings",
+          "severity": null,
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "These areas of restricted diffusion are T2/FLAIR hyperintense."
+        },
+        {
+          "name": "Punctate parenchymal susceptibility foci (microhemorrhages)",
+          "description": "There are numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres, many of which appear new from 7/11/2025. These are suggestive of microhemorrhages, nonspecific but history of anticoagulation and thrombocytopenia is noted.",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "both",
+          "severity": null,
+          "actionability": null,
+          "trend": "new",
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": "many of which appear new from 7/11/2025",
+          "recommendation": null,
+          "comparisonStudyReference": "MR 7/11/2025",
+          "sourceExcerpt": "There are numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres, many of which appear new from 7/11/2025. These are suggestive of microhemorrhages, nonspecific but history of anticoagulation and thrombocytopenia is noted."
+        },
+        {
+          "name": "Cerebellar encephalomalacia",
+          "description": "A few tiny foci of encephalomalacia in the cerebellum may reflect chronic infarcts.",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "findings",
+          "severity": null,
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "A few tiny foci of encephalomalacia in the cerebellum may reflect chronic infarcts."
+        },
+        {
+          "name": "Motion artifact on postcontrast sequences",
+          "description": "Evaluation is degraded by motion, particularly on postcontrast sequences which are largely nondiagnostic. The 3-D postcontrast BRAVO sequence is severely limited by motion and nondiagnostic for abnormal enhancement. No obvious abnormal enhancement is seen on the coronal postcontrast series, however this sequences also severely motion limited.",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "findings",
+          "severity": null,
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "Evaluation is degraded by motion, particularly on postcontrast sequences which are largely nondiagnostic."
+        },
+        {
+          "name": "Osseous metastases in upper cervical spine",
+          "description": "Foci of T1 hypointense marrow signal alteration seen in the included upper cervical spine, including the C4 vertebral body, likely reflecting known osseous metastases.",
+          "bodySubregion": "Skull and Calvarium",
+          "subregionSource": "overlap",
+          "reportSubsection": "EXTRACRANIAL STRUCTURES",
+          "sourceSection": "findings",
+          "severity": null,
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "Foci of T1 hypointense marrow signal alteration seen in the included upper cervical spine, including the C4 vertebral body, likely reflecting known osseous metastases."
+        }
+      ],
+      "referencedPriorStudies": [
+        {
+          "studyType": "CT",
+          "studyDate": "7/28/2025",
+          "context": "comparison"
+        },
+        {
+          "studyType": "MR",
+          "studyDate": "7/11/2025",
+          "context": "comparison"
+        }
+      ],
+      "narrativeSummary": "MR brain demonstrates multifocal bilateral cerebral foci of restricted diffusion predominantly involving cortical regions, with the largest area in the right parietal, temporal, and occipital lobes, concerning for acute ischemic events or metastatic disease. Numerous punctate foci of parenchymal susceptibility suggestive of microhemorrhages, many new compared to prior MR from 7/11/2025, are noted in the setting of known anticoagulation and thrombocytopenia. Postcontrast sequences are severely limited by motion artifact and nondiagnostic for metastatic disease; repeat contrast MRI is recommended when clinically indicated to better assess for metastases."
+    },
+    {
+      "studyName": "CT Head",
+      "studyDate": "20250919120100",
+      "accessionNumber": "ACC-P1-0022",
+      "clinicalPresentation": "65 years old, NO IV or PO contrast: acute dilated pupils, eval for intracranial bleed. pt on systemic anticoagulation.",
+      "findings": [
+        {
+          "name": "Left greater than right parenchymal infarcts",
+          "description": "Evolving left greater than right parenchymal infarcts with progressive mass effect including diffuse sulcal effacement",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "both",
+          "severity": "critical",
+          "actionability": null,
+          "trend": "progressing",
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": "Evolving infarcts with progressive mass effect",
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "Evolving left greater than right parenchymal infarcts with progressive mass effect including diffuse sulcal effacement"
+        },
+        {
+          "name": "Left frontal infarct",
+          "description": "Left frontal infarct with diffuse sulcal effacement",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "findings",
+          "severity": "critical",
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "Left frontal, left posterior temporal and right frontal parietal temporal involving infarcts with diffuse sulcal effacement"
+        },
+        {
+          "name": "Left posterior temporal infarct",
+          "description": "Left posterior temporal infarct",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "findings",
+          "severity": "critical",
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "Left frontal, left posterior temporal and right frontal parietal temporal involving infarcts"
+        },
+        {
+          "name": "Right frontal parietal temporal infarct",
+          "description": "Right frontal parietal temporal infarct",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "findings",
+          "severity": "critical",
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "Left frontal, left posterior temporal and right frontal parietal temporal involving infarcts"
+        },
+        {
+          "name": "Rightward midline shift with subfalcine herniation",
+          "description": "New 6 mm rightward midline shift with subfalcine herniation",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "both",
+          "severity": "critical",
+          "actionability": null,
+          "trend": "new",
+          "incidental": false,
+          "measurements": [
+            {
+              "dimension": "6 mm",
+              "location": "",
+              "context": "rightward midline shift"
+            }
+          ],
+          "changeStatement": "New 6 mm rightward midline shift",
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "new 6 mm rightward midline shift with subfalcine herniation"
+        },
+        {
+          "name": "Basilar cistern effacement concerning for transtentorial herniation",
+          "description": "Effacement of the basilar cisterns concerning for transtentorial herniation",
+          "bodySubregion": "Ventricles and CSF Spaces",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "both",
+          "severity": "critical",
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "effacement of the basilar cisterns concerning for transtentorial herniation"
+        },
+        {
+          "name": "Effacement of left lateral ventricle and occipital horn",
+          "description": "Effacement of the left lateral ventricle and occipital horn",
+          "bodySubregion": "Ventricles and CSF Spaces",
+          "subregionSource": "overlap",
+          "reportSubsection": "VENTRICLES/EXTRA-AXIAL SPACES",
+          "sourceSection": "findings",
+          "severity": "critical",
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "Effacement of the left lateral ventricle and occipital horn"
+        }
+      ],
+      "referencedPriorStudies": [],
+      "narrativeSummary": "MR brain demonstrates evolving left greater than right parenchymal infarcts with progressive mass effect and diffuse sulcal effacement. Critical findings include new 6 mm rightward midline shift with subfalcine herniation and effacement of the basilar cisterns concerning for transtentorial herniation. No intracranial hemorrhage is identified."
+    },
+    {
+      "studyName": "CT Head",
+      "studyDate": "20250918000100",
+      "accessionNumber": "ACC-P1-0019",
+      "clinicalPresentation": "65 years old, evaluate evolving stroke/stability",
+      "findings": [
+        {
+          "name": "Trace subarachnoid hemorrhage at left vertex",
+          "description": "Stable trace subarachnoid hemorrhage at the left vertex",
+          "bodySubregion": "Meninges and Extra-axial Spaces",
+          "subregionSource": "overlap",
+          "reportSubsection": "FINDINGS",
+          "sourceSection": "both",
+          "severity": null,
+          "actionability": null,
+          "trend": "stable",
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": "Stable compared to prior CTs from 9/17/2025 and 9/16/2025",
+          "recommendation": null,
+          "comparisonStudyReference": "CTs 9/17/2025, 9/16/2025",
+          "sourceExcerpt": "Stable trace subarachnoid hemorrhage at the left vertex"
+        },
+        {
+          "name": "Multiple evolving bilateral infarcts",
+          "description": "Multiple evolving infarcts bilaterally, right greater than left, not significantly changed",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "FINDINGS",
+          "sourceSection": "both",
+          "severity": null,
+          "actionability": null,
+          "trend": "stable",
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": "Not significantly changed compared to prior studies",
+          "recommendation": null,
+          "comparisonStudyReference": "CTs 9/17/2025, 9/16/2025",
+          "sourceExcerpt": "Multiple evolving infarcts bilaterally, right greater than left, not significantly changed"
+        }
+      ],
+      "referencedPriorStudies": [
+        {
+          "studyType": "CT",
+          "studyDate": "9/17/2025",
+          "context": "comparison"
+        },
+        {
+          "studyType": "CT",
+          "studyDate": "9/16/2025",
+          "context": "comparison"
+        }
+      ],
+      "narrativeSummary": "MR brain demonstrates stable trace subarachnoid hemorrhage at the left vertex and multiple evolving bilateral infarcts (right greater than left) with no significant change compared to prior CTs from 9/17 and 9/16. Basal cisterns, ventricles, and osseous structures are unremarkable with no evidence of herniation."
+    },
+    {
+      "studyName": "CT Head",
+      "studyDate": "20250917000100",
+      "accessionNumber": "ACC-P1-0017",
+      "clinicalPresentation": "65 years old, stroke 2/2 hypercoaguability from malignancy, restarted lovenox",
+      "findings": [
+        {
+          "name": "Cytotoxic edema in parietal lobes bilaterally",
+          "description": "Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left, likely sequela of known ischemia. Interval development of acute ischemic changes in the right parietal lobe. There is also evidence of ischemic change in the high left parietal lobe.",
+          "bodySubregion": "Brain Parenchyma",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "both",
+          "severity": null,
+          "actionability": null,
+          "trend": "new",
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": "Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left",
+          "recommendation": null,
+          "comparisonStudyReference": "CTs 9/16/2025, 9/15/2025, MR 9/16/2025",
+          "sourceExcerpt": "Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left, likely sequela of known ischemia."
+        },
+        {
+          "name": "Punctate hyperdensity in high left frontal lobe",
+          "description": "There is a new punctate focus of hyperdensity in the high left frontal lobe. It could represent small focus of her subarachnoid hemorrhage versus residual contrast within the vasculature. Small focus of hemorrhage in the subarachnoid space in the high left frontal lobe.",
+          "bodySubregion": "Meninges and Extra-axial Spaces",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "both",
+          "severity": null,
+          "actionability": "actionable",
+          "trend": "new",
+          "incidental": false,
+          "measurements": [],
+          "changeStatement": "new punctate focus of hyperdensity in the high left frontal lobe",
+          "recommendation": {
+            "action": "Short-term follow-up is suggested",
+            "timeframe": "short-term",
+            "guideline": null
+          },
+          "comparisonStudyReference": "CTs 9/16/2025, 9/15/2025, MR 9/16/2025",
+          "sourceExcerpt": "There is a new punctate focus of hyperdensity in the high left frontal lobe. It could represent small focus of her subarachnoid hemorrhage versus residual contrast within the vasculature. Short-term follow-up is suggested."
+        },
+        {
+          "name": "Hyperdensity in posterior high frontal lobe",
+          "description": "There is also hyperdensity in the posterior high frontal lobe axial image #50 with linear morphology, possible residual intravascular contrast.",
+          "bodySubregion": "Intracranial Vessels",
+          "subregionSource": "overlap",
+          "reportSubsection": "BRAIN PARENCHYMA",
+          "sourceSection": "findings",
+          "severity": null,
+          "actionability": null,
+          "trend": null,
+          "incidental": false,
+          "measurements": [
+            {
+              "dimension": "not specified",
+              "location": "axial image #50",
+              "context": "posterior high frontal lobe"
+            }
+          ],
+          "changeStatement": null,
+          "recommendation": null,
+          "comparisonStudyReference": null,
+          "sourceExcerpt": "There is also hyperdensity in the posterior high frontal lobe axial image #50 with linear morphology, possible residual intravascular contrast."
+        }
+      ],
+      "referencedPriorStudies": [
+        {
+          "studyType": "CT",
+          "studyDate": "9/16/2025",
+          "context": "comparison"
+        },
+        {
+          "studyType": "CT",
+          "studyDate": "9/15/2025",
+          "context": "comparison"
+        },
+        {
+          "studyType": "MR",
+          "studyDate": "9/16/2025",
+          "context": "comparison"
+        }
+      ],
+      "narrativeSummary": "MR brain demonstrates interval development of cytotoxic edema in the bilateral parietal lobes (right greater than left) consistent with acute ischemic changes, likely sequelae of known ischemia in this patient with hypercoagulability from malignancy. A new punctate focus of hyperdensity in the high left frontal lobe is present, which could represent a small subarachnoid hemorrhage versus residual intravascular contrast, warranting short-term follow-up imaging."
+    }
+  ],
+  "executiveSummary": {
+    "regionGroups": [
+      {
+        "regionName": "Brain Parenchyma",
+        "findings": [
+          {
+            "name": "Left greater than right parenchymal infarcts with progressive mass effect",
+            "chips": [
+              "CRITICAL",
+              "PROGRESSING"
+            ],
+            "studyEntries": [
+              {
+                "studyName": "CT Head",
+                "studyDate": "09/19/2025",
+                "accessionNumber": "ACC-P1-0022",
+                "measurement": null,
+                "changeStatement": "Evolving infarcts with progressive mass effect including diffuse sulcal effacement"
+              },
+              {
+                "studyName": "CT Head",
+                "studyDate": "09/18/2025",
+                "accessionNumber": "ACC-P1-0019",
+                "measurement": null,
+                "changeStatement": "Multiple evolving infarcts bilaterally, right greater than left, not significantly changed compared to prior studies"
+              }
+            ]
+          },
+          {
+            "name": "Left frontal infarct",
+            "chips": [
+              "CRITICAL"
+            ],
+            "studyEntries": [
+              {
+                "studyName": "CT Head",
+                "studyDate": "09/19/2025",
+                "accessionNumber": "ACC-P1-0022",
+                "measurement": null,
+                "changeStatement": null
+              },
+              {
+                "studyName": "MR Head",
+                "studyDate": "09/18/2025",
+                "accessionNumber": "ACC-P1-0020",
+                "measurement": null,
+                "changeStatement": "Interval new large area of restricted diffusion with corresponding low ADC value involving the left frontal lobe and likely partially the superior aspect of the left temporal lobe concerning for an acute infarction"
+              }
+            ]
+          },
+          {
+            "name": "Left posterior temporal infarct",
+            "chips": [
+              "CRITICAL"
+            ],
+            "studyEntries": [
+              {
+                "studyName": "CT Head",
+                "studyDate": "09/19/2025",
+                "accessionNumber": "ACC-P1-0022",
+                "measurement": null,
+                "changeStatement": null
+              }
+            ]
+          },
+          {
+            "name": "Right frontal parietal temporal infarct",
+            "chips": [
+              "CRITICAL"
+            ],
+            "studyEntries": [
+              {
+                "studyName": "CT Head",
+                "studyDate": "09/19/2025",
+                "accessionNumber": "ACC-P1-0022",
+                "measurement": null,
+                "changeStatement": null
+              }
+            ]
+          },
+          {
+            "name": "Multifocal bilateral cerebral foci of restricted diffusion",
+            "chips": [
+              "PROGRESSING"
+            ],
+            "studyEntries": [
+              {
+                "studyName": "MR Head",
+                "studyDate": "09/18/2025",
+                "accessionNumber": "ACC-P1-0020",
+                "measurement": null,
+                "changeStatement": "Continued evolution of multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes with several smaller new foci of restricted diffusion noted. Small foci of cortical restricted diffusion in the left posterior frontal and parietal lobe, including perirolandic involvement"
+              },
+              {
+                "studyName": "MR Head",
+                "studyDate": "09/16/2025",
+                "accessionNumber": "ACC-P1-0015",
+                "measurement": null,
+                "changeStatement": "Multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes. Small foci of cortical restricted diffusion in the left posterior frontal and parietal lobe, including perirolandic involvement"
+              }
+            ]
+          },
+          {
+            "name": "Rightward midline shift with subfalcine herniation",
+            "chips": [
+              "CRITICAL",
+              "NEW"
+            ],
+            "studyEntries": [
+              {
+                "studyName": "CT Head",
+                "studyDate": "09/19/2025",
+                "accessionNumber": "ACC-P1-0022",
+                "measurement": "6 mm (rightward midline shift)",
+                "changeStatement": "New 6 mm rightward midline shift with subfalcine herniation"
+              }
+            ]
+          },
+          {
+            "name": "Cytotoxic edema in parietal lobes bilaterally",
+            "chips": [
+              "NEW"
+            ],
+            "studyEntries": [
+              {
+                "studyName": "CT Head",
+                "studyDate": "09/17/2025",
+                "accessionNumber": "ACC-P1-0017",
+                "measurement": null,
+                "changeStatement": "Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left, likely sequela of known ischemia. Interval development of acute ischemic changes in the right parietal lobe. Evidence of ischemic change in the high left parietal lobe"
+              }
+            ]
+          },
+          {
+            "name": "Punctate foci of cortical parenchymal susceptibility (microhemorrhages)",
+            "chips": [
+              "NEW"
+            ],
+            "studyEntries": [
+              {
+                "studyName": "MR Head",
+                "studyDate": "09/18/2025",
+                "accessionNumber": "ACC-P1-0020",
+                "measurement": null,
+                "changeStatement": "Numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres, better appreciated on prior MRI study"
+              },
+              {
+                "studyName": "MR Head",
+                "studyDate": "09/16/2025",
+                "accessionNumber": "ACC-P1-0015",
+                "measurement": null,
+                "changeStatement": "Numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres, many of which appear new from 7/11/2025. Suggestive of microhemorrhages, nonspecific but history of anticoagulation and thrombocytopenia is noted"
+              }
+            ]
+          },
+          {
+            "name": "Possible focus of restricted diffusion, left basal ganglia/deep white matter",
+            "chips": [],
+            "studyEntries": [
+              {
+                "studyName": "MR Head",
+                "studyDate": "09/18/2025",
+                "accessionNumber": "ACC-P1-0020",
+                "measurement": null,
+                "changeStatement": "Unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact"
+              },
+              {
+                "studyName": "MR Head",
+                "studyDate": "09/16/2025",
+                "accessionNumber": "ACC-P1-0015",
+                "measurement": null,
+                "changeStatement": "Unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact"
+              }
+            ]
+          },
+          {
+            "name": "Cerebellar encephalomalacia",
+            "chips": [],
+            "studyEntries": [
+              {
+                "studyName": "MR Head",
+                "studyDate": "09/16/2025",
+                "accessionNumber": "ACC-P1-0015",
+                "measurement": null,
+                "changeStatement": "A few tiny foci of encephalomalacia in the cerebellum may reflect chronic infarcts"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "regionName": "Ventricles and CSF Spaces",
+        "findings": [
+          {
+            "name": "Basilar cistern effacement concerning for transtentorial herniation",
+            "chips": [
+              "CRITICAL"
+            ],
+            "studyEntries": [
+              {
+                "studyName": "CT Head",
+                "studyDate": "09/19/2025",
+                "accessionNumber": "ACC-P1-0022",
+                "measurement": null,
+                "changeStatement": null
+              }
+            ]
+          },
+          {
+            "name": "Effacement of left lateral ventricle and occipital horn",
+            "chips": [
+              "CRITICAL"
+            ],
+            "studyEntries": [
+              {
+                "studyName": "CT Head",
+                "studyDate": "09/19/2025",
+                "accessionNumber": "ACC-P1-0022",
+                "measurement": null,
+                "changeStatement": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "regionName": "Meninges and Extra-axial Spaces",
+        "findings": [
+          {
+            "name": "Punctate hyperdensity in high left frontal lobe (subarachnoid hemorrhage versus residual contrast)",
+            "chips": [
+              "NEW",
+              "ACTIONABLE"
+            ],
+            "studyEntries": [
+              {
+                "studyName": "CT Head",
+                "studyDate": "09/17/2025",
+                "accessionNumber": "ACC-P1-0017",
+                "measurement": null,
+                "changeStatement": "New punctate focus of hyperdensity in the high left frontal lobe. Could represent small focus of subarachnoid hemorrhage versus residual contrast within the vasculature"
+              }
+            ]
+          },
+          {
+            "name": "Trace subarachnoid hemorrhage at left vertex",
+            "chips": [
+              "STABLE"
+            ],
+            "studyEntries": [
+              {
+                "studyName": "CT Head",
+                "studyDate": "09/18/2025",
+                "accessionNumber": "ACC-P1-0019",
+                "measurement": null,
+                "changeStatement": "Stable compared to prior CTs from 9/17/2025 and 9/16/2025"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "regionName": "Intracranial Vessels",
+        "findings": [
+          {
+            "name": "Hyperdensity in posterior high frontal lobe with linear morphology",
+            "chips": [],
+            "studyEntries": [
+              {
+                "studyName": "CT Head",
+                "studyDate": "09/17/2025",
+                "accessionNumber": "ACC-P1-0017",
+                "measurement": "posterior high frontal lobe axial image #50",
+                "changeStatement": "Possible residual intravascular contrast"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "regionName": "Skull and Calvarium",
+        "findings": [
+          {
+            "name": "Osseous metastases in upper cervical spine (C4 vertebral body)",
+            "chips": [],
+            "studyEntries": [
+              {
+                "studyName": "MR Head",
+                "studyDate": "09/18/2025",
+                "accessionNumber": "ACC-P1-0020",
+                "measurement": null,
+                "changeStatement": "Foci of T1 hypointense marrow signal abnormality at the C4 vertebral body, likely reflecting known osseous metastases"
+              },
+              {
+                "studyName": "MR Head",
+                "studyDate": "09/16/2025",
+                "accessionNumber": "ACC-P1-0015",
+                "measurement": null,
+                "changeStatement": "Foci of T1 hypointense marrow signal alteration in the included upper cervical spine, including the C4 vertebral body, likely reflecting known osseous metastases"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "regionName": "Other",
+        "findings": [
+          {
+            "name": "Limited examination secondary to motion degradation and metallic artifact",
+            "chips": [],
+            "studyEntries": [
+              {
+                "studyName": "MR Head",
+                "studyDate": "09/18/2025",
+                "accessionNumber": "ACC-P1-0020",
+                "measurement": null,
+                "changeStatement": "Limited examination secondary to motion degradation and metallic dental hardware (braces) artifact. Metallic dental hardware artifact (braces) again obscures facial structures and produces intracranial artifact on multiple sequences. Recommend a repeat contrast MRI study to assess for metastases in the future when the patient is able to tolerate the examination and as clinically indicated"
+              }
+            ]
+          },
+          {
+            "name": "Motion artifact on postcontrast sequences",
+            "chips": [],
+            "studyEntries": [
+              {
+                "studyName": "MR Head",
+                "studyDate": "09/16/2025",
+                "accessionNumber": "ACC-P1-0015",
+                "measurement": null,
+                "changeStatement": "Evaluation degraded by motion, particularly on postcontrast sequences which are largely nondiagnostic. The 3-D postcontrast BRAVO sequence is severely limited by motion and nondiagnostic for abnormal enhancement. No obvious abnormal enhancement seen on the coronal postcontrast series, however this sequence also severely motion limited"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "similarPriorPresentations": [
+      {
+        "studyName": "CT Head",
+        "studyDate": "09/19/2025",
+        "accessionNumber": "ACC-P1-0022",
+        "priorPresentation": "65 years old, acute dilated pupils, evaluate for intracranial bleed. Patient on systemic anticoagulation.",
+        "keyFindings": [
+          "Left greater than right parenchymal infarcts with progressive mass effect",
+          "Left frontal infarct with diffuse sulcal effacement",
+          "Left posterior temporal infarct",
+          "Right frontal parietal temporal infarct",
+          "Rightward midline shift with subfalcine herniation",
+          "Basilar cistern effacement concerning for transtentorial herniation",
+          "Effacement of left lateral ventricle and occipital horn"
+        ]
+      },
+      {
+        "studyName": "MR Head",
+        "studyDate": "09/18/2025",
+        "accessionNumber": "ACC-P1-0020",
+        "priorPresentation": "65 years old, bilateral strokes secondary to hypercoagulable state from malignancy, with new somnolence, evaluate for evolving stroke or other etiologies",
+        "keyFindings": [
+          "Interval new large area of restricted diffusion, left frontal lobe",
+          "Multifocal bilateral cerebral foci of restricted diffusion with continued evolution",
+          "Punctate foci of cortical parenchymal susceptibility (microhemorrhages)"
+        ]
+      }
+    ],
+    "openRecommendations": [
+      {
+        "action": "Recommend a repeat contrast MRI study to assess for metastases in the future when the patient is able to tolerate the examination and as clinically indicated.",
+        "sourceStudyName": "MR Head",
+        "sourceStudyDate": "20250918120000",
+        "sourceAccession": "ACC-P1-0020",
+        "timeframe": null,
+        "dueDate": null,
+        "findingContext": "Limited examination secondary to motion degradation and metallic artifact",
+        "status": "pending",
+        "fulfilledBy": null
+      },
+      {
+        "action": "Short-term follow-up is suggested",
+        "sourceStudyName": "CT Head",
+        "sourceStudyDate": "20250917000100",
+        "sourceAccession": "ACC-P1-0017",
+        "timeframe": "short-term",
+        "dueDate": "20251017",
+        "findingContext": "Punctate hyperdensity in high left frontal lobe",
+        "status": "pending",
+        "fulfilledBy": null
+      }
+    ],
+    "normalStatement": "Sella and pituitary gland, cranial nerves, orbits, and scalp and soft tissues were unremarkable on available prior imaging."
+  },
+  "qaLog": [
+    {
+      "label": "MR Head 09/18/2025",
+      "studyName": "MR Head",
+      "studyDate": "20250918120000",
+      "accessionNumber": "ACC-P1-0020",
+      "type": "individual",
+      "inputData": {
+        "subregionLists": {
+          "primary": [
+            "Brain Parenchyma",
+            "Ventricles and CSF Spaces",
+            "Meninges and Extra-axial Spaces",
+            "Intracranial Vessels",
+            "Sella and Pituitary",
+            "Cranial Nerves",
+            "Skull and Calvarium",
+            "Orbits",
+            "Scalp and Soft Tissues",
+            "Other"
+          ],
+          "overlap": [],
+          "primaryCanonicalRegions": [
+            "Head"
+          ],
+          "overlapCanonicalRegions": []
+        },
+        "reportSections": {
+          "clinicalIndication": "65 years old, WITH AND WITHOUT CONTRAST, bl strokes 2/2 hypercoaguable state from malignancy, with new somnolence, eval for evolving stroke or other etiologies",
+          "technique": "MR images of the brain acquired without intravenous contrast. Per the technologist's note, the patient was not cooperating and images demonstrated motion degradation. It was decided to not continue with contrast as the images would be nondiagnostic.",
+          "comparison": "MRI 9/15/2025",
+          "findings": "Limited examination secondary to motion degradation. Additionally, metallic dental hardware artifact (braces) again obscures facial structures and produces intracranial artifact on multiple sequences. Within these limitations:   BRAIN PARENCHYMA: Continued evolution of multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes with several smaller new foci of restricted diffusion noted. Small foci of cortical restricted diffusion are again seen in the left posterior frontal and parietal lobe, including perirolandic involvement. Interval new large area of restricted diffusion with corresponding low ADC value involving the left frontal lobe and likely partially the superior aspect of the left temporal lobe.   It is again unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact. Metallic hardware artifact otherwise limits assessment of most of the cerebellum as well as portions of the anterior frontal and temporal lobes on DWI.   These areas of restricted diffusion are again T2 hyperintense. The previously identified numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres are better appreciated on the prior MRI study. No mass effect or herniation identified.   VENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus or extra-axial fluid collections.   FLOW VOIDS: Not well assessed.   EXTRACRANIAL STRUCTURES: Foci of T1 hypointense marrow signal abnormality at the C4 vertebral body, likely reflecting known osseous metastases.",
+          "impression": "Limited examination secondary to motion degradation and metallic dental hardware (braces) artifact. Please note, contrast was not administered as it was determined it would be nondiagnostic on the current study. Within these limitations: Interval new large area of restricted diffusion with corresponding low ADC value involving the left frontal lobe and likely partially the superior aspect of the left temporal lobe concerning for an acute infarction. Numerous foci of predominantly cortical restricted diffusion within the cerebral hemispheres bilaterally are again seen as well as possibly a focus of restricted diffusion at the left basal ganglia/deep white matter as described. Recommend a repeat contrast MRI study to assess for metastases in the future when the patient is able to tolerate the examination and as clinically indicated. Action required. +",
+          "rawText": [
+            "CLINICAL INDICATION: 65 years old, WITH AND WITHOUT CONTRAST, bl strokes 2/2 hypercoaguable state from malignancy, with new somnolence, eval for evolving stroke or other etiologies",
+            "TECHNIQUE: MR images of the brain acquired without intravenous contrast. Per the technologist's note, the patient was not cooperating and images demonstrated motion degradation. It was decided to not continue with contrast as the images would be nondiagnostic.",
+            "COMPARISON: MRI 9/15/2025",
+            "FINDINGS: Limited examination secondary to motion degradation. Additionally, metallic dental hardware artifact (braces) again obscures facial structures and produces intracranial artifact on multiple sequences. Within these limitations:   BRAIN PARENCHYMA: Continued evolution of multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes with several smaller new foci of restricted diffusion noted. Small foci of cortical restricted diffusion are again seen in the left posterior frontal and parietal lobe, including perirolandic involvement. Interval new large area of restricted diffusion with corresponding low ADC value involving the left frontal lobe and likely partially the superior aspect of the left temporal lobe.   It is again unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact. Metallic hardware artifact otherwise limits assessment of most of the cerebellum as well as portions of the anterior frontal and temporal lobes on DWI.   These areas of restricted diffusion are again T2 hyperintense. The previously identified numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres are better appreciated on the prior MRI study. No mass effect or herniation identified.   VENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus or extra-axial fluid collections.   FLOW VOIDS: Not well assessed.   EXTRACRANIAL STRUCTURES: Foci of T1 hypointense marrow signal abnormality at the C4 vertebral body, likely reflecting known osseous metastases.",
+            "IMPRESSION: Limited examination secondary to motion degradation and metallic dental hardware (braces) artifact. Please note, contrast was not administered as it was determined it would be nondiagnostic on the current study. Within these limitations: Interval new large area of restricted diffusion with corresponding low ADC value involving the left frontal lobe and likely partially the superior aspect of the left temporal lobe concerning for an acute infarction. Numerous foci of predominantly cortical restricted diffusion within the cerebral hemispheres bilaterally are again seen as well as possibly a focus of restricted diffusion at the left basal ganglia/deep white matter as described. Recommend a repeat contrast MRI study to assess for metastases in the future when the patient is able to tolerate the examination and as clinically indicated. Action required. +"
+          ]
+        }
+      },
+      "outputData": {
+        "clinicalPresentation": "65 years old, WITH AND WITHOUT CONTRAST, bl strokes 2/2 hypercoaguable state from malignancy, with new somnolence, eval for evolving stroke or other etiologies",
+        "findings": [
+          {
+            "name": "Interval new large area of restricted diffusion, left frontal lobe",
+            "description": "Interval new large area of restricted diffusion with corresponding low ADC value involving the left frontal lobe and likely partially the superior aspect of the left temporal lobe concerning for an acute infarction.",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "both",
+            "severity": null,
+            "actionability": null,
+            "trend": "new",
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": "Interval new large area of restricted diffusion",
+            "recommendation": null,
+            "comparisonStudyReference": "MRI 9/15/2025",
+            "sourceExcerpt": "Interval new large area of restricted diffusion with corresponding low ADC value involving the left frontal lobe and likely partially the superior aspect of the left temporal lobe concerning for an acute infarction."
+          },
+          {
+            "name": "Multifocal bilateral cerebral foci of restricted diffusion",
+            "description": "Continued evolution of multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes with several smaller new foci of restricted diffusion noted. Small foci of cortical restricted diffusion are again seen in the left posterior frontal and parietal lobe, including perirolandic involvement.",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "findings",
+            "severity": null,
+            "actionability": null,
+            "trend": "progressing",
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": "Continued evolution of multifocal bilateral cerebral foci of restricted diffusion",
+            "recommendation": null,
+            "comparisonStudyReference": "MRI 9/15/2025",
+            "sourceExcerpt": "Continued evolution of multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes with several smaller new foci of restricted diffusion noted."
+          },
+          {
+            "name": "Possible focus of restricted diffusion, left basal ganglia/deep white matter",
+            "description": "It is again unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact.",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "findings",
+            "severity": null,
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": "MRI 9/15/2025",
+            "sourceExcerpt": "It is again unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact."
+          },
+          {
+            "name": "T2 hyperintense areas of restricted diffusion",
+            "description": "These areas of restricted diffusion are again T2 hyperintense.",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "findings",
+            "severity": null,
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "These areas of restricted diffusion are again T2 hyperintense."
+          },
+          {
+            "name": "Punctate foci of cortical parenchymal susceptibility, cerebral hemispheres",
+            "description": "The previously identified numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres are better appreciated on the prior MRI study.",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "findings",
+            "severity": null,
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": "MRI 9/15/2025",
+            "sourceExcerpt": "The previously identified numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres are better appreciated on the prior MRI study."
+          },
+          {
+            "name": "T1 hypointense marrow signal abnormality, C4 vertebral body",
+            "description": "Foci of T1 hypointense marrow signal abnormality at the C4 vertebral body, likely reflecting known osseous metastases.",
+            "bodySubregion": "Other",
+            "reportSubsection": "EXTRACRANIAL STRUCTURES",
+            "sourceSection": "findings",
+            "severity": null,
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "Foci of T1 hypointense marrow signal abnormality at the C4 vertebral body, likely reflecting known osseous metastases."
+          },
+          {
+            "name": "Limited examination secondary to motion degradation and metallic artifact",
+            "description": "Limited examination secondary to motion degradation and metallic dental hardware (braces) artifact. Metallic dental hardware artifact (braces) again obscures facial structures and produces intracranial artifact on multiple sequences.",
+            "bodySubregion": "Other",
+            "reportSubsection": "FINDINGS",
+            "sourceSection": "both",
+            "severity": null,
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": {
+              "action": "Recommend a repeat contrast MRI study to assess for metastases in the future when the patient is able to tolerate the examination and as clinically indicated.",
+              "timeframe": null,
+              "guideline": null
+            },
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "Limited examination secondary to motion degradation and metallic dental hardware (braces) artifact."
+          }
+        ],
+        "referencedPriorStudies": [
+          {
+            "studyType": "MRI",
+            "studyDate": "9/15/2025",
+            "context": "comparison"
+          }
+        ],
+        "narrativeSummary": "MR brain demonstrates interval new large area of restricted diffusion in the left frontal lobe extending into the superior left temporal lobe concerning for acute infarction, with continued evolution of multifocal bilateral cerebral foci of restricted diffusion including in the right parietal, temporal, and occipital lobes. The examination is limited by motion degradation and metallic dental hardware artifact. Repeat contrast MRI is recommended when clinically feasible to assess for metastases."
+      },
+      "validation": {
+        "passed": true,
+        "checks": [
+          {
+            "type": "finding_traceable",
+            "findingName": "Interval new large area of restricted diffusion, left frontal lobe",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Multifocal bilateral cerebral foci of restricted diffusion",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Possible focus of restricted diffusion, left basal ganglia/deep white matter",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "T2 hyperintense areas of restricted diffusion",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Punctate foci of cortical parenchymal susceptibility, cerebral hemispheres",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "T1 hypointense marrow signal abnormality, C4 vertebral body",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Limited examination secondary to motion degradation and metallic artifact",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "reference_present",
+            "findingName": "MRI 9/15/2025",
+            "status": "pass",
+            "detail": "Referenced study \"MRI 9/15/2025\" found in report."
+          }
+        ]
+      },
+      "latencyMs": 11740,
+      "tokenUsage": {
+        "input": 1997,
+        "output": 1913
+      }
+    },
+    {
+      "label": "MR Head 09/16/2025",
+      "studyName": "MR Head",
+      "studyDate": "20250916000100",
+      "accessionNumber": "ACC-P1-0015",
+      "type": "individual",
+      "inputData": {
+        "subregionLists": {
+          "primary": [
+            "Brain Parenchyma",
+            "Ventricles and CSF Spaces",
+            "Meninges and Extra-axial Spaces",
+            "Intracranial Vessels",
+            "Sella and Pituitary",
+            "Cranial Nerves",
+            "Skull and Calvarium",
+            "Orbits",
+            "Scalp and Soft Tissues",
+            "Other"
+          ],
+          "overlap": [],
+          "primaryCanonicalRegions": [
+            "Head"
+          ],
+          "overlapCanonicalRegions": []
+        },
+        "reportSections": {
+          "clinicalIndication": "65 years old, likely had seizure. Known metastatic cancer.",
+          "technique": "MR images of the brain acquired without and with 14 mL Clariscan intravenous contrast.",
+          "comparison": "CT 7/28/2025, MR 7/11/2025",
+          "findings": "Evaluation is degraded by motion, particularly on postcontrast sequences which are largely nondiagnostic. \n \nBRAIN PARENCHYMA: Multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes. Small foci of cortical restricted diffusion are seen in the left posterior frontal and parietal lobe, including perirolandic involvement. There are numerous additional punctate foci of cortical restricted diffusion in the bilateral frontal, parietal, and occipital lobes, with perhaps punctate foci also present in the left superior cerebellum.\n \nIt is unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact.\n \nThese areas of restricted diffusion are T2/FLAIR hyperintense. There are numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres, many of which appear new from 7/11/2025. No mass effect or herniation.\n \nA few tiny foci of encephalomalacia in the cerebellum may reflect chronic infarcts.\n \nThe 3-D postcontrast BRAVO sequence is severely limited by motion and nondiagnostic for abnormal enhancement. No obvious abnormal enhancement is seen on the coronal postcontrast series, however this sequences also severely motion limited.\n \nVENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus or extra-axial fluid collections.\n \nFLOW VOIDS: Intact.\n \nEXTRACRANIAL STRUCTURES: Foci of T1 hypointense marrow signal alteration seen in the included upper cervical spine, including the C4 vertebral body, likely reflecting known osseous metastases.",
+          "impression": "1. Numerous foci of predominantly cortical restricted diffusion within the cerebral hemispheres bilaterally, largest involving the right parietal, posterior temporal, and occipital lobe with additional foci in the bilateral frontal, parietal, and occipital lobes. There may be tiny foci within the left superior cerebellum as well. There may also be a focus of restricted diffusion at the left basal ganglia/deep white matter. 2. This exam is largely nondiagnostic for metastases given significant motion artifact on postcontrast sequences. No abnormal intracranial mass effect detected. 3. Numerous punctate foci of parenchymal susceptibility, a few of which are new from prior. These are suggestive of microhemorrhages, nonspecific but history of anticoagulation and thrombocytopenia is noted. It would be difficult to exclude hemorrhagic micrometastases given limitations of postcontrast sequences. Given nondiagnostic postcontrast sequences, repeat contrast MRI recommended to assess for metastases in the future, when clinically indicated/feasible.",
+          "rawText": [
+            "CLINICAL INDICATION: 65 years old, likely had seizure. Known metastatic cancer.",
+            "TECHNIQUE: MR images of the brain acquired without and with 14 mL Clariscan intravenous contrast.",
+            "COMPARISON: CT 7/28/2025, MR 7/11/2025",
+            "FINDINGS: Evaluation is degraded by motion, particularly on postcontrast sequences which are largely nondiagnostic. \n \nBRAIN PARENCHYMA: Multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes. Small foci of cortical restricted diffusion are seen in the left posterior frontal and parietal lobe, including perirolandic involvement. There are numerous additional punctate foci of cortical restricted diffusion in the bilateral frontal, parietal, and occipital lobes, with perhaps punctate foci also present in the left superior cerebellum.\n \nIt is unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact.\n \nThese areas of restricted diffusion are T2/FLAIR hyperintense. There are numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres, many of which appear new from 7/11/2025. No mass effect or herniation.\n \nA few tiny foci of encephalomalacia in the cerebellum may reflect chronic infarcts.\n \nThe 3-D postcontrast BRAVO sequence is severely limited by motion and nondiagnostic for abnormal enhancement. No obvious abnormal enhancement is seen on the coronal postcontrast series, however this sequences also severely motion limited.\n \nVENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus or extra-axial fluid collections.\n \nFLOW VOIDS: Intact.\n \nEXTRACRANIAL STRUCTURES: Foci of T1 hypointense marrow signal alteration seen in the included upper cervical spine, including the C4 vertebral body, likely reflecting known osseous metastases.",
+            "IMPRESSION: 1. Numerous foci of predominantly cortical restricted diffusion within the cerebral hemispheres bilaterally, largest involving the right parietal, posterior temporal, and occipital lobe with additional foci in the bilateral frontal, parietal, and occipital lobes. There may be tiny foci within the left superior cerebellum as well. There may also be a focus of restricted diffusion at the left basal ganglia/deep white matter. 2. This exam is largely nondiagnostic for metastases given significant motion artifact on postcontrast sequences. No abnormal intracranial mass effect detected. 3. Numerous punctate foci of parenchymal susceptibility, a few of which are new from prior. These are suggestive of microhemorrhages, nonspecific but history of anticoagulation and thrombocytopenia is noted. It would be difficult to exclude hemorrhagic micrometastases given limitations of postcontrast sequences. Given nondiagnostic postcontrast sequences, repeat contrast MRI recommended to assess for metastases in the future, when clinically indicated/feasible."
+          ]
+        }
+      },
+      "outputData": {
+        "clinicalPresentation": "65 years old, likely had seizure. Known metastatic cancer.",
+        "findings": [
+          {
+            "name": "Multifocal bilateral cerebral restricted diffusion",
+            "description": "Multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes. Small foci of cortical restricted diffusion are seen in the left posterior frontal and parietal lobe, including perirolandic involvement. There are numerous additional punctate foci of cortical restricted diffusion in the bilateral frontal, parietal, and occipital lobes, with perhaps punctate foci also present in the left superior cerebellum.",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "findings",
+            "severity": null,
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "Multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes. Small foci of cortical restricted diffusion are seen in the left posterior frontal and parietal lobe, including perirolandic involvement. There are numerous additional punctate foci of cortical restricted diffusion in the bilateral frontal, parietal, and occipital lobes, with perhaps punctate foci also present in the left superior cerebellum."
+          },
+          {
+            "name": "Possible restricted diffusion at left basal ganglia/deep white matter",
+            "description": "It is unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact.",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "findings",
+            "severity": null,
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "It is unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact."
+          },
+          {
+            "name": "T2/FLAIR hyperintense foci",
+            "description": "These areas of restricted diffusion are T2/FLAIR hyperintense.",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "findings",
+            "severity": null,
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "These areas of restricted diffusion are T2/FLAIR hyperintense."
+          },
+          {
+            "name": "Punctate parenchymal susceptibility foci (microhemorrhages)",
+            "description": "There are numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres, many of which appear new from 7/11/2025. These are suggestive of microhemorrhages, nonspecific but history of anticoagulation and thrombocytopenia is noted.",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "both",
+            "severity": null,
+            "actionability": null,
+            "trend": "new",
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": "many of which appear new from 7/11/2025",
+            "recommendation": null,
+            "comparisonStudyReference": "MR 7/11/2025",
+            "sourceExcerpt": "There are numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres, many of which appear new from 7/11/2025. These are suggestive of microhemorrhages, nonspecific but history of anticoagulation and thrombocytopenia is noted."
+          },
+          {
+            "name": "Cerebellar encephalomalacia",
+            "description": "A few tiny foci of encephalomalacia in the cerebellum may reflect chronic infarcts.",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "findings",
+            "severity": null,
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "A few tiny foci of encephalomalacia in the cerebellum may reflect chronic infarcts."
+          },
+          {
+            "name": "Motion artifact on postcontrast sequences",
+            "description": "Evaluation is degraded by motion, particularly on postcontrast sequences which are largely nondiagnostic. The 3-D postcontrast BRAVO sequence is severely limited by motion and nondiagnostic for abnormal enhancement. No obvious abnormal enhancement is seen on the coronal postcontrast series, however this sequences also severely motion limited.",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "findings",
+            "severity": null,
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "Evaluation is degraded by motion, particularly on postcontrast sequences which are largely nondiagnostic."
+          },
+          {
+            "name": "Osseous metastases in upper cervical spine",
+            "description": "Foci of T1 hypointense marrow signal alteration seen in the included upper cervical spine, including the C4 vertebral body, likely reflecting known osseous metastases.",
+            "bodySubregion": "Skull and Calvarium",
+            "reportSubsection": "EXTRACRANIAL STRUCTURES",
+            "sourceSection": "findings",
+            "severity": null,
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "Foci of T1 hypointense marrow signal alteration seen in the included upper cervical spine, including the C4 vertebral body, likely reflecting known osseous metastases."
+          }
+        ],
+        "referencedPriorStudies": [
+          {
+            "studyType": "CT",
+            "studyDate": "7/28/2025",
+            "context": "comparison"
+          },
+          {
+            "studyType": "MR",
+            "studyDate": "7/11/2025",
+            "context": "comparison"
+          }
+        ],
+        "narrativeSummary": "MR brain demonstrates multifocal bilateral cerebral foci of restricted diffusion predominantly involving cortical regions, with the largest area in the right parietal, temporal, and occipital lobes, concerning for acute ischemic events or metastatic disease. Numerous punctate foci of parenchymal susceptibility suggestive of microhemorrhages, many new compared to prior MR from 7/11/2025, are noted in the setting of known anticoagulation and thrombocytopenia. Postcontrast sequences are severely limited by motion artifact and nondiagnostic for metastatic disease; repeat contrast MRI is recommended when clinically indicated to better assess for metastases."
+      },
+      "validation": {
+        "passed": true,
+        "checks": [
+          {
+            "type": "finding_traceable",
+            "findingName": "Multifocal bilateral cerebral restricted diffusion",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Possible restricted diffusion at left basal ganglia/deep white matter",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "T2/FLAIR hyperintense foci",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Punctate parenchymal susceptibility foci (microhemorrhages)",
+            "status": "pass",
+            "detail": "Key terms found: punctate, parenchymal, susceptibility, foci, microhemorrhages"
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Cerebellar encephalomalacia",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Motion artifact on postcontrast sequences",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Osseous metastases in upper cervical spine",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "reference_present",
+            "findingName": "CT 7/28/2025",
+            "status": "pass",
+            "detail": "Referenced study \"CT 7/28/2025\" found in report."
+          },
+          {
+            "type": "reference_present",
+            "findingName": "MR 7/11/2025",
+            "status": "pass",
+            "detail": "Referenced study \"MR 7/11/2025\" found in report."
+          }
+        ]
+      },
+      "latencyMs": 11546,
+      "tokenUsage": {
+        "input": 2112,
+        "output": 2055
+      }
+    },
+    {
+      "label": "CT Head 09/19/2025",
+      "studyName": "CT Head",
+      "studyDate": "20250919120100",
+      "accessionNumber": "ACC-P1-0022",
+      "type": "individual",
+      "inputData": {
+        "subregionLists": {
+          "primary": [
+            "Brain Parenchyma",
+            "Ventricles and CSF Spaces",
+            "Meninges and Extra-axial Spaces",
+            "Intracranial Vessels",
+            "Sella and Pituitary",
+            "Cranial Nerves",
+            "Skull and Calvarium",
+            "Orbits",
+            "Scalp and Soft Tissues",
+            "Other"
+          ],
+          "overlap": [],
+          "primaryCanonicalRegions": [
+            "Head"
+          ],
+          "overlapCanonicalRegions": []
+        },
+        "reportSections": {
+          "clinicalIndication": "65 years old, NO IV or PO contrast: acute dilated pupils, eval for intracranial bleed. pt on systemic anticoagulation.",
+          "technique": "CT images of the head acquired without intravenous contrast. CTDI: 0.04,48.87 mGy DLP: 0.81,687.3 mGy-cm",
+          "comparison": "***",
+          "findings": "BRAIN PARENCHYMA: Left frontal, left posterior temporal and right frontal parietal temporal involving infarcts with diffuse sulcal effacement and approximately 6 mm new rightward midline shift with subfalcine herniation. There is effacement of the basilar cisterns concerning for transtentorial herniation. No convincing hemorrhage.   VENTRICLES/EXTRA-AXIAL SPACES: Effacement of the left lateral ventricle and occipital horn.   EXTRACRANIAL STRUCTURES: Normal bones and soft tissues. Visualized paranasal sinuses and mastoids demonstrate no significant abnormality.",
+          "impression": "Evolving left greater than right parenchymal infarcts with progressive mass effect including diffuse sulcal effacement, new 6 mm rightward midline shift with subfalcine herniation, and associated effacement of the basilar cisterns concerning for transtentorial herniation. No convincing intracranial hemorrhage",
+          "rawText": [
+            "CLINICAL INDICATION: 65 years old, NO IV or PO contrast: acute dilated pupils, eval for intracranial bleed. pt on systemic anticoagulation.",
+            "TECHNIQUE: CT images of the head acquired without intravenous contrast. CTDI: 0.04,48.87 mGy DLP: 0.81,687.3 mGy-cm",
+            "COMPARISON: ***",
+            "FINDINGS: BRAIN PARENCHYMA: Left frontal, left posterior temporal and right frontal parietal temporal involving infarcts with diffuse sulcal effacement and approximately 6 mm new rightward midline shift with subfalcine herniation. There is effacement of the basilar cisterns concerning for transtentorial herniation. No convincing hemorrhage.   VENTRICLES/EXTRA-AXIAL SPACES: Effacement of the left lateral ventricle and occipital horn.   EXTRACRANIAL STRUCTURES: Normal bones and soft tissues. Visualized paranasal sinuses and mastoids demonstrate no significant abnormality.",
+            "IMPRESSION: Evolving left greater than right parenchymal infarcts with progressive mass effect including diffuse sulcal effacement, new 6 mm rightward midline shift with subfalcine herniation, and associated effacement of the basilar cisterns concerning for transtentorial herniation. No convincing intracranial hemorrhage"
+          ]
+        }
+      },
+      "outputData": {
+        "clinicalPresentation": "65 years old, NO IV or PO contrast: acute dilated pupils, eval for intracranial bleed. pt on systemic anticoagulation.",
+        "findings": [
+          {
+            "name": "Left greater than right parenchymal infarcts",
+            "description": "Evolving left greater than right parenchymal infarcts with progressive mass effect including diffuse sulcal effacement",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "both",
+            "severity": "critical",
+            "actionability": null,
+            "trend": "progressing",
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": "Evolving infarcts with progressive mass effect",
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "Evolving left greater than right parenchymal infarcts with progressive mass effect including diffuse sulcal effacement"
+          },
+          {
+            "name": "Left frontal infarct",
+            "description": "Left frontal infarct with diffuse sulcal effacement",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "findings",
+            "severity": "critical",
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "Left frontal, left posterior temporal and right frontal parietal temporal involving infarcts with diffuse sulcal effacement"
+          },
+          {
+            "name": "Left posterior temporal infarct",
+            "description": "Left posterior temporal infarct",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "findings",
+            "severity": "critical",
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "Left frontal, left posterior temporal and right frontal parietal temporal involving infarcts"
+          },
+          {
+            "name": "Right frontal parietal temporal infarct",
+            "description": "Right frontal parietal temporal infarct",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "findings",
+            "severity": "critical",
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "Left frontal, left posterior temporal and right frontal parietal temporal involving infarcts"
+          },
+          {
+            "name": "Rightward midline shift with subfalcine herniation",
+            "description": "New 6 mm rightward midline shift with subfalcine herniation",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "both",
+            "severity": "critical",
+            "actionability": null,
+            "trend": "new",
+            "incidental": false,
+            "measurements": [
+              {
+                "dimension": "6 mm",
+                "location": null,
+                "context": "rightward midline shift"
+              }
+            ],
+            "changeStatement": "New 6 mm rightward midline shift",
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "new 6 mm rightward midline shift with subfalcine herniation"
+          },
+          {
+            "name": "Basilar cistern effacement concerning for transtentorial herniation",
+            "description": "Effacement of the basilar cisterns concerning for transtentorial herniation",
+            "bodySubregion": "Ventricles and CSF Spaces",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "both",
+            "severity": "critical",
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "effacement of the basilar cisterns concerning for transtentorial herniation"
+          },
+          {
+            "name": "Effacement of left lateral ventricle and occipital horn",
+            "description": "Effacement of the left lateral ventricle and occipital horn",
+            "bodySubregion": "Ventricles and CSF Spaces",
+            "reportSubsection": "VENTRICLES/EXTRA-AXIAL SPACES",
+            "sourceSection": "findings",
+            "severity": "critical",
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "Effacement of the left lateral ventricle and occipital horn"
+          }
+        ],
+        "referencedPriorStudies": [],
+        "narrativeSummary": "MR brain demonstrates evolving left greater than right parenchymal infarcts with progressive mass effect and diffuse sulcal effacement. Critical findings include new 6 mm rightward midline shift with subfalcine herniation and effacement of the basilar cisterns concerning for transtentorial herniation. No intracranial hemorrhage is identified."
+      },
+      "validation": {
+        "passed": true,
+        "checks": [
+          {
+            "type": "finding_traceable",
+            "findingName": "Left greater than right parenchymal infarcts",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Left frontal infarct",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Left posterior temporal infarct",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Right frontal parietal temporal infarct",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Rightward midline shift with subfalcine herniation",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "measurement_verbatim",
+            "findingName": "Rightward midline shift with subfalcine herniation",
+            "status": "pass",
+            "detail": "Measurement \"6 mm\" found verbatim."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Basilar cistern effacement concerning for transtentorial herniation",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Effacement of left lateral ventricle and occipital horn",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          }
+        ]
+      },
+      "latencyMs": 7174,
+      "tokenUsage": {
+        "input": 1645,
+        "output": 1516
+      }
+    },
+    {
+      "label": "CT Head 09/18/2025",
+      "studyName": "CT Head",
+      "studyDate": "20250918000100",
+      "accessionNumber": "ACC-P1-0019",
+      "type": "individual",
+      "inputData": {
+        "subregionLists": {
+          "primary": [
+            "Brain Parenchyma",
+            "Ventricles and CSF Spaces",
+            "Meninges and Extra-axial Spaces",
+            "Intracranial Vessels",
+            "Sella and Pituitary",
+            "Cranial Nerves",
+            "Skull and Calvarium",
+            "Orbits",
+            "Scalp and Soft Tissues",
+            "Other"
+          ],
+          "overlap": [],
+          "primaryCanonicalRegions": [
+            "Head"
+          ],
+          "overlapCanonicalRegions": []
+        },
+        "reportSections": {
+          "clinicalIndication": "65 years old, evaluate evolving stroke/stability,",
+          "technique": "CT images of the head acquired without intravenous contrast. CTDI: 0.04,48.19 mGy DLP: 0.81,687.3 mGy-cm",
+          "comparison": "CTs 9/17/2025, 9/16/2025",
+          "findings": "Stable trace subarachnoid hemorrhage at the left vertex. Multiple evolving infarcts bilaterally, right greater than left, not significantly changed. Unremarkable basal cisterns and ventricles. No herniation. Osseous structures intact.",
+          "impression": "No significant change in evolving bilateral infarcts and trace subarachnoid hemorrhage at the left vertex.",
+          "rawText": [
+            "CLINICAL INDICATION: 65 years old, evaluate evolving stroke/stability,",
+            "TECHNIQUE: CT images of the head acquired without intravenous contrast. CTDI: 0.04,48.19 mGy DLP: 0.81,687.3 mGy-cm",
+            "COMPARISON: CTs 9/17/2025, 9/16/2025",
+            "FINDINGS: Stable trace subarachnoid hemorrhage at the left vertex. Multiple evolving infarcts bilaterally, right greater than left, not significantly changed. Unremarkable basal cisterns and ventricles. No herniation. Osseous structures intact.",
+            "IMPRESSION: No significant change in evolving bilateral infarcts and trace subarachnoid hemorrhage at the left vertex."
+          ]
+        }
+      },
+      "outputData": {
+        "clinicalPresentation": "65 years old, evaluate evolving stroke/stability",
+        "findings": [
+          {
+            "name": "Trace subarachnoid hemorrhage at left vertex",
+            "description": "Stable trace subarachnoid hemorrhage at the left vertex",
+            "bodySubregion": "Meninges and Extra-axial Spaces",
+            "reportSubsection": "FINDINGS",
+            "sourceSection": "both",
+            "severity": null,
+            "actionability": null,
+            "trend": "stable",
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": "Stable compared to prior CTs from 9/17/2025 and 9/16/2025",
+            "recommendation": null,
+            "comparisonStudyReference": "CTs 9/17/2025, 9/16/2025",
+            "sourceExcerpt": "Stable trace subarachnoid hemorrhage at the left vertex"
+          },
+          {
+            "name": "Multiple evolving bilateral infarcts",
+            "description": "Multiple evolving infarcts bilaterally, right greater than left, not significantly changed",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "FINDINGS",
+            "sourceSection": "both",
+            "severity": null,
+            "actionability": null,
+            "trend": "stable",
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": "Not significantly changed compared to prior studies",
+            "recommendation": null,
+            "comparisonStudyReference": "CTs 9/17/2025, 9/16/2025",
+            "sourceExcerpt": "Multiple evolving infarcts bilaterally, right greater than left, not significantly changed"
+          }
+        ],
+        "referencedPriorStudies": [
+          {
+            "studyType": "CT",
+            "studyDate": "9/17/2025",
+            "context": "comparison"
+          },
+          {
+            "studyType": "CT",
+            "studyDate": "9/16/2025",
+            "context": "comparison"
+          }
+        ],
+        "narrativeSummary": "MR brain demonstrates stable trace subarachnoid hemorrhage at the left vertex and multiple evolving bilateral infarcts (right greater than left) with no significant change compared to prior CTs from 9/17 and 9/16. Basal cisterns, ventricles, and osseous structures are unremarkable with no evidence of herniation."
+      },
+      "validation": {
+        "passed": true,
+        "checks": [
+          {
+            "type": "finding_traceable",
+            "findingName": "Trace subarachnoid hemorrhage at left vertex",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Multiple evolving bilateral infarcts",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "reference_present",
+            "findingName": "CT 9/17/2025",
+            "status": "pass",
+            "detail": "Referenced study \"CT 9/17/2025\" found in report."
+          },
+          {
+            "type": "reference_present",
+            "findingName": "CT 9/16/2025",
+            "status": "pass",
+            "detail": "Referenced study \"CT 9/16/2025\" found in report."
+          }
+        ]
+      },
+      "latencyMs": 3574,
+      "tokenUsage": {
+        "input": 1502,
+        "output": 639
+      }
+    },
+    {
+      "label": "CT Head 09/17/2025",
+      "studyName": "CT Head",
+      "studyDate": "20250917000100",
+      "accessionNumber": "ACC-P1-0017",
+      "type": "individual",
+      "inputData": {
+        "subregionLists": {
+          "primary": [
+            "Brain Parenchyma",
+            "Ventricles and CSF Spaces",
+            "Meninges and Extra-axial Spaces",
+            "Intracranial Vessels",
+            "Sella and Pituitary",
+            "Cranial Nerves",
+            "Skull and Calvarium",
+            "Orbits",
+            "Scalp and Soft Tissues",
+            "Other"
+          ],
+          "overlap": [],
+          "primaryCanonicalRegions": [
+            "Head"
+          ],
+          "overlapCanonicalRegions": []
+        },
+        "reportSections": {
+          "clinicalIndication": "65 years old, stroke 2/2 hypercoaguability from malignancy, restarted lovenox",
+          "technique": "CT images of the head acquired without intravenous contrast. CTDI: 0.04,48.91 mGy DLP: 0.81,785.48 mGy-cm",
+          "comparison": "CTs 9/16/2025, 9/15/2025, MR 9/16/2025",
+          "findings": "BRAIN PARENCHYMA: Interval development of acute ischemic changes in the right parietal lobe. There is also evidence of ischemic change in the high left parietal lobe. Small focus of hemorrhage in the subarachnoid space in the high left frontal lobe. There is also hyperdensity in the posterior high frontal lobe axial image #50 with linear morphology, possible residual intravascular contrast. White matter is within normal limits for age. No midline shift.\n \nVENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus.\n \nEXTRACRANIAL STRUCTURES: Normal bones and soft tissues. Visualized paranasal sinuses and mastoids demonstrate no significant abnormality.",
+          "impression": "1. Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left, likely sequela of known ischemia. 2. There is a new punctate focus of hyperdensity in the high left frontal lobe. It could represent small focus of her subarachnoid hemorrhage versus residual contrast within the vasculature. Short-term follow-up is suggested.",
+          "rawText": [
+            "CLINICAL INDICATION: 65 years old, stroke 2/2 hypercoaguability from malignancy, restarted lovenox",
+            "TECHNIQUE: CT images of the head acquired without intravenous contrast. CTDI: 0.04,48.91 mGy DLP: 0.81,785.48 mGy-cm",
+            "COMPARISON: CTs 9/16/2025, 9/15/2025, MR 9/16/2025",
+            "FINDINGS: BRAIN PARENCHYMA: Interval development of acute ischemic changes in the right parietal lobe. There is also evidence of ischemic change in the high left parietal lobe. Small focus of hemorrhage in the subarachnoid space in the high left frontal lobe. There is also hyperdensity in the posterior high frontal lobe axial image #50 with linear morphology, possible residual intravascular contrast. White matter is within normal limits for age. No midline shift.\n \nVENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus.\n \nEXTRACRANIAL STRUCTURES: Normal bones and soft tissues. Visualized paranasal sinuses and mastoids demonstrate no significant abnormality.",
+            "IMPRESSION: 1. Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left, likely sequela of known ischemia. 2. There is a new punctate focus of hyperdensity in the high left frontal lobe. It could represent small focus of her subarachnoid hemorrhage versus residual contrast within the vasculature. Short-term follow-up is suggested."
+          ]
+        }
+      },
+      "outputData": {
+        "clinicalPresentation": "65 years old, stroke 2/2 hypercoaguability from malignancy, restarted lovenox",
+        "findings": [
+          {
+            "name": "Cytotoxic edema in parietal lobes bilaterally",
+            "description": "Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left, likely sequela of known ischemia. Interval development of acute ischemic changes in the right parietal lobe. There is also evidence of ischemic change in the high left parietal lobe.",
+            "bodySubregion": "Brain Parenchyma",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "both",
+            "severity": null,
+            "actionability": null,
+            "trend": "new",
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": "Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left",
+            "recommendation": null,
+            "comparisonStudyReference": "CTs 9/16/2025, 9/15/2025, MR 9/16/2025",
+            "sourceExcerpt": "Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left, likely sequela of known ischemia."
+          },
+          {
+            "name": "Punctate hyperdensity in high left frontal lobe",
+            "description": "There is a new punctate focus of hyperdensity in the high left frontal lobe. It could represent small focus of her subarachnoid hemorrhage versus residual contrast within the vasculature. Small focus of hemorrhage in the subarachnoid space in the high left frontal lobe.",
+            "bodySubregion": "Meninges and Extra-axial Spaces",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "both",
+            "severity": null,
+            "actionability": "actionable",
+            "trend": "new",
+            "incidental": false,
+            "measurements": [],
+            "changeStatement": "new punctate focus of hyperdensity in the high left frontal lobe",
+            "recommendation": {
+              "action": "Short-term follow-up is suggested",
+              "timeframe": "short-term",
+              "guideline": null
+            },
+            "comparisonStudyReference": "CTs 9/16/2025, 9/15/2025, MR 9/16/2025",
+            "sourceExcerpt": "There is a new punctate focus of hyperdensity in the high left frontal lobe. It could represent small focus of her subarachnoid hemorrhage versus residual contrast within the vasculature. Short-term follow-up is suggested."
+          },
+          {
+            "name": "Hyperdensity in posterior high frontal lobe",
+            "description": "There is also hyperdensity in the posterior high frontal lobe axial image #50 with linear morphology, possible residual intravascular contrast.",
+            "bodySubregion": "Intracranial Vessels",
+            "reportSubsection": "BRAIN PARENCHYMA",
+            "sourceSection": "findings",
+            "severity": null,
+            "actionability": null,
+            "trend": null,
+            "incidental": false,
+            "measurements": [
+              {
+                "dimension": "not specified",
+                "location": "axial image #50",
+                "context": "posterior high frontal lobe"
+              }
+            ],
+            "changeStatement": null,
+            "recommendation": null,
+            "comparisonStudyReference": null,
+            "sourceExcerpt": "There is also hyperdensity in the posterior high frontal lobe axial image #50 with linear morphology, possible residual intravascular contrast."
+          }
+        ],
+        "referencedPriorStudies": [
+          {
+            "studyType": "CT",
+            "studyDate": "9/16/2025",
+            "context": "comparison"
+          },
+          {
+            "studyType": "CT",
+            "studyDate": "9/15/2025",
+            "context": "comparison"
+          },
+          {
+            "studyType": "MR",
+            "studyDate": "9/16/2025",
+            "context": "comparison"
+          }
+        ],
+        "narrativeSummary": "MR brain demonstrates interval development of cytotoxic edema in the bilateral parietal lobes (right greater than left) consistent with acute ischemic changes, likely sequelae of known ischemia in this patient with hypercoagulability from malignancy. A new punctate focus of hyperdensity in the high left frontal lobe is present, which could represent a small subarachnoid hemorrhage versus residual intravascular contrast, warranting short-term follow-up imaging."
+      },
+      "validation": {
+        "passed": false,
+        "checks": [
+          {
+            "type": "finding_traceable",
+            "findingName": "Cytotoxic edema in parietal lobes bilaterally",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Punctate hyperdensity in high left frontal lobe",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "finding_traceable",
+            "findingName": "Hyperdensity in posterior high frontal lobe",
+            "status": "pass",
+            "detail": "Source excerpt found in report text."
+          },
+          {
+            "type": "measurement_verbatim",
+            "findingName": "Hyperdensity in posterior high frontal lobe",
+            "status": "fail",
+            "detail": "Measurement \"not specified\" not found in report text."
+          },
+          {
+            "type": "reference_present",
+            "findingName": "CT 9/16/2025",
+            "status": "pass",
+            "detail": "Referenced study \"CT 9/16/2025\" found in report."
+          },
+          {
+            "type": "reference_present",
+            "findingName": "CT 9/15/2025",
+            "status": "pass",
+            "detail": "Referenced study \"CT 9/15/2025\" found in report."
+          },
+          {
+            "type": "reference_present",
+            "findingName": "MR 9/16/2025",
+            "status": "pass",
+            "detail": "Referenced study \"MR 9/16/2025\" found in report."
+          }
+        ]
+      },
+      "latencyMs": 7153,
+      "tokenUsage": {
+        "input": 1712,
+        "output": 1233
+      }
+    },
+    {
+      "label": "Executive Summary",
+      "studyName": null,
+      "studyDate": null,
+      "accessionNumber": null,
+      "type": "executive",
+      "inputData": {
+        "currentExamSubregions": [
+          "Brain Parenchyma",
+          "Ventricles and CSF Spaces",
+          "Meninges and Extra-axial Spaces",
+          "Intracranial Vessels",
+          "Sella and Pituitary",
+          "Cranial Nerves",
+          "Skull and Calvarium",
+          "Orbits",
+          "Scalp and Soft Tissues",
+          "Other"
+        ],
+        "analysisCount": 5
+      },
+      "outputData": {
+        "regionGroups": [
+          {
+            "regionName": "Brain Parenchyma",
+            "findings": [
+              {
+                "name": "Left greater than right parenchymal infarcts with progressive mass effect",
+                "chips": [
+                  "CRITICAL",
+                  "PROGRESSING"
+                ],
+                "studyEntries": [
+                  {
+                    "studyName": "CT Head",
+                    "studyDate": "09/19/2025",
+                    "accessionNumber": "ACC-P1-0022",
+                    "measurement": null,
+                    "changeStatement": "Evolving infarcts with progressive mass effect including diffuse sulcal effacement"
+                  },
+                  {
+                    "studyName": "CT Head",
+                    "studyDate": "09/18/2025",
+                    "accessionNumber": "ACC-P1-0019",
+                    "measurement": null,
+                    "changeStatement": "Multiple evolving infarcts bilaterally, right greater than left, not significantly changed compared to prior studies"
+                  }
+                ]
+              },
+              {
+                "name": "Left frontal infarct",
+                "chips": [
+                  "CRITICAL"
+                ],
+                "studyEntries": [
+                  {
+                    "studyName": "CT Head",
+                    "studyDate": "09/19/2025",
+                    "accessionNumber": "ACC-P1-0022",
+                    "measurement": null,
+                    "changeStatement": null
+                  },
+                  {
+                    "studyName": "MR Head",
+                    "studyDate": "09/18/2025",
+                    "accessionNumber": "ACC-P1-0020",
+                    "measurement": null,
+                    "changeStatement": "Interval new large area of restricted diffusion with corresponding low ADC value involving the left frontal lobe and likely partially the superior aspect of the left temporal lobe concerning for an acute infarction"
+                  }
+                ]
+              },
+              {
+                "name": "Left posterior temporal infarct",
+                "chips": [
+                  "CRITICAL"
+                ],
+                "studyEntries": [
+                  {
+                    "studyName": "CT Head",
+                    "studyDate": "09/19/2025",
+                    "accessionNumber": "ACC-P1-0022",
+                    "measurement": null,
+                    "changeStatement": null
+                  }
+                ]
+              },
+              {
+                "name": "Right frontal parietal temporal infarct",
+                "chips": [
+                  "CRITICAL"
+                ],
+                "studyEntries": [
+                  {
+                    "studyName": "CT Head",
+                    "studyDate": "09/19/2025",
+                    "accessionNumber": "ACC-P1-0022",
+                    "measurement": null,
+                    "changeStatement": null
+                  }
+                ]
+              },
+              {
+                "name": "Multifocal bilateral cerebral foci of restricted diffusion",
+                "chips": [
+                  "PROGRESSING"
+                ],
+                "studyEntries": [
+                  {
+                    "studyName": "MR Head",
+                    "studyDate": "09/18/2025",
+                    "accessionNumber": "ACC-P1-0020",
+                    "measurement": null,
+                    "changeStatement": "Continued evolution of multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes with several smaller new foci of restricted diffusion noted. Small foci of cortical restricted diffusion in the left posterior frontal and parietal lobe, including perirolandic involvement"
+                  },
+                  {
+                    "studyName": "MR Head",
+                    "studyDate": "09/16/2025",
+                    "accessionNumber": "ACC-P1-0015",
+                    "measurement": null,
+                    "changeStatement": "Multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes. Small foci of cortical restricted diffusion in the left posterior frontal and parietal lobe, including perirolandic involvement"
+                  }
+                ]
+              },
+              {
+                "name": "Rightward midline shift with subfalcine herniation",
+                "chips": [
+                  "CRITICAL",
+                  "NEW"
+                ],
+                "studyEntries": [
+                  {
+                    "studyName": "CT Head",
+                    "studyDate": "09/19/2025",
+                    "accessionNumber": "ACC-P1-0022",
+                    "measurement": "6 mm (rightward midline shift)",
+                    "changeStatement": "New 6 mm rightward midline shift with subfalcine herniation"
+                  }
+                ]
+              },
+              {
+                "name": "Cytotoxic edema in parietal lobes bilaterally",
+                "chips": [
+                  "NEW"
+                ],
+                "studyEntries": [
+                  {
+                    "studyName": "CT Head",
+                    "studyDate": "09/17/2025",
+                    "accessionNumber": "ACC-P1-0017",
+                    "measurement": null,
+                    "changeStatement": "Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left, likely sequela of known ischemia. Interval development of acute ischemic changes in the right parietal lobe. Evidence of ischemic change in the high left parietal lobe"
+                  }
+                ]
+              },
+              {
+                "name": "Punctate foci of cortical parenchymal susceptibility (microhemorrhages)",
+                "chips": [
+                  "NEW"
+                ],
+                "studyEntries": [
+                  {
+                    "studyName": "MR Head",
+                    "studyDate": "09/18/2025",
+                    "accessionNumber": "ACC-P1-0020",
+                    "measurement": null,
+                    "changeStatement": "Numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres, better appreciated on prior MRI study"
+                  },
+                  {
+                    "studyName": "MR Head",
+                    "studyDate": "09/16/2025",
+                    "accessionNumber": "ACC-P1-0015",
+                    "measurement": null,
+                    "changeStatement": "Numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres, many of which appear new from 7/11/2025. Suggestive of microhemorrhages, nonspecific but history of anticoagulation and thrombocytopenia is noted"
+                  }
+                ]
+              },
+              {
+                "name": "Possible focus of restricted diffusion, left basal ganglia/deep white matter",
+                "chips": [],
+                "studyEntries": [
+                  {
+                    "studyName": "MR Head",
+                    "studyDate": "09/18/2025",
+                    "accessionNumber": "ACC-P1-0020",
+                    "measurement": null,
+                    "changeStatement": "Unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact"
+                  },
+                  {
+                    "studyName": "MR Head",
+                    "studyDate": "09/16/2025",
+                    "accessionNumber": "ACC-P1-0015",
+                    "measurement": null,
+                    "changeStatement": "Unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact"
+                  }
+                ]
+              },
+              {
+                "name": "Cerebellar encephalomalacia",
+                "chips": [],
+                "studyEntries": [
+                  {
+                    "studyName": "MR Head",
+                    "studyDate": "09/16/2025",
+                    "accessionNumber": "ACC-P1-0015",
+                    "measurement": null,
+                    "changeStatement": "A few tiny foci of encephalomalacia in the cerebellum may reflect chronic infarcts"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "regionName": "Ventricles and CSF Spaces",
+            "findings": [
+              {
+                "name": "Basilar cistern effacement concerning for transtentorial herniation",
+                "chips": [
+                  "CRITICAL"
+                ],
+                "studyEntries": [
+                  {
+                    "studyName": "CT Head",
+                    "studyDate": "09/19/2025",
+                    "accessionNumber": "ACC-P1-0022",
+                    "measurement": null,
+                    "changeStatement": null
+                  }
+                ]
+              },
+              {
+                "name": "Effacement of left lateral ventricle and occipital horn",
+                "chips": [
+                  "CRITICAL"
+                ],
+                "studyEntries": [
+                  {
+                    "studyName": "CT Head",
+                    "studyDate": "09/19/2025",
+                    "accessionNumber": "ACC-P1-0022",
+                    "measurement": null,
+                    "changeStatement": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "regionName": "Meninges and Extra-axial Spaces",
+            "findings": [
+              {
+                "name": "Punctate hyperdensity in high left frontal lobe (subarachnoid hemorrhage versus residual contrast)",
+                "chips": [
+                  "NEW",
+                  "ACTIONABLE"
+                ],
+                "studyEntries": [
+                  {
+                    "studyName": "CT Head",
+                    "studyDate": "09/17/2025",
+                    "accessionNumber": "ACC-P1-0017",
+                    "measurement": null,
+                    "changeStatement": "New punctate focus of hyperdensity in the high left frontal lobe. Could represent small focus of subarachnoid hemorrhage versus residual contrast within the vasculature"
+                  }
+                ]
+              },
+              {
+                "name": "Trace subarachnoid hemorrhage at left vertex",
+                "chips": [
+                  "STABLE"
+                ],
+                "studyEntries": [
+                  {
+                    "studyName": "CT Head",
+                    "studyDate": "09/18/2025",
+                    "accessionNumber": "ACC-P1-0019",
+                    "measurement": null,
+                    "changeStatement": "Stable compared to prior CTs from 9/17/2025 and 9/16/2025"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "regionName": "Intracranial Vessels",
+            "findings": [
+              {
+                "name": "Hyperdensity in posterior high frontal lobe with linear morphology",
+                "chips": [],
+                "studyEntries": [
+                  {
+                    "studyName": "CT Head",
+                    "studyDate": "09/17/2025",
+                    "accessionNumber": "ACC-P1-0017",
+                    "measurement": "posterior high frontal lobe axial image #50",
+                    "changeStatement": "Possible residual intravascular contrast"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "regionName": "Skull and Calvarium",
+            "findings": [
+              {
+                "name": "Osseous metastases in upper cervical spine (C4 vertebral body)",
+                "chips": [],
+                "studyEntries": [
+                  {
+                    "studyName": "MR Head",
+                    "studyDate": "09/18/2025",
+                    "accessionNumber": "ACC-P1-0020",
+                    "measurement": null,
+                    "changeStatement": "Foci of T1 hypointense marrow signal abnormality at the C4 vertebral body, likely reflecting known osseous metastases"
+                  },
+                  {
+                    "studyName": "MR Head",
+                    "studyDate": "09/16/2025",
+                    "accessionNumber": "ACC-P1-0015",
+                    "measurement": null,
+                    "changeStatement": "Foci of T1 hypointense marrow signal alteration in the included upper cervical spine, including the C4 vertebral body, likely reflecting known osseous metastases"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "regionName": "Other",
+            "findings": [
+              {
+                "name": "Limited examination secondary to motion degradation and metallic artifact",
+                "chips": [],
+                "studyEntries": [
+                  {
+                    "studyName": "MR Head",
+                    "studyDate": "09/18/2025",
+                    "accessionNumber": "ACC-P1-0020",
+                    "measurement": null,
+                    "changeStatement": "Limited examination secondary to motion degradation and metallic dental hardware (braces) artifact. Metallic dental hardware artifact (braces) again obscures facial structures and produces intracranial artifact on multiple sequences. Recommend a repeat contrast MRI study to assess for metastases in the future when the patient is able to tolerate the examination and as clinically indicated"
+                  }
+                ]
+              },
+              {
+                "name": "Motion artifact on postcontrast sequences",
+                "chips": [],
+                "studyEntries": [
+                  {
+                    "studyName": "MR Head",
+                    "studyDate": "09/16/2025",
+                    "accessionNumber": "ACC-P1-0015",
+                    "measurement": null,
+                    "changeStatement": "Evaluation degraded by motion, particularly on postcontrast sequences which are largely nondiagnostic. The 3-D postcontrast BRAVO sequence is severely limited by motion and nondiagnostic for abnormal enhancement. No obvious abnormal enhancement seen on the coronal postcontrast series, however this sequence also severely motion limited"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "similarPriorPresentations": [
+          {
+            "studyName": "CT Head",
+            "studyDate": "09/19/2025",
+            "accessionNumber": "ACC-P1-0022",
+            "priorPresentation": "65 years old, acute dilated pupils, evaluate for intracranial bleed. Patient on systemic anticoagulation.",
+            "keyFindings": [
+              "Left greater than right parenchymal infarcts with progressive mass effect",
+              "Left frontal infarct with diffuse sulcal effacement",
+              "Left posterior temporal infarct",
+              "Right frontal parietal temporal infarct",
+              "Rightward midline shift with subfalcine herniation",
+              "Basilar cistern effacement concerning for transtentorial herniation",
+              "Effacement of left lateral ventricle and occipital horn"
+            ]
+          },
+          {
+            "studyName": "MR Head",
+            "studyDate": "09/18/2025",
+            "accessionNumber": "ACC-P1-0020",
+            "priorPresentation": "65 years old, bilateral strokes secondary to hypercoagulable state from malignancy, with new somnolence, evaluate for evolving stroke or other etiologies",
+            "keyFindings": [
+              "Interval new large area of restricted diffusion, left frontal lobe",
+              "Multifocal bilateral cerebral foci of restricted diffusion with continued evolution",
+              "Punctate foci of cortical parenchymal susceptibility (microhemorrhages)"
+            ]
+          }
+        ],
+        "normalStatement": "Sella and pituitary gland, cranial nerves, orbits, and scalp and soft tissues were unremarkable on available prior imaging."
+      },
+      "validation": {
+        "passed": true,
+        "checks": []
+      },
+      "latencyMs": 22532,
+      "tokenUsage": {
+        "input": 3537,
+        "output": 3818
+      }
+    }
+  ],
+  "totalLatencyMs": 34278,
+  "totalTokenUsage": {
+    "input": 12505,
+    "output": 11174
+  }
+}

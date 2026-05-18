@@ -1,0 +1,11 @@
+{
+  "resourceType": "Procedure",
+  "id": "PROC-P12345-0001",
+  "status": "completed",
+  "code": { "text": "IR SUPERFICIAL LYMPH NODE BIOPSY" },
+  "subject": { "reference": "Patient/P12345" },
+  "performedDateTime": "2025-07-02",
+  "bodySite": [
+    { "text": "Right superficial lymph node" }
+  ]
+}

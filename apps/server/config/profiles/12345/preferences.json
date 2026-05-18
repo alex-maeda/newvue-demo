@@ -1,0 +1,24 @@
+{
+  "impressionSettings": {
+    "structure": "numbered",
+    "verbosity": "medium",
+    "hedging": "medium",
+    "normalFindings": "exclude",
+    "acronymExpansion": false,
+    "guidelines": true,
+    "recommendations": "imaging_clinical"
+  },
+  "priorImpressionSamples": [],
+  "dictationPanel": {
+    "collapsed": false
+  },
+  "voiceWakeEnabled": true,
+  "layout": {
+    "railWidth": 341,
+    "compareSplitRatio": 0.4289625536675922,
+    "actionPanelWidth": 450
+  },
+  "macroEditor": {
+    "showSystemMacros": true
+  }
+}

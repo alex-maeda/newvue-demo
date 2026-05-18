@@ -1,0 +1,417 @@
+@import '../../../../assets/scss/variables';
+
+.filters-content-wrapper {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
+  width: calc(100% - 280px);
+  height: 100%;
+  overflow: auto;
+
+  > div {
+    min-width: 1080px;
+    padding: 0;
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+    overflow: hidden;
+
+    .button-wrapper {
+      display: flex;
+      flex-flow: row nowrap;
+
+      button {
+        height: 30px;
+        padding: 3px 15px;
+      }
+    }
+
+    .panel-header {
+      padding: 16px;
+      border-bottom: 1px solid $darkGray;
+
+      > div {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+  
+        h3 {
+          font-size: 20px;
+          font-weight: $fontBold;
+          line-height: 30px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-right: 15px;
+        }
+      }
+    }
+
+    .panel-body {
+      height: calc(100% - 63px) !important;
+      display: flex;
+      flex-flow: row nowrap;
+      padding: 8px 16px !important;
+
+      > div {
+        height: 100%;
+
+        &.params-wrapper {
+          width: calc(100% - 456px);
+          // padding: 0;
+          order: 0;
+          flex: 1 1 auto;
+          align-self: auto;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          justify-content: flex-start;
+          align-content: stretch;
+          align-items: stretch;
+
+          > div {
+
+            &.first-row {
+              display: flex;
+              flex-flow: row nowrap;
+              justify-content: flex-start;
+              align-items: flex-start;
+              flex: 1 1 auto;
+              height: calc(100% - 46px);
+
+              > div {
+                width: calc(100% / 3);
+                padding: 8px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+
+                &.column,
+                &.operator,
+                &.value {
+                  > div {
+                    height: calc(100% - 26px);
+
+                    ul {
+                      height: 100%;
+                      overflow: auto;
+
+                      li {
+                        padding: 12px;
+                        cursor: pointer;
+                        display: flex;
+
+                        span {
+                          min-width: 35px;
+                          max-width: 35px;
+                          width: 35px;
+                          display: block;
+                          margin-right: 8px;
+                        }
+    
+                        &:hover {
+                          background-color: $gray;
+                        }
+                  
+                        &.active {
+                          background-color: var(--row-hover);
+                          color: var(--purple100);
+                          font-weight: $fontHardBold;
+                        }
+                      }
+                    }
+                  }
+                }
+
+                strong {
+                  font-size: 14px;
+                  font-weight: $fontBold;
+                  line-height: 20px;
+                  display: inline-block;
+                  margin-bottom: 6px;
+                }
+
+                > div {
+                  border-radius: 4px;      
+                  border: 1px solid $darkGray;
+                  height: 100%;
+                  flex: 1 1 auto;
+
+                  &.error {
+                    border-color: $error;
+                  }
+
+                  & + p.error {
+                    margin-top: 6px;
+                    color: $error;
+                  }
+                }
+              }
+            }
+
+            &.second-row {
+              display: flex;
+              justify-content: flex-end;
+              padding: 8px;
+
+              button {
+                width: calc((100% / 3) - 8px);
+                display: flex;
+                align-items: center;
+              }
+            }
+          }
+        }
+
+        &.expression {
+          width: 228px;
+          padding: 8px;
+          order: 0;
+          flex: 1 1 auto;
+          align-self: auto;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          justify-content: flex-start;
+          align-content: stretch;
+          align-items: stretch;
+
+          > div:first-child {
+            height: calc(100% - 126px);
+            flex: 1 1 auto;
+            margin-bottom: 8px;
+            display: flex;
+            flex-direction: column;
+
+            strong {
+              font-size: 14px;
+              font-weight: $fontBold;
+              line-height: 20px;
+              display: inline-block;
+              margin-bottom: 6px;
+            }
+
+            > div {
+              border-radius: 4px;      
+              border: 1px solid $darkGray;
+              height: calc(100% - 26px);
+
+              ul {
+                height: 100%;
+                overflow: auto;
+
+                li {
+                  margin: 8px 12px;
+                  padding: 4px 8px;
+                  border-radius: 14px;
+                  cursor: pointer;
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: center;
+                  width: fit-content;
+
+                  &.expression-item {
+                    background: $gray;
+
+                    button {
+                      padding: 0;
+                      width: 14px;
+                      height: 14px;
+                      border: none;
+                      margin-left: 11px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                    }
+                  }
+                }
+              }
+
+            }
+          }
+
+          > div:last-child {
+            height: 110px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            
+            p {
+              color: $mediumGray;
+              margin-bottom: 16px;
+            }
+
+            button {
+              width: 100%;
+              display: flex;
+              align-items: center;
+            }
+          }
+        }
+
+        &.result {
+          width: 228px;
+          padding: 8px;
+          order: 0;
+          flex: 1 1 auto;
+          align-self: auto;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          justify-content: flex-start;
+          align-content: stretch;
+          align-items: stretch;
+
+          > div:not(.checkboxes) {
+            height: calc(100% - 140px);
+            flex: 1 1 auto;
+            display: flex;
+            flex-direction: column;
+
+            > div {
+              display: flex;
+              flex-direction: column;
+              flex: 1 1 auto;
+              margin-bottom: 16px;
+              height: calc(50% - 8px);
+              min-height: calc(50% - 8px);
+              max-height: calc(50% - 8px);
+
+              &.any,
+              &.all {
+                ul {
+                  height: 100%;
+                  overflow: auto;
+  
+                  div {
+                    display: flex;
+                    align-items: center;
+                    padding: 8px 12px;
+
+                    li {
+                      margin: 0 10px 0 0;
+
+                      & + span {
+                        font-size: 14px;
+                        font-weight: $fontHardBold;
+                        color: $mediumGray;
+                      }
+                    }
+                  }
+                }
+              }
+
+              > div {
+                border-radius: 4px;      
+                border: 1px solid $darkGray;
+                height: calc(100% - 46px);
+                flex: 1 1 auto;
+              }
+
+              &.all > div {
+                height: calc(100% - 26px);
+              }
+
+              &.any {
+                margin-bottom: 0;
+              }
+
+              ul {
+                height: 100%;
+                overflow: auto;
+
+                li {
+                  margin: 8px 12px;
+                  padding: 4px 8px;
+                  border-radius: 14px;
+                  cursor: pointer;
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: center;
+                  width: fit-content;
+
+                  &.expression-item {
+                    background: $gray;
+
+                    button {
+                      padding: 0;
+                      width: 14px;
+                      height: 14px;
+                      border: none;
+                      margin-left: 11px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                    }
+                  }
+                }
+              }
+  
+              strong {
+                font-size: 14px;
+                font-weight: $fontBold;
+                line-height: 20px;
+                display: inline-block;
+                margin-bottom: 6px;
+                flex: 1 1 auto;
+              }
+            }
+          }
+
+          .checkboxes {
+            display: flex;
+            flex-direction: column;
+            height: 140px;
+            justify-content: flex-end;
+
+            > .checkboxes {
+              height: auto;
+            }
+
+            > p {
+              margin-bottom: 10px;
+            }
+
+            > label {
+              margin-bottom: 6px;
+
+              &:last-child {
+                margin-bottom: 0;
+              }
+
+              &:hover .ant-checkbox-inner,
+              .ant-checkbox:hover .ant-checkbox-inner {
+                border-color: var(--purple100);
+              }
+
+              .ant-checkbox-checked {
+                .ant-checkbox-inner {
+                  background: var(--purple100);
+                  border-color: var(--purple100);
+                }
+              }
+
+              .ant-checkbox-inner {
+                background: $black;
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

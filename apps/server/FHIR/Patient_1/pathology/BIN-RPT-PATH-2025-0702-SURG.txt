@@ -1,0 +1,64 @@
+Collected: 7/2/2025                    Case #:  12345 
+
+                     Surgical Pathology Report 
+
+
+
+
+FINAL PATHOLOGIC DIAGNOSIS 
+RIGHT SUPRACLAVICULAR LYMPH NODE, CORE NEEDLE BIOPSIES: METASTATIC 
+ADENOCARCINOMA, CONSISTENT WITH METASTATIC PULMONARY ADENOCARCINOMA 
+(SEE COMMENT) 
+
+Comment 
+The cells are similar in appearance to the malignant cells noted in 
+the sputum cytology specimen (12345).  Immunohistochemical 
+stains support a metastasis from a primary pulmonary adenocarcinoma 
+and provide no support for squamous differentiation.  There is 
+adequate tissue for molecular or other studies if indicated.  Tumor 
+is present in both tissue blocks.  Block A1 is preferable. 
+
+This case has been reviewed by another member of our department 
+with concurrence. 
+
+
+Pathologist, M.D. 
+
+Studies 
+TTF-1-strongly positive in tumor cells 
+P40-negative, positive on slide control 
+
+DISCLAIMER: This immunoperoxidase and/or in situ hybridization 
+stain/panel was developed and its performance characteristics 
+determined by the Immunohistochemistry 
+Laboratory. Unless otherwise specified, 
+it has not been cleared or approved by the U.S. Food and Drug 
+Administration (FDA). FDA does not require this test to go through 
+premarket FDA review. This test is used for clinical purposes. It 
+should not be regarded as investigational or for research. This 
+laboratory is certified under the Clinical Laboratory Improvement 
+Amendments of 1988 (CLIA-88) as qualified to perform high 
+complexity clinical laboratory testing. Positive and negative 
+controls were evaluated and stained appropriately. 
+
+Clinical History 
+IR needle biopsy of the right supraclavicular lymph node which is 
+palpable on exam. The right supraclavicular lymph node biopsy 
+should be sent for culture (AFB, bacterial, fungal), and pathology 
+Priority:->ROUTINE 
+Estimated number of specimens: (Label printing use only)->10 
+
+Gross Description 
+Received in formalin labeled with the patient's name and medical 
+record number, designated "supraclavicular lymph node biopsies", 
+are 5 cylindrical fragments of tissue ranging from 0.2 to 1.2 cm; 
+wrapped and entirely submitted in A1-A2. (JG) 
+
+Specimen(s) Received 
+A:NEEDLE BIOPSY,OTHER  - RIGHT SUPRACLAVICULAR 
+
+
+Patient Name:  Patient 1 
+Med. Rec #:  12345    DOB/Age:  1/1/1960 (Age: 65)   Sex:  F 
+Facility:  Acute Care Hospital 
+Location:  INPATIENT NURSING 

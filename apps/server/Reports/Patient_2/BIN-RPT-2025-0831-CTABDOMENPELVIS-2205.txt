@@ -1,0 +1,40 @@
+Impression
+1. Mildly distended rectum; mild enhancement of the anus/lower rectum and trace presacral fluid; findings suggestive of proctitis; questionable associated fistula versus fibrotic tract extending from the left side of the anus inferiorly, incompletely included in the field-of-view.
+2. Please refer to the body of the report for detailed findings.
+ Narrative
+CT ABDOMEN AND PELVIS WITH CONTRAST
+ 
+** HISTORY **:
+Male, age 80 years:  Abdominal pain
+ 
+** TECHNIQUE **:
+CT images of the abdomen and pelvis acquired with 100 mL Omnipaque 300 intravenous contrast.
+ 
+CTDI: 0.04,0.04,6.61 mGy
+DLP: 1.97,1.79,305.13 mGy-cm
+ 
+COMPARISON: CTs 3/21/2025, 11/16/2023
+ 
+** FINDINGS **:
+ 
+LOWER CHEST: The lung bases are clear.   There are coronary and aortic valve calcifications. On the most superior axial image there is partial visualization of a nodular density within the soft tissues of the right anterior hemithorax, possibly representing gynecomastia. There is a fat-containing left Bochdalek hernia.
+LIVER: No acute abnormalities.
+GALLBLADDER/BILIARY TREE: There has been interval cholecystectomy.
+There is no biliary ductal dilation. 
+SPLEEN: Normal in size. 
+PANCREAS: No suspicious pancreatic abnormality.
+ADRENALS: There is a calcification of the right adrenal gland. There is stable thickening of the left adrenal gland.
+KIDNEYS:  Kidneys enhance symmetrically without hydronephrosis.  There is scarring adjacent to surgical clips and a fatty collection along the posterosuperior aspect of the right kidney consistent with postsurgical changes; no associated solid enhancing components.  No suspicious renal mass.
+BLADDER: Unremarkable for technique. 
+REPRODUCTIVE ORGANS: Prior prostatectomy.
+INTESTINES: There is a small to moderate-sized hiatal hernia. Incidental juxtapapillary duodenal diverticulum.
+There is no evidence of intestinal obstruction. Postsurgical changes of the small bowel noted.
+Subtle mild enhancement of the lower rectum/anus suggesting proctitis. There is linear soft tissue thickening extending from the left lateral abdominal wall inferiorly, incompletely included in the field-of-view, suggestive of a fistula versus fibrotic tissue. The rectum is mildly distended with stool. There are colonic diverticula, without CT evidence of acute diverticulitis. 
+The appendix is not visualized, but there are no secondary findings of acute appendicitis. 
+LYMPH NODES: No pathologically enlarged retroperitoneal and mesenteric lymph nodes.  
+PERITONEUM: There is trace presacral fluid. There is no pneumoperitoneum. 
+VESSELS: Normal abdominal aortic diameter (less than 3 cm).  There is atherosclerosis. The splenic and portal veins appear adequately patent.
+SOFT TISSUES: No acute abnormalities. There is a small fat-containing right paramedian ventral abdominal wall supraumbilical hernia.
+BONES: No acute abnormality. There are colonic compression deformities of the superior endplates of T12 and L1. No acute subluxation. There are degenerative changes with minor posterior offset of T12, L1, L2 and anterior offset of L4; mild dextroconvex lumbar curvature.
+
+

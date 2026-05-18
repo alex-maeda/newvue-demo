@@ -1,0 +1,303 @@
+@import '../../assets/scss/variables';
+
+.menu-sidebar {
+  height: 0;
+  margin: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100px;
+  will-change: width;
+  z-index: 100;
+
+  .brand {
+    padding: 6px;
+    font-size: 16;
+    height: 70px;
+    background: $black;
+    white-space: nowrap;
+    overflow: hidden;
+
+    &.isKonicaBranding {
+      svg {
+        width: 52px;
+        height: 58px;
+      }
+    }
+  }
+
+  .menu-sidebar-content {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    background: $black;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 0 10px rgba(0, 0, 0, 0.06);
+
+    .sidenav-bottom {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+    }
+
+    .worklist-icon {
+      background: url('../../assets/img/worklist.svg') no-repeat 0 0;
+    }
+
+    .clinical-icon {
+      background: url('../../assets/img/clinicalInfo.svg') no-repeat 0 0;
+    }
+
+    .chat-icon {
+      background: url('../../assets/img/chat.svg') no-repeat 0 0;
+    }
+
+    .help-icon {
+      background: url('../../assets/img/help.svg') no-repeat 0 0;
+    }
+
+    .settings-icon {
+      background: url('../../assets/img/settings.svg') no-repeat 0 0;
+    }
+
+    .job-builder-icon {
+      background: url('../../assets/img/jobBuilder.svg') no-repeat 0 0;
+    }
+
+    .worklist-builder-icon {
+      background: url('../../assets/img/worklistBuilder.svg') no-repeat 0 0;
+    }
+
+    .user-management-icon {
+      background: url('../../assets/img/userManagement.svg') no-repeat 0 0;
+    }
+
+    .grid-view-icon {
+      background: url('../../assets/img/gridView.svg') no-repeat 0 0;
+    }
+
+    .dashboard-icon {
+      background: url('../../assets/img/dashboard.svg') no-repeat 0 0;
+    }
+
+    .dashboard-admin-icon {
+      background: url('../../assets/img/dashboardAdmin.svg') no-repeat 0 0;
+    }
+
+    .logout-icon {
+      background: url('../../assets/img/logout.svg') no-repeat 0 0;
+    }
+
+    .management-icon {
+      background: url('../../assets/img/management.svg') no-repeat 0 0;
+    }
+
+    .avatar-icon {
+      border-radius: 50%;
+      background: url('../../assets/img/avatar.png') no-repeat center center;
+    }
+
+    &.isKonicaBranding {
+      .ant-menu {
+        flex: 1 1 auto;
+        width: 100%;
+        background: transparent;
+        border: none;
+
+        &-item {
+          height: 56px;
+          text-align: left;
+          line-height: 30px;
+
+          &-icon {
+            margin-right: 20px;
+            position: absolute;
+            left: 13px;
+            top: 13px;
+            height: 30px;
+            width: 30px;
+          }
+
+          &-selected {
+            color: '#0068b4';
+            background-color: transparent;
+          }
+
+          &-active {
+            color: '#0068b4';
+            background-color: rgba($white, 0.12);
+          }
+
+          .title:hover {
+            color: '#0068b4';
+          }
+        }
+      }
+
+      li.ant-menu-item-selected .worklist-icon,
+      li:hover .worklist-icon {
+        background: url('../../assets/img/worklist.svg') no-repeat 0 -60px;
+      }
+
+      li.ant-menu-item-selected .clinical-icon,
+      li:hover .clinical-icon {
+        background: url('../../assets/img/clinicalInfo.svg') no-repeat 0 -60px;
+      }
+
+      li.ant-menu-item-selected .chat-icon,
+      li:hover .chat-icon {
+        background: url('../../assets/img/chat.svg') no-repeat 0 -60px;
+      }
+
+      li.ant-menu-item-selected .help-icon,
+      li:hover .help-icon {
+        background: url('../../assets/img/help.svg') no-repeat 0 -60px;
+      }
+
+      li.ant-menu-item-selected .settings-icon,
+      li:hover .settings-icon {
+        background: url('../../assets/img/settings.svg') no-repeat 0 -60px;
+      }
+
+      li.ant-menu-item-selected .job-builder-icon,
+      li:hover .job-builder-icon {
+        background: url('../../assets/img/jobBuilder.svg') no-repeat 0 -60px;
+      }
+
+      li.ant-menu-item-selected .worklist-builder-icon,
+      li:hover .worklist-builder-icon {
+        background: url('../../assets/img/worklistBuilder.svg') no-repeat 0 -60px;
+      }
+
+      li.ant-menu-item-selected .user-management-icon,
+      li:hover .user-management-icon {
+        background: url('../../assets/img/userManagement.svg') no-repeat 0 -60px;
+      }
+
+      li.ant-menu-item-selected .grid-view-icon,
+      li:hover .grid-view-icon {
+        background: url('../../assets/img/gridView.svg') no-repeat 0 -60px;
+      }
+
+      li.ant-menu-item-selected .dashboard-icon,
+      li:hover .dashboard-icon {
+        background: url('../../assets/img/dashboard.svg') no-repeat 0 -60px;
+      }
+
+      li.ant-menu-item-selected .dashboard-admin-icon,
+      li:hover .dashboard-admin-icon {
+        background: url('../../assets/img/dashboardAdmin.svg') no-repeat 0 -60px;
+      }
+
+      li.ant-menu-item-selected .management-icon,
+      li:hover .management-icon {
+        background: url('../../assets/img/management.svg') no-repeat 0 -60px;
+      }
+
+      li:hover .logout-icon {
+        background: url('../../assets/img/logout.svg') no-repeat 0 -60px;
+      }
+    }
+
+    &:not(.isKonicaBranding) {
+      .ant-menu {
+        flex: 1 1 auto;
+        width: 100%;
+        background: transparent;
+        border: none;
+
+        &-item {
+          height: 56px;
+          text-align: left;
+          line-height: 30px;
+
+          &-icon {
+            margin-right: 20px;
+            position: absolute;
+            left: 13px;
+            top: 13px;
+            height: 30px;
+            width: 30px;
+          }
+
+          &-selected {
+            color: var(--purple100);
+            background-color: transparent;
+          }
+
+          &-active {
+            color: var(--purple100);
+            background-color: rgba($white, 0.12);
+          }
+
+          .title:hover {
+            color: var(--purple100);
+          }
+        }
+      }
+
+      li.ant-menu-item-selected .worklist-icon,
+      li:hover .worklist-icon {
+        background: url('../../assets/img/worklist.svg') no-repeat 0 -30px;
+      }
+
+      li.ant-menu-item-selected .clinical-icon,
+      li:hover .clinical-icon {
+        background: url('../../assets/img/clinicalInfo.svg') no-repeat 0 -30px;
+      }
+
+      li.ant-menu-item-selected .chat-icon,
+      li:hover .chat-icon {
+        background: url('../../assets/img/chat.svg') no-repeat 0 -30px;
+      }
+
+      li.ant-menu-item-selected .help-icon,
+      li:hover .help-icon {
+        background: url('../../assets/img/help.svg') no-repeat 0 -30px;
+      }
+
+      li.ant-menu-item-selected .settings-icon,
+      li:hover .settings-icon {
+        background: url('../../assets/img/settings.svg') no-repeat 0 -30px;
+      }
+
+      li.ant-menu-item-selected .job-builder-icon,
+      li:hover .job-builder-icon {
+        background: url('../../assets/img/jobBuilder.svg') no-repeat 0 -30px;
+      }
+
+      li.ant-menu-item-selected .worklist-builder-icon,
+      li:hover .worklist-builder-icon {
+        background: url('../../assets/img/worklistBuilder.svg') no-repeat 0 -30px;
+      }
+
+      li.ant-menu-item-selected .user-management-icon,
+      li:hover .user-management-icon {
+        background: url('../../assets/img/userManagement.svg') no-repeat 0 -30px;
+      }
+
+      li.ant-menu-item-selected .grid-view-icon,
+      li:hover .grid-view-icon {
+        background: url('../../assets/img/gridView.svg') no-repeat 0 -30px;
+      }
+
+      li.ant-menu-item-selected .dashboard-icon,
+      li:hover .dashboard-icon {
+        background: url('../../assets/img/dashboard.svg') no-repeat 0 -30px;
+      }
+
+      li.ant-menu-item-selected .dashboard-admin-icon,
+      li:hover .dashboard-admin-icon {
+        background: url('../../assets/img/dashboardAdmin.svg') no-repeat 0 -30px;
+      }
+
+      li.ant-menu-item-selected .management-icon,
+      li:hover .management-icon {
+        background: url('../../assets/img/management.svg') no-repeat 0 -30px;
+      }
+
+      li:hover .logout-icon {
+        background: url('../../assets/img/logout.svg') no-repeat 0 -30px;
+      }
+    }
+  }
+}

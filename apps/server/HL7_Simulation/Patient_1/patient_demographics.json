@@ -1,0 +1,22 @@
+{
+  "_comment": "PID segment data for Patient 1 — Complex oncology case (head/neck/chest/spine)",
+  "patientId": "Patient_1",
+  "mrn": "MRN00001",
+  "assigningAuthority": "NEWVUE_HOSPITAL",
+  "identifierTypeCode": "MR",
+  "name": {
+    "last": "EVERYLY",
+    "first": "PAULA",
+    "middle": ""
+  },
+  "dateOfBirth": "19590210",
+  "sex": "F",
+  "address": {
+    "street": "742 EVERGREEN TER",
+    "city": "SPRINGFIELD",
+    "state": "IL",
+    "zip": "62704",
+    "country": "USA"
+  },
+  "phone": "555-0101"
+}

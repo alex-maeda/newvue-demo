@@ -1,0 +1,82 @@
+$browser-size: 18px; // Default
+
+@function calcRem($pixels, $context: $browser-size) {
+  $remSize: calc($pixels / $context);
+  @return #{$remSize}rem;
+}
+
+$black: #1c2025;
+$white: #ffffff;
+$white100: #e9ebf0;
+$navyBlue: #252525;
+$gray0: rgba(255, 255, 255, 0.1);
+$gray2: rgba(255, 255, 255, 0.2);
+$gray: #282c34;
+$gray40: #d6d6d6;
+$gray60: #c2c2c2;
+$gray100: rgba(153, 153, 153, 1);
+$lightGray: #f6f6f6;
+$mediumGray: #999999;
+$darkGray: #383e48;
+$charcoalGrey: #3c3c3c;
+$green0: rgba(161, 209, 3, 0.1);
+$blue: #89c4f4;
+$blueLight: #89ffe7;
+$red: #ce5179;
+$error: #e25c5c;
+$warning: #e4c65b;
+$success: #53d258;
+$successLighter: #69d36e;
+$primary-color-dark: #252525;
+
+$neutral-100: #fff;
+$neutral-200: #f7f7f7;
+$neutral-300: #f1f1f1;
+$neutral-400: #c2c2c2;
+$neutral-600: #838388;
+$neutral-700: #363941;
+$neutral-800: #1f2125;
+
+// primary colors
+$accent-100: #dcf2fe;
+$accent-500: #3a5be0;
+
+$lightBlack: #393f49;
+
+// patient status icon
+$green-status: #53d258;
+$green-status-hover: #3fa542;
+$yellow-status: #ffff00;
+$yellow-status-hover: #e6e600;
+$orange-status: #ffa500;
+$orange-status-hover: #ff7f50;
+$red-status: #e25c5c;
+$red-status-hover: #ae4444;
+$purple-status: #c88dff;
+$purple-status-hover: #6b18a4;
+$blue-status: #89c4f4;
+$blue-status-hover: #7ca9c6;
+
+// table
+// $row-hover: #2E2E47;
+$cell-mark: #2f333d;
+
+$fontFamily: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+$fontLight: 300;
+$fontNormal: 400;
+$fontMedium: 500;
+$fontBold: 600;
+$fontHardBold: 700;
+
+$brs: 4px;
+$lts: 0.04em;
+$trs: 0.3s;
+
+$desktop: 1024px;
+$macBook15: 2150px;
+$macBookPro: 2400px;
+$sidebarWidthCollapse: 64px;
+$sidebarWidthExpand: 200px;
+
+$pagePadding: 24px;

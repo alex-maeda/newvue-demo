@@ -1,0 +1,219 @@
+/**
+ * reporting-iframe.css — Base styles for the Reporting iFrame
+ *
+ * The scoped reporting.css strips global resets, :root tokens, body styles,
+ * and app-layout rules (because the cockpit provides those when the
+ * reporting system is embedded directly). In iFrame mode, the reporting
+ * app runs in its own browsing context and needs these styles back.
+ *
+ * This file provides:
+ *   - Design tokens (:root variables)
+ *   - Base resets (box-sizing, margin, padding)
+ *   - Body + #root full-viewport styles
+ *   - App shell layout (app-layout, app-main, app-content)
+ *   - Scrollbar + selection styling
+ *   - Button/select resets
+ *   - Font import (Inter)
+ *
+ * It is imported BEFORE reporting.css in reporting-main.tsx.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* ── Design Tokens ─────────────────────────────────────────────────── */
+
+:root {
+  --font-primary: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --bg: #000100;
+  --surface: #141a20;
+  --surface-2: #141a20;
+  --surface-elevated: #1e242c;
+  --text: #e6edf3;
+  --text-bright: #fff;
+  --muted: #8aa0b4;
+  --primary: #6aa9ff;
+  --accent: #7bd4ff;
+  --purple: #6E6EC4;
+  --purple-soft: rgba(110, 110, 196, 0.15);
+  --purple-text: #8b7cff;
+  --purple-glow: rgba(139, 124, 255, 0.12);
+  --ok: #2bd07f;
+  --ok-soft: rgba(43, 208, 127, 0.08);
+  --ok-border: rgba(43, 208, 127, 0.25);
+  --warn: #e0a500;
+  --danger: #ff6b5e;
+  --outline: #1e2735;
+  --border: #253145;
+  --border-hover: #6E6EC4;
+  --chip: #1a2331;
+}
+
+/* ── Base Reset ─────────────────────────────────────────────────────── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-primary);
+  background: var(--surface);
+  color: var(--text);
+  line-height: 1.5;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Scrollbar ──────────────────────────────────────────────────────── */
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.10); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.18); }
+
+/* ── Selection ──────────────────────────────────────────────────────── */
+
+::selection {
+  background: rgba(110, 110, 196, 0.30);
+  color: var(--text-bright);
+}
+
+/* ── Button Reset ───────────────────────────────────────────────────── */
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+/* ── Focus Visible ──────────────────────────────────────────────────── */
+
+:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 2px;
+}
+
+/* ── App Layout Shell ───────────────────────────────────────────────── */
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.app-main {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ── QA Panel Overlay Mode ──────────────────────────────────────────── */
+
+/**
+ * When running inside the iFrame, the QA panel converts from a
+ * persistent side column to a slide-in overlay. These styles
+ * override the default qa-panel positioning.
+ */
+
+.app-layout .qa-panel--overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 320px;
+  max-width: 50%;
+  z-index: 100;
+  transform: translateX(100%);
+  transition: transform 200ms ease;
+  background: var(--surface);
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: -4px 0 16px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.app-layout .qa-panel--overlay.qa-panel--visible {
+  transform: translateX(0);
+}
+
+/* Ensure the inner .qa-panel stretches to fill the overlay so its
+   flex children (.qa-panel__body) can calculate a scroll area. */
+.app-layout .qa-panel--overlay > .qa-panel {
+  height: 100%;
+  width: 100%;
+}
+
+/* Edge chip to toggle the QA overlay */
+.qa-overlay-chip {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-elevated);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  color: rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+  z-index: 101;
+  padding: 0;
+  transition:
+    color 120ms ease,
+    background 120ms ease,
+    border-color 120ms ease,
+    width 120ms ease;
+}
+
+.qa-overlay-chip svg {
+  width: 14px;
+  height: 14px;
+}
+
+.qa-overlay-chip:hover {
+  width: 28px;
+  color: rgba(255, 255, 255, 0.90);
+  background: rgba(110, 110, 196, 0.15);
+  border-color: rgba(110, 110, 196, 0.35);
+}
+
+.qa-overlay-chip--open {
+  color: var(--purple);
+  background: rgba(110, 110, 196, 0.12);
+  border-color: rgba(110, 110, 196, 0.30);
+}

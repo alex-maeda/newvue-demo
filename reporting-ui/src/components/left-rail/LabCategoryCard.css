@@ -1,0 +1,114 @@
+/* ── LabCategoryCard.css ─────────────────────────────────────────────────── */
+/* Card styling for lab panel category cards in the left rail.               */
+/* Follows the MedicationCard / NoteCard conventions with red abnormal flags. */
+
+.lab-card {
+  background: var(--surface-card, #1e2130);
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.06));
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
+}
+
+.lab-card:hover {
+  background: var(--surface-card-hover, #252840);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.lab-card--selected {
+  border-color: var(--accent-primary, #6c8aff);
+  box-shadow: 0 0 0 1px var(--accent-primary, #6c8aff);
+  background: var(--surface-card-hover, #252840);
+}
+
+.lab-card:focus-visible {
+  outline: 2px solid var(--accent-primary, #6c8aff);
+  outline-offset: 1px;
+}
+
+/* ── Card body ─────────────────────────────────────────────────────────── */
+
+.labc-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.labc-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary, #e4e6f0);
+  letter-spacing: 0.3px;
+}
+
+/* ── Abnormal rows ─────────────────────────────────────────────────────── */
+
+.labc-abnormals {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.labc-abnormal-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.labc-analyte {
+  font-weight: 500;
+  color: var(--text-secondary, #a0a3b5);
+  min-width: 40px;
+  flex-shrink: 0;
+}
+
+.labc-value {
+  font-weight: 600;
+  color: var(--text-primary, #e4e6f0);
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.labc-arrow {
+  font-size: 10px;
+  line-height: 1;
+}
+
+.labc-arrow--high {
+  color: #ef5350;
+}
+
+.labc-arrow--low {
+  color: #42a5f5;
+}
+
+.labc-timestamp {
+  color: var(--text-tertiary, #6b6e82);
+  font-size: 11px;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* ── Footer / status ───────────────────────────────────────────────────── */
+
+.labc-footnote {
+  font-size: 10.5px;
+  color: var(--text-tertiary, #6b6e82);
+  font-style: italic;
+  padding-top: 2px;
+  border-top: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.04));
+  margin-top: 2px;
+}
+
+.labc-normal {
+  font-size: 11.5px;
+  color: var(--text-tertiary, #6b6e82);
+  font-style: italic;
+  padding: 2px 0;
+}

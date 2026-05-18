@@ -1,0 +1,38 @@
+Impression
+ 
+1. Numerous foci of predominantly cortical restricted diffusion within the cerebral hemispheres bilaterally, largest involving the right parietal, posterior temporal, and occipital lobe with additional foci in the bilateral frontal, parietal, and occipital lobes. There may be tiny foci within the left superior cerebellum as well. There may also be a focus of restricted diffusion at the left basal ganglia/deep white matter.
+2. This exam is largely nondiagnostic for metastases given significant motion artifact on postcontrast sequences. No abnormal intracranial mass effect detected.
+3. Numerous punctate foci of parenchymal susceptibility, a few of which are new from prior. These are suggestive of microhemorrhages, nonspecific but history of anticoagulation and thrombocytopenia is noted. It would be difficult to exclude hemorrhagic micrometastases given limitations of postcontrast sequences.
+ 
+Given nondiagnostic postcontrast sequences, repeat contrast MRI recommended to assess for metastases in the future, when clinically indicated/feasible.
+
+ 
+ Narrative
+MRI BRAIN WITHOUT AND WITH CONTRAST
+ 
+** HISTORY **:
+65 years old, likely had seizure. Known metastatic cancer.
+ 
+** TECHNIQUE **:
+MR images of the brain acquired without and with 14 mL Clariscan intravenous contrast.
+ 
+COMPARISON: CT 7/28/2025, MR 7/11/2025
+ 
+** FINDINGS **: 
+Evaluation is degraded by motion, particularly on postcontrast sequences which are largely nondiagnostic. 
+ 
+BRAIN PARENCHYMA: Multifocal bilateral cerebral foci of restricted diffusion, including a large area of cortical restricted diffusion in the right parietal, temporal, and occipital lobes. Small foci of cortical restricted diffusion are seen in the left posterior frontal and parietal lobe, including perirolandic involvement. There are numerous additional punctate foci of cortical restricted diffusion in the bilateral frontal, parietal, and occipital lobes, with perhaps punctate foci also present in the left superior cerebellum.
+ 
+It is unclear if there is an additional focus of restricted diffusion in the vicinity of the left basal ganglia and deep white matter, versus artifact.
+ 
+These areas of restricted diffusion are T2/FLAIR hyperintense. There are numerous punctate foci of cortical parenchymal susceptibility involving the cerebral hemispheres, many of which appear new from 7/11/2025. No mass effect or herniation.
+ 
+A few tiny foci of encephalomalacia in the cerebellum may reflect chronic infarcts.
+ 
+The 3-D postcontrast BRAVO sequence is severely limited by motion and nondiagnostic for abnormal enhancement. No obvious abnormal enhancement is seen on the coronal postcontrast series, however this sequences also severely motion limited.
+ 
+VENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus or extra-axial fluid collections.
+ 
+FLOW VOIDS: Intact.
+ 
+EXTRACRANIAL STRUCTURES: Foci of T1 hypointense marrow signal alteration seen in the included upper cervical spine, including the C4 vertebral body, likely reflecting known osseous metastases.

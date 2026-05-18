@@ -1,0 +1,725 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "title": "XR Chest PA Lateral",
+  "modality": "XR",
+  "bodyRegion": "chest",
+  "description": "System default template",
+  "templateId": "xr-chest-pa-lateral",
+  "fileTemplateId": "XR_chest_PA_lateral",
+  "reportId": "report-1778306894713-fkbsxb",
+  "sessionId": "report-1778306894713-fkbsxb",
+  "status": "in-progress",
+  "author": null,
+  "createdAt": "2026-05-09T06:08:18.206Z",
+  "updatedAt": "2026-05-10T19:00:36.707Z",
+  "signedAt": null,
+  "patient": null,
+  "study": null,
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "typeAttribute": [
+        "narrative"
+      ],
+      "parentId": null,
+      "children": [
+        {
+          "id": "sub_study_title",
+          "type": "subsection",
+          "typeAttribute": [
+            "studyName"
+          ],
+          "parentId": "headline_narrative",
+          "children": [],
+          "label": "XR Chest – PA and Lateral",
+          "text": "XR Chest – PA and Lateral",
+          "templateText": "XR Chest – PA and Lateral",
+          "currentText": "XR Chest – PA and Lateral",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_history",
+          "type": "section",
+          "typeAttribute": [
+            "history"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_history_main",
+              "type": "content",
+              "typeAttribute": [
+                "history"
+              ],
+              "parentId": "section_history",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "History",
+          "text": "History",
+          "childrenId": [
+            "content_history_main"
+          ],
+          "templateText": "History",
+          "currentText": "History",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_technique",
+          "type": "section",
+          "typeAttribute": [
+            "technique"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_technique_main",
+              "type": "content",
+              "typeAttribute": [
+                "technique"
+              ],
+              "parentId": "section_technique",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "Technique",
+          "text": "Technique",
+          "childrenId": [
+            "content_technique_main"
+          ],
+          "templateText": "Technique",
+          "currentText": "Technique",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_comparison",
+          "type": "section",
+          "typeAttribute": [
+            "comparison"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_comparison_main",
+              "type": "content",
+              "typeAttribute": [
+                "comparison"
+              ],
+              "parentId": "section_comparison",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "Comparison",
+          "text": "Comparison",
+          "childrenId": [
+            "content_comparison_main"
+          ],
+          "templateText": "Comparison",
+          "currentText": "Comparison",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_findings",
+          "type": "section",
+          "typeAttribute": [
+            "findings"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "sub_lines_tubes",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_lines_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_lines_tubes",
+                  "children": [],
+                  "text": "None.",
+                  "inputType": "text",
+                  "normalIndex": 0,
+                  "templateText": "None.",
+                  "currentText": "None.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "None.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Lines / Tubes",
+              "text": "Lines / Tubes",
+              "childrenId": [
+                "content_lines_1"
+              ],
+              "templateText": "Lines / Tubes",
+              "currentText": "Lines / Tubes",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_cardiac_mediastinal",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_cardiac_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_cardiac_mediastinal",
+                  "children": [],
+                  "text": "Cardiomediastinal silhouette and pulmonary vascularity are within normal limits.",
+                  "inputType": "text",
+                  "normalIndex": 1,
+                  "templateText": "Cardiomediastinal silhouette and pulmonary vascularity are within normal limits.",
+                  "currentText": "Cardiomediastinal silhouette and pulmonary vascularity are within normal limits.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Cardiomediastinal silhouette and pulmonary vascularity are within normal limits.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Cardiac, Mediastinal, and Hilar Contours",
+              "text": "Cardiac, Mediastinal, and Hilar Contours",
+              "childrenId": [
+                "content_cardiac_1"
+              ],
+              "templateText": "Cardiac, Mediastinal, and Hilar Contours",
+              "currentText": "Cardiac, Mediastinal, and Hilar Contours",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_lungs",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_lungs_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_lungs",
+                  "children": [],
+                  "text": "No focal consolidation or atelectasis. No appreciable pleural effusion or pneumothorax detected.",
+                  "inputType": "text",
+                  "normalIndex": 2,
+                  "templateText": "No focal consolidation or atelectasis. No appreciable pleural effusion or pneumothorax detected.",
+                  "currentText": "No focal consolidation or atelectasis. No appreciable pleural effusion or pneumothorax detected.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No focal consolidation or atelectasis. No appreciable pleural effusion or pneumothorax detected.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Lungs",
+              "text": "Lungs",
+              "childrenId": [
+                "content_lungs_1"
+              ],
+              "templateText": "Lungs",
+              "currentText": "Lungs",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_bones",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_bones_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_bones",
+                  "children": [],
+                  "text": "Grossly unremarkable.",
+                  "inputType": "text",
+                  "normalIndex": 3,
+                  "templateText": "Grossly unremarkable.",
+                  "currentText": "Grossly unremarkable.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Grossly unremarkable.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Bones",
+              "text": "Bones",
+              "childrenId": [
+                "content_bones_1"
+              ],
+              "templateText": "Bones",
+              "currentText": "Bones",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_soft_tissues",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_soft_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_soft_tissues",
+                  "children": [],
+                  "text": "Grossly unremarkable.",
+                  "inputType": "text",
+                  "normalIndex": 4,
+                  "templateText": "Grossly unremarkable.",
+                  "currentText": "Grossly unremarkable.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Grossly unremarkable.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Soft Tissues",
+              "text": "Soft Tissues",
+              "childrenId": [
+                "content_soft_1"
+              ],
+              "templateText": "Soft Tissues",
+              "currentText": "Soft Tissues",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            }
+          ],
+          "label": "Findings",
+          "text": "Findings",
+          "childrenId": [
+            "sub_lines_tubes",
+            "sub_cardiac_mediastinal",
+            "sub_lungs",
+            "sub_bones",
+            "sub_soft_tissues"
+          ],
+          "templateText": "Findings",
+          "currentText": "Findings",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        }
+      ],
+      "label": "Narrative",
+      "text": "Narrative",
+      "childrenId": [
+        "sub_study_title",
+        "section_history",
+        "section_technique",
+        "section_comparison",
+        "section_findings"
+      ],
+      "templateText": "Narrative",
+      "currentText": "Narrative",
+      "state": {
+        "edited": false,
+        "syntheticSection": false,
+        "syntheticSectionType": null,
+        "impressionDerived": false
+      }
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "typeAttribute": [
+        "impression"
+      ],
+      "parentId": null,
+      "children": [
+        {
+          "id": "content_imp_1778439636706_a3by",
+          "type": "content",
+          "text": "Normal chest radiograph.",
+          "children": [],
+          "typeAttribute": [],
+          "typeData": {},
+          "parentId": "headline_impression",
+          "childrenId": [],
+          "orderIndex": 0,
+          "misc": {},
+          "templateText": "Normal chest radiograph.",
+          "currentText": "Normal chest radiograph.",
+          "state": {
+            "version": 0,
+            "manuallyEdited": false,
+            "deleted": false,
+            "inputType": "text",
+            "options": null,
+            "selectedOptionIndex": 0,
+            "defaultOptionIndex": 0,
+            "originalText": "",
+            "picklists": null,
+            "pass2Inserted": false,
+            "sourceSegmentIds": [],
+            "pass2RunId": null,
+            "suppressedBySegmentIds": [],
+            "editedBySegmentIds": [],
+            "impressionGenerated": true,
+            "impressionRunId": "IG_1_1778439635607",
+            "isCritical": false,
+            "guideline": null,
+            "recommendation": null,
+            "syntheticContent": null,
+            "sourceImpressionBoxId": null
+          }
+        }
+      ],
+      "label": "Impression",
+      "text": "Impression",
+      "childrenId": [
+        "content_imp_1778439636706_a3by"
+      ],
+      "templateText": "Impression",
+      "currentText": "Impression",
+      "state": {
+        "edited": false,
+        "syntheticSection": false,
+        "syntheticSectionType": null,
+        "impressionDerived": false
+      }
+    }
+  ],
+  "segments": {
+    "dictation-box": [],
+    "content_lines_1": [
+      {
+        "segmentId": "seg_1778306894713_2j7ptj",
+        "textareaTarget": "content_lines_1",
+        "startOffset": 0,
+        "endOffset": 5,
+        "length": 5,
+        "text": "None.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_cardiac_1": [
+      {
+        "segmentId": "seg_1778306894713_5hpuj5",
+        "textareaTarget": "content_cardiac_1",
+        "startOffset": 0,
+        "endOffset": 80,
+        "length": 80,
+        "text": "Cardiomediastinal silhouette and pulmonary vascularity are within normal limits.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_lungs_1": [
+      {
+        "segmentId": "seg_1778306894713_u1fkpm",
+        "textareaTarget": "content_lungs_1",
+        "startOffset": 0,
+        "endOffset": 96,
+        "length": 96,
+        "text": "No focal consolidation or atelectasis. No appreciable pleural effusion or pneumothorax detected.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_bones_1": [
+      {
+        "segmentId": "seg_1778306894713_lh21t2",
+        "textareaTarget": "content_bones_1",
+        "startOffset": 0,
+        "endOffset": 21,
+        "length": 21,
+        "text": "Grossly unremarkable.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_soft_1": [
+      {
+        "segmentId": "seg_1778306894713_18h5zu",
+        "textareaTarget": "content_soft_1",
+        "startOffset": 0,
+        "endOffset": 21,
+        "length": 21,
+        "text": "Grossly unremarkable.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_imp_1778439636706_a3by": [
+      {
+        "segmentId": "seg_1778439636706_kcn23a",
+        "textareaTarget": "content_imp_1778439636706_a3by",
+        "startOffset": 0,
+        "endOffset": 24,
+        "length": 24,
+        "text": "Normal chest radiograph.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ]
+  },
+  "tokenUsage": {
+    "pass1": {
+      "inputTokens": 1100,
+      "outputTokens": 9
+    },
+    "pass2a": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    "pass2b": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    "impression": {
+      "inputTokens": 3786,
+      "outputTokens": 144
+    }
+  },
+  "dictationText": ""
+}

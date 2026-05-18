@@ -1,0 +1,14 @@
+{
+  "resourceType": "MedicationAdministration",
+  "id": "MAD-P12345-INP-0025",
+  "status": "stopped",
+  "medicationCodeableConcept": { "text": "D5-NaCl 0.9 % IV Premix" },
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "effectiveDateTime": "2025-09-17T15:39:00-07:00",
+  "request": { "reference": "MedicationRequest/MRX-P12345-INP-0025" },
+  "dosage": {
+    "route": { "text": "IV" },
+    "rateQuantity": { "value": 75, "unit": "mL/h" }
+  }
+}

@@ -1,0 +1,450 @@
+/**
+ * ReportSummary styles — Micro executive summary displayed above individual
+ * prior radiology reports. Mirrors the executive summary design language
+ * with subsection grouping, hover/pin interaction, and importance chips.
+ */
+
+/* ── Container ── */
+
+.rpt-summary {
+  margin-bottom: 24px;
+  background: rgba(110, 110, 196, 0.06);
+  border: 1px solid rgba(110, 110, 196, 0.15);
+  border-left: 3px solid rgba(110, 110, 196, 0.50);
+  border-radius: var(--radius-t2);
+  overflow: hidden;
+}
+
+/* ── Header ── */
+
+.rpt-summary-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-bottom: 1px solid rgba(110, 110, 196, 0.10);
+}
+
+.rpt-summary-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  color: var(--color-interactive-t2);
+}
+
+.rpt-summary-title {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-content-t1, rgba(255, 255, 255, 0.92));
+}
+
+.rpt-summary-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.5625rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: var(--color-interactive-t1);
+  color: rgba(255, 255, 255, 0.95);
+  text-transform: uppercase;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.rpt-summary-meta {
+  font-size: 0.6875rem;
+  color: var(--color-content-t3);
+  font-weight: 500;
+  margin-left: auto;
+}
+
+/* ── Body ── */
+
+.rpt-summary-body {
+  padding: 4px 0 8px;
+}
+
+/* ── Section (reportSubsection group) ── */
+
+.rpt-section {
+  margin-bottom: 2px;
+}
+
+.rpt-section-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 6px 16px 6px 13px;
+  text-align: left;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: var(--color-interactive-t2, rgba(160, 160, 220, 0.9));
+  background: rgba(110, 110, 196, 0.06);
+  border: none;
+  border-left: 3px solid rgba(110, 110, 196, 0.45);
+  cursor: pointer;
+  transition: background var(--motion-t2), border-color var(--motion-t2);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.rpt-section-header:hover {
+  background: rgba(110, 110, 196, 0.10);
+  border-left-color: rgba(110, 110, 196, 0.65);
+}
+
+.rpt-section-header--expanded {
+  color: var(--color-interactive-t2, rgba(160, 160, 220, 0.95));
+  border-bottom: 1px solid rgba(110, 110, 196, 0.10);
+  border-left-color: rgba(110, 110, 196, 0.60);
+  background: rgba(110, 110, 196, 0.08);
+}
+
+.rpt-section-chevron {
+  font-size: 0.5rem;
+  color: var(--color-content-t4);
+  flex-shrink: 0;
+  width: 10px;
+}
+
+.rpt-section-name {
+  flex: 1;
+}
+
+.rpt-section-count {
+  font-size: 0.5625rem;
+  font-weight: 700;
+  color: var(--color-content-t4);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1px 5px;
+  border-radius: 8px;
+  min-width: 16px;
+  text-align: center;
+}
+
+.rpt-section-body {
+  padding: 2px 0 4px;
+}
+
+/* ── Finding Row ── */
+
+.rpt-finding {
+  padding: 0 16px 0 28px;
+  margin-bottom: 1px;
+  transition: background var(--motion-t2);
+  position: relative;
+}
+
+.rpt-finding:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.rpt-finding--expanded {
+  background: rgba(110, 110, 196, 0.04);
+}
+
+.rpt-finding--expanded:not(.rpt-finding--pinned) {
+  z-index: 10;
+}
+
+.rpt-finding--pinned {
+  border-left: 2px solid var(--color-interactive-t1);
+  padding-left: 26px;
+  background: rgba(110, 110, 196, 0.06);
+}
+
+/* ── Finding Header ── */
+
+.rpt-finding-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  text-align: left;
+  padding: 4px 0;
+  cursor: pointer;
+}
+
+.rpt-finding-chevron {
+  font-size: 0.5rem;
+  color: var(--color-content-t4);
+  flex-shrink: 0;
+  width: 10px;
+  margin-top: 2px;
+  transition: color var(--motion-t2);
+}
+
+.rpt-finding--expanded .rpt-finding-chevron {
+  color: var(--color-interactive-t2);
+}
+
+.rpt-finding-name {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-content-t1);
+  flex: 1;
+  line-height: 1.4;
+}
+
+.rpt-finding--expanded .rpt-finding-name {
+  color: var(--color-interactive-t2);
+  font-weight: 600;
+}
+
+.rpt-finding-chips {
+  display: flex;
+  gap: 3px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.rpt-chip {
+  display: inline-block;
+  font-size: 0.5625rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 1px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+  line-height: 1.5;
+}
+
+/* ── Finding Detail (expanded content) ── */
+
+.rpt-finding-detail {
+  padding: 6px 4px 8px 16px;
+}
+
+/* Hover preview: floating card near cursor */
+.rpt-finding-detail--preview {
+  background: var(--color-bg-t1, #1e1e2e);
+  border: 1px solid rgba(110, 110, 196, 0.25);
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 1px rgba(110, 110, 196, 0.3);
+  padding: 10px 14px;
+  z-index: 100;
+  max-width: 480px;
+  max-height: 60vh;
+  overflow-y: auto;
+  animation: rpt-overlay-reveal 0.12s ease-out;
+  pointer-events: auto;
+}
+
+/* Pinned: inline flow */
+.rpt-finding-detail--pinned {
+  position: relative;
+  animation: rpt-detail-reveal 0.15s ease-out;
+}
+
+@keyframes rpt-overlay-reveal {
+  from { opacity: 0; transform: translateY(-2px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes rpt-detail-reveal {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Source Excerpt ── */
+
+.rpt-source-excerpt {
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--color-content-t2);
+  margin: 0 0 6px;
+  font-style: italic;
+  border-left: 2px solid rgba(110, 110, 196, 0.25);
+  padding-left: 10px;
+}
+
+/* ── Measurements ── */
+
+.rpt-measurement {
+  font-size: 0.6875rem;
+  color: var(--color-interactive-t2, #8b7cff);
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.rpt-measurements {
+  margin-bottom: 6px;
+}
+
+/* ── Change Statement ── */
+
+.rpt-change-statement {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.rpt-trend-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.5625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-interactive-t2, rgba(160, 160, 220, 0.9));
+  background: rgba(110, 110, 196, 0.12);
+  padding: 2px 6px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  line-height: 1.2;
+}
+
+.rpt-change-text {
+  font-size: 0.6875rem;
+  color: var(--color-content-t3);
+  font-style: italic;
+  line-height: 1.5;
+  padding-top: 1px; /* Align text with the baseline of the chip */
+}
+
+/* ── Comparison Study Reference ── */
+
+.rpt-comparison {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+  flex-wrap: wrap;
+}
+
+.rpt-comparison-label-text {
+  font-size: 0.625rem;
+  color: var(--color-content-t4);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.rpt-comparison-chip {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  background: var(--color-interactive-t1);
+  padding: 2px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background var(--motion-t2), box-shadow var(--motion-t2), transform var(--motion-t2);
+  white-space: nowrap;
+}
+
+.rpt-comparison-chip:hover {
+  background: var(--color-interactive-t2);
+  box-shadow: 0 1px 6px rgba(110, 110, 196, 0.35);
+  transform: translateY(-1px);
+}
+
+.rpt-comparison-chip:active {
+  transform: translateY(0);
+}
+
+/* Low confidence: dotted border, lower opacity */
+.rpt-comparison-chip--low {
+  background: rgba(110, 110, 196, 0.30);
+  border: 1px dashed rgba(110, 110, 196, 0.50);
+}
+
+.rpt-comparison-chip--low:hover {
+  background: rgba(110, 110, 196, 0.45);
+}
+
+/* No match: plain text label */
+.rpt-comparison-text {
+  font-size: 0.6875rem;
+  color: var(--color-content-t4);
+  font-style: italic;
+}
+
+/* ── Recommendations Section ── */
+
+.rpt-recommendations {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.rpt-rec-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+}
+
+.rpt-rec-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  color: var(--color-interactive-t2);
+}
+
+.rpt-rec-title {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-content-t3);
+  flex: 1;
+}
+
+.rpt-rec-count {
+  font-size: 0.5625rem;
+  font-weight: 700;
+  color: var(--color-content-t4);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1px 5px;
+  border-radius: 8px;
+}
+
+.rpt-rec-body {
+  padding: 2px 16px 6px 28px;
+}
+
+.rpt-rec-item {
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.rpt-rec-item:last-child {
+  border-bottom: none;
+}
+
+.rpt-rec-item-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.rpt-rec-status {
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+.rpt-rec-action {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--color-content-t2);
+}
+
+.rpt-rec-meta {
+  font-size: 0.625rem;
+  color: var(--color-content-t4);
+  margin-top: 2px;
+  padding-left: 22px;
+  line-height: 1.4;
+}

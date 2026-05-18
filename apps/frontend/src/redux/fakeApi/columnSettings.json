@@ -1,0 +1,55 @@
+[
+  {
+    "accessor": "examStatus",
+    "order": 2
+  },
+  {
+    "accessor": "examDescription",
+    "order": 1
+  },
+  {
+    "accessor": "modality",
+    "order": 2
+  },
+  {
+    "accessor": "name",
+    "order": 1
+  },
+  {
+    "accessor": "age",
+    "order": 2
+  },
+  {
+    "accessor": "examCompleted",
+    "order": 1
+  },
+  {
+    "accessor": "orderedLocation",
+    "order": 2
+  },
+  {
+    "accessor": "clinicalIndications",
+    "order": 1
+  },
+  {
+
+    "accessor": "reasonForExam",
+    "order": 2
+  },
+  {
+    "accessor": "specialty",
+    "order": 1
+  },
+  {
+    "accessor": "bodyPart",
+    "order": 2
+  },
+  {
+    "accessor": "accession",
+    "order": 1
+  },
+  {
+    "accessor": "MRN",
+    "order": 2
+  }
+]

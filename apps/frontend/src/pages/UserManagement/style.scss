@@ -1,0 +1,34 @@
+@import '../../assets/scss/variables';
+
+.user-management {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
+  height: 100%;
+  margin-bottom: 0;
+
+  > div {
+    .panel-body {
+      height: 100% !important;
+
+      > div {
+        order: 0;
+        flex: 1 1 auto;
+        align-self: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: stretch;
+        align-items: stretch;
+        height: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,509 @@
+@import '../../assets/scss/variables';
+
+.dashboard-wrapper {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2px;
+    padding: 16px 24px;
+    background: $black;
+
+    h1 {
+      font-size: 20px;
+      font-weight: $fontBold;
+    }
+  }
+
+  .dashboard {
+    display: flex;
+    min-height: 500px;
+    height: calc(100vh - 62px);
+    margin: 0 0 -2px !important;
+  
+    .chart-panel {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      align-items: flex-start;
+
+      > div {
+        padding: 0 2px 2px 0 !important;
+        height: 360px;
+
+        &.active {
+          width: 100%;
+          height: 100% !important;
+          display: block !important;
+        }
+
+        &:first-child, &:nth-child(2) {
+          flex-grow: 1;
+          min-height: 360px;
+          height: calc(100% - 360px);
+        }
+      }
+  
+      .antd-col {
+        height: 50%;
+        padding: 8px;
+  
+        &:nth-child(2n+1) {
+          padding-right: 0;;
+        }
+  
+        &:first-child {
+          padding-right: 8px;
+        }
+      }
+  
+      .panel {
+        background: $black;
+        height: 100%;
+        padding: 0;
+
+        > div {
+          padding: 0;
+          overflow: initial;
+
+          .panel-header {
+            height: 56px;
+            padding: 16px 24px;
+            background: $gray;
+          }
+  
+          .panel-body {
+            overflow: auto;
+            padding: 0;
+          }
+        }
+
+        .wide-center {
+          align-items: stretch;
+          gap: 16px;
+          align-self: stretch;       
+
+          & > div:first-child {
+            max-width: 60%;
+
+            h1 {
+              line-height: 24px;
+              text-transform: capitalize;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+          }
+
+          &.panel-title.stack > .stack-item {
+            margin: 0;
+          }
+        }
+  
+        .ant-btn-icon-only {
+          height: 20px;
+          border: none;
+          padding: 0;
+          box-shadow: none;
+          background-color: transparent;
+        }
+
+        .panel-body {
+          height: calc(100% - 70px);
+        }
+      }
+    }
+
+    .statistic {
+      padding: 16px;
+      align-self: stretch;
+      justify-content: space-between;
+
+      p {
+        width: 100%;
+        text-align: start;
+        font-size: 14px;
+        font-weight: $fontBold;
+        line-height: 20px;
+        color: $gray60;
+      }
+
+      strong {
+        color: var(--green);
+        font-size: 24px;
+      }
+    }
+
+
+    .growth-panel {
+      height: 100%;
+      min-width: 400px;
+
+      .statistic {
+        width: 50%;
+        border-bottom: 1px solid $darkGray;
+
+        &:first-child {
+          border-right: 1px solid $darkGray;
+        }
+
+        p {
+          height: 68px;
+          font-size: 14px;
+          font-weight: $fontBold;
+          line-height: 20px;
+          color: $gray60;
+        }
+      }
+
+      > div:nth-child(2) {
+        flex-grow: 1;
+      }
+
+      .column-content {
+        width: 100%;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        padding: 16px;
+        justify-content: space-evenly;
+
+        &:nth-child(2) {
+          border-bottom: 1px solid $darkGray;
+        }
+  
+        .column {
+          display: flex;
+          justify-content: flex-start;
+          flex-direction: column-reverse;
+          align-items: center;
+          width: 28px;
+
+          p {
+            color: $mediumGray;
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 8px;
+          }
+  
+          > div {
+            width: 100%;
+
+            &.opacity-value {
+              opacity: 0.5;
+            }
+          }
+          
+        }
+      }
+    } 
+
+    .compliance-panel, .accuracy-panel {
+      height: 100%;
+      min-width: 400px;
+
+      > .statistic {
+        border-bottom: 1px solid $darkGray;
+        width: 100%;
+
+        p, strong {
+          height: 36px;
+        }
+
+        p {
+          font-size: 14px;
+          font-weight: $fontBold;
+          line-height: 20px;
+          color: $gray60;
+        }
+      }
+
+      > div:not(.statistic) {
+        height: 100%;
+        flex-grow: 1;
+
+        > .statistic {
+          width: 50%;
+  
+          &:first-child {
+            border-right: 1px solid $darkGray;
+          }
+
+          .progress {
+            display: flex;
+            align-items: center;
+            margin-bottom: 26px;
+            
+            p {
+              font-size: 14px;
+              font-weight: $fontNormal;
+              line-height: 20px;
+              min-width: 30px;
+              margin-right: 8px;
+              width: 30px;
+              max-width: 40px;
+            }
+    
+            .ant-progress {
+              margin: 0 !important;
+    
+              .ant-progress-bg {
+                border-right: 2px solid $black;
+              }
+            }
+          }
+        }
+      } 
+    }
+
+    .financial-panel {
+      height: 100%;
+      min-width: 400px;
+
+      > .statistic {
+        width: 100%;
+        height: 100%;
+        flex-grow: 1;
+        border-top: 1px solid $darkGray;
+
+        p, strong {
+          height: 40px;
+        }
+
+        p {
+          font-size: 14px;
+          font-weight: $fontBold;
+          line-height: 20px;
+          color: $gray60;
+        }
+
+        .progress {
+          margin-bottom: 26px;
+
+          .title {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+
+            > p {
+              font-size: 14px;
+              font-weight: $fontNormal;
+              line-height: 20px;
+              min-width: 30px;
+              margin-right: 10px;
+              color: $gray60;
+              display: flex;
+              width: auto;
+
+              &:last-child {
+                margin-right: 0;
+              }
+
+              > span {
+                color: $successLighter;
+                margin-left: 8px;
+              }
+            }
+          }
+          
+  
+          .ant-progress {
+            margin: 0 !important;
+  
+            .ant-progress-bg {
+              border-right: 2px solid $black;
+            }
+          }
+        }
+      }
+
+      > div:not(.statistic) {
+        > .statistic {
+          width: 50%;
+  
+          &:first-child {
+            border-right: 1px solid $darkGray;
+          }
+
+          p, strong {
+            height: 36px;
+          }
+
+          p {
+            font-size: 14px;
+            font-weight: $fontBold;
+            line-height: 20px;
+            color: $gray60;
+          }
+        }
+      } 
+    }
+
+    .performance-trends {
+      min-width: 800px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: stretch;
+      justify-content: flex-start;
+      min-width: 800px;
+      height: 100%;
+      
+      .main-info {
+        width: calc(100% - 228px);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        border-right: 1px solid $darkGray;
+    
+        &-top {
+          display: flex;
+          flex-flow: row nowrap;
+          min-height: 130px;
+          border-bottom: 1px solid $darkGray;
+          
+          > div {
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-right: 1px solid $darkGray;
+            width: calc((100% - 305px) / 2);
+            max-width: calc((100% - 305px) / 2);
+            // width: 180px;
+    
+            strong {
+              font-size: 14px;
+              font-weight: $fontBold;
+              line-height: 20px;
+              color: $gray60;
+            }
+    
+            p {
+              font-size: 24px;
+              font-weight: $fontHardBold;
+              line-height: 30px;
+              color: var(--green);
+              text-align: center;
+            }
+    
+            &:last-child {
+              border-right: none;
+              width: 305px;
+              max-width: 305px;
+    
+              > div {
+                display: flex;
+                align-items: center;
+                height: 30px;
+                
+                p {
+                  font-size: 14px;
+                  font-weight: $fontNormal;
+                  line-height: 20px;
+                  min-width: 30px;
+                  margin-right: 8px;
+                }
+    
+                .ant-progress {
+                  margin: 0 !important;
+    
+                  .ant-progress-bg {
+                    border-right: 2px solid $black;
+                  }
+                }
+              }
+            }
+          }
+        }
+    
+        .rvu-by-month {
+          flex-grow: 1;
+          max-height: calc(100% - 130px);
+          
+          .panel {
+            > div {
+              padding: 22px 16px !important;
+    
+              .panel-header {
+                padding: 0 0 8px !important;
+                height: auto;
+                background: transparent;
+    
+                h1 {
+                  font-size: 16px;
+                  font-weight: $fontBold;
+                  line-height: 24px;
+                }
+              }
+            }
+          }
+        }
+      }
+    
+      .side-info {
+        width: 228px;
+        // height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 16px;
+        height: 100%;
+    
+        > strong {
+          font-size: 14px;
+          font-weight: $fontBold;
+          line-height: 20px;
+          color: $gray60;
+          margin-bottom: 16px;
+        }
+
+        > div {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+
+          .bar {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: row;
+            padding: 8px 0;
+      
+            .name {
+              color: $mediumGray;
+              text-transform: uppercase;
+              margin-right: 8px;
+              min-width: 30px;
+              max-width: 40px;
+            }
+      
+            .value {
+              margin-right: 8px;
+              min-width: 30px;
+              max-width: 40px;
+            }
+            
+            .bar-content {
+              flex-grow: 1;
+              width: 100%;
+              display: block;
+      
+              > div {
+                padding: 12px 0;
+              }
+            }
+          }
+        }    
+      }
+    }
+  }
+}

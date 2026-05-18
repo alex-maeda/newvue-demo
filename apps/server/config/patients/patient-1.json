@@ -1,0 +1,7 @@
+{
+  "patientId": "patient-1",
+  "mrn": "MRN-1001",
+  "name": "Jane Doe",
+  "sex": "female",
+  "dateOfBirth": "1980-02-03"
+}

@@ -1,0 +1,258 @@
+/**
+ * NoteCard styles.
+ *
+ * Follows the PriorStudyCard visual pattern with specialty-colored chips,
+ * date row, title, author line, and bottom-row relevance indicators.
+ * Reuses the same design tokens and chip patterns.
+ */
+
+/* ── Card Container ── */
+
+.note-card {
+  position: relative;
+  background: var(--color-surface-t3);
+  border: 1px solid transparent;
+  border-radius: var(--radius-t2);
+  cursor: pointer;
+  transition:
+    background var(--motion-t2),
+    border-color var(--motion-t2),
+    box-shadow var(--motion-t3);
+  overflow: hidden;
+}
+
+.note-card:hover {
+  background: var(--color-surface-t4);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.note-card.selected {
+  border-color: var(--color-interactive-t1);
+  background: rgba(110, 110, 196, 0.08);
+  box-shadow: 0 0 0 1px rgba(110, 110, 196, 0.20);
+}
+
+.note-card:focus-visible {
+  outline: 2px solid var(--color-interactive-t1);
+  outline-offset: 1px;
+}
+
+/* ── Card Body ── */
+
+.nc-body {
+  padding: 10px 12px 8px;
+}
+
+/* ── Row 1: Chips ── */
+
+.nc-chip-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-bottom: 4px;
+}
+
+/* Generic label chip (specialty, setting) */
+.nc-label-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 7px;
+  border-radius: 3px;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  min-width: 26px;
+  text-align: center;
+  border: 1px solid rgba(80, 150, 220, 0.2);
+  color: rgba(140, 200, 255, 0.9);
+  background: rgba(80, 150, 220, 0.15);
+  cursor: pointer;
+  transition:
+    background var(--motion-t2),
+    color var(--motion-t2),
+    border-color var(--motion-t2),
+    transform var(--motion-t1);
+  flex-shrink: 0;
+}
+
+.nc-label-chip:hover {
+  opacity: 0.85;
+  transform: scale(1.06);
+}
+
+/* Active state for all chips */
+.nc-label-chip.active {
+  background: var(--color-interactive-t1) !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+  border-color: var(--color-interactive-t1) !important;
+}
+
+/* ── Ordering Provider ★ Chip (gold, pushed to right of chip row) ── */
+
+.nc-op-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.625rem;
+  font-weight: 700;
+  line-height: 1;
+  border: 1px solid rgba(255, 210, 70, 0.35);
+  color: rgba(255, 210, 70, 0.95);
+  background: rgba(255, 210, 70, 0.12);
+  flex-shrink: 0;
+  margin-left: auto;
+  cursor: default;
+}
+
+/* ── Row 2: Date + Relative Age ── */
+
+.nc-date-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.nc-date {
+  font-size: 0.6875rem;
+  color: var(--color-content-t3);
+  white-space: nowrap;
+}
+
+.nc-age {
+  font-size: 0.625rem;
+  font-weight: 600;
+  color: var(--color-content-t4);
+  flex-shrink: 0;
+}
+
+/* ── Row 3: Title ── */
+
+.nc-title {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-content-t2);
+  line-height: 1.3;
+  word-break: break-word;
+}
+
+/* ── Row 4: Author (subtle) ── */
+
+.nc-author {
+  font-size: 0.6875rem;
+  color: var(--color-content-t4);
+  margin-top: 2px;
+  line-height: 1.3;
+}
+
+/* ── Bottom Row (only for relevant notes) ── */
+
+.nc-bottom-row {
+  padding: 4px 12px 8px;
+  border-top: 1px solid transparent;
+}
+
+.nc-bottom-chips {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ── Relevant Chip (matches psc-relevant-chip) ── */
+
+.nc-relevant-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.92);
+  background: var(--color-interactive-t1);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  line-height: 1;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition:
+    box-shadow var(--motion-t2),
+    border-color var(--motion-t2),
+    transform var(--motion-t1);
+}
+
+.nc-relevant-chip:hover {
+  opacity: 0.9;
+  transform: scale(1.04);
+}
+
+.nc-relevant-chip.active {
+  background: #6E6EC4;
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow:
+    0 0 0 1px rgba(110, 110, 196, 0.5),
+    0 0 8px rgba(110, 110, 196, 0.3);
+}
+
+/* ── Score Percentage Chip (matches psc-score-chip) ── */
+
+.nc-score-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  font-size: 0.625rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.80);
+  background: rgba(110, 110, 196, 0.30);
+  border: 1px solid rgba(110, 110, 196, 0.25);
+  border-radius: 3px;
+  line-height: 1;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition:
+    background var(--motion-t2),
+    border-color var(--motion-t2),
+    box-shadow var(--motion-t2),
+    transform var(--motion-t1);
+}
+
+.nc-score-chip:hover {
+  background: rgba(110, 110, 196, 0.40);
+  border-color: rgba(110, 110, 196, 0.45);
+  transform: scale(1.04);
+}
+
+.nc-score-chip.active {
+  color: rgba(255, 255, 255, 0.95);
+  background: rgba(110, 110, 196, 0.55);
+  border-color: rgba(110, 110, 196, 0.70);
+  box-shadow:
+    0 0 0 1px rgba(110, 110, 196, 0.4),
+    0 0 6px rgba(110, 110, 196, 0.25);
+}
+
+/* ── Analyzed Chip (inert indicator, matches psc-summary-btn) ── */
+
+.nc-analyzed-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  background: rgba(110, 110, 196, 0.10);
+  border: 1px solid rgba(110, 110, 196, 0.18);
+  border-radius: 3px;
+  line-height: 1;
+  flex-shrink: 0;
+  cursor: default;
+}

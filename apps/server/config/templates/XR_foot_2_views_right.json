@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "id": "xr-foot-2-views-right",
+  "title": "XR Foot 2 Views Right",
+  "modality": "XR",
+  "bodyRegion": "foot",
+  "description": "System default template",
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "tags": "narrative",
+      "title": "Narrative",
+      "children": [
+        { "id": "sub_study_title", "type": "subsection", "tags": "studyName", "title": "XR Foot 2 Views \u2013 Right", "children": [] },
+        { "id": "section_history", "type": "section", "tags": "history", "title": "History", "children": [
+          { "id": "content_history_main", "type": "text", "tags": "history", "value": "" }
+        ]},
+        { "id": "section_technique", "type": "section", "tags": "technique", "title": "Technique", "children": [
+          { "id": "content_technique_main", "type": "text", "tags": "technique", "value": "" }
+        ]},
+        { "id": "section_comparison", "type": "section", "tags": "comparison", "title": "Comparison", "children": [
+          { "id": "content_comparison_main", "type": "text", "tags": "comparison", "value": "" }
+        ]},
+        { "id": "section_findings", "type": "section", "tags": "findings", "title": "Findings", "children": [
+          { "id": "sub_bones_joints", "type": "subsection", "tags": "subFindings", "title": "Bones / Joints", "children": [
+            { "id": "content_bones_1", "type": "text", "tags": "normal", "value": "No fracture or dislocation. Osseous mineralization is appropriate." }
+          ]},
+          { "id": "sub_alignment", "type": "subsection", "tags": "subFindings", "title": "Alignment", "children": [
+            { "id": "content_align_1", "type": "text", "tags": "normal", "value": "Normal anatomic alignment." }
+          ]},
+          { "id": "sub_soft_tissues", "type": "subsection", "tags": "subFindings", "title": "Soft Tissues", "children": [
+            { "id": "content_soft_1", "type": "text", "tags": "normal", "value": "No significant soft tissue swelling." }
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "tags": "impression",
+      "title": "Impression",
+      "children": [
+        { "id": "content_impression_main", "type": "text", "tags": "impression", "value": "" }
+      ]
+    }
+  ]
+}

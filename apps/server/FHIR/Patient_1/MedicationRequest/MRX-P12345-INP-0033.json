@@ -1,0 +1,13 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "MRX-P12345-INP-0033",
+  "status": "active",
+  "intent": "order",
+  "category": [{ "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category", "code": "inpatient", "display": "Inpatient" }] }],
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "medicationCodeableConcept": { "text": "Ondansetron (PF) Inj 4 mg (ZOFRAN)" },
+  "dosageInstruction": [
+    { "text": "4 mg, IV, Q6H PRN", "asNeededBoolean": true }
+  ]
+}

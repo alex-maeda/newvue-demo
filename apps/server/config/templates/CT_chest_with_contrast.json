@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "id": "ct-chest-with-contrast",
+  "title": "CT Chest with Contrast",
+  "modality": "CT",
+  "bodyRegion": "chest",
+  "description": "System default template",
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "tags": "narrative",
+      "title": "Narrative",
+      "children": [
+        { "id": "sub_study_title", "type": "subsection", "tags": "studyName", "title": "CT Chest with Contrast", "children": [] },
+        { "id": "section_history", "type": "section", "tags": "history", "title": "History", "children": [
+          { "id": "content_history_main", "type": "text", "tags": "history", "value": "" }
+        ]},
+        { "id": "section_technique", "type": "section", "tags": "technique", "title": "Technique", "children": [
+          { "id": "content_technique_main", "type": "text", "tags": "technique", "value": "CT images of the chest acquired after intravenous administration of contrast." },
+          { "id": "sub_ctdi", "type": "subsection", "tags": "dose", "title": "CTDI", "children": [
+            { "id": "content_ctdi_main", "type": "text", "tags": "dose", "value": "" }
+          ]},
+          { "id": "sub_dlp", "type": "subsection", "tags": "dose", "title": "DLP", "children": [
+            { "id": "content_dlp_main", "type": "text", "tags": "dose", "value": "" }
+          ]}
+        ]},
+        { "id": "section_comparison", "type": "section", "tags": "comparison", "title": "Comparison", "children": [
+          { "id": "content_comparison_main", "type": "text", "tags": "comparison", "value": "" }
+        ]},
+        { "id": "section_findings", "type": "section", "tags": "findings", "title": "Findings", "children": [
+          { "id": "sub_lungs_airways", "type": "subsection", "tags": "subFindings", "title": "Lungs / Airways", "children": [
+            { "id": "content_lungs_1", "type": "text", "tags": "normal", "value": "Lungs are clear. No consolidation, ground-glass opacity, or suspicious pulmonary nodule. Central airways are patent." }
+          ]},
+          { "id": "sub_pleural_spaces", "type": "subsection", "tags": "subFindings", "title": "Pleural Spaces", "children": [
+            { "id": "content_pleural_1", "type": "text", "tags": "normal", "value": "No pleural effusion or pneumothorax." }
+          ]},
+          { "id": "sub_heart_pericardium", "type": "subsection", "tags": "subFindings", "title": "Heart / Pericardium", "children": [
+            { "id": "content_heart_1", "type": "text", "tags": "normal", "value": "Heart is normal in size. No pericardial effusion." }
+          ]},
+          { "id": "sub_mediastinum_hila", "type": "subsection", "tags": "subFindings", "title": "Mediastinum / Hila", "children": [
+            { "id": "content_mediastinum_1", "type": "text", "tags": "normal", "value": "No mediastinal or hilar lymphadenopathy by size criteria. Thoracic aorta and great vessels are normal in caliber." }
+          ]},
+          { "id": "sub_chest_wall_bones", "type": "subsection", "tags": "subFindings", "title": "Chest Wall / Bones", "children": [
+            { "id": "content_cw_1", "type": "text", "tags": "normal", "value": "No suspicious osseous lesion. No chest wall mass." }
+          ]},
+          { "id": "sub_upper_abdomen", "type": "subsection", "tags": "subFindings", "title": "Upper Abdomen (Limited)", "children": [
+            { "id": "content_upper_abd_1", "type": "text", "tags": "normal", "value": "Visualized upper abdominal structures are unremarkable." }
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "tags": "impression",
+      "title": "Impression",
+      "children": [
+        { "id": "content_impression_main", "type": "text", "tags": "impression", "value": "" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+Impression
+Cholelithiasis with findings suspicious for cholecystitis.  
+Additional chronic ancillary findings as described
+ 
+ 
+Action required. +
+
+ 
+ Narrative
+CT ABDOMEN AND PELVIS WITH CONTRAST
+ 
+** HISTORY **:
+80 years old,  Abdominal pain
+ 
+** TECHNIQUE **:
+CT images of the abdomen and pelvis acquired with 100 mL Omnipaque 300 intravenous contrast.
+ 
+CTDI: 0.04,0.04,8.06 mGy
+DLP: 1.97,2.17,369.74 mGy-cm
+ 
+COMPARISON: CTs 11/16/2023, 4/29/2020
+ 
+** FINDINGS **:
+LUNG BASES: Clear.
+LIVER: Normal.
+GALLBLADDER/BILE DUCTS: Calcified gallstone at the gallbladder neck. Gallbladder is distended with mild gallbladder wall thickening, suspicious for cholecystitis. Mild common bile duct dilation, 8 mm without obstructive intraluminal filling defect by CT.
+SPLEEN: Normal.
+PANCREAS: Normal.
+ADRENALS: Normal.
+KIDNEYS: Redemonstrated postsurgical changes along the right kidney. No suspicious renal lesion.
+GI TRACT: Colonic diverticulosis is present without acute diverticulitis. No significant wall thickening. Appendix is not well seen, but there are no secondary findings for acute appendicitis. Previous enhancing collection along the left anorectal canal/perineum is less conspicuous on today's examination, with persistent partially imaged tract extending caudal, outside the imaged field of view.
+MESENTERY/LYMPH NODES: No suspicious lymph nodes.
+PERITONEUM: No significant free fluid. No free air.
+AORTA/VESSELS: Normal abdominal aortic diameter (<3cm). Aortic atherosclerosis.
+BLADDER: No significant abnormality.
+PELVIC STRUCTURES: No significant abnormality.
+SOFT TISSUES: No significant abnormality.
+BONES: Similar moderate compression fracture of the L1 vertebral body with unchanged height loss. Additional unchanged mild chronic compression fracture deformity of T12. Multilevel degenerative changes in the spine.

@@ -1,0 +1,93 @@
+/**
+ * MedicationCard styles.
+ *
+ * Follows the ProblemCard / ProcedureCard visual pattern — same spacing,
+ * borders, and typography. Medication cards display the medication name,
+ * dosage instruction (truncated at 2 lines), optional note, and status
+ * (only when not "active").
+ */
+
+/* ── Card Container ── */
+
+.medication-card {
+  position: relative;
+  background: var(--color-surface-t3);
+  border: 1px solid transparent;
+  border-radius: var(--radius-t2);
+  transition:
+    background var(--motion-t2),
+    border-color var(--motion-t2);
+  overflow: hidden;
+}
+
+.medication-card:hover {
+  background: var(--color-surface-t4);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+/* ── Card Body ── */
+
+.medc-body {
+  padding: 10px 12px 8px;
+}
+
+/* ── Row 1: Medication name ── */
+
+.medc-name {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-content-t2);
+  line-height: 1.3;
+  word-break: break-word;
+}
+
+/* ── Row 2: Dosage instruction (2-line clamp) ── */
+
+.medc-dosage {
+  font-size: 0.6875rem;
+  color: var(--color-content-t4);
+  line-height: 1.4;
+  margin-top: 2px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ── Row 3: Last administration date/time (optional) ── */
+
+.medc-last-given {
+  font-size: 0.6875rem;
+  color: rgba(180, 180, 220, 0.7);
+  margin-top: 2px;
+  line-height: 1.3;
+  font-style: italic;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.medc-note {
+  font-size: 0.6875rem;
+  color: var(--color-content-t4);
+  margin-top: 2px;
+  line-height: 1.3;
+  font-style: italic;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ── Status (only for non-active medications) ── */
+
+.medc-status {
+  font-size: 0.6875rem;
+  color: var(--color-content-t4);
+  margin-top: 2px;
+  line-height: 1.3;
+  text-transform: capitalize;
+  font-style: italic;
+}

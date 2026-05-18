@@ -1,0 +1,26 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "RPT-PATH-2025-0702-SURG",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        { "system": "http://terminology.hl7.org/CodeSystem/v2-0074", "code": "PAT", "display": "Pathology" }
+      ],
+      "text": "Pathology"
+    }
+  ],
+  "code": { "text": "Surgical Pathology Report" },
+  "subject": { "reference": "Patient/P12345" },
+  "effectiveDateTime": "2025-07-02T00:00:00-07:00",
+  "issued": "2025-07-02T00:00:00-07:00",
+  "specimen": [{ "reference": "Specimen/SPC-2025-0702-RSCLN" }],
+  "presentedForm": [
+    {
+      "contentType": "text/plain",
+      "language": "en",
+      "title": "Surgical Pathology – Final",
+      "url": "file://./docs/pathology/BIN-RPT-PATH-2025-0702-SURG.txt"
+    }
+  ]
+}

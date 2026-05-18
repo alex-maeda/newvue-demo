@@ -1,0 +1,25 @@
+Impression
+No evidence of abdominal aortic aneurysm.
+Category 0: Negative for AAA
+RECOMMENDATION: No additional follow-up required. #aaa0
+ 
+ Narrative
+ULTRASOUND ABDOMINAL AORTA
+ 
+** HISTORY **:
+75 year old man, followup abdominal aortic aneurysm.
+ 
+** TECHNIQUE **:
+ 
+Ultrasound images of the abdominal aorta acquired. Color Doppler images also acquired.
+ 
+COMPARISON: None available
+ 
+** FINDINGS **:
+ABDOMINAL AORTA: Tapers in a normal fashion with a maximum diameter of 2.1 cm and no dilated segments.
+ 
+RIGHT COMMON ILIAC ARTERY: 1.2 cm, normal
+ 
+LEFT COMMON ILIAC ARTERY: 1.1 cm, normal
+ 
+OTHER: None.

@@ -1,0 +1,160 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "id": "xr-chest-pa-lateral",
+  "title": "XR Chest PA Lateral",
+  "modality": "XR",
+  "bodyRegion": "chest",
+  "description": "System default template",
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "tags": "narrative",
+      "title": "Narrative",
+      "children": [
+        {
+          "id": "sub_study_title",
+          "type": "subsection",
+          "tags": "studyName",
+          "title": "XR Chest \u2013 PA and Lateral",
+          "children": []
+        },
+        {
+          "id": "section_history",
+          "type": "section",
+          "tags": "history",
+          "title": "History",
+          "children": [
+            {
+              "id": "content_history_main",
+              "type": "text",
+              "tags": "history",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "section_technique",
+          "type": "section",
+          "tags": "technique",
+          "title": "Technique",
+          "children": [
+            {
+              "id": "content_technique_main",
+              "type": "text",
+              "tags": "technique",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "section_comparison",
+          "type": "section",
+          "tags": "comparison",
+          "title": "Comparison",
+          "children": [
+            {
+              "id": "content_comparison_main",
+              "type": "text",
+              "tags": "comparison",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "section_findings",
+          "type": "section",
+          "tags": "findings",
+          "title": "Findings",
+          "children": [
+            {
+              "id": "sub_lines_tubes",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Lines / Tubes",
+              "children": [
+                {
+                  "id": "content_lines_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "None."
+                }
+              ]
+            },
+            {
+              "id": "sub_cardiac_mediastinal",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Cardiac, Mediastinal, and Hilar Contours",
+              "children": [
+                {
+                  "id": "content_cardiac_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "Cardiomediastinal silhouette and pulmonary vascularity are within normal limits."
+                }
+              ]
+            },
+            {
+              "id": "sub_lungs",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Lungs",
+              "children": [
+                {
+                  "id": "content_lungs_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No focal consolidation or atelectasis. No appreciable pleural effusion or pneumothorax detected."
+                }
+              ]
+            },
+            {
+              "id": "sub_bones",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Bones",
+              "children": [
+                {
+                  "id": "content_bones_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "Grossly unremarkable."
+                }
+              ]
+            },
+            {
+              "id": "sub_soft_tissues",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Soft Tissues",
+              "children": [
+                {
+                  "id": "content_soft_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "Grossly unremarkable."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "tags": "impression",
+      "title": "Impression",
+      "children": [
+        {
+          "id": "content_impression_main",
+          "type": "text",
+          "tags": "impression",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

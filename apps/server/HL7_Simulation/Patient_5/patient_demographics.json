@@ -1,0 +1,22 @@
+{
+  "_comment": "PID segment data for Patient 5 — Chest/abdomen, inpatient sepsis",
+  "patientId": "Patient_5",
+  "mrn": "MRN00005",
+  "assigningAuthority": "NEWVUE_HOSPITAL",
+  "identifierTypeCode": "MR",
+  "name": {
+    "last": "BLACKWELL",
+    "first": "MONICA",
+    "middle": ""
+  },
+  "dateOfBirth": "19560928",
+  "sex": "F",
+  "address": {
+    "street": "2200 WILLOW CREEK PKWY",
+    "city": "RICHMOND",
+    "state": "VA",
+    "zip": "23220",
+    "country": "USA"
+  },
+  "phone": "555-0505"
+}

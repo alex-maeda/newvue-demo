@@ -1,0 +1,25 @@
+Impression
+ 
+No acute intracranial hemorrhage, herniation, hydrocephalus, or large territory infarct.
+ 
+ 
+ Narrative
+CT HEAD WITHOUT CONTRAST
+ 
+** HISTORY **:
+65 years old,  STROKE symptoms
+ 
+** TECHNIQUE **:
+CT images of the head acquired without intravenous contrast.
+ 
+CTDI: 0.04,48.67 mGy
+DLP: 0.81,687.3 mGy-cm
+ 
+COMPARISON: None available.
+ 
+** FINDINGS **: 
+BRAIN PARENCHYMA: No acute hemorrhage. No mass effect or herniation. Gray-white differentiation is maintained. White matter is within normal limits for age.
+ 
+VENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus or extra-axial fluid collections.
+ 
+EXTRACRANIAL STRUCTURES: Normal bones and soft tissues. Visualized paranasal sinuses and mastoids demonstrate no significant abnormality.

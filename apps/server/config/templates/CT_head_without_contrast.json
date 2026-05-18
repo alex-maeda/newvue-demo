@@ -1,0 +1,194 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "id": "ct-head-without-contrast",
+  "title": "CT Head without Contrast",
+  "modality": "CT",
+  "bodyRegion": "head",
+  "description": "System default template",
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "tags": "narrative",
+      "title": "Narrative",
+      "children": [
+        {
+          "id": "sub_study_title",
+          "type": "subsection",
+          "tags": "studyName",
+          "title": "CT Head without Contrast",
+          "children": []
+        },
+        {
+          "id": "section_history",
+          "type": "section",
+          "tags": "history",
+          "title": "History",
+          "children": [
+            {
+              "id": "content_history_main",
+              "type": "text",
+              "tags": "history",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "section_technique",
+          "type": "section",
+          "tags": "technique",
+          "title": "Technique",
+          "children": [
+            {
+              "id": "content_technique_main",
+              "type": "text",
+              "tags": "technique",
+              "value": "CT images of the head acquired without intravenous contrast."
+            },
+            {
+              "id": "sub_ctdi",
+              "type": "subsection",
+              "tags": "dose",
+              "title": "CTDI",
+              "children": [
+                {
+                  "id": "content_ctdi_main",
+                  "type": "text",
+                  "tags": "dose",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "id": "sub_dlp",
+              "type": "subsection",
+              "tags": "dose",
+              "title": "DLP",
+              "children": [
+                {
+                  "id": "content_dlp_main",
+                  "type": "text",
+                  "tags": "dose",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section_comparison",
+          "type": "section",
+          "tags": "comparison",
+          "title": "Comparison",
+          "children": [
+            {
+              "id": "content_comparison_main",
+              "type": "text",
+              "tags": "comparison",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "section_findings",
+          "type": "section",
+          "tags": "findings",
+          "title": "Findings",
+          "children": [
+            {
+              "id": "sub_brain_parenchyma",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Brain Parenchyma",
+              "children": [
+                {
+                  "id": "content_bp_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No acute intracranial hemorrhage or territorial infarction."
+                },
+                {
+                  "id": "content_bp_2",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "Gray-white matter differentiation is preserved."
+                }
+              ]
+            },
+            {
+              "id": "sub_ventricles_extraaxial",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Ventricles / Extra-Axial Spaces",
+              "children": [
+                {
+                  "id": "content_vent_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "Ventricles are normal in size and configuration. No extra-axial fluid collections."
+                }
+              ]
+            },
+            {
+              "id": "sub_bones",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Bones",
+              "children": [
+                {
+                  "id": "content_bones_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No fracture or calvarial abnormality."
+                }
+              ]
+            },
+            {
+              "id": "sub_soft_tissues",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Soft Tissues",
+              "children": [
+                {
+                  "id": "content_soft_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "Unremarkable. Appropriate aeration of visualized paranasal sinuses and mastoid air cells."
+                }
+              ]
+            },
+            {
+              "id": "sub_vascular",
+              "type": "subsection",
+              "tags": "subFindings",
+              "title": "Vascular Structures",
+              "children": [
+                {
+                  "id": "content_vasc_1",
+                  "type": "text",
+                  "tags": "normal",
+                  "value": "No evidence of dense vessel sign."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "tags": "impression",
+      "title": "Impression",
+      "children": [
+        {
+          "id": "content_impression_main",
+          "type": "text",
+          "tags": "impression",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,967 @@
+/**
+ * ContextRail styles — left rail layout with EHR-integrated and classic modes.
+ */
+
+.zone-context-rail {
+  grid-area: context;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface-t2);
+  border-right: var(--border-t1);
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* ── Current Study / Reason for Study Section ── */
+
+.rail-current-section {
+  padding: 10px;
+  border-bottom: var(--border-t2);
+  flex-shrink: 0;
+}
+
+.rail-section-label {
+  font-size: 0.5625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-content-t4);
+  margin-bottom: 6px;
+  padding-left: 2px;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   EHR-INTEGRATED CONTROLS — Patient Data Bar + ERIK Search Bar
+   ══════════════════════════════════════════════════════════════════════════ */
+
+.ehr-controls {
+  flex-shrink: 0;
+  border-bottom: var(--border-t2);
+  animation: ehr-fade-in var(--motion-t3) ease both;
+}
+
+@keyframes ehr-fade-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Patient Data Icon Bar ── */
+
+.patient-data-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 6px 8px;
+}
+
+.pdb-icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-t2);
+  color: var(--color-content-t2);
+  transition:
+    background var(--motion-t2),
+    color var(--motion-t2);
+  border: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.pdb-icon:hover {
+  background: var(--color-surface-t3);
+  color: var(--color-content-t1);
+  position: relative;
+  z-index: 10;
+}
+
+/* Active state — purple background highlight with inset underline */
+.pdb-icon--active {
+  background: rgba(110, 110, 196, 0.15);
+  color: var(--color-interactive-t2);
+}
+
+.pdb-icon--active:hover {
+  background: rgba(110, 110, 196, 0.22);
+}
+
+/* Inset underline — darker purple bar at the bottom inside the icon box */
+.pdb-icon--active::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 5px;
+  right: 5px;
+  height: 2px;
+  background: var(--color-interactive-t1);
+  border-radius: 1px;
+}
+
+/* AI Summary icon status indicators */
+.pdb-icon--complete {
+  color: var(--color-interactive-t2);
+}
+
+/* Subtle glow-pulse when summary is available but not showing */
+.pdb-icon--complete:not(.pdb-icon--active) {
+  animation: pdb-sparkle-pulse 3s ease-in-out infinite;
+}
+
+@keyframes pdb-sparkle-pulse {
+  0%, 100% { opacity: 0.5;  filter: drop-shadow(0 0 0 transparent); }
+  50%      { opacity: 1;    filter: drop-shadow(0 0 5px rgba(160, 160, 220, 0.6)); }
+}
+
+.pdb-icon--error {
+  color: var(--warn);
+}
+
+/* Loading spinner for AI Summary icon */
+.pdb-icon-spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-top-color: var(--color-interactive-t2);
+  border-radius: 50%;
+  animation: pdb-spin 0.7s linear infinite;
+}
+
+@keyframes pdb-spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Tooltip — appears below icon on hover */
+.pdb-icon::before {
+  content: attr(data-label);
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-surface-t4);
+  color: var(--color-content-t1);
+  padding: 3px 8px;
+  border-radius: var(--radius-t1);
+  font-size: 0.5625rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--motion-t2);
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.pdb-icon:hover::before {
+  opacity: 1;
+}
+
+/* Shift tooltip for leftmost icon so it doesn't clip outside the rail */
+.pdb-icon:first-child::before {
+  left: 0;
+  transform: none;
+}
+
+/* Shift tooltip for rightmost icon to prevent right-side overflow */
+.pdb-icon:last-child::before {
+  left: auto;
+  right: 0;
+  transform: none;
+}
+
+/* ── ERIK Search Bar + Brain Button Row ── */
+
+.erik-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px 8px;
+}
+
+.erik-search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  border-radius: var(--radius-t2);
+  /* Invisible border placeholder so the animated border doesn't cause layout shift */
+  padding: 1px;
+}
+
+.erik-search-icon {
+  position: absolute;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-interactive-t2);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.erik-search-input {
+  width: 100%;
+  padding: 6px 10px 6px 28px;
+  font-family: var(--font-primary);
+  font-size: 0.75rem;
+  color: var(--color-content-t3);
+  background: var(--color-surface-t3);
+  border: var(--border-t2);
+  border-radius: var(--radius-t2);
+  outline: none;
+  cursor: default;
+  transition: border-color var(--motion-t2), box-shadow var(--motion-t3);
+  position: relative;
+  z-index: 1;
+}
+
+.erik-search-input::placeholder {
+  color: var(--color-content-t4);
+  font-style: italic;
+}
+
+/* ── Animated Border Trace (hover / focus-within / active) ── */
+
+/*
+ * Dual-origin border trace: four arms expand simultaneously from the
+ * center-top and center-bottom of the search bar, tracing the border
+ * in opposite directions until they connect at the left/right edges.
+ *
+ * Technique: A conic-gradient with four colored wedges whose angular
+ * spread is controlled by a CSS custom property (--erik-trace). The
+ * @property registration enables smooth transition on the angle value.
+ *
+ * ::before — the gradient (fills the full element, but only the border
+ *            ring is visible thanks to ::after punching out the center)
+ * ::after  — inner mask that exposes only the ~1.5px border edge
+ */
+
+@property --erik-trace {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.erik-search-bar::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-t2);
+  --erik-trace: 0deg;
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    /* Arm 1: top-center → clockwise (right edge) */
+    var(--color-interactive-t2) 0deg,
+    var(--color-interactive-t2) var(--erik-trace),
+    /* Gap: right side (closes as trace reaches 90deg) */
+    transparent var(--erik-trace),
+    transparent calc(180deg - var(--erik-trace)),
+    /* Arm 2+3: bottom-center (both directions) */
+    var(--color-interactive-t2) calc(180deg - var(--erik-trace)),
+    var(--color-interactive-t2) calc(180deg + var(--erik-trace)),
+    /* Gap: left side (closes as trace reaches 90deg) */
+    transparent calc(180deg + var(--erik-trace)),
+    transparent calc(360deg - var(--erik-trace)),
+    /* Arm 4: top-center → counter-clockwise (left edge) */
+    var(--color-interactive-t2) calc(360deg - var(--erik-trace)),
+    var(--color-interactive-t2) 360deg
+  );
+  opacity: 0;
+  z-index: 0;
+  transition: --erik-trace 0.5s ease-out, opacity 0.15s ease;
+}
+
+.erik-search-bar::after {
+  content: '';
+  position: absolute;
+  inset: 1.5px;
+  border-radius: calc(var(--radius-t2) - 1px);
+  background: var(--color-surface-t3);
+  z-index: 0;
+}
+
+/* On hover or focus-within: expand the four trace arms to 90deg (full coverage) */
+.erik-search-bar:hover::before,
+.erik-search-bar:focus-within::before,
+.erik-search-bar--active::before {
+  --erik-trace: 90deg;
+  opacity: 1;
+}
+
+/* Once the trace completes, add a settling glow */
+.erik-search-bar:hover .erik-search-input,
+.erik-search-bar:focus-within .erik-search-input,
+.erik-search-bar--active .erik-search-input {
+  border-color: var(--color-interactive-t1);
+  box-shadow: 0 0 10px rgba(139, 124, 255, 0.20), 0 0 4px rgba(110, 110, 196, 0.15);
+  transition: border-color var(--motion-t3) 0.3s, box-shadow var(--motion-t3) 0.3s;
+}
+
+/* Active state (ERIK category selected) — persistent purple accent */
+.erik-search-bar--active .erik-search-input {
+  border-color: var(--color-interactive-t2);
+  box-shadow: 0 0 12px rgba(139, 124, 255, 0.25), 0 0 4px rgba(110, 110, 196, 0.18);
+}
+
+/* Leave: reverse the trace and fade out */
+.erik-search-bar:not(:hover):not(:focus-within):not(.erik-search-bar--active)::before {
+  --erik-trace: 0deg;
+  opacity: 0;
+  transition: --erik-trace 0.35s ease-in, opacity 0.2s ease 0.25s;
+}
+
+/* ── ERIK Brain Button ── */
+
+.erik-btn {
+  flex-shrink: 0;
+}
+
+/* Position tooltip for the ERIK button — prevent right-edge clipping */
+.erik-btn::before {
+  left: auto;
+  right: 0;
+  transform: none;
+}
+
+/* ── ERIK Chat UI ── */
+
+.erik-chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.erik-chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar styling for chat area */
+.erik-chat-messages::-webkit-scrollbar {
+  width: 4px;
+}
+.erik-chat-messages::-webkit-scrollbar-track {
+  background: transparent;
+}
+.erik-chat-messages::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 2px;
+}
+
+/* Individual message wrapper */
+.erik-msg {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+}
+
+.erik-msg--user {
+  align-self: flex-end;
+  align-items: flex-end;
+}
+
+.erik-msg--assistant {
+  align-self: flex-start;
+  align-items: flex-start;
+}
+
+/* Message bubble */
+.erik-msg-bubble {
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+/* User messages — purple chip, right-aligned */
+.erik-msg--user .erik-msg-bubble {
+  background: rgba(139, 124, 255, 0.18);
+  border: 1px solid rgba(139, 124, 255, 0.35);
+  color: rgba(255, 255, 255, 0.92);
+  border-bottom-right-radius: 3px;
+}
+
+/* Assistant messages — dark surface, left-aligned */
+.erik-msg--assistant .erik-msg-bubble {
+  background: var(--color-surface-t3);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.88);
+  border-bottom-left-radius: 3px;
+  white-space: normal;  /* ReactMarkdown handles line breaks */
+}
+
+/* ── Markdown rendering inside assistant bubbles ── */
+
+.erik-msg--assistant .erik-msg-bubble h1,
+.erik-msg--assistant .erik-msg-bubble h2,
+.erik-msg--assistant .erik-msg-bubble h3,
+.erik-msg--assistant .erik-msg-bubble h4 {
+  color: var(--color-interactive-t2);
+  font-weight: 700;
+  margin: 0 0 4px;
+  line-height: 1.3;
+}
+
+.erik-msg--assistant .erik-msg-bubble h1 { font-size: 0.92rem; }
+.erik-msg--assistant .erik-msg-bubble h2 { font-size: 0.85rem; }
+.erik-msg--assistant .erik-msg-bubble h3 { font-size: 0.80rem; }
+.erik-msg--assistant .erik-msg-bubble h4 { font-size: 0.78rem; }
+
+/* First heading — no top margin */
+.erik-msg--assistant .erik-msg-bubble > h1:first-child,
+.erik-msg--assistant .erik-msg-bubble > h2:first-child,
+.erik-msg--assistant .erik-msg-bubble > h3:first-child {
+  margin-top: 0;
+}
+
+/* Subsequent headings — breathing room above */
+.erik-msg--assistant .erik-msg-bubble h1 + *,
+.erik-msg--assistant .erik-msg-bubble h2 + *,
+.erik-msg--assistant .erik-msg-bubble h3 + * {
+  margin-top: 0;
+}
+
+.erik-msg--assistant .erik-msg-bubble h1:not(:first-child),
+.erik-msg--assistant .erik-msg-bubble h2:not(:first-child),
+.erik-msg--assistant .erik-msg-bubble h3:not(:first-child) {
+  margin-top: 10px;
+}
+
+/* Bold text */
+.erik-msg--assistant .erik-msg-bubble strong {
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 600;
+}
+
+/* Paragraphs */
+.erik-msg--assistant .erik-msg-bubble p {
+  margin: 0 0 6px;
+  line-height: 1.5;
+}
+
+.erik-msg--assistant .erik-msg-bubble p:last-child {
+  margin-bottom: 0;
+}
+
+/* Lists */
+.erik-msg--assistant .erik-msg-bubble ul,
+.erik-msg--assistant .erik-msg-bubble ol {
+  margin: 4px 0 6px;
+  padding-left: 18px;
+}
+
+.erik-msg--assistant .erik-msg-bubble li {
+  margin-bottom: 2px;
+  line-height: 1.45;
+}
+
+.erik-msg--assistant .erik-msg-bubble li:last-child {
+  margin-bottom: 0;
+}
+
+/* Inline code */
+.erik-msg--assistant .erik-msg-bubble code {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-family: 'SF Mono', 'Consolas', monospace;
+}
+
+/* Horizontal rule (section separator) */
+.erik-msg--assistant .erik-msg-bubble hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 8px 0;
+}
+
+/* Avatar row for assistant messages */
+.erik-msg-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 3px;
+}
+
+.erik-msg-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(139, 124, 255, 0.20);
+  color: var(--color-interactive-t2);
+  flex-shrink: 0;
+}
+
+.erik-msg-name {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--color-interactive-t2);
+  letter-spacing: 0.03em;
+}
+
+/* Streaming cursor — blinking bar after the last character */
+.erik-msg-bubble--streaming::after {
+  content: '▊';
+  display: inline;
+  animation: erikCursorBlink 0.7s step-end infinite;
+  color: var(--color-interactive-t2);
+  font-size: 0.85em;
+  margin-left: 1px;
+}
+
+@keyframes erikCursorBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Status indicator (shown during triage/loading) */
+.erik-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  font-size: 0.72rem;
+  color: var(--color-content-t4);
+  font-style: italic;
+}
+
+.erik-status-dots {
+  display: flex;
+  gap: 3px;
+}
+
+.erik-status-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--color-interactive-t2);
+  animation: erikDotPulse 1.4s ease-in-out infinite;
+}
+
+.erik-status-dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.erik-status-dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes erikDotPulse {
+  0%, 80%, 100% { opacity: 0.25; transform: scale(0.8); }
+  40% { opacity: 1; transform: scale(1.1); }
+}
+
+/* Empty state when no messages yet */
+.erik-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 8px;
+  color: var(--color-content-t4);
+  text-align: center;
+  padding: 24px 16px;
+}
+
+.erik-empty-icon {
+  color: var(--color-interactive-t2);
+  opacity: 0.5;
+}
+
+.erik-empty-text {
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.erik-empty-hint {
+  font-size: 0.68rem;
+  opacity: 0.6;
+  font-style: italic;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   EHR PLACEHOLDER — shown for non-radiology categories without data yet
+   ══════════════════════════════════════════════════════════════════════════ */
+
+.ehr-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 40px 20px;
+  animation: ehr-fade-in var(--motion-t3) ease both;
+}
+
+.ehr-placeholder-icon {
+  color: var(--color-content-t4);
+  opacity: 0.5;
+}
+
+.ehr-placeholder-text {
+  font-size: 0.8125rem;
+  color: var(--color-content-t4);
+  text-align: center;
+  font-style: italic;
+}
+
+.ehr-placeholder-subtext {
+  font-size: 0.6875rem;
+  color: var(--color-content-t5, rgba(255, 255, 255, 0.35));
+  margin-top: 6px;
+  font-style: normal;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   UNIFIED SORT / FILTER BAR
+   ══════════════════════════════════════════════════════════════════════════ */
+
+.rail-sort-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  background: rgba(110, 110, 196, 0.04);
+  border-bottom: 1px solid rgba(110, 110, 196, 0.10);
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.sort-label {
+  font-size: 0.5625rem;
+  font-weight: 700;
+  color: var(--color-content-t4);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+
+.sort-chips {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 0;
+}
+
+/* Sort chips (Name, Date) — outlined by default */
+.sort-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 7px;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--color-content-t3);
+  background: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all var(--motion-t2);
+  white-space: nowrap;
+}
+
+.sort-chip:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  color: var(--color-content-t2);
+}
+
+/* Active sort chip — purple fill */
+.sort-chip--active {
+  background: var(--color-interactive-t1);
+  color: rgba(255, 255, 255, 0.95);
+  border-color: var(--color-interactive-t1);
+}
+
+.sort-chip--active:hover {
+  opacity: 0.9;
+}
+
+.sort-chevron {
+  font-size: 0.5rem;
+  margin-left: 1px;
+}
+
+/* Filter chips (card-level: modality, region, specialty, setting, etc.) */
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 7px;
+  font-size: 0.5625rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.92);
+  background: var(--color-interactive-t1);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity var(--motion-t2), transform var(--motion-t1);
+  white-space: nowrap;
+}
+
+.filter-chip:hover {
+  opacity: 0.85;
+  transform: scale(1.04);
+}
+
+.filter-chip-x {
+  font-size: 0.5rem;
+  opacity: 0.6;
+  margin-left: 1px;
+}
+
+.filter-chip:hover .filter-chip-x {
+  opacity: 1;
+}
+
+/* Sort-by-relevancy chip */
+.filter-chip-sort {
+  background: rgba(110, 110, 196, 0.55);
+  font-style: italic;
+}
+
+.filter-chip-sort:hover {
+  background: rgba(110, 110, 196, 0.45);
+}
+
+/* Vertical pipe separator between sort chips and medication category chips */
+.sort-pipe {
+  color: rgba(255, 255, 255, 0.15);
+  font-size: 0.75rem;
+  margin: 0 2px;
+  user-select: none;
+}
+
+/* Clear button — transparent chip pushed to far right */
+.sort-clear {
+  font-size: 0.5625rem;
+  font-weight: 600;
+  color: var(--color-content-t4);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 3px;
+  padding: 2px 7px;
+  cursor: pointer;
+  margin-left: auto;
+  flex-shrink: 0;
+  transition: all var(--motion-t2);
+  line-height: 1;
+}
+
+.sort-clear:hover {
+  color: var(--color-content-t2);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   RAIL BODY (scrollable priors / content)
+   ══════════════════════════════════════════════════════════════════════════ */
+
+.rail-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 6px 8px 14px;
+}
+
+/* ── Empty States ── */
+
+.rail-empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  font-size: 0.8125rem;
+  color: var(--color-content-t4);
+  text-align: center;
+  padding: 20px;
+}
+
+.rail-error {
+  color: var(--danger);
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   CLASSIC MODE — AI SUMMARY BUTTON (full-width bar)
+   ══════════════════════════════════════════════════════════════════════════ */
+
+.rail-ai-summary-section {
+  padding: 8px 10px;
+  border-bottom: var(--border-t2);
+  flex-shrink: 0;
+  animation: ehr-fade-in var(--motion-t3) ease both;
+}
+
+.ai-summary-btn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.90);
+  background: rgba(110, 110, 196, 0.08);
+  border: 1px solid rgba(110, 110, 196, 0.25);
+  border-radius: var(--radius-t2);
+  cursor: pointer;
+  transition: all var(--motion-t3);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Default hover — only when NOT in active/loading state */
+.ai-summary-btn:hover:not(:disabled):not(.ai-summary-btn--active):not(.ai-summary-btn--loading) {
+  background: rgba(110, 110, 196, 0.16);
+  border-color: rgba(110, 110, 196, 0.45);
+}
+
+.ai-summary-btn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+/* Loading state */
+.ai-summary-btn--loading {
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(110, 110, 196, 0.30);
+  border-color: rgba(110, 110, 196, 0.50);
+  cursor: wait;
+}
+
+.ai-summary-btn--loading::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(110, 110, 196, 0.15) 50%,
+    transparent 100%
+  );
+  animation: ai-summary-shimmer 1.8s ease-in-out infinite;
+}
+
+@keyframes ai-summary-shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* Active state (summary visible) — purple bg, white text + white sparkle */
+.ai-summary-btn--active {
+  color: rgba(255, 255, 255, 0.95);
+  background: var(--color-interactive-t1);
+  border-color: var(--color-interactive-t1);
+}
+
+.ai-summary-btn--active:hover {
+  background: rgba(110, 110, 196, 0.75);
+  border-color: rgba(110, 110, 196, 0.75);
+}
+
+.ai-summary-btn--active .ai-summary-btn-icon {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* Ready state (summary generated but hidden — subtle pulse draws attention) */
+.ai-summary-btn--ready {
+  color: rgba(255, 255, 255, 0.90);
+  background: rgba(110, 110, 196, 0.12);
+  border-color: rgba(110, 110, 196, 0.40);
+}
+
+.ai-summary-btn--ready .ai-summary-btn-icon {
+  animation: ai-sparkle-pulse 3s ease-in-out infinite;
+}
+
+@keyframes ai-sparkle-pulse {
+  0%, 100% { opacity: 0.55; filter: drop-shadow(0 0 0 transparent); }
+  50%      { opacity: 1;    filter: drop-shadow(0 0 4px rgba(160, 160, 220, 0.5)); }
+}
+
+/* Error state */
+.ai-summary-btn--error {
+  color: var(--warn);
+  background: rgba(224, 165, 0, 0.08);
+  border-color: rgba(224, 165, 0, 0.30);
+}
+
+.ai-summary-btn--error:hover {
+  background: rgba(224, 165, 0, 0.14);
+  border-color: rgba(224, 165, 0, 0.45);
+}
+
+.ai-summary-btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  color: var(--color-interactive-t2);
+  position: relative;
+  z-index: 1;
+}
+
+.ai-summary-btn-text {
+  flex: 1;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+
+.ai-summary-btn-badge {
+  font-size: 0.625rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.18);
+  padding: 1px 6px;
+  border-radius: 8px;
+  min-width: 18px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.ai-summary-btn--active .ai-summary-btn-badge {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+/* Spinner */
+.ai-summary-spinner {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-top-color: rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  animation: ai-spin 0.7s linear infinite;
+}
+
+@keyframes ai-spin {
+  to { transform: rotate(360deg); }
+}

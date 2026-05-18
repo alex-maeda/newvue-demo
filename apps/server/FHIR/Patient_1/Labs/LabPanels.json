@@ -1,0 +1,52 @@
+{
+  "patient_id": "P12345",
+  "panels": [
+    {
+      "name": "CBC",
+      "columns": ["09/18/25 0222", "09/17/25 1423", "09/17/25 0655", "09/16/25 0524", "09/15/25 2255"],
+      "rows": [
+        { "analyte": "WBC", "unit": "K/uL", "referenceRange": "4.5-11.0", "cells": ["12.4* | 12.8*", "12.0*", "11.3*", "9.8", "10.6"] },
+        { "analyte": "HGB", "unit": "g/dL", "referenceRange": "12.0-17.5", "cells": ["12.8 | 12.7", "12.0", "11.6", "11.3*", "12.7"] },
+        { "analyte": "HCT", "unit": "%", "referenceRange": "36.0-46.0", "cells": ["40.5 | 40.6", "39.2", "37.5", "35.6", "40.7"] },
+        { "analyte": "PLT", "unit": "K/uL", "referenceRange": "150-400", "cells": ["81* | 81*", "82*", "78*", "DECREASE* | 96* | NORMAL", "124*"] }
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "columns": ["09/17/25 0655", "09/16/25 0524", "09/15/25 2255"],
+      "rows": [
+        { "analyte": "NA", "unit": "mEq/L", "referenceRange": "136-145", "cells": ["137", "138", "139"] },
+        { "analyte": "K", "unit": "mEq/L", "referenceRange": "3.5-5.0", "cells": ["3.8", "3.8", "3.7"] },
+        { "analyte": "CO2", "unit": "mEq/L", "referenceRange": "23-29", "cells": ["25", "25", "28"] },
+        { "analyte": "CL", "unit": "mEq/L", "referenceRange": "98-106", "cells": ["106", "105", "103"] },
+        { "analyte": "BUN", "unit": "mg/dL", "referenceRange": "7-20", "cells": ["6*", "12", "11"] },
+        { "analyte": "CR", "unit": "mg/dL", "referenceRange": "0.6-1.2", "cells": ["0.57", "0.69", "0.84"] },
+        { "analyte": "RBS", "unit": "mg/dL", "referenceRange": "70-100", "cells": ["100", "100", "98"] },
+        { "analyte": "CA", "unit": "mg/dL", "referenceRange": "8.5-10.5", "cells": [" -- ", "8.4*", " -- "] },
+        { "analyte": "MG", "unit": "mg/dL", "referenceRange": "1.7-2.2", "cells": [" -- ", "2.2", " -- "] }
+      ]
+    },
+    {
+      "name": "Coags",
+      "columns": ["09/15/25 2255"],
+      "rows": [
+        { "analyte": "PT", "unit": "sec", "referenceRange": "11.0-13.5", "cells": ["15.3*"] },
+        { "analyte": "INR", "unit": "ratio", "referenceRange": "0.8-1.2", "cells": ["1.2"] },
+        { "analyte": "PTT", "unit": "sec", "referenceRange": "25.0-35.0", "cells": ["25.9"] }
+      ]
+    },
+    {
+      "name": "LFTs",
+      "columns": ["09/16/25 0911", "09/16/25 0524", "09/15/25 2255"],
+      "rows": [
+        { "analyte": "AST", "unit": "U/L", "referenceRange": "10-40", "cells": [" -- ", "29", "23"] },
+        { "analyte": "ALT", "unit": "U/L", "referenceRange": "7-56", "cells": [" -- ", "16", "18"] },
+        { "analyte": "ALKP", "unit": "U/L", "referenceRange": "44-147", "cells": [" -- ", "73", "72"] },
+        { "analyte": "TBILI", "unit": "mg/dL", "referenceRange": "0.1-1.2", "cells": ["0.3", "0.3", "0.3"] },
+        { "analyte": "BILIDIRECT", "unit": "mg/dL", "referenceRange": "0.0-0.3", "cells": ["0.1", " -- ", " -- "] },
+        { "analyte": "LIPASE", "unit": "U/L", "referenceRange": "0-160", "cells": [" -- ", " -- ", "13"] }
+      ]
+    }
+  ],
+  "display_notes": "Cells preserve original flags/text (e.g., '*', 'DECREASE*'). Reference ranges and units are standard adult values."
+}

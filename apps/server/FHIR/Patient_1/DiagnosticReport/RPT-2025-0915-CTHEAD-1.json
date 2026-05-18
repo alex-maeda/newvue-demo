@@ -1,0 +1,37 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "RPT-2025-0915-CTHEAD-1",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        { "system": "http://terminology.hl7.org/CodeSystem/v2-0074", "code": "RAD", "display": "Radiology" }
+      ]
+    }
+  ],
+  "code": { "text": "CT Head Without Contrast" },
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "effectiveDateTime": "2025-09-15T23:00:00-07:00",
+  "issued": "2025-09-15T23:12:00-07:00",
+  "performer": [
+    { "reference": "Organization/ORG-001", "display": "Acute Care Hospital" },
+    { "reference": "Practitioner/PRAC-1000", "display": "Radiologist, MD" }
+  ],
+  "imagingStudy": [
+    { "reference": "ImagingStudy/IMG-2025-0915-CTHEAD-1" }
+  ],
+  "basedOn": [
+    { "reference": "ServiceRequest/SR-2025-0915-CTHEAD-1" }
+  ],
+  "conclusion": "No acute intracranial hemorrhage, herniation, hydrocephalus, or large territory infarct.",
+  "presentedForm": [
+    {
+      "contentType": "text/plain",
+      "language": "en",
+      "url": "Binary/BIN-RPT-2025-0915-CTHEAD-1",
+      "title": "CT Head Without Contrast",
+      "creation": "2025-09-15T23:12:00-07:00"
+    }
+  ]
+}

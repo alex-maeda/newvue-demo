@@ -1,0 +1,266 @@
+Emergency Department Note
+ 
+ 
+CC: STROKE
+ 
+ 
+HPI
+ 
+Patient is a 65 Y female with PMH of metastatic lung cancer on, prior PE on Xarelto, presenting with stroke activation.
+ 
+Last known well 2030, reported witnessed changed by friend of right sided weakness, aphasia, tongue deviation.  Has been able to obey commands with EMS with slight delay.  No noted seizure activity prior to ED arrival, tongue biting, urinary incontinence.  
+ 
+Patient is currently a poor historian, does not recall when she was last normal.
+ 
+ 
+ 
+Past Medical History
+		
+Active Ambulatory Problems
+ 	Diagnosis	Date Noted
+•	ASTHMA, UNSPECIFIED	02/19/2020
+•	COVID-19 RULED OUT	06/25/2020
+•	ANEMIA	06/25/2025
+•	LUNG MASS	06/25/2025
+•	ADENOCARCINOMA, LEFT LUNG LOWER LOBE	07/08/2025
+•	CANCER METASTATIC TO INTRATHORACIC LN	07/08/2025
+•	CANCER METASTATIC TO BONE	07/08/2025
+•	CANCER METASTATIC TO NECK LN	07/08/2025
+•	CANCER METASTATIC TO RIGHT ADRENAL GLAND	07/08/2025
+•	ACUTE PULMONARY EMBOLISM	07/09/2025
+•	ACUTE HYPOXEMIC RESPIRATORY FAILURE	07/09/2025
+•	ASTHMA, UNSPECIFIED W ACUTE EXACERBATION	07/09/2025
+•	ELEVATED BP READING WO HTN DIAGNOSIS	07/09/2025
+•	UNSPECIFIED ANXIETY	07/09/2025
+•	PNEUMONIA	07/10/2025
+•	LONG TERM NON WARFARIN ORAL ANTICOAGULANT THERAPY	07/18/2025
+•	*NEW MEMBER	 
+•	HX OF RADIATION THERAPY	08/07/2025
+ 
+		
+Additional diagnoses from the Past Medical History section
+Diagnosis	Date
+•	PAP SMEAR DONE OUTSIDE KP.	08/15/2017
+•	SEASONAL ALLERGIC RHINITIS	 
+•	TUBAL LIGATION	 
+
+ 
+Past Surgical History
+			
+Past Surgical History:
+Procedure	Laterality	Date
+•	IR SUPERFICIAL LYMPH NODE BIOPSY	Right	7/2/2025
+ 	
+
+ 
+No current facility-administered medications for this encounter.
+ 
+				
+Current Outpatient Medications
+Medication	Sig	Dispense	Refill
+•	predniSONE (DELTASONE) 10 mg Oral Tab	Take 4 tablets daily every morning for 5 days. Then take 3 tablets daliy every morning for 5 days. Then take 2 tablets daily every morning for 5 days. Then take 1 tablet daily every morning for 5 days. Then take half tablet daily every morning for 5 days. Then stop taking. Or take as directed. Take with food.	54 tablet	6
+•	HYDROmorphone (DILAUDID) 2 mg Oral Tab	Take 1 tablet by mouth every 4 hours as needed for pain	18 tablet	0
+•	Azithromycin (ZITHROMAX) 250 mg Oral Tab	Take 2 tablets by mouth daily for 1 day, then 1 tablet daily for 4 days	6 tablet	0
+•	Sennosides (Senna) 8.6 mg Oral Tab	Take 2 tablets by mouth daily as needed for constipation. May increase up to 4 tablets by mouth 2 times a day as needed for severe constipation. Do not exceed 8 tablets in 24 hours	100 tablet	0
+•	Albuterol (PROVENTIL) 2.5 mg /3 mL (0.083 %) Inhl Neb Soln	Use 1 vial via nebulizer every 4 to 6 hours as needed for shortness of breath or wheezing	75 mL	0
+•	Ciclesonide (Alvesco) 160 mcg/actuation Inhl HFAA	Inhale 1 puff by mouth 2 times a day . Rinse mouth after each use.	6.1 g	0
+•	HYDROmorphone (DILAUDID) 2 mg Oral Tab	Take 1 and one-half tablets by mouth every 4 hours while awake	120 tablet	0
+•	Lidocaine Viscous 2 % MM Soln	Swish and spit 15 mL by mouth every 4 hours as needed for mouth pain.	100 mL	6
+•	Osimertinib (Tagrisso) 80 mg Oral Tab	Take 1 tablet by mouth daily	30 tablet	5
+•	Pantoprazole (PROTONIX) 40 mg Oral TBEC DR Tab	Take 1 tablet by mouth 2 times a day 30 minutes before meals	60 tablet	0
+•	Ipratropium-Albuterol (DUONEB) 0.5 mg-3 mg(2.5 mg base)/3 mL Inhl Neb Soln	Use 3 mL via nebulizer every 4 hours while awake	90 mL	0
+•	Cyclobenzaprine (FLEXERIL) 5 mg Oral Tab	Take 1 tablet by mouth 3 times a day as needed for muscle spasms	100 tablet	0
+•	Lidocaine (Aspercreme, lidocaine,) 4 % Top PTMD Patch	Apply 2 patches to C-spine and/or Left shoulder in area of pain daily	60	0
+•	Sucralfate (CARAFATE) 100 mg/mL Oral Susp	Take 10 mL by mouth 30 minutes before meals and at bedtime	473 mL	2
+•	Rivaroxaban (Xarelto) 20 mg Oral Tab	Take 1 tablet by mouth daily with dinner (Start after completing Xarelto 15 mg tablets)	100 tablet	3
+•	Mouthwash:diphenhydrAMINE-Lidocaine Visc.-Maalox Oral Susp	Swallow 1 teaspoonful (5 mL) by mouth 4 times a day or as directed	480 mL	3
+•	Ondansetron (ZOFRAN ODT) 8 mg Oral Rap Dis Tab	Dissolve 1 tablet on the tongue every 8 hours	60 tablet	0
+•	Acetaminophen (TYLENOL) 325 mg Oral Tab	Take 1 tablet by mouth every 6 hours for 7 days. Continue standing for 7 days then as needed.	100 tablet	0
+•	Doxycycline Monohydrate (AVIDOXY) 100 mg Oral Tab	Take 1 tablet by mouth this evening 7/17/25 to complete course	1 tablet	0
+•	Cefpodoxime (VANTIN) 200 mg Oral Tab	Take 1 tablet by mouth tonight to complete the antibiotic course on 07/17/25 - evening.	1 tablet	0
+•	HYDROmorphone (DILAUDID) 2 mg Oral Tab	Take a half to 1 tablet by mouth every 4 hours as needed for moderate to severe pain	30 tablet	0
+•	Folic Acid 1 mg Oral Tab	Take 1 tablet by mouth every 24 hours	100 tablet	0
+•	Polyethylene Glycol 3350 (MIRALAX/GLYCOLAX) 17 gram/dose Oral Powd	Mix 17 Grams in 4 to 8 ounces of water or juice and drink by mouth daily as directed for constipation	238 g	0
+•	Naloxone (NARCAN) 4 mg/actuation Nasl Spray	For Non-Recipient Use. Use 1 spray in one nostril. Seek immediate Emergency medical help. If response is not obtained after 2 or 3 minutes, administer 2nd dose in other nostril using a new device until Emergency help arrives. Emergency use only	2 Each	0
+•	Metoprolol Tartrate (LOPRESSOR) 25 mg Oral Tab	Take 1 tablet by mouth 2 times a day with meals	60 tablet	2
+•	Polyethylene Glycol 3350 (MIRALAX/GLYCOLAX) 17 gram Oral Pwd Pkt	Take 1 Packet by mouth daily	30	0
+•	Camphor-Methyl Salicylate-Menthol (Salonpas) 3.1-10-6 % Top PTMD Patch	Apply 1 patch to your neck every evening	40	0
+•	inhaler, assist devices (AEROCHAMBER Z-STAT PLUS-FLW SG) Misc Spacer	USE AS DIRECTED WITH INHALER	1	0
+ 
+ 
+Allergies
+			
+Allergies
+Allergen	Reactions
+•	Contrast [Ivp Dye, Iodine Containing]	Swelling
+ 	 	Per pt
+
+ 
+ 
+Social History
+Social History
+ 
+			
+Socioeconomic History
+•	Marital status:	Divorced
+Tobacco Use
+•	Smoking status:	Never
+•	Smokeless tobacco:	Never
+Substance and Sexual Activity
+•	Alcohol use:	Yes
+ 	 	Types:	1 Glasses of wine per week
+•	Drug use:	No
+•	Sexual activity:	Yes
+ 	 	Partners:	Male
+ 	 	Birth control/protection:	bilateral tubal ligation
+Social History Narrative
+ 	 
+
+ 
+‌
+
+ 
+ 
+
+ 
+Family History
+			
+Family History
+Problem	Relation	Age of Onset
+•	Hyperlipidemia	Father	 
+•	Hypertension	Father	 
+•	Stroke	Father	 
+
+ 
+I have reviewed the clinical diagnoses listed below which were considered in the care of this patient.  At the time of this visit there are no changes in these conditions unless otherwise noted.  The patient will be advised to follow up after discharge with their PCP or appropriate specialist as treatment warrants.  
+ 
+Clinical Diagnoses:  
+ 
+ 	ASTHMA, UNSPECIFIED
+ 	LONG TERM NON WARFARIN ORAL ANTICOAGULANT THERAPY
+
+ 
+ 
+ 
+PE
+ 
+				
+Vitals:
+ 	09/15/25 2300	09/15/25 2303	09/15/25 2320	09/15/25 2330
+BP:	 	 	145/95	137/86
+Pulse:	 	93	95	97
+Resp:	 	17	15	19
+Temp:	98.1 °F (36.7 °C)	 	98.4 °F (36.9 °C)	 
+SpO2:	 	97%	96%	94%
+Weight:	 	 	 	 
+ 
+ 
+Physical Exam 
+Nursing note and vitals reviewed.
+Constitutional: She is cooperative. 
+Eyes: Conjunctivae are normal. 
+Pulmonary/Chest: No respiratory distress. 
+Abdominal: Soft. There is no abdominal tenderness. There is no guarding. 
+ 
+Musculoskeletal: 
+   Right lower leg: No edema. 
+   Left lower leg: No edema. 
+Neurological: She is disoriented. She displays facial symmetry. 
+Initial right-sided deficits with slightly decreased right arm raise and leg elevation.  Possible left-sided gaze preference. 
+ 
+On further exam with telestroke neurologist, slightly improved 
+Skin: 
+No tongue biting 
+ 
+ 
+ 
+
+ 
+ 
+NIH Stroke Scale
+ 
+1a. Level of Consciousness: 1
+ 
+1b. LOC Questions- The patient is asked the month and his/her age: 2= Answers neither question correctly.
+ 
+1c. LOC Commands- The patient is asked to open and close the eyes and then grip and release the non-paretic hand:0= Performs both tasks correctly.
+ 
+2. Best Gaze: 0= Normal.
+ 
+3. Visual: 0= No visual loss.
+ 
+4. Facial Palsy: 0= Normal symmetrical movements
+ 
+5. Motor Arm: Right: 1= Drift; limb holds 90 (or 45) degrees, but drifts down before full 10 seconds; does not hit bed or other support.
+Left: 0= No drift; limb holds 90 (or 45) degrees for full 10 seconds.
+ 
+6. Motor Leg: Right: 0= No drift; leg holds 30 degree position for full 5 seconds.
+Left: 0= No drift; leg holds 30 degree position for full 5 seconds.
+ 
+7. Limb Ataxia: 0= Absent
+ 
+8. Sensory: 1= Mild-to-moderate sensory loss; patient feels pinprick is less sharp or is dull on the affected side; or there is a loss of superficial pain with pinprick, but patient is aware of being touched.
+ 
+9. Best Language: 1= Mild-to-moderate aphasia; some obvious loss of fluency or facility of comprehension, without significant limitation on ideas expressed or form of expression.  Reduction of speech and/or comprehension, however, makes conversation about provided materials difficult or impossible. For example, in conversation about provided materials, examiner can identify picture or naming card content from patient's response.
+ 
+10. Dysarthria: 0= Normal
+ 
+11. Extinction and Inattention (formerly Neglect): 0= No abnormality.
+ 
+12. Total Score: 5
+ 
+ 
+ 
+ 
+ECG interpretation done by me. Time 000. Rate is 87. The rhythm is normal sinus. There is no acute ischemic changes, emergent arrhythmia, or ST changes to suggest acute MI. 
+ 
+ 
+Reviewed records of past encounters in Health Connect.
+Independently reviewed imaging and laboratory studies. 
+ 
+RESULTS
+ 
+No results found for this visit on 09/15/25.
+ 
+ 
+
+Narrative/Impressions of Imaging Results for 1 Day
+CT HEAD
+Result Date: 9/15/2025
+    CT HEAD WITHOUT CONTRAST     ** HISTORY **:  65 years old,  STROKE symptoms   ** TECHNIQUE **:  CT images of the head acquired without intravenous contrast.   CTDI: 0.04,48.67 mGy  DLP: 0.81,687.3 mGy-cm   COMPARISON: None available.   ** FINDINGS **:  BRAIN PARENCHYMA: No acute hemorrhage. No mass effect or herniation. Gray-white differentiation is maintained. White matter is within normal limits for age.   VENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus or extra-axial fluid collections.   EXTRACRANIAL STRUCTURES: Normal bones and soft tissues. Visualized paranasal sinuses and mastoids demonstrate no significant abnormality.   
+ 
+  No acute intracranial hemorrhage, herniation, hydrocephalus, or large territory infarct.       
+ 
+ 
+ 
+MDM
+ 
+ 
+Patient is a 65 Y female with PMH of metastatic lung cancer on, prior PE on Xarelto, presenting with stroke activation.
+ 
+VSS and afebrile. Patient remained hemodynamically stable during observation. Exam without concerning abnormality on arrival including slight right-sided extremity deficit, possible left gaze preference, altered mental status.
+ 
+Stroke activation at this time.  Telestroke has evaluated patient.  On their evaluation, given that patient is unable to answer when she was last known well, they decided to use extended stroke window.  NIH on their evaluation currently of 4.  Recommending CT Noncon and MRI brain with and without contrast.  Their consideration is for possible seizure despite lack of history of prior seizures and no brain lesions.
+ 
+Labs and chemistries overall unremarkable. EKG reviewed as above. 
+ 
+CT Noncon unremarkable, no evidence of intracranial hemorrhage.
+ 
+Patient seen and re-examined. Still not at baseline.
+ 
+Based on the patient’s current condition, discussed that admission or emergent intervention is indicated at this time. HBS consult placed, who agrees with plan for admission for further management of patient's stroke vs seizure.
+ 
+ 
+ 
+DIAGNOSIS: 
+ 	 	ICD-10-CM
+1.	ALTERED MENTAL STATUS, UNSPECIFIED 	R41.82
+2.	ADENOCARCINOMA, LEFT LUNG LOWER LOBE 	C34.32
+3.	LONG TERM NON WARFARIN ORAL ANTICOAGULANT THERAPY 	Z79.01
+ 
+ 
+PLAN: Admit to hospital
+ 
+DISPOSITION: Admitted in stable condition
+
+Emergency Doctor, MD

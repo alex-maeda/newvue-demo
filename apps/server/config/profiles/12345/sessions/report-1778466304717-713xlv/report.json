@@ -1,0 +1,860 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "title": "MRI Brain without Contrast",
+  "modality": "MRI",
+  "bodyRegion": "head",
+  "description": "System default template",
+  "templateId": "mri-brain-without-contrast",
+  "fileTemplateId": "MRI_brain_without_contrast",
+  "reportId": "report-1778466304717-713xlv",
+  "sessionId": "report-1778466304717-713xlv",
+  "status": "in-progress",
+  "author": null,
+  "createdAt": "2026-05-11T02:25:05.511Z",
+  "updatedAt": "2026-05-11T02:25:05.511Z",
+  "signedAt": null,
+  "patient": null,
+  "study": null,
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "typeAttribute": [
+        "narrative"
+      ],
+      "parentId": null,
+      "children": [
+        {
+          "id": "sub_study_title",
+          "type": "subsection",
+          "typeAttribute": [
+            "studyName"
+          ],
+          "parentId": "headline_narrative",
+          "children": [],
+          "label": "MRI Brain without Contrast",
+          "text": "MRI Brain without Contrast",
+          "templateText": "MRI Brain without Contrast",
+          "currentText": "MRI Brain without Contrast",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_history",
+          "type": "section",
+          "typeAttribute": [
+            "history"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_history_main",
+              "type": "content",
+              "typeAttribute": [
+                "history"
+              ],
+              "parentId": "section_history",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "History",
+          "text": "History",
+          "childrenId": [
+            "content_history_main"
+          ],
+          "templateText": "History",
+          "currentText": "History",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_technique",
+          "type": "section",
+          "typeAttribute": [
+            "technique"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_technique_main",
+              "type": "content",
+              "typeAttribute": [
+                "technique"
+              ],
+              "parentId": "section_technique",
+              "children": [],
+              "text": "MR images of the brain acquired without intravenous contrast.",
+              "inputType": "text",
+              "templateText": "MR images of the brain acquired without intravenous contrast.",
+              "currentText": "MR images of the brain acquired without intravenous contrast.",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "MR images of the brain acquired without intravenous contrast.",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "Technique",
+          "text": "Technique",
+          "childrenId": [
+            "content_technique_main"
+          ],
+          "templateText": "Technique",
+          "currentText": "Technique",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_comparison",
+          "type": "section",
+          "typeAttribute": [
+            "comparison"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_comparison_main",
+              "type": "content",
+              "typeAttribute": [
+                "comparison"
+              ],
+              "parentId": "section_comparison",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "Comparison",
+          "text": "Comparison",
+          "childrenId": [
+            "content_comparison_main"
+          ],
+          "templateText": "Comparison",
+          "currentText": "Comparison",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_findings",
+          "type": "section",
+          "typeAttribute": [
+            "findings"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "sub_brain_parenchyma",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_bp_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_brain_parenchyma",
+                  "children": [],
+                  "text": "No acute infarct or hemorrhage.",
+                  "inputType": "text",
+                  "normalIndex": 0,
+                  "templateText": "No acute infarct or hemorrhage.",
+                  "currentText": "No acute infarct or hemorrhage.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No acute infarct or hemorrhage.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                },
+                {
+                  "id": "content_bp_2",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal",
+                    "dropdown"
+                  ],
+                  "parentId": "sub_brain_parenchyma",
+                  "children": [],
+                  "text": "White matter shows age-appropriate findings. There is no significant global cerebral atrophy.",
+                  "inputType": "select",
+                  "options": [
+                    {
+                      "value": "age-appropriate findings"
+                    },
+                    {
+                      "value": "mild chronic microvascular ischemic disease"
+                    },
+                    {
+                      "value": "moderate microvascular ischemic disease"
+                    },
+                    {
+                      "value": "severe microvascular ischemic disease"
+                    }
+                  ],
+                  "defaultOptionIndex": 0,
+                  "parts": [
+                    {
+                      "type": "text",
+                      "value": "White matter shows "
+                    },
+                    {
+                      "type": "picklist",
+                      "options": [
+                        "age-appropriate findings",
+                        "mild chronic microvascular ischemic disease",
+                        "moderate microvascular ischemic disease",
+                        "severe microvascular ischemic disease"
+                      ],
+                      "defaultIndex": 0,
+                      "allowFreeText": true
+                    },
+                    {
+                      "type": "text",
+                      "value": ". There is "
+                    },
+                    {
+                      "type": "picklist",
+                      "options": [
+                        "no significant",
+                        "mild",
+                        "moderate",
+                        "severe"
+                      ],
+                      "defaultIndex": 0,
+                      "allowFreeText": true
+                    },
+                    {
+                      "type": "text",
+                      "value": " global cerebral atrophy."
+                    }
+                  ],
+                  "picklists": [
+                    {
+                      "partIndex": 1,
+                      "startOffset": 19,
+                      "endOffset": 43,
+                      "selectedIndex": 0,
+                      "active": true
+                    },
+                    {
+                      "partIndex": 3,
+                      "startOffset": 54,
+                      "endOffset": 68,
+                      "selectedIndex": 0,
+                      "active": true
+                    }
+                  ],
+                  "normalIndex": 1,
+                  "templateText": "White matter shows age-appropriate findings. There is no significant global cerebral atrophy.",
+                  "currentText": "White matter shows age-appropriate findings. There is no significant global cerebral atrophy.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "select",
+                    "options": [
+                      {
+                        "value": "age-appropriate findings"
+                      },
+                      {
+                        "value": "mild chronic microvascular ischemic disease"
+                      },
+                      {
+                        "value": "moderate microvascular ischemic disease"
+                      },
+                      {
+                        "value": "severe microvascular ischemic disease"
+                      }
+                    ],
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "White matter shows age-appropriate findings. There is no significant global cerebral atrophy.",
+                    "picklists": [
+                      {
+                        "partIndex": 1,
+                        "startOffset": 19,
+                        "endOffset": 43,
+                        "selectedIndex": 0,
+                        "active": true
+                      },
+                      {
+                        "partIndex": 3,
+                        "startOffset": 54,
+                        "endOffset": 68,
+                        "selectedIndex": 0,
+                        "active": true
+                      }
+                    ],
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Brain Parenchyma",
+              "text": "Brain Parenchyma",
+              "childrenId": [
+                "content_bp_1",
+                "content_bp_2"
+              ],
+              "templateText": "Brain Parenchyma",
+              "currentText": "Brain Parenchyma",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_ventricles_extraaxial",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_vent_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_ventricles_extraaxial",
+                  "children": [],
+                  "text": "No hydrocephalus or extra-axial fluid collections.",
+                  "inputType": "text",
+                  "normalIndex": 2,
+                  "templateText": "No hydrocephalus or extra-axial fluid collections.",
+                  "currentText": "No hydrocephalus or extra-axial fluid collections.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No hydrocephalus or extra-axial fluid collections.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Ventricles/Extra-Axial Spaces",
+              "text": "Ventricles/Extra-Axial Spaces",
+              "childrenId": [
+                "content_vent_1"
+              ],
+              "templateText": "Ventricles/Extra-Axial Spaces",
+              "currentText": "Ventricles/Extra-Axial Spaces",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_flow_voids",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_flow_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_flow_voids",
+                  "children": [],
+                  "text": "Intact.",
+                  "inputType": "text",
+                  "normalIndex": 3,
+                  "templateText": "Intact.",
+                  "currentText": "Intact.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Intact.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Flow Voids",
+              "text": "Flow Voids",
+              "childrenId": [
+                "content_flow_1"
+              ],
+              "templateText": "Flow Voids",
+              "currentText": "Flow Voids",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_extracranial_structures",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_extra_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_extracranial_structures",
+                  "children": [],
+                  "text": "Appropriate aeration of visualized sinuses.",
+                  "inputType": "text",
+                  "normalIndex": 4,
+                  "templateText": "Appropriate aeration of visualized sinuses.",
+                  "currentText": "Appropriate aeration of visualized sinuses.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Appropriate aeration of visualized sinuses.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                },
+                {
+                  "id": "content_extra_2",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_extracranial_structures",
+                  "children": [],
+                  "text": "No soft tissue abnormalities.",
+                  "inputType": "text",
+                  "normalIndex": 5,
+                  "templateText": "No soft tissue abnormalities.",
+                  "currentText": "No soft tissue abnormalities.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No soft tissue abnormalities.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Extracranial Structures",
+              "text": "Extracranial Structures",
+              "childrenId": [
+                "content_extra_1",
+                "content_extra_2"
+              ],
+              "templateText": "Extracranial Structures",
+              "currentText": "Extracranial Structures",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            }
+          ],
+          "label": "Findings",
+          "text": "Findings",
+          "childrenId": [
+            "sub_brain_parenchyma",
+            "sub_ventricles_extraaxial",
+            "sub_flow_voids",
+            "sub_extracranial_structures"
+          ],
+          "templateText": "Findings",
+          "currentText": "Findings",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        }
+      ],
+      "label": "Narrative",
+      "text": "Narrative",
+      "childrenId": [
+        "sub_study_title",
+        "section_history",
+        "section_technique",
+        "section_comparison",
+        "section_findings"
+      ],
+      "templateText": "Narrative",
+      "currentText": "Narrative",
+      "state": {
+        "edited": false,
+        "syntheticSection": false,
+        "syntheticSectionType": null,
+        "impressionDerived": false
+      }
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "typeAttribute": [
+        "impression"
+      ],
+      "parentId": null,
+      "children": [
+        {
+          "id": "content_imp_1778466305511_sava",
+          "type": "content",
+          "text": "Normal MRI of the brain.",
+          "children": [],
+          "typeAttribute": [],
+          "typeData": {},
+          "parentId": "headline_impression",
+          "childrenId": [],
+          "orderIndex": 0,
+          "misc": {},
+          "templateText": "Normal MRI of the brain.",
+          "currentText": "Normal MRI of the brain.",
+          "state": {
+            "version": 0,
+            "manuallyEdited": false,
+            "deleted": false,
+            "inputType": "text",
+            "options": null,
+            "selectedOptionIndex": 0,
+            "defaultOptionIndex": 0,
+            "originalText": "",
+            "picklists": null,
+            "pass2Inserted": false,
+            "sourceSegmentIds": [],
+            "pass2RunId": null,
+            "suppressedBySegmentIds": [],
+            "editedBySegmentIds": [],
+            "impressionGenerated": true,
+            "impressionRunId": "IG_2_1778466300993",
+            "isCritical": false,
+            "guideline": null,
+            "recommendation": null,
+            "syntheticContent": null,
+            "sourceImpressionBoxId": null
+          }
+        }
+      ],
+      "label": "Impression",
+      "text": "Impression",
+      "childrenId": [
+        "content_imp_1778466305511_sava"
+      ],
+      "templateText": "Impression",
+      "currentText": "Impression",
+      "state": {
+        "edited": false,
+        "syntheticSection": false,
+        "syntheticSectionType": null,
+        "impressionDerived": false
+      }
+    }
+  ],
+  "segments": {
+    "dictation-box": [],
+    "content_technique_main": [
+      {
+        "segmentId": "seg_1778466304717_p8mzhd",
+        "textareaTarget": "content_technique_main",
+        "startOffset": 0,
+        "endOffset": 61,
+        "length": 61,
+        "text": "MR images of the brain acquired without intravenous contrast.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_bp_1": [
+      {
+        "segmentId": "seg_1778466304717_ymrqcr",
+        "textareaTarget": "content_bp_1",
+        "startOffset": 0,
+        "endOffset": 31,
+        "length": 31,
+        "text": "No acute infarct or hemorrhage.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_bp_2": [
+      {
+        "segmentId": "seg_1778466304717_ptwpkk",
+        "textareaTarget": "content_bp_2",
+        "startOffset": 0,
+        "endOffset": 93,
+        "length": 93,
+        "text": "White matter shows age-appropriate findings. There is no significant global cerebral atrophy.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_vent_1": [
+      {
+        "segmentId": "seg_1778466304717_hrvi2q",
+        "textareaTarget": "content_vent_1",
+        "startOffset": 0,
+        "endOffset": 50,
+        "length": 50,
+        "text": "No hydrocephalus or extra-axial fluid collections.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_flow_1": [
+      {
+        "segmentId": "seg_1778466304717_40kw9u",
+        "textareaTarget": "content_flow_1",
+        "startOffset": 0,
+        "endOffset": 7,
+        "length": 7,
+        "text": "Intact.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_extra_1": [
+      {
+        "segmentId": "seg_1778466304717_s6wsgk",
+        "textareaTarget": "content_extra_1",
+        "startOffset": 0,
+        "endOffset": 43,
+        "length": 43,
+        "text": "Appropriate aeration of visualized sinuses.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_extra_2": [
+      {
+        "segmentId": "seg_1778466304717_8dzuxa",
+        "textareaTarget": "content_extra_2",
+        "startOffset": 0,
+        "endOffset": 29,
+        "length": 29,
+        "text": "No soft tissue abnormalities.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_imp_1778466305511_sava": [
+      {
+        "segmentId": "seg_1778466305511_y0g0ot",
+        "textareaTarget": "content_imp_1778466305511_sava",
+        "startOffset": 0,
+        "endOffset": 24,
+        "length": 24,
+        "text": "Normal MRI of the brain.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ]
+  },
+  "tokenUsage": {
+    "pass1": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    "pass2a": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    "pass2b": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    "impression": {
+      "inputTokens": 1892,
+      "outputTokens": 74
+    }
+  },
+  "dictationText": ""
+}

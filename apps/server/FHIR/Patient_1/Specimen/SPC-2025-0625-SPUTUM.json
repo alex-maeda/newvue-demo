@@ -1,0 +1,7 @@
+{
+  "resourceType": "Specimen",
+  "id": "SPC-2025-0625-SPUTUM",
+  "subject": { "reference": "Patient/P12345" },
+  "type": { "text": "Sputum" },
+  "receivedTime": "2025-06-25T00:00:00-07:00"
+}

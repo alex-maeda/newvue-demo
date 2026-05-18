@@ -1,0 +1,76 @@
+{
+  "_comment": "MSH + PV1 + current study data for Patient 2 — Outpatient, follow-up imaging",
+  "patientId": "Patient_2",
+  "msh": {
+    "messageDateTime": "20250901120000",
+    "messageControlId": "MSG20250901-P2-001"
+  },
+  "pv1": {
+    "patientClass": "O",
+    "patientClassDescription": "Outpatient",
+    "assignedPatientLocation": "RAD^SUITE-3",
+    "attendingPhysician": {
+      "id": "ATT001",
+      "last": "MARTINEZ",
+      "first": "ELENA",
+      "mi": "R"
+    },
+    "referringPhysician": {
+      "id": "REF003",
+      "last": "REYES",
+      "first": "ISABELLA",
+      "mi": "A"
+    },
+    "visitNumber": "ENC20250901-0002"
+  },
+  "currentStudies": [
+    {
+      "currentStudyId": "P2-CURRENT-001",
+      "studyDescription": "CT Abdomen Pelvis with Contrast",
+      "accessionNumber": "ACC-P2-C001",
+      "studyDateTime": "20250901140000",
+      "orderingPhysician": "Reyes, Isabella A",
+      "clinicalIndication": "Suprapubic pain",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.2.C1",
+      "labels": {
+        "modality": "CT",
+        "bodyRegions": ["abdomen", "pelvis"],
+        "isAngiographic": false,
+        "laterality": null
+      }
+    },
+    {
+      "currentStudyId": "P2-CURRENT-002",
+      "studyDescription": "CT Head without Contrast",
+      "accessionNumber": "ACC-P2-C002",
+      "studyDateTime": "20250901141500",
+      "orderingPhysician": "Reyes, Isabella A",
+      "clinicalIndication": "Eval SDH",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.2.C2",
+      "labels": {
+        "modality": "CT",
+        "bodyRegions": ["head"],
+        "isAngiographic": false,
+        "laterality": null
+      }
+    },
+    {
+      "currentStudyId": "P2-CURRENT-003",
+      "studyDescription": "US Abdomen Complete",
+      "accessionNumber": "ACC-P2-C003",
+      "studyDateTime": "20250901143000",
+      "orderingPhysician": "Reyes, Isabella A",
+      "clinicalIndication": "RUQ pain",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.2.C3",
+      "labels": {
+        "modality": "US",
+        "bodyRegions": ["abdomen"],
+        "isAngiographic": false,
+        "laterality": null
+      }
+    }
+  ]
+}

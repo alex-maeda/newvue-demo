@@ -1,0 +1,60 @@
+{
+  "_comment": "MSH + PV1 + current study data for Patient 1 — Inpatient, oncology workup",
+  "patientId": "Patient_1",
+  "msh": {
+    "messageDateTime": "20250920120000",
+    "messageControlId": "MSG20250920-P1-001"
+  },
+  "pv1": {
+    "patientClass": "I",
+    "patientClassDescription": "Inpatient",
+    "assignedPatientLocation": "MED^RM412^BED-A",
+    "attendingPhysician": {
+      "id": "ATT006",
+      "last": "OKONKWO",
+      "first": "ADAEZE",
+      "mi": "F"
+    },
+    "referringPhysician": {
+      "id": "REF002",
+      "last": "KLEIN",
+      "first": "MARCUS",
+      "mi": "J"
+    },
+    "visitNumber": "ENC20250918-0001"
+  },
+  "currentStudies": [
+    {
+      "currentStudyId": "P1-CURRENT-001",
+      "studyDescription": "MR Brain without Contrast",
+      "accessionNumber": "ACC-P1-C001",
+      "studyDateTime": "20250920140000",
+      "orderingPhysician": "Klein, Marcus J",
+      "clinicalIndication": "Somnolence. Evaluate for new stroke or edema.",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.1.C1",
+      "labels": {
+        "modality": "MR",
+        "bodyRegions": ["head"],
+        "isAngiographic": false,
+        "laterality": null
+      }
+    },
+    {
+      "currentStudyId": "P1-CURRENT-003",
+      "studyDescription": "XR Chest – PA and Lateral",
+      "accessionNumber": "ACC-P1-C003",
+      "studyDateTime": "20250920143000",
+      "orderingPhysician": "Klein, Marcus J",
+      "clinicalIndication": "Tube positioning",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.1.C3",
+      "labels": {
+        "modality": "XR",
+        "bodyRegions": ["chest"],
+        "isAngiographic": false,
+        "laterality": null
+      }
+    }
+  ]
+}

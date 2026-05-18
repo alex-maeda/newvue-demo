@@ -1,0 +1,87 @@
+/**
+ * ReportView styles.
+ */
+
+.report-view {
+  padding: 20px 24px 40px;
+}
+
+/* ── Header ── */
+
+.rv-header {
+  margin-bottom: 20px;
+}
+
+.rv-header-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.rv-modality-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.rv-study-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-content-t1);
+}
+
+.rv-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: var(--color-content-t4);
+}
+
+.rv-meta-sep {
+  opacity: 0.4;
+}
+
+/* ── Sections ── */
+
+.rv-sections {
+  max-width: 800px;
+}
+
+.rv-section {
+  margin-bottom: 18px;
+}
+
+.rv-section-label {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-content-t3);
+  margin-bottom: 6px;
+  padding-bottom: 4px;
+  border-bottom: var(--border-t1);
+}
+
+.rv-section-text {
+  font-size: 0.875rem;
+  color: var(--color-content-t2);
+  line-height: 1.6;
+}
+
+/* ── AI Summary — now rendered by ReportSummary component (see ReportSummary.css) ── */
+
+/* ── Variant: Prior ── */
+
+.report-view--prior .rv-section-label {
+  color: var(--color-content-t3);
+  border-bottom-color: rgba(110, 110, 196, 0.15);
+}

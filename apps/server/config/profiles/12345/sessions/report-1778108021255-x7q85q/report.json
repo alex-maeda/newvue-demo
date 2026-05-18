@@ -1,0 +1,798 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "title": "MG Breast Bilateral Screening",
+  "modality": "MG",
+  "bodyRegion": "breast",
+  "description": "System default template",
+  "templateId": "mg-breast-bilateral-screening",
+  "fileTemplateId": "MG_breast_bilateral_screening",
+  "reportId": "report-1778108021255-x7q85q",
+  "sessionId": "report-1778108021255-x7q85q",
+  "status": "in-progress",
+  "author": null,
+  "createdAt": "2026-05-06T22:57:45.108Z",
+  "updatedAt": "2026-05-06T22:57:55.641Z",
+  "signedAt": null,
+  "patient": null,
+  "study": null,
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "typeAttribute": [
+        "narrative"
+      ],
+      "parentId": null,
+      "children": [
+        {
+          "id": "sub_study_title",
+          "type": "subsection",
+          "typeAttribute": [
+            "studyName"
+          ],
+          "parentId": "headline_narrative",
+          "children": [],
+          "label": "MG Breast Bilateral Screening",
+          "text": "MG Breast Bilateral Screening",
+          "templateText": "MG Breast Bilateral Screening",
+          "currentText": "MG Breast Bilateral Screening",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_history",
+          "type": "section",
+          "typeAttribute": [
+            "history"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_history_main",
+              "type": "content",
+              "typeAttribute": [
+                "history"
+              ],
+              "parentId": "section_history",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "History",
+          "text": "History",
+          "childrenId": [
+            "content_history_main"
+          ],
+          "templateText": "History",
+          "currentText": "History",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_technique",
+          "type": "section",
+          "typeAttribute": [
+            "technique"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_technique_main",
+              "type": "content",
+              "typeAttribute": [
+                "technique"
+              ],
+              "parentId": "section_technique",
+              "children": [],
+              "text": "Standard bilateral screening mammographic views (CC and MLO) were obtained.",
+              "inputType": "text",
+              "templateText": "Standard bilateral screening mammographic views (CC and MLO) were obtained.",
+              "currentText": "Standard bilateral screening mammographic views (CC and MLO) were obtained.",
+              "state": {
+                "version": 0,
+                "manuallyEdited": false,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "Standard bilateral screening mammographic views (CC and MLO) were obtained.",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "Technique",
+          "text": "Technique",
+          "childrenId": [
+            "content_technique_main"
+          ],
+          "templateText": "Technique",
+          "currentText": "Technique",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_comparison",
+          "type": "section",
+          "typeAttribute": [
+            "comparison"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "content_comparison_main",
+              "type": "content",
+              "typeAttribute": [
+                "comparison"
+              ],
+              "parentId": "section_comparison",
+              "children": [],
+              "text": "",
+              "inputType": "text",
+              "templateText": "",
+              "currentText": "history",
+              "state": {
+                "version": 3,
+                "manuallyEdited": true,
+                "deleted": false,
+                "inputType": "text",
+                "options": null,
+                "selectedOptionIndex": 0,
+                "defaultOptionIndex": 0,
+                "originalText": "",
+                "picklists": null,
+                "pass2Inserted": false,
+                "sourceSegmentIds": [],
+                "pass2RunId": null,
+                "suppressedBySegmentIds": [],
+                "editedBySegmentIds": [],
+                "impressionGenerated": false,
+                "impressionRunId": null,
+                "isCritical": false,
+                "guideline": null,
+                "recommendation": null,
+                "syntheticContent": null,
+                "sourceImpressionBoxId": null
+              }
+            }
+          ],
+          "label": "Comparison",
+          "text": "Comparison",
+          "childrenId": [
+            "content_comparison_main"
+          ],
+          "templateText": "Comparison",
+          "currentText": "Comparison",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        },
+        {
+          "id": "section_findings",
+          "type": "section",
+          "typeAttribute": [
+            "findings"
+          ],
+          "parentId": "headline_narrative",
+          "children": [
+            {
+              "id": "sub_breast_composition",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_comp_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_breast_composition",
+                  "children": [],
+                  "text": "The breasts are heterogeneously dense, which may obscure small masses.",
+                  "inputType": "text",
+                  "normalIndex": 0,
+                  "templateText": "The breasts are heterogeneously dense, which may obscure small masses.",
+                  "currentText": "The breasts are heterogeneously dense, which may obscure small masses",
+                  "state": {
+                    "version": 1,
+                    "manuallyEdited": true,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "The breasts are heterogeneously dense, which may obscure small masses.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Breast Composition",
+              "text": "Breast Composition",
+              "childrenId": [
+                "content_comp_1"
+              ],
+              "templateText": "Breast Composition",
+              "currentText": "Breast Composition",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_right_breast",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_rb_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_right_breast",
+                  "children": [],
+                  "text": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                  "inputType": "text",
+                  "normalIndex": 1,
+                  "templateText": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                  "currentText": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Right Breast",
+              "text": "Right Breast",
+              "childrenId": [
+                "content_rb_1"
+              ],
+              "templateText": "Right Breast",
+              "currentText": "Right Breast",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_left_breast",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_lb_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_left_breast",
+                  "children": [],
+                  "text": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                  "inputType": "text",
+                  "normalIndex": 2,
+                  "templateText": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                  "currentText": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "No suspicious mass, architectural distortion, or suspicious calcification.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Left Breast",
+              "text": "Left Breast",
+              "childrenId": [
+                "content_lb_1"
+              ],
+              "templateText": "Left Breast",
+              "currentText": "Left Breast",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_axillary_ln",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_ax_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_axillary_ln",
+                  "children": [],
+                  "text": "Bilateral axillary lymph nodes appear morphologically normal.",
+                  "inputType": "text",
+                  "normalIndex": 3,
+                  "templateText": "Bilateral axillary lymph nodes appear morphologically normal.",
+                  "currentText": "Bilateral axillary lymph nodes appear morphologically normal. assessment",
+                  "state": {
+                    "version": 3,
+                    "manuallyEdited": true,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "Bilateral axillary lymph nodes appear morphologically normal.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Axillary Lymph Nodes",
+              "text": "Axillary Lymph Nodes",
+              "childrenId": [
+                "content_ax_1"
+              ],
+              "templateText": "Axillary Lymph Nodes",
+              "currentText": "Axillary Lymph Nodes",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            },
+            {
+              "id": "sub_assessment",
+              "type": "subsection",
+              "typeAttribute": [
+                "subFindings"
+              ],
+              "parentId": "section_findings",
+              "children": [
+                {
+                  "id": "content_assess_1",
+                  "type": "content",
+                  "typeAttribute": [
+                    "normal"
+                  ],
+                  "parentId": "sub_assessment",
+                  "children": [],
+                  "text": "BI-RADS 1: Negative.",
+                  "inputType": "text",
+                  "normalIndex": 4,
+                  "templateText": "BI-RADS 1: Negative.",
+                  "currentText": "BI-RADS 1: Negative.",
+                  "state": {
+                    "version": 0,
+                    "manuallyEdited": false,
+                    "deleted": false,
+                    "inputType": "text",
+                    "options": null,
+                    "selectedOptionIndex": 0,
+                    "defaultOptionIndex": 0,
+                    "originalText": "BI-RADS 1: Negative.",
+                    "picklists": null,
+                    "pass2Inserted": false,
+                    "sourceSegmentIds": [],
+                    "pass2RunId": null,
+                    "suppressedBySegmentIds": [],
+                    "editedBySegmentIds": [],
+                    "impressionGenerated": false,
+                    "impressionRunId": null,
+                    "isCritical": false,
+                    "guideline": null,
+                    "recommendation": null,
+                    "syntheticContent": null,
+                    "sourceImpressionBoxId": null
+                  }
+                }
+              ],
+              "label": "Assessment",
+              "text": "Assessment",
+              "childrenId": [
+                "content_assess_1"
+              ],
+              "templateText": "Assessment",
+              "currentText": "Assessment",
+              "state": {
+                "edited": false,
+                "syntheticSection": false,
+                "syntheticSectionType": null,
+                "impressionDerived": false
+              }
+            }
+          ],
+          "label": "Findings",
+          "text": "Findings",
+          "childrenId": [
+            "sub_breast_composition",
+            "sub_right_breast",
+            "sub_left_breast",
+            "sub_axillary_ln",
+            "sub_assessment"
+          ],
+          "templateText": "Findings",
+          "currentText": "Findings",
+          "state": {
+            "edited": false,
+            "syntheticSection": false,
+            "syntheticSectionType": null,
+            "impressionDerived": false
+          }
+        }
+      ],
+      "label": "Narrative",
+      "text": "Narrative",
+      "childrenId": [
+        "sub_study_title",
+        "section_history",
+        "section_technique",
+        "section_comparison",
+        "section_findings"
+      ],
+      "templateText": "Narrative",
+      "currentText": "Narrative",
+      "state": {
+        "edited": false,
+        "syntheticSection": false,
+        "syntheticSectionType": null,
+        "impressionDerived": false
+      }
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "typeAttribute": [
+        "impression"
+      ],
+      "parentId": null,
+      "children": [
+        {
+          "id": "content_imp_1778108275641_rhes",
+          "type": "content",
+          "text": "1. Heterogeneously dense breast tissue, which may obscure small masses.",
+          "children": [],
+          "typeAttribute": [],
+          "typeData": {},
+          "parentId": "headline_impression",
+          "childrenId": [],
+          "orderIndex": 0,
+          "misc": {},
+          "templateText": "1. Heterogeneously dense breast tissue, which may obscure small masses.",
+          "currentText": "1. Heterogeneously dense breast tissue, which may obscure small masses.",
+          "state": {
+            "version": 0,
+            "manuallyEdited": false,
+            "deleted": false,
+            "inputType": "text",
+            "options": null,
+            "selectedOptionIndex": 0,
+            "defaultOptionIndex": 0,
+            "originalText": "",
+            "picklists": null,
+            "pass2Inserted": false,
+            "sourceSegmentIds": [],
+            "pass2RunId": null,
+            "suppressedBySegmentIds": [],
+            "editedBySegmentIds": [],
+            "impressionGenerated": true,
+            "impressionRunId": "IG_8_1778108274543",
+            "isCritical": false,
+            "guideline": null,
+            "recommendation": null,
+            "syntheticContent": null,
+            "sourceImpressionBoxId": null
+          }
+        },
+        {
+          "id": "content_imp_1778108275641_3eo6",
+          "type": "content",
+          "text": "2. Bilateral axillary lymph nodes appear morphologically normal.",
+          "children": [],
+          "typeAttribute": [],
+          "typeData": {},
+          "parentId": "headline_impression",
+          "childrenId": [],
+          "orderIndex": 1,
+          "misc": {},
+          "templateText": "2. Bilateral axillary lymph nodes appear morphologically normal.",
+          "currentText": "2. Bilateral axillary lymph nodes appear morphologically normal.",
+          "state": {
+            "version": 0,
+            "manuallyEdited": false,
+            "deleted": false,
+            "inputType": "text",
+            "options": null,
+            "selectedOptionIndex": 0,
+            "defaultOptionIndex": 0,
+            "originalText": "",
+            "picklists": null,
+            "pass2Inserted": false,
+            "sourceSegmentIds": [],
+            "pass2RunId": null,
+            "suppressedBySegmentIds": [],
+            "editedBySegmentIds": [],
+            "impressionGenerated": true,
+            "impressionRunId": "IG_8_1778108274543",
+            "isCritical": false,
+            "guideline": null,
+            "recommendation": null,
+            "syntheticContent": null,
+            "sourceImpressionBoxId": null
+          }
+        }
+      ],
+      "label": "Impression",
+      "text": "Impression",
+      "childrenId": [
+        "content_imp_1778108275641_rhes",
+        "content_imp_1778108275641_3eo6"
+      ],
+      "templateText": "Impression",
+      "currentText": "Impression",
+      "state": {
+        "edited": false,
+        "syntheticSection": false,
+        "syntheticSectionType": null,
+        "impressionDerived": false
+      }
+    }
+  ],
+  "segments": {
+    "dictation-box": [],
+    "content_technique_main": [
+      {
+        "segmentId": "seg_1778108021255_9xh7gm",
+        "textareaTarget": "content_technique_main",
+        "startOffset": 0,
+        "endOffset": 75,
+        "length": 75,
+        "text": "Standard bilateral screening mammographic views (CC and MLO) were obtained.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_comp_1": [
+      {
+        "segmentId": "seg_1778108021255_9dn75u",
+        "textareaTarget": "content_comp_1",
+        "startOffset": 0,
+        "endOffset": 70,
+        "length": 70,
+        "text": "The breasts are heterogeneously dense, which may obscure small masses.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_rb_1": [
+      {
+        "segmentId": "seg_1778108021255_j2owfa",
+        "textareaTarget": "content_rb_1",
+        "startOffset": 0,
+        "endOffset": 74,
+        "length": 74,
+        "text": "No suspicious mass, architectural distortion, or suspicious calcification.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_lb_1": [
+      {
+        "segmentId": "seg_1778108021255_787iiw",
+        "textareaTarget": "content_lb_1",
+        "startOffset": 0,
+        "endOffset": 74,
+        "length": 74,
+        "text": "No suspicious mass, architectural distortion, or suspicious calcification.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_ax_1": [
+      {
+        "segmentId": "seg_1778108021255_57q8wm",
+        "textareaTarget": "content_ax_1",
+        "startOffset": 0,
+        "endOffset": 61,
+        "length": 61,
+        "text": "Bilateral axillary lymph nodes appear morphologically normal.",
+        "status": "sanitized",
+        "sourceActionId": null
+      },
+      {
+        "segmentId": "seg_1778108273334_4fj56b",
+        "textareaTarget": "content_ax_1",
+        "startOffset": 61,
+        "endOffset": 72,
+        "length": 11,
+        "text": " assessment",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_assess_1": [
+      {
+        "segmentId": "seg_1778108021255_hpqav7",
+        "textareaTarget": "content_assess_1",
+        "startOffset": 0,
+        "endOffset": 20,
+        "length": 20,
+        "text": "BI-RADS 1: Negative.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_comparison_main": [],
+    "content_imp_1778108275641_rhes": [
+      {
+        "segmentId": "seg_1778108275641_creb2l",
+        "textareaTarget": "content_imp_1778108275641_rhes",
+        "startOffset": 0,
+        "endOffset": 71,
+        "length": 71,
+        "text": "1. Heterogeneously dense breast tissue, which may obscure small masses.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ],
+    "content_imp_1778108275641_3eo6": [
+      {
+        "segmentId": "seg_1778108275641_rn53ep",
+        "textareaTarget": "content_imp_1778108275641_3eo6",
+        "startOffset": 0,
+        "endOffset": 64,
+        "length": 64,
+        "text": "2. Bilateral axillary lymph nodes appear morphologically normal.",
+        "status": "sanitized",
+        "sourceActionId": null
+      }
+    ]
+  },
+  "tokenUsage": {
+    "pass1": {
+      "inputTokens": 5577,
+      "outputTokens": 43
+    },
+    "pass2a": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    "pass2b": {
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    "impression": {
+      "inputTokens": 3898,
+      "outputTokens": 290
+    }
+  },
+  "dictationText": ""
+}

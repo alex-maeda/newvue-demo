@@ -1,0 +1,11 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "MRX-P12345-INP-0001",
+  "status": "active",
+  "intent": "order",
+  "category": [{ "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category", "code": "inpatient", "display": "Inpatient" }] }],
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "medicationCodeableConcept": { "text": "Sodium Chloride 0.9 % Inj Soln 250 mL" },
+  "dosageInstruction": [{ "text": "250 mL, IV, Transfusion" }]
+}

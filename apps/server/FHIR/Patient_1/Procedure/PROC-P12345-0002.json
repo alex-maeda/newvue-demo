@@ -1,0 +1,8 @@
+{
+  "resourceType": "Procedure",
+  "id": "PROC-P12345-0002",
+  "status": "completed",
+  "code": { "text": "APPENDECTOMY" },
+  "subject": { "reference": "Patient/P12345" },
+  "performedDateTime": "2024-04-12"
+}

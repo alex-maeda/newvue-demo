@@ -1,0 +1,97 @@
+@import '../../assets/scss/variables';
+
+.loader-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  &.lg {
+    height: 100vh;
+
+    .ant-spin-dot {
+      width: 30px;
+      height: 30px;
+
+      .ant-spin-dot-item {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
+
+  .ant-spin-dot {
+    inset-inline-start: 50%;
+  }
+
+  .ant-spin-dot-spin {
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    animation-name: loaderSpin;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    .ant-spin-dot-item {
+      position: absolute;
+      display: block;
+      width: 9px;
+      height: 9px;
+      background-color: var(--green);
+      border-radius: 100%;
+      transform: scale(0.75);
+      transform-origin: 50% 50%;
+      opacity: 0.3;
+      animation-name: loaderColor;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-direction: alternate;
+
+      &:nth-child(1) {
+        top: 0;
+        inset-inline-start: 0;
+      } 
+
+      &:nth-child(2) {
+        top: 0;
+        inset-inline-end: 0;
+        animation-delay: 0.4s;
+      }
+
+      &:nth-child(3) {
+        inset-inline-end: 0;
+        bottom: 0;
+        animation-delay: 0.8s;
+      }
+
+      &:nth-child(4) {
+        inset-inline-start: 0;
+        bottom: 0;
+        animation-delay: 1.2s;
+      }
+    }
+  }
+
+  .loader-content {
+    margin-left: 12px;
+  }
+  
+  &:after {
+    clear: both;
+  }
+}
+
+@keyframes loaderSpin {
+  100% {
+    transform: rotate(405deg);
+  }
+}
+
+@keyframes loaderColor {
+  100% {
+    opacity: 1;
+  }
+}
+

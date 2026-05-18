@@ -1,0 +1,567 @@
+[
+  {
+    "id": 1,
+    "username": "user1",
+    "password": "N3wVu3123!",
+    "firstName": "Dr. Liam",
+    "lastName": "Johnson",
+    "active": true,
+    "role": "user",
+    "group": "NY Radiologists",
+    "embeddingType": "radpair",
+    "embeddingOverrides": {
+      "3": "mdai",
+      "4": "mdai"
+    },
+    "personalInfo": {
+      "userAvatar": "john_doe_avatar.jpg",
+      "title": "Bachelor of Medicine",
+      "DOB": "1985-03-15",
+      "gender": "M",
+      "contactInfo": {
+        "address": "123 Main St, Anytown, USA",
+        "phoneNumber": "+1 123-456-7890",
+        "workEmail": "john.doe@medicalclinic.com",
+        "homeEmail": "john.doe@email.com"
+      },
+      "otherInfo": {
+        "specialty": [
+          "Neuro",
+          "Nuc Med",
+          "Vascular"
+        ],
+        "insuranceCoverage": [
+          "Aetna Health Fund",
+          "Cigna Connect Network",
+          "Humana Gold Plus",
+          "Anthem Blue Cross Bronze Plan",
+          "AARP Medicare Supplement Insurance"
+        ],
+        "credentialing": "Board Certified",
+        "facilities": [
+          "Midtown",
+          "South"
+        ]
+      },
+      "status": "active",
+      "facility": "Anytown Medical Clinic"
+    },
+    "orderingPhysicians": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "worklists": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "rights": {
+      "isView": true,
+      "isReport": true
+    }
+  },
+  {
+    "id": 2,
+    "username": "radpair",
+    "password": "r@dp@1r123!",
+    "firstName": "Dr. Olivia",
+    "lastName": "Williams",
+    "active": false,
+    "role": "user",
+    "group": "FL Radiologists",
+    "embeddingType": "radpair",
+    "personalInfo": {
+      "userAvatar": "jane_smith_avatar.jpg",
+      "title": "Doctor of Osteopathic Medicine (D.O.)",
+      "DOB": "1980-12-10",
+      "gender": "F",
+      "contactInfo": {
+        "address": "456 Oak St, Another Town, USA",
+        "phoneNumber": "+1 987-654-3210",
+        "workEmail": "jane.smith@clinic.org",
+        "homeEmail": "jane.smith@email.com"
+      },
+      "otherInfo": {
+        "specialty": [
+          "Body",
+          "Breast",
+          "General Radiology"
+        ],
+        "insuranceCoverage": [
+          "Blue Cross Blue Shield PPO",
+          "Humana Gold Plus",
+          "UnitedHealthcare Choice Plus",
+          "Surest PPO"
+        ],
+        "credentialing": "Licensed",
+        "facilities": [
+          "North",
+          "Downtown West"
+        ]
+      },
+      "status": "active",
+      "facility": "Community Clinic"
+    },
+    "orderingPhysicians": [
+      "1",
+      "2",
+      "4",
+      "6",
+      "10"
+    ],
+    "worklists": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "rights": {
+      "isView": true,
+      "isReport": false
+    }
+  },
+  {
+    "id": 3,
+    "username": "admin",
+    "password": "Ne06W@789",
+    "firstName": "NewVue",
+    "lastName": "Administrator",
+    "active": true,
+    "role": "admin",
+    "group": "",
+    "embeddingType": "radpair",
+    "personalInfo": {
+      "userAvatar": "mike_johnson_avatar.jpg",
+      "title": "Bachelor of Medicine, Bachelor of Surgery (M.B.B.S.)",
+      "DOB": "1992-08-25",
+      "gender": "M",
+      "contactInfo": {
+        "address": "789 Elm St, Yet Another City, USA",
+        "phoneNumber": "+1 555-123-4567",
+        "workEmail": "mike.johnson@clinic.net",
+        "homeEmail": "mike.johnson@email.com"
+      },
+      "otherInfo": {
+        "specialty": [
+          "Hospital Administration"
+        ],
+        "insuranceCoverage": [
+          "LMN Health Plan"
+        ],
+        "credentialing": "General Practitioner",
+        "facilities": [
+          "City Medical Group",
+          "Healthcare Center"
+        ]
+      },
+      "status": "suspended",
+      "facility": "City Medical Group"
+    }
+  },
+  {
+    "id": 4,
+    "username": "user3",
+    "password": "TJoz$yFw",
+    "firstName": "Dr. Emma",
+    "lastName": "Smith",
+    "active": true,
+    "role": "user",
+    "group": "CA Radiologists",
+    "embeddingType": "radpair",
+    "personalInfo": {
+      "userAvatar": "admin_avatar.jpg",
+      "title": "Doctor of Medicine (M.D.)",
+      "DOB": "1975-04-02",
+      "gender": "M",
+      "contactInfo": {
+        "address": "321 Elmwood Dr, Admin City, USA",
+        "phoneNumber": "+1 800-555-1234",
+        "workEmail": "admin@hospital.org",
+        "homeEmail": "julian.brown@email.com"
+      },
+      "otherInfo": {
+        "specialty": [
+          "Peds",
+          "GI/GU",
+          "MSK"
+        ],
+        "insuranceCoverage": [
+          "Blue Cross Blue Shield PPO",
+          "Kaiser Permanente Select Network",
+          "AARP Medicare Supplement Insurance",
+          "Harvard Pilgram Healthcare Premier Plan"
+        ],
+        "credentialing": "Hospital Administrator",
+        "facilities": [
+          "Midtown",
+          "Carolwood"
+        ]
+      },
+      "status": "active",
+      "facility": "City General Hospital"
+    },
+    "orderingPhysicians": [
+      "2",
+      "5",
+      "6",
+      "8",
+      "9"
+    ],
+    "worklists": [
+      "0",
+      "2",
+      "3"
+    ],
+    "rights": {
+      "isView": false,
+      "isReport": false
+    }
+  },
+  {
+    "id": 5,
+    "username": "radai",
+    "password": "r@d@i1234!",
+    "firstName": "Dr. Sophia",
+    "lastName": "Williams",
+    "active": false,
+    "role": "user",
+    "group": "FL Radiologists",
+    "embeddingType": "radpair",
+    "personalInfo": {
+      "userAvatar": "jane_smith_avatar.jpg",
+      "title": "Doctor of Osteopathic Medicine (D.O.)",
+      "DOB": "1980-12-10",
+      "gender": "F",
+      "contactInfo": {
+        "address": "456 Oak St, Another Town, USA",
+        "phoneNumber": "+1 987-654-3210",
+        "workEmail": "jane.smith@clinic.org",
+        "homeEmail": "jane.smith@email.com"
+      },
+      "otherInfo": {
+        "specialty": [
+          "Body",
+          "Breast",
+          "General Radiology"
+        ],
+        "insuranceCoverage": [
+          "Blue Cross Blue Shield PPO",
+          "Humana Gold Plus",
+          "UnitedHealthcare Choice Plus",
+          "Surest PPO"
+        ],
+        "credentialing": "Licensed",
+        "facilities": [
+          "North",
+          "Downtown West"
+        ]
+      },
+      "status": "active",
+      "facility": "Community Clinic"
+    },
+    "orderingPhysicians": [
+      "1",
+      "2",
+      "4",
+      "6",
+      "10"
+    ],
+    "worklists": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "rights": {
+      "isView": true,
+      "isReport": false
+    }
+  },
+  {
+    "id": 6,
+    "username": "mach7",
+    "password": "M@ch754321!",
+    "firstName": "Dr. Michael",
+    "lastName": "Anderson",
+    "active": true,
+    "role": "user",
+    "group": "TX Radiologists",
+    "embeddingType": "radpair",
+    "personalInfo": {
+      "userAvatar": "michael_anderson_avatar.jpg",
+      "title": "Doctor of Medicine (M.D.)",
+      "DOB": "1978-05-22",
+      "gender": "M",
+      "contactInfo": {
+        "address": "1010 Pine St, Houston, TX, USA",
+        "phoneNumber": "+1 713-555-0101",
+        "workEmail": "michael.anderson@txradiology.com",
+        "homeEmail": "michael.anderson@personalemail.com"
+      },
+      "otherInfo": {
+        "specialty": [
+          "Cardiovascular",
+          "Interventional Radiology"
+        ],
+        "insuranceCoverage": [
+          "Texas Health Plan",
+          "UnitedHealthcare Choice"
+        ],
+        "credentialing": "Board Certified",
+        "facilities": [
+          "Houston Medical Center",
+          "Southwest Clinic"
+        ]
+      },
+      "status": "active",
+      "facility": "Houston Medical Center"
+    },
+    "orderingPhysicians": [
+      "2",
+      "5",
+      "7"
+    ],
+    "worklists": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "rights": {
+      "isView": true,
+      "isReport": true
+    }
+  },
+  {
+    "id": 7,
+    "username": "insiteone",
+    "password": "Ins!t3On3321!",
+    "firstName": "Dr. Laura",
+    "lastName": "Martinez",
+    "active": true,
+    "role": "user",
+    "group": "CA Radiologists",
+    "embeddingType": "radpair",
+    "personalInfo": {
+      "userAvatar": "laura_martinez_avatar.jpg",
+      "title": "Doctor of Medicine (M.D.)",
+      "DOB": "1982-11-08",
+      "gender": "F",
+      "contactInfo": {
+        "address": "2020 Market St, San Francisco, CA, USA",
+        "phoneNumber": "+1 415-555-0202",
+        "workEmail": "laura.martinez@caradiologists.com",
+        "homeEmail": "laura.martinez@personalemail.com"
+      },
+      "otherInfo": {
+        "specialty": [
+          "Pediatric Radiology",
+          "Neuroradiology"
+        ],
+        "insuranceCoverage": [
+          "California Care HMO",
+          "Anthem Blue Cross"
+        ],
+        "credentialing": "Board Certified",
+        "facilities": [
+          "San Francisco General Hospital",
+          "Bay Area Clinic"
+        ]
+      },
+      "status": "active",
+      "facility": "San Francisco General Hospital"
+    },
+    "orderingPhysicians": [
+      "3",
+      "6",
+      "9"
+    ],
+    "worklists": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "rights": {
+      "isView": true,
+      "isReport": false
+    }
+  },
+  {
+    "id": 8,
+    "username": "konicaminolta",
+    "password": "K0nic@54321!",
+    "firstName": "Dr. Robert",
+    "lastName": "Lee",
+    "active": true,
+    "role": "user",
+    "group": "NY Radiologists",
+    "embeddingType": "radpair",
+    "personalInfo": {
+      "userAvatar": "robert_lee_avatar.jpg",
+      "title": "Doctor of Osteopathic Medicine (D.O.)",
+      "DOB": "1970-02-14",
+      "gender": "M",
+      "contactInfo": {
+        "address": "3030 Madison Ave, New York, NY, USA",
+        "phoneNumber": "+1 212-555-0303",
+        "workEmail": "robert.lee@nyradiologists.com",
+        "homeEmail": "robert.lee@personalemail.com"
+      },
+      "otherInfo": {
+        "specialty": [
+          "Musculoskeletal Radiology",
+          "Oncologic Imaging"
+        ],
+        "insuranceCoverage": [
+          "Empire BlueCross BlueShield",
+          "Aetna Choice POS II"
+        ],
+        "credentialing": "Licensed",
+        "facilities": [
+          "New York General Hospital",
+          "Eastside Clinic"
+        ]
+      },
+      "status": "active",
+      "facility": "New York General Hospital"
+    },
+    "orderingPhysicians": [
+      "1",
+      "4",
+      "8"
+    ],
+    "worklists": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "rights": {
+      "isView": true,
+      "isReport": false
+    }
+  },
+  {
+    "id": 9,
+    "username": "mdai",
+    "password": "MD.@1321!@",
+    "firstName": "Dr. Michael",
+    "lastName": "Anderson",
+    "active": true,
+    "role": "user",
+    "group": "TX Radiologists",
+    "embeddingType": "mdai",
+    "personalInfo": {
+      "userAvatar": "michael_anderson_avatar.jpg",
+      "title": "Doctor of Medicine (M.D.)",
+      "DOB": "1978-05-22",
+      "gender": "M",
+      "contactInfo": {
+        "address": "1010 Pine St, Houston, TX, USA",
+        "phoneNumber": "+1 713-555-0101",
+        "workEmail": "michael.anderson@txradiology.com",
+        "homeEmail": "michael.anderson@personalemail.com"
+      },
+      "otherInfo": {
+        "specialty": [
+          "Cardiovascular",
+          "Interventional Radiology"
+        ],
+        "insuranceCoverage": [
+          "Texas Health Plan",
+          "UnitedHealthcare Choice"
+        ],
+        "credentialing": "Board Certified",
+        "facilities": [
+          "Houston Medical Center",
+          "Southwest Clinic"
+        ]
+      },
+      "status": "active",
+      "facility": "Houston Medical Center"
+    },
+    "orderingPhysicians": [
+      "2",
+      "5",
+      "7"
+    ],
+    "worklists": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "rights": {
+      "isView": true,
+      "isReport": true
+    }
+  },
+  {
+    "id": 10,
+    "username": "smartreporting",
+    "password": "Sm@rtR3porting!",
+    "firstName": "Dr. Michael",
+    "lastName": "Anderson",
+    "active": true,
+    "role": "user",
+    "group": "TX Radiologists",
+    "embeddingType": "smartreporting",
+    "personalInfo": {
+      "userAvatar": "michael_anderson_avatar.jpg",
+      "title": "Doctor of Medicine (M.D.)",
+      "DOB": "1978-05-22",
+      "gender": "M",
+      "contactInfo": {
+        "address": "1010 Pine St, Houston, TX, USA",
+        "phoneNumber": "+1 713-555-0101",
+        "workEmail": "michael.anderson@txradiology.com",
+        "homeEmail": "michael.anderson@personalemail.com"
+      },
+      "otherInfo": {
+        "specialty": [
+          "Cardiovascular",
+          "Interventional Radiology"
+        ],
+        "insuranceCoverage": [
+          "Texas Health Plan",
+          "UnitedHealthcare Choice"
+        ],
+        "credentialing": "Board Certified",
+        "facilities": [
+          "Houston Medical Center",
+          "Southwest Clinic"
+        ]
+      },
+      "status": "active",
+      "facility": "Houston Medical Center"
+    },
+    "orderingPhysicians": [
+      "2",
+      "5",
+      "7"
+    ],
+    "worklists": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "rights": {
+      "isView": true,
+      "isReport": true
+    }
+  }
+]

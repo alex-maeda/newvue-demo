@@ -1,0 +1,11 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "MRX-P12345-INP-0010",
+  "status": "active",
+  "intent": "order",
+  "category": [{ "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category", "code": "inpatient", "display": "Inpatient" }] }],
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "medicationCodeableConcept": { "text": "acetaminophen IV Soln 1,000 mg (OFIRMEV)" },
+  "dosageInstruction": [{ "text": "1,000 mg, IV, Q6H" }]
+}

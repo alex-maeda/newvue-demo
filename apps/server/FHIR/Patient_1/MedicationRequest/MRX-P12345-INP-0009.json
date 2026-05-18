@@ -1,0 +1,13 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "MRX-P12345-INP-0009",
+  "status": "on-hold",
+  "intent": "order",
+  "groupIdentifier": { "value": "ANTICOAG-ALT-1" },
+  "category": [{ "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category", "code": "inpatient", "display": "Inpatient" }] }],
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "medicationCodeableConcept": { "text": "Enoxaparin Inj Syg 60 mg (LOVENOX)" },
+  "dosageInstruction": [{ "text": "1 mg/kg/dose (Order-Specific), Subcutaneous, Q12H" }],
+  "note": [{ "text": "Alternate to apixaban." }]
+}

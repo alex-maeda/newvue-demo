@@ -1,0 +1,10 @@
+{
+  "accessionNumber": "ACC-12345",
+  "patientId": "patient-1",
+  "modality": "MRI",
+  "bodyRegion": "head",
+  "templateId": "mri-brain-without-contrast",
+  "studyDescription": "MRI Brain without Contrast",
+  "performedAt": "2026-04-19T14:00:00-07:00",
+  "orderingPhysician": "Dr. Sarah Chen"
+}

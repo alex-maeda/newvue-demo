@@ -1,0 +1,57 @@
+/**
+ * SplitDivider styles.
+ */
+
+.split-divider {
+  position: relative;
+  width: 8px;
+  cursor: col-resize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 5;
+  touch-action: none;
+  user-select: none;
+}
+
+.split-divider-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.08);
+  transition: width var(--motion-t2), background var(--motion-t2);
+}
+
+.split-divider:hover .split-divider-line,
+.split-divider.dragging .split-divider-line {
+  width: 3px;
+  background: var(--color-interactive-t1);
+}
+
+/* ── Grip dots ── */
+
+.split-divider-grip {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity var(--motion-t2);
+}
+
+.split-divider:hover .split-divider-grip,
+.split-divider.dragging .split-divider-grip {
+  opacity: 1;
+}
+
+.split-divider-grip span {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--color-interactive-t1);
+}

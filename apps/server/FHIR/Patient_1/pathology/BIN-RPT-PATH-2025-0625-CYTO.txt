@@ -1,0 +1,47 @@
+Collected: 6/25/2025                    Case #:  12345 
+
+                     Cytology Report 
+
+FINAL PATHOLOGIC DIAGNOSIS 
+SPUTUM, CYTOLOGY: MALIGNANT CELLS PRESENT-NON-SMALL CELL CARCINOMA. 
+
+
+Satisfactory for evaluation.  Alveolar macrophages present. 
+
+
+Comment 
+
+This case has been reviewed by another member of our department 
+with concurrence. 
+
+Pathologist,  M.D. 
+
+Interpretation Performed at: 
+Acute Care Hospital 
+
+
+Clinical History 
+This test is for respiratory specimens.  Usage for other specimen 
+types may result in the test not being done. 
+Sputum Induction by RT. 
+Priority:->ROUTINE 
+Estimated number of specimens: (Label printing use only)->1 
+
+Gross Description 
+Received at Laboratory Cytology
+
+5 CC, CLOUDY, COLORLESS, UNFIXED, MUCOID 
+
+Prepared at Laboratory Cytology
+
+PAP, LBP 
+
+
+Specimen(s) Received 
+A:SPUTUM 
+
+
+Patient Name:  Patient 1 
+Med. Rec #:  12345    DOB/Age:  1/1/1960 (Age: 65)   Sex:  F 
+Facility:  Acute Care Hospital
+Location:  EMERGENCY DEPARTMENT 

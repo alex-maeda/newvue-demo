@@ -1,0 +1,8 @@
+MSH|^~\&|NEWVUE_RIS|RADIOLOGY_DEPT|NEWVUE_EHR|NEWVUE_HOSPITAL|20260423120000||ORU^R01|MSG20260423-P7-001|P|2.5.1
+PID|1||MRN00007^^^NEWVUE_HOSPITAL^MR||JOHNSON^CELESTE^^^^L||19830327|F|||4010 HARBOR VIEW DR^^SAVANNAH^GA^31401^USA||555-0707
+PV1|1|O|RAD^MAMMO-1||||ATT001^MARTINEZ^ELENA^R|REF006^NGUYEN^THOMAS^D|||||||||||ENC20260423-0007
+OBR|1||ACC-P7-0001|42174-3^Screening Mammogram Bilateral with CAD^LN|||20240405100100||||||Screening.||||||||||||F
+OBX|1|TX|42174-3^Screening Mammogram Bilateral with CAD^LN|1|CLINICAL INDICATION: Screening.||||||F
+OBX|2|FT|42174-3^Screening Mammogram Bilateral with CAD^LN|2|FINDINGS: CAD application applied.\.br\The breasts are composed of a mild-to-moderate amount of scattered\.br\fibroglandular densities interspersed with fat. The right breast is\.br\composed of scattered fibroglandular densities interspersed with fat. No\.br\change has occurred since the prior study.\.br\\.br\In the retroareolar aspect of the left breast, there is a 1 cm smoothly\.br\marginated density. This is consistent with a benign lesion.||||||F
+OBX|3|TX|42174-3^Screening Mammogram Bilateral with CAD^LN|3|IMPRESSION: 1. Negative right breast mammogram 2. Benign 1 cm density retroareolar aspect left breast BI-RADS CATEGORY: 2 Benign findings. THE PATIENT WILL BE NOTIFIED OF THESE RESULTS IN WRITING. RECOMMENDED FOLLOW-UP: 1-2 year(s) follow up BREAST DENSITY: Scattered areas of fibroglandular density||||||F
+ZDS|1.2.840.113619.2.55.3.7.1^NEWVUE_PACS^Application^DICOM

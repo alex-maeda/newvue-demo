@@ -1,0 +1,690 @@
+.table-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  color: #dddedf;
+
+  .table-scroll {
+    flex: 1;
+    overflow: auto;
+
+    table {
+      width: 100%;
+
+      thead {
+        background-color: $gray;
+      }
+
+      td[rowspan='1'][id$='_actions'] {
+        overflow: visible;
+      }
+
+      div[role='presentation'] {
+        position: relative;
+      }
+    }
+  }
+
+  &.collapsed {
+    .table-scroll {
+      overflow: visible;
+    }
+  }
+
+  .btn-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  thead {
+    tr {
+      background-color: transparent;
+    }
+  }
+
+  tbody {
+    tr {
+      transition: background-color $trs;
+      // cursor: pointer;
+
+      &.highlighted {
+        background-color: var(--row-hover);
+      }
+
+      &:not(:last-child) {
+        border-bottom: 1px solid $gray0;
+      }
+
+      // &[data-selected='true'] {
+      //   background-color: var(--purple40);
+
+      //   &:nth-child(2n) {
+      //     background-color: var(--purple40);
+      //     opacity: 0.9;
+      //   }
+      // }
+    }
+
+    > tr.no-border {
+      border: 0 none;
+      cursor: default;
+
+      &:hover {
+        background: transparent;
+      }
+
+      .no-data {
+        margin: 24px auto;
+        max-width: 200px;
+
+        > p {
+          display: block;
+          margin: 0;
+          padding: 0;
+          font-weight: 400;
+          color: $white;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  &.double-table {
+    thead {
+      tr {
+        background-color: $lightBlack;
+
+        &:nth-child(2) .header-title {
+          color: var(--mutedPurple);
+        }
+
+        &:nth-child(2n) {
+          th > div > div {
+            color: var(--mutedPurple) !important;
+          }
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        transition: background-color $trs;
+
+        &:hover {
+          background-color: $trs;
+        }
+
+        &:nth-child(2n) {
+          color: $gray100;
+        }
+
+        &:nth-child(2n + 1) {
+          td {
+            padding-bottom: 2px;
+          }
+          border-bottom: none;
+        }
+
+        &:nth-child(2n) {
+          td {
+            padding-top: 2px;
+          }
+        }
+      }
+    }
+  }
+
+  th {
+    font-size: 16px;
+    // line-height: 14px;
+    // min-height: 30px;
+    min-width: 65px;
+    height: 30px;
+    position: relative;
+
+    > div > div {
+      white-space: nowrap !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+    }
+  }
+
+  td {
+    font-size: 16px;
+    height: 30px;
+    padding: 9px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    // &[id$="_date"] {
+    //   max-width: 70px !important;
+    // }
+
+    &[id$='_timer'] {
+      padding: 4px !important;
+      min-width: 64px !important;
+
+      > span {
+        display: block;
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .rs-btn-icon.rs-btn {
+      padding: 0 10px;
+    }
+
+    .mode {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &.red {
+        path {
+          fill: $red-status;
+        }
+
+        &:hover path {
+          fill: $red-status-hover;
+        }
+      }
+
+      &.orange {
+        path {
+          fill: $orange-status;
+        }
+
+        &:hover path {
+          fill: $orange-status-hover;
+        }
+      }
+
+      &.green {
+        path {
+          fill: $green-status;
+        }
+
+        &:hover path {
+          fill: $green-status-hover;
+        }
+      }
+
+      &.yellow {
+        path {
+          fill: $yellow-status;
+        }
+
+        &:hover path {
+          fill: $yellow-status-hover;
+        }
+      }
+
+      &.purple {
+        path {
+          fill: $purple-status;
+        }
+
+        &:hover path {
+          fill: $purple-status-hover;
+        }
+      }
+
+      &.blue {
+        path {
+          fill: $blue-status;
+        }
+
+        &:hover path {
+          fill: $blue-status-hover;
+        }
+      }
+    }
+
+    .timer {
+      border: 2px solid $white100;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 500;
+      height: 100%;
+      padding: 9px 1px;
+      width: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &.red {
+        color: $red-status;
+        border-color: $red-status;
+        &:hover {
+          color: $red-status-hover;
+          border-color: $red-status-hover;
+        }
+      }
+
+      &.orange {
+        color: $orange-status;
+        border-color: $orange-status;
+        &:hover {
+          color: $orange-status-hover;
+          border-color: $orange-status-hover;
+        }
+      }
+
+      &.green {
+        color: $green-status;
+        border-color: $green-status;
+        &:hover {
+          color: $green-status-hover;
+          border-color: $green-status-hover;
+        }
+      }
+
+      &.yellow {
+        color: $yellow-status;
+        border-color: $yellow-status;
+        &:hover {
+          color: $yellow-status-hover;
+          border-color: $yellow-status-hover;
+        }
+      }
+
+      &.purple {
+        color: $purple-status;
+        border-color: $purple-status;
+        &:hover {
+          color: $purple-status-hover;
+          border-color: $purple-status-hover;
+        }
+      }
+
+      &.blue {
+        color: $blue-status;
+        border-color: $blue-status;
+        &:hover {
+          color: $blue-status-hover;
+          border-color: $blue-status-hover;
+        }
+      }
+    }
+
+    .custom-link-table {
+      cursor: default;
+    }
+
+    .lock {
+      padding: 0 10px;
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+
+      .custom-btn-table {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        cursor: pointer !important;
+        margin-right: 10px;
+
+        &.isKonicaBranding {
+          &.inline-menu {
+            background: url('../../assets/img/circleInfoMenu.svg') no-repeat 0 0;
+
+            &:hover {
+              background-position: 0 -90px;
+            }
+          }
+
+          &.file {
+            background: url('../../assets/img/file.svg') no-repeat 0 0;
+
+            &:hover {
+              background-position: 0 -75px;
+            }
+          }
+
+          &.noteAI {
+            background: url('../../assets/img/noteAI.svg') no-repeat 0 -150px;
+
+            &:hover {
+              background-position: 0 -125px;
+            }
+
+            &.noteAI-alert {
+              background-position: 0 -100px;
+
+              &:hover {
+                background-position: 0 -75px;
+              }
+            }
+          }
+
+          &.link {
+            background: url('../../assets/img/linkCircle.svg') no-repeat 0 0;
+
+            a {
+              width: 20px;
+              height: 20px;
+              display: block;
+            }
+
+            &:hover {
+              background-position: 0 -50px;
+            }
+          }
+
+          &.chat {
+            background: url('../../assets/img/singleChat.svg') no-repeat 0 0;
+
+            a {
+              width: 20px;
+              height: 20px;
+              display: block;
+            }
+
+            &:hover {
+              background-position: 0 -50px;
+            }
+          }
+
+          &.noteER {
+            background: url('../../assets/img/noteER.svg') no-repeat 0 0;
+
+            &.active {
+              background-position: 0 -100px;
+            }
+
+            &:hover {
+              background-position: 0 -75px;
+            }
+          }
+
+          &.noteED {
+            background: url('../../assets/img/noteED.svg') no-repeat 0 -90px;
+            background-size: 20px 40px;
+
+            &:hover {
+              background-position: 0 -60px;
+            }
+          }
+        }
+
+        &:not(.isKonicaBranding) {
+          &.inline-menu {
+            background: url('../../assets/img/circleInfoMenu.svg') no-repeat 0 0;
+
+            &:hover {
+              background-position: 0 -30px;
+            }
+          }
+
+          &.file {
+            background: url('../../assets/img/file.svg') no-repeat 0 0;
+
+            &:hover {
+              background-position: 0 -25px;
+            }
+          }
+
+          &.noteAI {
+            background: url('../../assets/img/noteAI.svg') no-repeat 0 -50px;
+
+            &:hover {
+              background-position: 0 -25px;
+            }
+
+            &.noteAI-alert {
+              background-position: 0 -100px;
+
+              &:hover {
+                background-position: 0 -75px;
+              }
+            }
+          }
+
+          &.link {
+            background: url('../../assets/img/linkCircle.svg') no-repeat 0 0;
+
+            a {
+              width: 20px;
+              height: 20px;
+              display: block;
+            }
+
+            &:hover {
+              background-position: 0 -25px;
+            }
+          }
+
+          &.chat {
+            background: url('../../assets/img/singleChat.svg') no-repeat 0 0;
+
+            a {
+              width: 20px;
+              height: 20px;
+              display: block;
+            }
+
+            &:hover {
+              background-position: 0 -25px;
+            }
+          }
+
+          &.noteER {
+            background: url('../../assets/img/noteER.svg') no-repeat 0 0;
+
+            &.active {
+              background-position: 0 -50px;
+            }
+
+            &:hover {
+              background-position: 0 -25px;
+            }
+          }
+
+          &.noteED {
+            background: url('../../assets/img/noteED.svg') no-repeat 0 0;
+            background-size: 20px 40px;
+
+            &:hover {
+              background-position: 0 -20px;
+            }
+          }
+        }
+      }
+
+      > div {
+        display: flex;
+      }
+    }
+  }
+
+  .filter_col-wrap {
+    height: 100%;
+    display: flex;
+    padding: 0 5px 0 8px;
+    flex-direction: column;
+    overflow-x: hidden;
+
+    > div:not(.filter_sort-wrap) {
+      max-height: 30px;
+
+      .table-filter {
+        padding: 0;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .filter_sort-wrap {
+    width: 100%;
+    // height: 100%;
+    text-align: start;
+    overflow: hidden;
+    text-overflow: clip;
+
+    .header-title {
+      white-space: nowrap;
+      color: #dddedf;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 30px;
+    }
+
+    .action-btn {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      position: absolute;
+      top: 0;
+      right: 3px;
+      z-index: 1;
+    }
+
+    .btn-sort,
+    .btn-sort:hover,
+    .btn-sort:active,
+    .btn-sort:focus {
+      border: none;
+      background: none;
+      box-shadow: none;
+      outline: none;
+      color: var(--purple100);
+      width: 20px;
+      height: 30px;
+    }
+
+    .btn-sort:hover {
+      color: var(--mutedPurple);
+    }
+
+    &.resize-allowed:hover .resizer {
+      opacity: 1;
+    }
+
+    &.isResizing .resizer > div {
+      background: var(--mutedPurple);
+    }
+
+    .resizer {
+      position: absolute;
+      display: flex;
+      justify-content: flex-end;
+      right: 0;
+      top: 1px;
+      height: 28px;
+      width: 3px;
+      z-index: 2;
+      text-align: end;
+      background: transparent;
+      cursor: col-resize;
+      user-select: none;
+      touch-action: none;
+      opacity: 0;
+
+      > div {
+        background: $gray100;
+        width: 3px;
+        height: 28px;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  .form-group {
+    margin-bottom: 0;
+    height: 30px;
+    padding: 5px 5px;
+
+    input {
+      border: 1px solid $mediumGray;
+      // background: $accent-100;
+      min-width: 1px;
+      font-weight: 400;
+      font-size: 12px;
+      width: 100%;
+      min-width: 30px;
+      height: 100%;
+    }
+
+    .react-select_single__single-value,
+    .react-select_single__option {
+      font-weight: 400;
+      font-size: 12px;
+      color: var(--purple40);
+    }
+  }
+}
+
+.mark-td {
+  background: $cell-mark;
+}
+
+thead.ant-table-thead {
+  > tr:first-child > *:last-child {
+    border-start-end-radius: 0px !important;
+  }
+
+  > tr:first-child > *:first-child {
+    border-start-start-radius: 0px !important;
+  }
+
+  tr {
+    > th,
+    > td {
+      white-space: nowrap;
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 16px;
+      padding: 8px 10px !important;
+
+      &:not(.selected) {
+        background-color: $gray !important;
+      }
+    }
+
+    .selected {
+      background-color: var(--row-hover);
+    }
+
+    .ant-table-filter-trigger.active {
+      color: var(--purple100) !important;
+    }
+  }
+}
+
+.ant-table-tbody > tr.editable-row {
+  transition: background-color $trs;
+
+  > td {
+    font-size: 16px;
+    height: 50px;
+    padding: 8px 10px !important;
+    white-space: nowrap;
+
+    &:not(.selected) {
+      background-color: $black !important;
+    }
+  }
+
+  .ant-form-item {
+    margin-bottom: 0;
+  }
+
+  &:hover > td {
+    background-color: var(--row-hover) !important;
+  }
+
+  .selected {
+    background-color: var(--row-hover);
+  }
+}

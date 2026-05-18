@@ -1,0 +1,84 @@
+/* ========== REUSABLE MODAL COMPONENT ========== */
+/* Modal container - full screen overlay */
+.nv-modal.hidden {
+  display: none;
+}
+
+.nv-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 5000;
+}
+
+/* Semi-transparent backdrop */
+.nv-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal panel - the actual dialog box */
+.nv-modal__panel {
+  position: absolute;
+  right: 40px;
+  top: 60px;
+  width: min(1100px, calc(100vw - 80px));
+  max-height: 70vh;
+  background: var(--panel, #141720);
+  border: 1px solid var(--border, #2b2f3a);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+
+/* Modal header with title and close button */
+.nv-modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border, #2b2f3a);
+  background: var(--panel-2, #181b25);
+  color: #dddedf;
+
+  h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #dddedf;
+  }
+}
+
+/* Modal body - scrollable content area */
+.nv-modal__body {
+  padding: 12px 14px;
+  overflow: auto;
+  max-height: calc(70vh - 48px);
+}
+
+/* Close button (X) */
+.nv-icon-btn {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+/* Content styling for simple text/content display */
+.nv-modal__content {
+  font-size: 16px;
+  line-height: 28px;
+  color: #dddedf;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

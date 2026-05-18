@@ -1,0 +1,31 @@
+[
+  {
+    "id": "0",
+    "label": "My Cases",
+    "priorityColor": "blue",
+    "resultCount": 6
+  },
+  {
+    "id": "1",
+    "label": "All Unread",
+    "priorityColor": "blue",
+    "resultCount": 10
+  },
+  {
+    "id": "2",
+    "label": "Active Backlog",
+    "priorityColor": "red",
+    "resultCount": 1
+  },
+  {
+    "id": "3",
+    "label": "ER Mercy Hospital",
+    "priorityColor": "red",
+    "resultCount": 3
+  },
+  {
+    "id": "4",
+    "label": "CT Mercy Hospital",
+    "resultCount": 3
+  }
+]

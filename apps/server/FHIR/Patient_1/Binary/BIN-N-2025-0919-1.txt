@@ -1,0 +1,229 @@
+NEUROLOGY NOTE
+
+9/19/2025
+
+Patient: Patient 1
+MRN: 12345
+DOB: 1/1/1960
+
+Chief Complaint: Resolving encephalopathy with right hemiparesis
+
+HPI: 65 Yo female with hx of lung adenocarcinoma with no metastases to bone, right adrenal gland, multiple lymph nodes, PE on Xarelto, HTN presenting with combination of encephalopathy and resolving right hemiparesis and sensory loss.
+ 
+Around 5 PM on 9/15/2025, patient was at a birthday dinner and was experiencing headache, blurry and perhaps double vision with dizziness.  Around 8:30 PM she was off balance/having difficulty walking but did not drink any alcohol.  Around 10 PM, she was noted to be unresponsive, blank staring, sitting with no witnessed seizure activity but became responsive after 1-2 minutes with observed right facial weakness and right-sided limb weakness with reportedly flaccid right arm initially. She was brought to the hospital for evaluation.  Initial NIHSS was 4 with points from somnolence/inattention (encephalopathy) with disorientation, right arm drift and sensory loss.  Not a candidate for thrombolytics due to suspected last normal time and use of Xarelto.  Qualitatively, there was concern the patient appeared to be postictal.
+ 
+Her lung adenocarcinoma initially came to medical attention on chest x-ray from 6/25/2025 due to chest pain.  Sputum cytology from the same day showed malignant non-small cell lung cancer cells.  Right supraclavicular lymph node biopsy from 7/2/2025 showed metastatic pulmonary adenocarcinoma.  Body PET/CT from 7/6/2025 showed a large hypermetabolic left lower lobe lung mass consistent with known malignancy, malignant left pleural effusion, extensive hypermetabolic lymphadenopathy of the neck and chest consistent with metastases, right adrenal metastasis, and "extensive" osseous metastasis that on my personal review involves the majority of the pelvis, femoral heads, humeral heads, multiple vertebrae, and uncertain involvement of the calvarium.
+ 
+MRI brain from 7/11/2025 showed no brain parenchymal abnormalities but several small areas of enhancement seen throughout the calvarium as well as some bone marrow signal abnormality involving the visualized C-spine concerning for osseous metastases.
+ 
+As of 7/11/2025, patient started on carboplatin and pemetrexed and added zoledronic acid.  She underwent radiation therapy to painful bone metastases.  Started on osimertinib (Tagrisso) due to EGFR positive mutation.
+ 
+Patient is not on aspirin, statin, or antiepileptics at baseline.
+ 
+9/16/25: Currently, patient is poorly communicative with right sided weakness and concern for decreased perception on the right.  Otherwise, patient is unable to provide meaningful history.
+ 
+**Update**
+MRI of the brain with and without contrast was obtained and was significantly motion degraded and also limited by artifact from braces.  However, within these limitations there are multifocal bilateral areas of acute ischemic stroke most prominently of the right parietal lobe, left posterior frontal/parietal lobe and scattered throughout the bilateral occipital and temporal lobes concerning for acute ischemic stroke.  She has areas consistent with remote encephalomalacia of the bilateral cerebellum.  Although there does not appear to be clear hemorrhagic transformation of her areas of ischemic stroke, there are numerous punctate well-circumscribed areas of susceptibility artifact within the bilateral cerebral cortex or potentially in the subarachnoid space.  These findings might be consistent with remote hemorrhages but are concerning for hypervascular masses/possible metastases (formal radiology review is pending).  Note the postcontrast sequences are severely motion degraded and essentially uninterpretable.
+ 
+9/17/25: CT angiogram of the head/neck was obtained and shows irregular filling of the distal cervical left ICA with impaired filling and possible intraluminal thrombus within the petrous portion of the left ICA with eventual nonopacification and complete vessel occlusion in the cavernous and supraclinoid segments.  There appears to be good filling of the left MCA and ACA likely via a robust ACOM and other collaterals.  There is mostly fetal origin of the bilateral posterior communicating arteries but the left PCA has modest connection to the basilar artery and appears to be filling normally.
+ 
+Clinically, there are no significant changes
+ 
+9/18/25: Noncontrast CT scan of the head was obtained yesterday and showed interval development of cytotoxic edema primarily within the right parietal lobe but also scattered areas within the left cerebral hemisphere.  There were a couple areas of hyperdensity within the subarachnoid space including left frontal lobe and left paramedian parietal lobe possibly representing acute blood products, but uncertain.  Differential diagnosis including residual contrast extra-axial vascularized masses or thrombus.
+ 
+Repeat noncontrast CT scan of the head showed no significant change in the evolving cytotoxic edema/hypodensity within the bilateral cerebral hemispheres as well as the subarachnoid hyperdensities.
+Echo without intracardiac thrombus.
+ 
+Patient continues on therapeutic anticoagulation.
+ 
+There is reportedly a change in her alertness and interactivity yesterday, becoming poorly responsive.
+Today, she remains more somnolent and poorly communicative.
+ 
+9/19/25: EEG yesterday showed significant diffuse slowing without epileptiform discharges.  Patient remains somnolent and poorly interactive.  Otherwise, no clear neurologic changes
+
+Patient Active Problem List: 
+  ASTHMA, UNSPECIFIED
+  COVID-19 RULED OUT
+  ANEMIA
+  LUNG MASS
+  ADENOCARCINOMA, LEFT LUNG LOWER LOBE
+  CANCER METASTATIC TO INTRATHORACIC LN
+  CANCER METASTATIC TO BONE
+  CANCER METASTATIC TO NECK LN
+  CANCER METASTATIC TO RIGHT ADRENAL GLAND
+  ACUTE PULMONARY EMBOLISM
+  ACUTE HYPOXEMIC RESPIRATORY FAILURE
+  ASTHMA, UNSPECIFIED W ACUTE EXACERBATION
+  HTN (HYPERTENSION)
+  UNSPECIFIED ANXIETY
+  PNEUMONIA
+  LONG TERM NON WARFARIN ORAL ANTICOAGULANT THERAPY
+  *NEW MEMBER
+  HX OF RADIATION THERAPY
+  ALTERED MENTAL STATUS, UNSPECIFIED
+  THROMBOCYTOPENIA, UNSPECIFIED (UNKNOWN ETIOLOGY)
+  HEADACHE
+
+ 
+Past Surgical History
+			
+Past Surgical History:
+Procedure	Laterality	Date
+•	IR SUPERFICIAL LYMPH NODE BIOPSY	Right	7/2/2025
+ 	
+ 
+		
+Current Outpatient Medications
+Medication	Instructions
+•	Acetaminophen (TYLENOL) 325 mg Oral Tab	Take 1 tablet by mouth every 6 hours for 7 days. Continue standing for 7 days then as needed.
+•	Albuterol (PROVENTIL) 2.5 mg /3 mL (0.083 %) Inhl Neb Soln	Use 1 vial via nebulizer every 4 to 6 hours as needed for shortness of breath or wheezing
+•	Azithromycin (ZITHROMAX) 250 mg Oral Tab	Take 2 tablets by mouth daily for 1 day, then 1 tablet daily for 4 days
+•	Camphor-Methyl Salicylate-Menthol (Salonpas) 3.1-10-6 % Top PTMD Patch	Apply 1 patch to your neck every evening
+•	Cefpodoxime (VANTIN) 200 mg Oral Tab	Take 1 tablet by mouth tonight to complete the antibiotic course on 07/17/25 - evening.
+•	Ciclesonide (Alvesco) 160 mcg/actuation Inhl HFAA	Inhale 1 puff by mouth 2 times a day . Rinse mouth after each use.
+•	Cyclobenzaprine (FLEXERIL)	5 mg, Oral, 3 TIMES A DAY AS NEEDED
+•	Doxycycline Monohydrate (AVIDOXY) 100 mg Oral Tab	Take 1 tablet by mouth this evening 7/17/25 to complete course
+•	Folic Acid	1 mg, Oral, EVERY 24 HOURS
+•	HYDROmorphone (DILAUDID) 2 mg Oral Tab	Take a half to 1 tablet by mouth every 4 hours as needed for moderate to severe pain
+•	HYDROmorphone (DILAUDID) 2 mg Oral Tab	Take 1 and one-half tablets by mouth every 4 hours while awake
+•	HYDROmorphone (DILAUDID)	2 mg, Oral, EVERY 4 HOURS AS NEEDED
+•	inhaler, assist devices (AEROCHAMBER Z-STAT PLUS-FLW SG) Misc Spacer	USE AS DIRECTED WITH INHALER
+•	Ipratropium-Albuterol (DUONEB) 0.5 mg-3 mg(2.5 mg base)/3 mL Inhl Neb Soln	Use 3 mL via nebulizer every 4 hours while awake
+•	Lidocaine (Aspercreme, lidocaine,) 4 % Top PTMD Patch	Apply 2 patches to C-spine and/or Left shoulder in area of pain daily
+•	Lidocaine Viscous 2 % MM Soln	Swish and spit 15 mL by mouth every 4 hours as needed for mouth pain.
+•	Metoprolol Tartrate (LOPRESSOR)	25 mg, Oral, 2 TIMES A DAY WITH MEALS
+•	Mouthwash:diphenhydrAMINE-Lidocaine Visc.-Maalox Oral Susp	Swallow 1 teaspoonful (5 mL) by mouth 4 times a day or as directed
+•	Naloxone (NARCAN) 4 mg/actuation Nasl Spray	For Non-Recipient Use. Use 1 spray in one nostril. Seek immediate Emergency medical help. If response is not obtained after 2 or 3 minutes, administer 2nd dose in other nostril using a new device until Emergency help arrives. Emergency use only
+•	Ondansetron (ZOFRAN ODT)	8 mg, Translingual, EVERY 8 HOURS
+•	Pantoprazole (PROTONIX)	40 mg, Oral, 2 TIMES A DAY BEFORE MEALS
+•	Polyethylene Glycol 3350 (MIRALAX/GLYCOLAX) 17 gram/dose Oral Powd	Mix 17 Grams in 4 to 8 ounces of water or juice and drink by mouth daily as directed for constipation
+•	Polyethylene Glycol 3350 (MIRALAX/GLYCOLAX)	17 g, Oral, DAILY
+•	predniSONE (DELTASONE) 10 mg Oral Tab	Take 4 tablets daily every morning for 5 days. Then take 3 tablets daliy every morning for 5 days. Then take 2 tablets daily every morning for 5 days. Then take 1 tablet daily every morning for 5 days. Then take half tablet daily every morning for 5 days. Then stop taking. Or take as directed. Take with food.
+•	Sennosides (Senna) 8.6 mg Oral Tab	Take 2 tablets by mouth daily as needed for constipation. May increase up to 4 tablets by mouth 2 times a day as needed for severe constipation. Do not exceed 8 tablets in 24 hours
+•	Sucralfate (CARAFATE)	1,000 mg, Oral, 30 MINUTES BEFORE MEALS AND AT BEDTIME
+•	Tagrisso	80 mg, Oral, DAILY
+•	Xarelto	20 mg, Oral, DAILY WITH DINNER, (Start after completing Xarelto 15 mg tablets)
+
+ 
+Allergies
+			
+Allergies
+Allergen	Reactions
+•	Contrast [Ivp Dye, Iodine Containing]	Swelling
+ 	 	Per pt
+
+
+ 
+Family History
+			
+Family History
+Problem	Relation	Age of Onset
+•	Hyperlipidemia	Father	 
+•	Hypertension	Father	 
+•	Stroke	Father	 
+
+
+ 
+Social History
+Social History
+ 
+			
+Socioeconomic History
+•	Marital status:	Divorced
+Tobacco Use
+•	Smoking status:	Never
+•	Smokeless tobacco:	Never
+Substance and Sexual Activity
+•	Alcohol use:	Yes
+ 	 	Types:	1 Glasses of wine per week
+•	Drug use:	No
+•	Sexual activity:	Yes
+ 	 	Partners:	Male
+ 	 	Birth control/protection:	bilateral tubal ligation
+Social History Narrative
+ 	
+ 
+Objective:
+Physical Exam
+BP 169/82  | Pulse 72  | Temp 98.1 °F (36.7 °C)  | Resp 20  | Ht 5' 2"  | Wt 63 kg (139 lb)  | SpO2 100%  | Breastfeeding No  | BMI 25.42 kg/m² 
+Estimated body mass index is 25.42 kg/m² as calculated from the following:
+  Height as of this encounter: 5' 2".
+  Weight as of this encounter: 63 kg (139 lb).
+General Appearance: No acute distress but looks unwell lying in bed
+
+Mental Status: Sleepy and difficult to arouse.  With noxious central stimulation, patient will open eyes and briefly regard examiner.  Localizes to noxious stimulation with her left arm but currently no verbal output and not following commands.  Previously, verbal output was minimal and limited to a few isolated words and simple overlearned phrases.  She was not able to generate spontaneous exposition and cannot name any objects reliably.  She was able to follow simple axial commands such as to stick out her tongue. 
+Cranial Nerves:
+-II: pupils round, symmetrical, and equally responsive to direct and consensual stimulation, no definite asymmetry and blink to threat bilaterally but appears to have difficulty fixating on objects and question of possible visual field loss
+-III, IV, VI: extraocular movements intact without pathologic nystagmus or clear gaze preference
+-VII: Flattening of the right nasolabial fold
+-VIII: hearing grossly intact bilaterally
+ 
+Motor:
+- No tremor observed
+- Strength: Minimal voluntary movements of the right arm and withdraws somewhat to noxious stimulation.  Previously was able to make a fist on the right with 4 - strength.  She was able to hold the right leg antigravity with drift.  Full strength on the left.
+ 
+Sensory:  Decreased response to noxious stimulation on the right
+Coordination: Movements fluid without ataxia
+Gait: deferred.
+Reflexes:   deferred
+ 
+NIHSS STROKE SCALE (Time Performed: 1100)
+ 
+_3_ 1a. Level of Consciousness
+_2_1b. LOC Questions (Age & Month)
+_2_1c. LOC Commands (Make fist & close eyes)
+_0_ 2. Best Gaze
+_1_ 3. Visual
+_1_ 4. Facial palsy     
+_0_ 5a. L Motor arm
+_3_ 5b. R Motor arm      
+_0_ 6a. L Motor leg
+_2_ 6b. R Motor leg
+_0_ 7. Limb ataxia     
+_1_ 8. Sensory
+_3_ 9. Best language
+_2_ 10. Dysarthria
+_0_ 11. Extinction and inattention (formerly neglect)
+  
+TOTAL: 20
+
+Labs: labs and additional test results were reviewed by me. 
+
+Imaging:
+Patient's relevant imaging was reviewed by me, including noncontrast CT scan of the head, prior MRI brain, prior PET/CT
+
+Assessment and Plan
+65 Yo female with hx of lung adenocarcinoma with no metastases to bone, right adrenal gland, multiple lymph nodes, PE on Xarelto, HTN presenting with combination of encephalopathy and resolving right hemiparesis and sensory loss.
+ 
+Acute ischemic strokes
+Patient presented with an episode of unresponsiveness followed by clear relatively diffuse left hemispheric dysfunction.  Patient was found to have extensive bilateral acute ischemic strokes thought to be due to hypercoagulability of malignancy despite therapeutic anticoagulation on Xarelto.  CT angiogram shows occlusion of the left intracranial ICA with good filling of the left MCA and ACA.
+Note that patient's MRI of the head from 7/11/2025 did not show any evidence of brain parenchymal abnormalities or meningeal lesions, but patient has known osseous metastases to the calvarium.  Patient has numerous superficial areas of parenchymal susceptibility artifact that are potentially concerning for hyper vascularized micrometastases, but postcontrast sequences on recent MRI were nondiagnostic
+ 
+My primary clinical concern is that patient has a high risk of recurrent ischemic strokes especially given that she experienced a multifocal bilateral ischemic stroke while therapeutically anticoagulated on rivaroxaban.  Although there is theoretically risk of hemorrhagic transformation with therapeutic anticoagulation, a recent study published in the Lancet 2025 (CATALYST) supports that early initiation of therapeutic anticoagulation after ischemic stroke is likely favorable with significantly decreased ischemic events and no significant increase in symptomatic hemorrhage.
+-Continue therapeutic Lovenox while patient is unable to take p.o.
+-Apixaban 5 mg twice daily 
+- Okay to continue atorvastatin 80 mg
+- Recommend repeat MRI of the brain with and without contrast to evaluate for intracranial metastases or any increase in ischemia burden
+- STAT CT head for any acute changes in neurologic exam
+- Neurochecks q4h
+- Permissive hypertension with SBP goal <220
+- Goal euthermia (<38C), eunatremia (135-145), euglycemia (80-180), euvolemia
+- NPO until passes swallow evaluation
+- PT/OT/SLP evaluations
+- Stroke education for patient
+- Apply SCDs, pharmacologic DVT prophylaxis is neurologically appropriate
+- Smoking cessation, as applicable
+ 
+Acute encephalopathy
+Patient sleepy and inattentive 9/18/2025 of yet undetermined etiology.  I do not see clear evidence of new focal neurologic deficits, and her noncontrast CT scans of the head showed expected interval findings compared with prior MRI of the brain.  There are a couple of extra-axial hyperdensities that might be consistent with small subarachnoid hemorrhage/blood products, but these findings may also represent hyper vascularized masses such as was considered on her motion-degraded MRI.  These hypodensities are not changing and do not appear to represent a contraindication to ongoing therapeutic anticoagulation.
+Clinically, she appears to have global cerebral dysfunction without clear explanatory factors.  So far, no evidence of new diffuse ischemia or focal brainstem/thalamic lesions, and no severe progressive cytotoxic edema. Seizures are potentially on the differential diagnosis, but patient without any clear clinical seizure activity and initial EEG negative.  However, patient remains severely encephalopathic without alternative etiology, will consider empirically treating for seizures given high clinical suspicion.  
+- No clear indication for antiepileptics currently but will consider empiric antiepileptics if patient remains severely somnolent without alternative explanation given the possibility for intermittent subclinical electrographic seizures that may be missed on EEG monitoring
+- Recommend repeat MRI of the brain with and without contrast as above
+ 
+Recommend non-pharmacologic delirium precautions including:
+- Promote sleep hygiene with appropriate day/night divisions (e.g. lights on during day and off during night, turning off the TV after 10 PM, opening the blinds in the morning)
+- Frequent re-orientation as needed
+- Ensure patient has access to any needed sensory aids (e.g. glasses, hearing aids)
+- Avoid or limit deliriogenic medications such as: Anticholinergics, Benzodiazepines (including zolpidem, zaleplon, and eszopiclone), opiates, antihistamine, muscle relaxants, dopamine agonists, MAO inhibitors, steroids, certain antibiotics (cefepime, metronidazole, fluoroquinolones, linezolid), digitalis, lithium, calcineurin inhibitors
+
+Dr Neurology, MD

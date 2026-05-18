@@ -1,0 +1,7 @@
+    CT HEAD WITHOUT CONTRAST
+** HISTORY **:  65 years old,  NO IV or PO contrast: acute dilated pupils, eval for intracranial bleed. pt on systemic anticoagulation.
+** TECHNIQUE **:  CT images of the head acquired without intravenous contrast.   CTDI: 0.04,48.87 mGy  DLP: 0.81,687.3 mGy-cm
+COMPARISON: ***
+** FINDINGS **:  BRAIN PARENCHYMA: Left frontal, left posterior temporal and right frontal parietal temporal involving infarcts with diffuse sulcal effacement and approximately 6 mm new rightward midline shift with subfalcine herniation. There is effacement of the basilar cisterns concerning for transtentorial herniation. No convincing hemorrhage.   VENTRICLES/EXTRA-AXIAL SPACES: Effacement of the left lateral ventricle and occipital horn.   EXTRACRANIAL STRUCTURES: Normal bones and soft tissues. Visualized paranasal sinuses and mastoids demonstrate no significant abnormality.   
+
+IMPRESSION:    Evolving left greater than right parenchymal infarcts with progressive mass effect including diffuse sulcal effacement, new 6 mm rightward midline shift with subfalcine herniation, and associated effacement of the basilar cisterns concerning for transtentorial herniation. No convincing intracranial hemorrhage 

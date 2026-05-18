@@ -1,0 +1,69 @@
+@import '../../assets/scss/variables';
+
+.settings-worklist-builder-layout {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
+  height: 100%;
+
+  .settings {
+    min-width: 280px;
+    width: 280px;
+    max-width: 280px;
+    margin: 0 2px 0 0;
+
+    > div {    
+      padding: 0;
+      width: 100%;
+    }
+
+    .panel-header {
+      padding: 16px;
+      border-bottom: 1px solid #383E48;
+
+      >div {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+          padding: 0;
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+
+    .worklist-item {
+      display: flex;
+      max-height: 44px;
+      padding: 12px 8px;
+      align-items: center;
+      gap: 8px;
+      justify-content: space-between;
+      border-bottom: 1px solid $gray0;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $gray;
+      }
+
+      &.active {
+        background-color: var(--row-hover);
+      }
+    }
+  }
+
+  .info-message {
+    h6 {
+      font-size: 18px;
+      text-align: center;
+      margin: 0;
+    }
+  }
+}

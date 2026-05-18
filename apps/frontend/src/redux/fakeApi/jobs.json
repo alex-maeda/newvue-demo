@@ -1,0 +1,83 @@
+[
+  {
+    "id": "0",
+    "label": "Ordering physicians",
+    "settings": {
+      "studies": [
+        "orderingPhysicians"
+      ],
+      "intervals": [
+        "9:00 - 16:00"
+      ],
+      "usersReceives": [
+        {
+          "name": "Dr. Liam Johnson",
+          "isChecked": true
+        },
+        {
+          "name": "Dr. Olivia Williams",
+          "isChecked": true
+        },
+        {
+          "name": "Dr. Emma Smith",
+          "isChecked": false
+        }
+      ],
+      "userGroupsReceives": [
+        {
+          "name": "NY Radiologists",
+          "isChecked": true
+        },
+        {
+          "name": "FL Radiologists",
+          "isChecked": false
+        },
+        {
+          "name": "CA Radiologists",
+          "isChecked": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "1",
+    "label": "Speacilaty",
+    "settings": {
+      "studies": [
+        "speacilaty"
+      ],
+      "intervals": [
+        "11:00 - 17:00",
+        "7:00 - 14:00"
+      ],
+      "usersReceives": [
+        {
+          "name": "Dr. Liam Johnson",
+          "isChecked": false
+        },
+        {
+          "name": "Dr. Olivia Williams",
+          "isChecked": true
+        },
+        {
+          "name": "Dr. Emma Smith",
+          "isChecked": false
+        }
+      ],
+      "userGroupsReceives": [
+        {
+          "name": "NY Radiologists",
+          "isChecked": true
+        },
+        {
+          "name": "FL Radiologists",
+          "isChecked": false
+        },
+        {
+          "name": "CA Radiologists",
+          "isChecked": false
+        }
+      ]
+    }
+  }
+]

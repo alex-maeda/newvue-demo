@@ -1,0 +1,32 @@
+services:
+  server:
+    build: ./apps/server
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - AWS_REGION=${AWS_REGION:-us-east-1}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - BEDROCK_MODEL_ID=${BEDROCK_MODEL_ID:-us.anthropic.claude-haiku-4-5-20251001-v1:0}
+      - SPEECHMATICS_API_KEY=${SPEECHMATICS_API_KEY}
+      - SPEECHMATICS_WS_URL=${SPEECHMATICS_WS_URL:-wss://eu2.rt.speechmatics.com/v2}
+      - DEEPGRAM_API_KEY=${DEEPGRAM_API_KEY}
+      - CORS_ORIGIN=*
+
+  reporting-ui:
+    build: ./reporting-ui
+    ports:
+      - "5174:5174"
+    environment:
+      - API_TARGET=http://server:8000
+    depends_on:
+      - server
+
+  frontend:
+    build: ./apps/frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
+      - reporting-ui

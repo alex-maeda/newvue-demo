@@ -1,0 +1,222 @@
+{
+  "3": {
+    "examHistory": [
+      {
+        "id": 0,
+        "type": "performed",
+        "date": "2023-07-10T09:00:00Z"
+      },
+      {
+        "id": 1,
+        "type": "reported",
+        "date": "2023-08-10T09:00:00Z",
+        "data": {
+          "reportText": "Focal area of hypodensity is seen in the right frontoparietal temporal lobe, associated with effacement of sulci spaces in this region, suspicious for infarction. Punctate foci of hypodensity are noted within the central aspect of this region, worrisome for intraparenchymal hemorrhage and/or less likely calcifications. Minimal mass effect is noted, associated with effacement of the adjacent right lateral ventricle without midline shift. Differential considerations include but are not limited to mass lesion. Suggest clinical correlation and follow-up enhanced brain MRI exam with diffusion for more optimal characterization, if clinically indicated."
+        }
+      },
+      {
+        "id": 2,
+        "type": "peerReviewed",
+        "date": "2023-09-10T09:00:00Z",
+        "data": {
+          "score": 2,
+          "meaning": "Discrepancy in interpretation / not ordinarily expected to be made",
+          "subOption": "a - Unlikely to be clinically significant",
+          "comment": "Missed fx",
+          "reviewer": "Dr. Olivia Emma"
+        }
+      }
+    ]
+  },
+  "4": {
+    "examHistory": [
+      {
+        "id": 0,
+        "type": "performed",
+        "date": "2023-07-10T09:00:00Z"
+      },
+      {
+        "id": 1,
+        "type": "reported",
+        "date": "2023-07-30T09:00:00Z",
+        "data": {
+          "reportText": "Focal area of hypodensity is seen in the right frontoparietal temporal lobe, associated with effacement of sulci spaces in this region, suspicious for infarction. Punctate foci of hypodensity are noted within the central aspect of this region, worrisome for intraparenchymal hemorrhage and/or less likely calcifications. Minimal mass effect is noted, associated with effacement of the adjacent right lateral ventricle without midline shift. Differential considerations include but are not limited to mass lesion. Suggest clinical correlation and follow-up enhanced brain MRI exam with diffusion for more optimal characterization, if clinically indicated."
+        }
+      },
+      {
+        "id": 2,
+        "type": "peerReviewed",
+        "date": "2023-09-19T09:00:00Z",
+        "data": {
+          "score": 2,
+          "meaning": "Discrepancy in interpretation / not ordinarily expected to be made",
+          "subOption": "b - Likely to be clinically significant",
+          "comment": "No evidence of fx",
+          "reviewer": "Dr. Noah Brown"
+        }
+      }
+    ]
+  },
+  "6": {
+    "examHistory": [
+      {
+        "id": 0,
+        "type": "performed",
+        "date": "2023-06-10T09:00:00Z"
+      },
+      {
+        "id": 1,
+        "type": "reported",
+        "date": "2023-08-10T09:00:00Z",
+        "data": {
+          "reportText": "Focal area of hypodensity is seen in the right frontoparietal temporal lobe, associated with effacement of sulci spaces in this region, suspicious for infarction. Punctate foci of hypodensity are noted within the central aspect of this region, worrisome for intraparenchymal hemorrhage and/or less likely calcifications. Minimal mass effect is noted, associated with effacement of the adjacent right lateral ventricle without midline shift. Differential considerations include but are not limited to mass lesion. Suggest clinical correlation and follow-up enhanced brain MRI exam with diffusion for more optimal characterization, if clinically indicated."
+        }
+      },
+      {
+        "id": 2,
+        "type": "peerReviewed",
+        "date": "2023-09-10T09:00:00Z",
+        "data": {
+          "score": 3,
+          "meaning": "Discrepancy in interpretation / should be made most of the time",
+          "subOption": "a - Unlikely to be clinically significant",
+          "comment": "Laterality issue",
+          "reviewer": "Dr. Ava Jones"
+        }
+      },
+      {
+        "id": 3,
+        "type": "finalize",
+        "date": "2023-10-01T09:00:00Z",
+        "data": {
+          "score": 3,
+          "meaning": "Discrepancy in interpretation / should be made most of the time",
+          "subOption": "a - Unlikely to be clinically significant",
+          "comment": "Laterality issue",
+          "isRequired": "Y",
+          "reviewer": "Dr. Ava Jones"
+        }
+      }
+    ]
+  },
+  "9": {
+    "examHistory": [
+      {
+        "id": 0,
+        "type": "performed",
+        "date": "2023-06-10T09:00:00Z"
+      },
+      {
+        "id": 1,
+        "type": "reported",
+        "date": "2023-08-10T09:00:00Z",
+        "data": {
+          "reportText": "Focal area of hypodensity is seen in the right frontoparietal temporal lobe, associated with effacement of sulci spaces in this region, suspicious for infarction. Punctate foci of hypodensity are noted within the central aspect of this region, worrisome for intraparenchymal hemorrhage and/or less likely calcifications. Minimal mass effect is noted, associated with effacement of the adjacent right lateral ventricle without midline shift. Differential considerations include but are not limited to mass lesion. Suggest clinical correlation and follow-up enhanced brain MRI exam with diffusion for more optimal characterization, if clinically indicated."
+        }
+      },
+      {
+        "id": 2,
+        "type": "peerReviewed",
+        "date": "2023-09-10T09:00:00Z",
+        "data": {
+          "score": 3,
+          "meaning": "Discrepancy in interpretation / should be made most of the time",
+          "subOption": "a - Unlikely to be clinically significant",
+          "comment": "Laterality issue",
+          "reviewer": "Dr. Ava Jones"
+        }
+      }
+    ]
+  },
+  "10": {
+    "examHistory": [
+      {
+        "id": 0,
+        "type": "performed",
+        "date": "2023-07-10T09:00:00Z"
+      },
+      {
+        "id": 1,
+        "type": "reported",
+        "date": "2023-08-30T09:00:00Z",
+        "data": {
+          "reportText": "Focal area of hypodensity is seen in the right frontoparietal temporal lobe, associated with effacement of sulci spaces in this region, suspicious for infarction. Punctate foci of hypodensity are noted within the central aspect of this region, worrisome for intraparenchymal hemorrhage and/or less likely calcifications. Minimal mass effect is noted, associated with effacement of the adjacent right lateral ventricle without midline shift. Differential considerations include but are not limited to mass lesion. Suggest clinical correlation and follow-up enhanced brain MRI exam with diffusion for more optimal characterization, if clinically indicated."
+        }
+      },
+      {
+        "id": 2,
+        "type": "peerReviewed",
+        "date": "2023-09-10T09:00:00Z",
+        "data": {
+          "score": 3,
+          "meaning": "Discrepancy in interpretation / should be made most of the time",
+          "subOption": "b - Likely to be clinically significant",
+          "comment": "",
+          "reviewer": "Dr. William Davis"
+        }
+      }
+    ]
+  },
+  "11": {
+    "examHistory": [
+      {
+        "id": 0,
+        "type": "performed",
+        "date": "2022-11-01T09:00:00Z"
+      },
+      {
+        "id": 1,
+        "type": "reported",
+        "date": "2023-05-19T09:51:00Z",
+        "data": {
+          "reportText": "There is no evidence of acute pulmonary embolism or pleural effusion. However, there is a suspicious area of ground glass opacification in the right upper lobe, measuring approximately 1 cm in diameter. This finding is consistent with early stage lung disease or scar tissue. Additionally, there is a small nodule located in the left lower lobe, measuring approximately 8 mm in diameter. This nodule shows enhancement after contrast administration, which raises concern for potential malignancy. Given the findings of this examination, a follow-up chest CT is recommended in six months to assess for any changes or progression of these findings. It is important to note that the nodule in the left lower lobe warrants close monitoring and potential biopsy if it continues to enlarge or show signs of malignant change."
+        }
+      },
+      {
+        "id": 2,
+        "type": "followupRequest",
+        "date": "2023-08-20T09:00:00Z",
+        "data": {
+          "patientName": "Eve Brown",
+          "phoneNumber": "(555) 456-7890",
+          "orderingPhysician": "Dr. Gordon Allan",
+          "orderingPhysicianPhone": "(555) 789-1234",
+          "keyFinding": "Ground glass opacity",
+          "examDescription": "CT Chest w/o contrast 2 views",
+          "examDate": "09/25/2023",
+          "radiologist": "Dr. Olivia Emma",
+          "meaning": "Routine chest CT with contrast in 6 months"
+        }
+      }
+    ]
+  },
+  "12": {
+    "examHistory": [
+      {
+        "id": 0,
+        "type": "performed",
+        "date": "2023-07-10T09:00:00Z"
+      },
+      {
+        "id": 1,
+        "type": "reported",
+        "date": "2023-08-30T09:00:00Z",
+        "data": {
+          "reportText": "Focal area of hypodensity is seen in the right frontoparietal temporal lobe, associated with effacement of sulci spaces in this region, suspicious for infarction. Punctate foci of hypodensity are noted within the central aspect of this region, worrisome for intraparenchymal hemorrhage and/or less likely calcifications. Minimal mass effect is noted, associated with effacement of the adjacent right lateral ventricle without midline shift. Differential considerations include but are not limited to mass lesion. Suggest clinical correlation and follow-up enhanced brain MRI exam with diffusion for more optimal characterization, if clinically indicated."
+        }
+      },
+      {
+        "id": 2,
+        "type": "findingDelivery",
+        "date": "2023-09-10T09:00:00Z",
+        "data": {
+          "score": 3,
+          "meaning": "",
+          "subOption": "",
+          "comment": "",
+          "reviewer": ""
+        }
+      }
+    ]
+  }
+}

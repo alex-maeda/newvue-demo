@@ -1,0 +1,33 @@
+
+Impression
+Left posterior perihilar mass, 5.2 cm. Bilateral groundglass airspace opacities with bilateral upper and right middle lobes predilection; with some areas of more confluent nodules, as described. Mediastinal lymphadenopathy including right hilar , subcarinal, superior mediastinal, and supraclavicular regions. The constellation of findings could suggest a neoplastic process, inflammatory process such as sarcoidosis, or an atypical infectious process such as tuberculosis. Clinical correlation is recommended. Recommend expedited discussion with Pulmonary to determine the necessity of and best approach for tissue sampling (#PUL5f). 
+ 
+ 
+#d14
+Action required. +
+ 
+ 
+ Narrative
+CT CHEST WITH CONTRAST
+ 
+** HISTORY **:
+65 years old,  OTHER - (PLEASE DESCRIBE) left perihilar mass
+ 
+** TECHNIQUE **: 
+CT images of the chest acquired with 100 mL Omnipaque 300 intravenous contrast.
+ 
+CTDI: 0.04,0.04,5.7 mGy
+DLP: 1.35,1.35,184.23 mGy-cm
+ 
+COMPARISON: Radiograph 6/24/2025
+ 
+** FINDINGS **:
+HEART: Heart size normal.  
+VESSELS: No significant abnormality.
+LYMPH NODES: There is mediastinal lymphadenopathy. Right paratracheal node (series 3, image 27) measures 1.6 cm in short axis. A prevascular node (series 3, image 28) measures 2.0 cm in short axis. Right hilar node (series 3, image 45) measures 1.7 cm in short axis. Subcarinal node (series 3, image 47) measures 1.6 cm in short axis. Right supraclavicular node (series 3, image 7) measures 1.4 cm in short axis.
+OTHER MEDIASTINUM: No significant abnormality.
+LUNGS: There is a left posterior perihilar mass measuring 5.2 x 4.7 x 4.3 cm (series 3, image 51). There are dense central perihilar groundglass opacities seen bilaterally. The groundglass opacities are also seen involving much of the right upper lobe and right middle lobe; there is relative sparing of the bilateral lower lobes. Within the groundglass opacities, there are more confluent nodular opacities, for example in the right middle lobe on series 4, image 11 there is a 2 x 2 cm nodule and in the right upper lobe on series 4, image 66 there is a 1.3 x 1.1 cm nodule.
+PLEURAL SPACE: Trace left pleural effusion.
+UPPER ABDOMEN: No significant abnormality.
+SOFT TISSUES: No significant abnormality.
+BONES: No significant abnormality.

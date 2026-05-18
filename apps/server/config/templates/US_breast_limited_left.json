@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "id": "us-breast-limited-left",
+  "title": "US Breast Limited Left",
+  "modality": "US",
+  "bodyRegion": "breast",
+  "description": "System default template",
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "tags": "narrative",
+      "title": "Narrative",
+      "children": [
+        { "id": "sub_study_title", "type": "subsection", "tags": "studyName", "title": "US Breast Limited Left", "children": [] },
+        { "id": "section_history", "type": "section", "tags": "history", "title": "History", "children": [
+          { "id": "content_history_main", "type": "text", "tags": "history", "value": "" }
+        ]},
+        { "id": "section_technique", "type": "section", "tags": "technique", "title": "Technique", "children": [
+          { "id": "content_technique_main", "type": "text", "tags": "technique", "value": "Limited sonographic evaluation of the left breast was performed using a high-frequency linear transducer." }
+        ]},
+        { "id": "section_comparison", "type": "section", "tags": "comparison", "title": "Comparison", "children": [
+          { "id": "content_comparison_main", "type": "text", "tags": "comparison", "value": "" }
+        ]},
+        { "id": "section_findings", "type": "section", "tags": "findings", "title": "Findings", "children": [
+          { "id": "sub_left_breast", "type": "subsection", "tags": "subFindings", "title": "Left Breast", "children": [
+            { "id": "content_lb_1", "type": "text", "tags": "normal", "value": "No solid mass or suspicious cystic lesion identified in the area of clinical concern." }
+          ]},
+          { "id": "sub_axillary_ln", "type": "subsection", "tags": "subFindings", "title": "Axillary Lymph Nodes", "children": [
+            { "id": "content_ax_1", "type": "text", "tags": "normal", "value": "Left axillary lymph nodes appear morphologically normal." }
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "tags": "impression",
+      "title": "Impression",
+      "children": [
+        { "id": "content_impression_main", "type": "text", "tags": "impression", "value": "" }
+      ]
+    }
+  ]
+}

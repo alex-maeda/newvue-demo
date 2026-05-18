@@ -1,0 +1,24 @@
+{
+  "_comment": "Shared HL7 simulation constants used across all patient messages",
+  "msh": {
+    "fieldSeparator": "|",
+    "encodingCharacters": "^~\\&",
+    "sendingApplication": "NEWVUE_RIS",
+    "sendingFacility": "RADIOLOGY_DEPT",
+    "receivingApplication": "NEWVUE_EHR",
+    "receivingFacility": "NEWVUE_HOSPITAL",
+    "messageType": "ORU^R01",
+    "processingId": "P",
+    "versionId": "2.5.1"
+  },
+  "pid": {
+    "assigningAuthority": "NEWVUE_HOSPITAL",
+    "identifierTypeCode": "MR"
+  },
+  "zds": {
+    "pacsIdentifier": "NEWVUE_PACS",
+    "applicationComponent": "Application",
+    "dicomComponent": "DICOM",
+    "studyInstanceUidPrefix": "1.2.840.113619.2.55.3"
+  }
+}

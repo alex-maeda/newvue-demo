@@ -1,0 +1,63 @@
+@import '../../../../assets/scss/variables';
+
+.settings {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
+  height: 100%;
+
+  > .settings-side-menu {
+    margin: 0 2px 0 0;
+    min-width: 280px;
+    width: 280px;
+    max-width: 280px;
+
+    > div {
+      padding: 0;
+
+      .panel-header {
+        padding: 16px;
+        border-bottom: 1px solid $darkGray;
+
+        h3 {
+          font-size: 20px;
+          font-weight: $fontBold;
+          line-height: 30px;
+        }
+      }
+
+      .panel-body {
+        padding: 16px 24px;
+        height: auto;
+
+        .ant-menu {
+          background: transparent;
+          border: none;
+
+          .ant-menu-item {
+            padding: 12px 8px !important;
+            border-radius: 0;
+            margin: 0;
+            width: 100%;
+            border-bottom: 1px solid $darkGray;
+
+            &-selected {
+              background-color: var(--row-hover);
+              color: var(--purple100);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // > .settings-user-layout {
+  //   width: calc(100% - 280px);
+  // }
+}

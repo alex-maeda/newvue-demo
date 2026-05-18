@@ -1,0 +1,6 @@
+{
+  "resourceType": "Practitioner",
+  "id": "PRAC-0003",
+  "name": [{ "text": "Emergency Physician, MD" }],
+  "qualification": [{ "code": { "text": "Attending physician" } }]
+}

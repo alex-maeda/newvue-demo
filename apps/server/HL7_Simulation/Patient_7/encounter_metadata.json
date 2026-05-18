@@ -1,0 +1,44 @@
+{
+  "_comment": "MSH + PV1 + current study data for Patient 7 — Outpatient, screening mammography",
+  "patientId": "Patient_7",
+  "msh": {
+    "messageDateTime": "20260423120000",
+    "messageControlId": "MSG20260423-P7-001"
+  },
+  "pv1": {
+    "patientClass": "O",
+    "patientClassDescription": "Outpatient",
+    "assignedPatientLocation": "RAD^MAMMO-1",
+    "attendingPhysician": {
+      "id": "ATT001",
+      "last": "MARTINEZ",
+      "first": "ELENA",
+      "mi": "R"
+    },
+    "referringPhysician": {
+      "id": "REF006",
+      "last": "NGUYEN",
+      "first": "THOMAS",
+      "mi": "D"
+    },
+    "visitNumber": "ENC20260423-0007"
+  },
+  "currentStudies": [
+    {
+      "currentStudyId": "P7-CURRENT-001",
+      "studyDescription": "MG Breast Bilateral Screening",
+      "accessionNumber": "ACC-P7-C001",
+      "studyDateTime": "20260423140000",
+      "orderingPhysician": "Nguyen, Thomas D",
+      "clinicalIndication": "Routine screening",
+      "resultStatus": "IP",
+      "studyInstanceUid": "1.2.840.113619.2.55.3.7.C1",
+      "labels": {
+        "modality": "MG",
+        "bodyRegions": ["breast"],
+        "isAngiographic": false,
+        "laterality": "bilateral"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+RADIATION ONCOLOGY ON-TREATMENT VISIT # 1
+ 
+ID:
+65 Y female with no significant medical history, with newly diagnosed NSCLC with widespread metastases (C-spine, left pleural effusion, mediastinal and cervical adenopathy, R adrenal, and extensive bone lesions) s/p palliative RT to C3-T1 and L shoulder 20 Gy in 5 fx and 8 Gy x 1 fx to R shoulder 7/16/25-7/29/25, on osimertinib, now with worsening R shoulder pain. 
+ 
+Radiation Site: R shoulder
+ 
+Radiation dose to date:  
+1200 / 2000 cGy
+ 
+Fractions: 3 of 5 total fractions
+ 
+Concurrent Therapy: 
+osimertinib
+ 
+Started radiation: 9/11/25
+Planned radiation completion: 9/17/25
+ 
+Subjective:
+R shoulder pain improved, feeling better overall.
+ 
+Physical Exam:
+Performance Status ECOG 1 - Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work
+	
+Wt Readings from Last 3 Encounters:
+09/02/25	71 kg (156 lb 9.6 oz)
+08/05/25	73.5 kg (162 lb)
+08/01/25	68.9 kg (152 lb)
+ 
+Pain Score: Data Unavailable
+No acute distress.
+APPEARANCE: alert, oriented, no acute distress
+SKIN: No erythema and No desquamation
+ 
+Toxicity Assessment: 
+none
+ 
+Assessment: 
+Stable course.
+ 
+Plan:  
+Continue radiation therapy as scheduled.  
+Continue skin care.
+Pain Management Plan: Palliative radiation therapy to alleviate pain
+Response to RT: improving pain 
+Dispo: RN TAV next week, f/u with Dr. Hematology/Oncology
+ 
+Weekly review of treatment set-up, dosimetry, and portal images has been performed.
+
+Radiation Oncologist, MD

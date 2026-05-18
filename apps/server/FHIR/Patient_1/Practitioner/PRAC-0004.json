@@ -1,0 +1,6 @@
+{
+  "resourceType": "Practitioner",
+  "id": "PRAC-0004",
+  "name": [{ "text": "Radiation Oncologist, MD" }],
+  "qualification": [{ "code": { "text": "Attending physician" } }]
+}

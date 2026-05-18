@@ -1,0 +1,33 @@
+Impression
+1. Perforated jejunal diverticulitis. Localized extraluminal gas is seen within the left upper quadrant. Surrounding inflammatory changes are present. No abscess.
+2. Solid enhancing mass of the right kidney measuring 2.7 cm, likely representing renal cell carcinoma.
+3. Cholelithiasis.
+ 
+ Narrative
+CT ABDOMEN AND PELVIS WITH CONTRAST
+ 
+** HISTORY **:
+75 year old man, pain.
+ 
+** TECHNIQUE **:
+ 
+CT images of the abdomen and pelvis were acquired with 150 mL Omnipaque 300 intravenous contrast.
+CTDI: 18.41 mGy, DLP: 938.72 mGy-cm
+ 
+** FINDINGS **:
+LUNG BASES: There is mild atelectasis/scarring of the lung bases.
+LIVER: Unremarkable.
+GALLBLADDER/BILIARY TREE: Small gallstones are present. No acute cholecystitis or bile duct dilatation.
+SPLEEN: Unremarkable.
+PANCREAS: Normal pancreas.
+ADRENALS: Unremarkable.
+KIDNEYS: There is a solid mass of the posterior upper to mid right kidney measuring 2.7 x 2.2 x 2.2 cm, concerning for renal cell carcinoma. No hydronephrosis.
+GI TRACT: There is a small diverticulum of the duodenum in the second portion. Multiple proximal jejunal diverticula are appreciated along the mesenteric border. Many of these are filled with high density. There is evidence of a inflamed diverticulum of the proximal jejunum with extraluminal gas pockets and surrounding inflammatory change, consistent with perforation (image 41 series 3). No small bowel obstruction. Sigmoid colon diverticula are present without active inflammation.
+MESENTERY/LYMPH NODES:  Unremarkable.
+PERITONEUM: No free air or fluid.
+AORTA/VESSELS: Normal abdominal aortic diameter (<3cm). Atherosclerotic calcifications of the aorta.
+BLADDER: Unremarkable.
+PELVIC STRUCTURES: The prostate gland is surgically absent.
+ABDOMINAL WALL/SOFT TISSUES: Unremarkable.
+BONES: Unremarkable.
+

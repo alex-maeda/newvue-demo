@@ -1,0 +1,10 @@
+{
+  "resourceType": "Condition",
+  "id": "COND-P12345-0006",
+  "category": [{ "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "problem-list-item", "display": "Problem List Item" }] }],
+  "clinicalStatus": { "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/condition-clinical", "code": "active" }] },
+  "verificationStatus": { "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status", "code": "confirmed" }] },
+  "code": { "text": "ASTHMA, UNSPECIFIED" },
+  "subject": { "reference": "Patient/P12345" },
+  "recordedDate": "2020-01-01"
+}

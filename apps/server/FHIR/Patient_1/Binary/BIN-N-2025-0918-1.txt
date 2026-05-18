@@ -1,0 +1,362 @@
+PROGRESS NOTE 
+Per admission HPI:"
+CC: right facial droop, confusion, staring blank, dizziness, headache, right sided weakness, visual changes
+ 
+HPI: 65yo f  with hx of left lung cancer with mets diagnosed 2 months ago s/p 1 cycle of chemo currently on Osimertinib and s/p radiation tx, PE diagnosed 2 months ago on Xarelto, anemia, htn, anxiety was brought into ER by EMS for above chief complaints.  At 5pm, pt was at a birthday dinner with friends and she was having a headache, blurry/double vision, and dizziness.  At about 8:30pm, she was noted to have some unbalanced gait.  She didn't consume any etoh at the dinner.  Then at about 10pm while at home, she was noted to be unresponsive, staring blank, sitting.  No respiratory distress.  No tonic clonic seizure activities noted.  No tongue biting and no incontinence.  After about 1-2 minutes, pt started to become responsive slowly but confused and noted right facial droop and right sided weakness especially the her right arm which was flaccid per friends at bedside.  911 was called and pt was transferred to ER.  Tele neurologist was consulted for possible stroke.  NIHSS was 4.  Right arm weakness has improved.  Head CT was  negative.  Teleneurologist felt pt wasn't a candidate for thrombolytic treatment and recommended MRI brain and stroke pathway.  
+ 
+Denies fever, cough, cp, sob, palpitations, abd pain, nausea, vomiting, bloody stools, melena, hematemesis, diarrhea, constipation, GU symptoms, neuro symptoms, headache, sick contacts, trauma/injury." 
+Hospital Day(s): 3 
+Overnight documentation, events and chart reviewed.
+Assessment and Plan:
+Patient Active Hospital Problem List:
+     ALTERED MENTAL STATUS, UNSPECIFIED     Date Noted: 9/16/2025   
+     HEADACHE     Date Noted: 9/16/2025   
+     ACUTE STROKE DUE TO ISCHEMIA, UNSPECIFIED TYPE AND ARTERY     Date Noted: 9/16/2025   
+     LEFT CAROTID ARTERY OCCLUSION     Date Noted: 9/17/2025   
+-Initial CTH neg, MRI c/w strokes
+-MRI brain: 
+
+ 
+Motion degraded and metallic dental hardware (braces) artifact limited brain MRI, with the following observations:
+1. Numerous foci of predominantly cortical restricted diffusion within the cerebral hemispheres bilaterally, largest involving the right parietal, posterior temporal, and occipital lobe with additional foci in the bilateral frontal, parietal, and occipital lobes. There may be tiny foci within the left superior cerebellum as well. There may also be a focus of restricted diffusion at the left basal ganglia/deep white matter.
+2. This exam is largely nondiagnostic for metastases given significant motion artifact on postcontrast sequences. No abnormal intracranial mass effect detected.
+3. Numerous punctate foci of parenchymal susceptibility, a few of which are new from prior. These are suggestive of microhemorrhages, nonspecific but history of anticoagulation and thrombocytopenia is noted. It would be difficult to exclude hemorrhagic micrometastases given limitations of postcontrast sequences.
+Given nondiagnostic postcontrast sequences, repeat contrast MRI recommended to assess for metastases in the future, when clinically indicated/feasible.
+-Stroke pathway, permissive HTN
+-Neurology consulted: 
+           -MRI c/w multifocal bl acute ischemic stroke, no evidence of seizure
+           -Likely from hypercoagulability of malignancy
+           -?possible small mets but unclear 
+           -ECHO normal EF, no intracardiac masses
+-A1c 4.9, LDL 76
+           -CTA head and neck:
+The left mid to upper cervical ICA is progressively narrowed in caliber with minimal opacification seen throughout it's superior course as well as minimal opacification/occlusion of the intracranial left ICA. 
+No other CTA evidence of a large vessel occlusion or high-grade stenosis within the head or neck.
+The visualized lung apices demonstrate groundglass and nodular opacities within the lungs bilaterally, right greater than left. This appears increased when compared to the prior CT chest from 7/9/2025. Consider a dedicated CT chest study for further evaluation.
+Again seen is a pathologic compression deformity at C7 and additional lytic osseous metastatic disease involving the visualized spine.
+-Recommend transition to apixaban 5 mg twice daily given best data in treating hypercoagulability of malignancy as well as lowest overall bleeding risk (lovenox reasonable while unable to take PO)
+-Stop aspirin when anticoagulation is initiated
+- Checking CT angiogram of the head/neck to evaluate for underlying vascular anomalies such as intraluminal thrombi.  Premedicating with Solu-Medrol and Benadryl due to reported contrast allergy
+- Okay to continue atorvastatin 80 mg
+-Patient will need repeat MRI of the brain with and without contrast to evaluate for intracranial metastases when she is better able to participate with the study (non-urgent)
+- STAT CT head for any acute changes in neurologic exam
+- Neurochecks q4h
+- Permissive hypertension with SBP goal <220
+-PT OT
+-SLP > dental soft, but adjusted to liquid d/t mentation
+-9/17: reviewed CTA with neurologist, no imminent threat of stroke from L ICA occlusion, no changes in management, however, if AC is stopped, this lesion may become an issue with new strokes
+-9/17: CTH: 
+1.   Interval development of cytotoxic edema in the parietal lobes bilaterally, right greater than left, likely sequela of known ischemia.
+2.   There is a new punctate focus of hyperdensity in the high left frontal lobe. It could represent small focus of her subarachnoid hemorrhage versus residual contrast within the vasculature. Short-term follow-up is suggested.
+-Discussed above findings with NSGY, now evidence of SAH, likely residual contrast 
+-Discussed findings with neuro, appropriate amount of edema post-stroke, size of stroke and edema should not cause herniation. Continue anticoagulation, benefit outweighs risk. 
+           -Repeat CTH in 12 hours > stable 
+-Patient more somnolent and not tolerating PO > discussed with AC pharmacy to link lovenox or apixaban pending if patient can tolerate PO 
+-9/18: Patient back to baseline mentation overnight but received valium in the evening for CT > more somnolent this AM but moving L sided extremities spontaneously
+ 
+ADDENDUM:
+-Pt still somnolent, completed EEG @3pm, will repeat MRI brain with and without contrast. Discussed need for NGT with DPOA, pending consent.
+ 
+     THROMBOCYTOPENIA, UNSPECIFIED (UNKNOWN ETIOLOGY)     Date Noted: 9/16/2025   
+     ANEMIA     Date Noted: 6/25/2025   
+     DISSEMINATED INTRAVASCULAR COAGULATION     Date Noted: 9/17/2025   
+-No bleeding sx
+-plt 120s > 90s > 70s
+-INR 1.2 
+-Send fibrinogen (low, but close to normal), haptglobin, T/D bilirubin (normal)
+-?from acute illness, discussed with hematology 9/17, likely low grade DIC from malignancy, however, given plt >50, can continue AC (risk/benefit of worsening stroke if off), check plt and fibrinogen BID, plt >30K and given cryo if fibrinogen <100. No difference between use of apixaban vs lovenox. 
+-Updated patient’s regular hematologist as well 
+-9/17: Discussed low plt with neurology, would keep plt threshold >50K, switch to apixaban when able.
+-9/17: Passed SLP > will start apixaban 5 mg BID (discussed with AC pharmacist). Consented family to plt and cryo if needed.
+-9/18: haptoglobin elevated, less c/f hemolysis, fibrinogen 289, plt stable ~80s
+ 
+ 
+     PNEUMONIA     Date Noted: 7/10/2025   
+-9/17: Increased rhonchi, CTH noted for GGO R>L > CXR confirms, given new WBC, will start IV CTX for possible aspiration PNA 
+ 
+     LONG TERM NON WARFARIN ORAL ANTICOAGULANT THERAPY     Date Noted: 7/18/2025   
+     ACUTE PULMONARY EMBOLISM     Date Noted: 7/9/2025   
+-Diagnosed 2 months ago and is on Xarelto every pm.  
+-Hasn't have her Xarelto this evening. 
+-Lovenox injection for now > switch to apixaban 5 mg BID once able to tolerate PO
+-9/17: switch to apixaban today
+ 
+     ADENOCARCINOMA, LEFT LUNG LOWER LOBE     Date Noted: 7/8/2025   
+     CANCER METASTATIC TO INTRATHORACIC LN     Date Noted: 7/8/2025   
+     CANCER METASTATIC TO BONE     Date Noted: 7/8/2025   
+     CANCER METASTATIC TO NECK LN     Date Noted: 7/8/2025   
+     CANCER METASTATIC TO RIGHT ADRENAL GLAND     Date Noted: 7/8/2025   
+     HX OF RADIATION THERAPY     Date Noted: 8/7/2025   
+-S/p 1 cycle of chemo and is currently on Osimertinib at home and Zometa every 3 months. S/p radiation tx to right shoulder. 
+-Stroke likely 2/2 hypercoaguable state from malignancy 
+-Lovenox per above > apixaban when tolerating PO
+-9/17: Discussed with heme/onc: okay to continue tagrisso. Confirmed with DPOA patient was on steroid taper for pain 2/2 bone mets, continue taper here.
+ 
+ 
+     ASTHMA, UNSPECIFIED     Date Noted: 2/19/2020   
+-Hx. No acute pulm sx. 
+ 
+ 
+     UNSPECIFIED ANXIETY     Date Noted: 7/9/2025   
+-Noted, CTM
+  
+Full code 
+Lovenox/apixaban
+Med-surge
+Discharge SNF vs acute rehab
+Estimated Date of Discharge (EDD) 9/20
+Discharge Criteria 
+            -PO intake > NGT? G tube?
+            -Stable plt + fibrinogen
+            -PT OT
+Discharge Needs (equipment, placement) TBD
+Plan discussed with patient, family, RN and PCC  
+ 
+Subjective: 
+Patient not participating in interview, withdrawing from pain and moving L side extremities.
+Objective:
+Patient Vitals for the past 24 hrs:
+ 	BP	Temp	Pulse	Resp	SpO2	Height	Weight
+09/18/25 0323	151/76	97.7 °F (36.5 °C)	65	19	100 %	—	—
+09/18/25 0100	164/83	—	81	19	98 %	—	—
+09/18/25 0000	161/104	98.1 °F (36.7 °C)	79	13	98 %	—	—
+09/17/25 2300	—	—	84	20	98 %	—	—
+09/17/25 2200	—	—	79	25	96 %	—	—
+09/17/25 2100	—	—	77	24	97 %	—	—
+09/17/25 2000	157/93	98.8 °F (37.1 °C)	74	17	95 %	—	—
+09/17/25 1900	—	—	73	20	99 %	—	—
+09/17/25 1800	162/103	—	88	18	99 %	—	—
+09/17/25 1745	162/103	—	—	—	—	—	—
+09/17/25 1700	—	—	71	23	97 %	—	—
+09/17/25 1638	172/92	—	73	21	99 %	—	—
+09/17/25 1545	180/91	97.1 °F (36.2 °C)	74	22	97 %	—	—
+09/17/25 1343	149/71	—	76	21	98 %	5' 2"	63 kg (139 lb)
+09/17/25 1303	156/88	—	75	22	100 %	—	—
+09/17/25 1151	155/106	98.4 °F (36.9 °C)	—	—	—	—	—
+09/17/25 0919	149/68	—	74	18	98 %	—	—
+ 
+ 
+Intake/Output Summary (Last 24 hours) at 9/18/2025 0800
+Last data filed at 9/18/2025 0702
+	
+Gross over last 24 hours
+Intake	300 ml
+Output	1950 ml
+Net	-1650 ml
+ 
+Fingerstick Blood Glucose (48 hours):
+ 
+Device Integrated Values (if any)
+					
+GLUCOSE, BLOOD, GLUCOMETER
+Date/Time	Value	Ref Range	Status
+09/17/2025 1542	92	60 - 159 mg/dL	Final
+ 	 	Comment:
+ 	 	Pre-Meal
+09/17/2025 0242	119	60 - 159 mg/dL	Final
+ 
+ 
+Flowsheet Values (if any)
+Patient Vitals for the past 48 hrs:
+ 	Glucose, Random
+09/17/25 0200	119
+ 
+ 
+Physical Exam:
+General appearance - lerthargic, sleeping
+Mental Status - alert, oriented x 0
+Eyes - sclera anicteric, PERRL
+Chest - clear to auscultation, no wheezes, rales or rhonchi
+Heart - normal rate, regular rhythm, normal S1, S2, no murmurs, rubs
+Abdomen - soft, nontender, nondistended, no masses or organomegaly
+Neurological - moving L sided extremities spontaneously
+Extremities - no clubbing, cyanosis or edema
+Skin - warm and dry
+ 
+NIH Stroke Scale
+ 
+1a. Level of Consciousness: 2= Not alert: requires repeated stimulation to attend, or is obtunded and requires strong or painful stimulation to make movements (not stereotyped).
+ 
+1b. LOC Questions- The patient is asked the month and his/her age: 2= Answers neither question correctly.
+ 
+1c. LOC Commands- The patient is asked to open and close the eyes and then grip and release the non-paretic hand:2= Performs neither task correctly.
+ 
+2. Best Gaze: 0= Normal.
+ 
+3. Visual: 0= No visual loss.
+ 
+4. Facial Palsy: 1= Minor paralysis (flattened nasolabial fold, asymmetry on smiling).
+ 
+5. Motor Arm: Right: 4= No movement.
+Left: 3= No effort against gravity; limb falls.
+ 
+6. Motor Leg: Right: 4= No movement
+Left: 3= No effort against gravity; leg falls to bed immediately.
+ 
+7. Limb Ataxia: 0= Absent
+ 
+8. Sensory: 0= Normal; no sensory loss.
+ 
+9. Best Language: 3= Mute, global aphasia; no useable speech or auditory comprehension.
+ 
+10. Dysarthria: 2= Severe dysarthria; patient's speech is so slurred as to be unintelligible in the absence of or out of proportion to any dysphasia, or is mute/anarthric.
+ 
+11. Extinction and Inattention (formerly Neglect): 0= No abnormality.
+ 
+12. Total Score: 26
+ 
+ 
+ 
+ 
+					
+Recent Labs
+ 	09/18/25
+0222	09/17/25
+1423	09/17/25
+0655	09/16/25
+0524	09/15/25
+2255
+WBC	12.4* | 12.8*	12.0*	11.3*	9.8	10.6
+HGB	12.8 | 12.7	12.0	11.6	11.3*	12.7
+HCT	40.5 | 40.6	39.2	37.5	35.6	40.7
+PLT	81* | 81*	82*	78*	DECREASE* | 96* | NORMAL	124*
+ 
+			
+Recent Labs
+ 	09/17/25
+0655	09/16/25
+0524	09/15/25
+2255
+NA	137	138	139
+K	3.8	3.8	3.7
+CO2	25	25	28
+CL	106	105	103
+BUN	6*	12	11
+CR	0.57	0.69	0.84
+RBS	100	100	98
+CA	 -- 	8.4*	 -- 
+MG	 -- 	2.2	 -- 
+ 
+ 
+No results for input(s): "CPK", "CKMB", "TROP", "BNP" in the last 168 hours.
+ 
+	
+Recent Labs
+ 	09/15/25
+2255
+PT	15.3*
+INR	1.2
+PTT	25.9
+ 
+ 
+			
+Recent Labs
+ 	09/16/25
+0911	09/16/25
+0524	09/15/25
+2255
+AST	 -- 	29	23
+ALT	 -- 	16	18
+ALKP	 -- 	73	72
+TBILI	0.3	0.3	0.3
+BILIDIRECT	0.1	 -- 	 -- 
+LIPASE	 -- 	 -- 	13
+ 
+ 
+			
+Lab Results
+Component	Value	Date
+ 	Albumin	3.7	09/16/2025
+ 
+ 
+No results for input(s): "LACTATE" in the last 168 hours.
+			
+Lab Results
+Component	Value	Date
+ 	D-DIMER	>4.00 (H)	07/09/2025
+ 
+ 
+No results found for: "ABG"
+			
+Lab Results
+Component	Value	Date
+ 	Hgb A1c %	4.9	09/16/2025
+ 
+ 
+			
+Lab Results
+Component	Value	Date
+ 	TSH	0.8	07/15/2021
+ 
+ 
+			
+Lab Results
+Component	Value	Date
+ 	Cholesterol	215	09/16/2025
+ 	Triglyceride	124	01/21/2019
+ 	HDL	67	09/16/2025
+ 	Low density lipoprotein calculated	92	01/21/2019
+ 	LDL CALCULATED, NONFASTING	76	09/16/2025
+ 	TRIGLYCERIDE, NONFASTING	361	09/16/2025
+ 
+ 
+No results for input(s): "UPH", "USG", "UAGLU", "UKET", "UABILI", "UPROTEIN", "ULEUKESTER", "UNITRITE", "URBC", "UWBC", "UBACT" in the last 72 hours.
+ 
+			
+LV EJECTION FRACTION
+Date	Value	Ref Range	Status
+08/01/2025	60	%	Final
+ 
+ 
+ 
+					
+Current Facility-Administered Medications
+Medication	Dose	Route	Frequency	Last Admin
+•	Sodium Chloride 0.9 % Inj Soln	 250 mL	intraVENOUS	Transfusion	 
+•	cefTRIAXone Adapter Vial 1 g (ROCEPHIN)	 1 g	intraVENOUS	Q24H (INPT RN check 1st dose)	1 g at 09/17/25 1242
+•	Pantoprazole Inj 40 mg (PROTONIX)	 40 mg	intraVENOUS	Q12H	40 mg at 09/17/25 2153
+•	Bisacodyl TBEC DR Tab 5 mg (DULCOLAX)	 5 mg	Oral	Daily	 
+•	Sennosides Tab 17.2 mg (SENOKOT)	 17.2 mg	Oral	BID	 
+•	Polyethylene Glycol 3350 Packet 17 g (MIRALAX/GLYCOLAX)	 17 g	Oral	Daily	 
+•	Sodium Chloride 0.9 % Inj Soln	 250 mL	intraVENOUS	Transfusion	 
+•	Apixaban Tab 5 mg (ELIQUIS)	 5 mg	Oral	Q12H	5 mg at 09/17/25 1745
+ 	Or
+•	Enoxaparin Inj Syg 60 mg (LOVENOX)	 1 mg/kg/dose (Order-Specific)	Subcutaneous	Q12H	 
+•	acetaminophen IV Soln 1,000 mg (OFIRMEV)	 1,000 mg	intraVENOUS	Q6H	1,000 mg at 09/18/25 0702
+•	predniSONE Tab 20 mg (ORASONE)	 20 mg	Oral	Daily (steroid)	20 mg at 09/17/25 1745
+ 	Followed by
+•	[START ON 9/22/2025] predniSONE tablet 10 mg (DELTASONE)	 10 mg	Oral	Daily (steroid)	 
+ 	Followed by
+•	[START ON 9/27/2025] predniSONE tablet 5 mg (DELTASONE)	 5 mg	Oral	Daily (steroid)	 
+•	SALONPAS 3.1-10-6 % 1 Patch (Camphor-Methyl Salicylate-Menthol)	 1 Patch	Transdermal	Q8H	1 Patch at 09/17/25 2252
+•	Lidocaine 4 % 1 Patch (LIDOCARE / ASPERCREME / LIDO KING)	 1 Patch	Transdermal	Daily	 
+•	Sodium Chloride 0.9% injection solution syringe 3 mL (NORMAL SALINE FLUSH)	 3 mL	intraVENOUS	Q8H while awake	3 mL at 09/18/25 0703
+•	Atorvastatin Tab 80 mg (LIPITOR)	 80 mg	Oral	Daily	 
+•	Pneumococcal 20-valent Conj-Dip Cr (PF) Vaccine Inj Syg 0.5 mL (PREVNAR 20)	 0.5 mL	intraMUSCULAR	Prior to Discharge	 
+•	Docusate Sodium Cap 100 mg (COLACE)	 100 mg	Oral	BID	 
+•	Ciclesonide 160 mcg/actuation Aerosol inhaler 1 Puff (ALVESCO)	 1 Puff	Inhalation	BID	 
+•	Folic Acid Tab 1 mg	 1 mg	Oral	Q24H	 
+•	Metoprolol Tartrate Tab 25 mg (LOPRESSOR)	 25 mg	Oral	BID with meals	25 mg at 09/17/25 1745
+•	Osimertinib Tab 80 mg (TAGRISSO)	 80 mg	Oral	Daily	 
+•	Sucralfate Oral Susp 1,000 mg (CARAFATE)	 1 g	Oral	30 MIN ACHS	 
+ 
+ 
+						
+Current Facility-Administered Medications
+Medication	Dose	Route	Frequency	Last Rate	Last Admin
+•	[Manual Hold] D5-NaCl 0.9 % IV Premix	 75 mL/hr	intraVENOUS	Continuous	 	Stopped at 09/17/25 1539
+ 
+ 
+					
+Current Facility-Administered Medications
+Medication	Dose	Route	Frequency	Last Admin
+•	Albuterol 2.5 mg/0.5 mL Nebulizer 2.5 mg (PROVENTIL)	 2.5 mg	NEBULIZATION -UNSPEC	Q4H PRN	 
+ 	And
+•	Ipratropium 0.02 % Neb Soln 0.5 mg (ATROVENT)	 0.5 mg	NEBULIZATION -UNSPEC	Q4H PRN	 
+•	Cyclobenzaprine Tab 5 mg (FLEXERIL)	 5 mg	Oral	TID PRN	 
+•	Lidocaine (PF) 10 mg/mL (1 %) Inj 1 mg (XYLOCAINE)	 0.1 mL	Intradermal	PRN	 
+•	Sodium Chloride 0.9% injection solution syringe 3 mL (NORMAL SALINE FLUSH)	 3 mL	intraVENOUS	PRN	3 mL at 09/16/25 1115
+•	sodium chloride 0.9% IV premix	 20 mL/hr	intraVENOUS	PRN	 
+•	D5W IV premix	 20 mL/hr	intraVENOUS	PRN	 
+•	Ondansetron (PF) Inj 4 mg (ZOFRAN)	 4 mg	intraVENOUS	Q6H PRN	4 mg at 09/16/25 1112
+•	Albuterol 2.5 mg/0.5 mL Nebulizer 2.5 mg (PROVENTIL)	 2.5 mg	NEBULIZATION -UNSPEC	Q2H PRN	 

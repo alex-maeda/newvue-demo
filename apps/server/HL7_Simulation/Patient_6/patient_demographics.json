@@ -1,0 +1,22 @@
+{
+  "_comment": "PID segment data for Patient 6 — Simple ED case, minimal history",
+  "patientId": "Patient_6",
+  "mrn": "MRN00006",
+  "assigningAuthority": "NEWVUE_HOSPITAL",
+  "identifierTypeCode": "MR",
+  "name": {
+    "last": "TANNER",
+    "first": "FRANKLIN",
+    "middle": ""
+  },
+  "dateOfBirth": "19780612",
+  "sex": "M",
+  "address": {
+    "street": "917 BIRCHWOOD AVE",
+    "city": "MADISON",
+    "state": "WI",
+    "zip": "53703",
+    "country": "USA"
+  },
+  "phone": "555-0606"
+}

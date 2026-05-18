@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "kind": "radiology-template",
+  "id": "us-doppler-extremity-artery-right",
+  "title": "US Doppler Extremity Artery Right",
+  "modality": "US",
+  "bodyRegion": "extremity",
+  "description": "System default template",
+  "children": [
+    {
+      "id": "headline_narrative",
+      "type": "headline",
+      "tags": "narrative",
+      "title": "Narrative",
+      "children": [
+        { "id": "sub_study_title", "type": "subsection", "tags": "studyName", "title": "US Doppler Extremity Artery Right", "children": [] },
+        { "id": "section_history", "type": "section", "tags": "history", "title": "History", "children": [
+          { "id": "content_history_main", "type": "text", "tags": "history", "value": "" }
+        ]},
+        { "id": "section_technique", "type": "section", "tags": "technique", "title": "Technique", "children": [
+          { "id": "content_technique_main", "type": "text", "tags": "technique", "value": "Duplex and color Doppler evaluation of the right lower extremity arterial system was performed." }
+        ]},
+        { "id": "section_comparison", "type": "section", "tags": "comparison", "title": "Comparison", "children": [
+          { "id": "content_comparison_main", "type": "text", "tags": "comparison", "value": "" }
+        ]},
+        { "id": "section_findings", "type": "section", "tags": "findings", "title": "Findings", "children": [
+          { "id": "sub_cfa", "type": "subsection", "tags": "subFindings", "title": "Common Femoral Artery", "children": [
+            { "id": "content_cfa_1", "type": "text", "tags": "normal", "value": "Patent with triphasic waveform." }
+          ]},
+          { "id": "sub_sfa", "type": "subsection", "tags": "subFindings", "title": "Superficial Femoral Artery", "children": [
+            { "id": "content_sfa_1", "type": "text", "tags": "normal", "value": "Patent with triphasic waveform throughout." }
+          ]},
+          { "id": "sub_popliteal", "type": "subsection", "tags": "subFindings", "title": "Popliteal Artery", "children": [
+            { "id": "content_pop_1", "type": "text", "tags": "normal", "value": "Patent with triphasic waveform." }
+          ]},
+          { "id": "sub_at", "type": "subsection", "tags": "subFindings", "title": "Anterior Tibial Artery", "children": [
+            { "id": "content_at_1", "type": "text", "tags": "normal", "value": "Patent with triphasic waveform." }
+          ]},
+          { "id": "sub_pt", "type": "subsection", "tags": "subFindings", "title": "Posterior Tibial Artery", "children": [
+            { "id": "content_pt_1", "type": "text", "tags": "normal", "value": "Patent with triphasic waveform." }
+          ]},
+          { "id": "sub_dp", "type": "subsection", "tags": "subFindings", "title": "Dorsalis Pedis Artery", "children": [
+            { "id": "content_dp_1", "type": "text", "tags": "normal", "value": "Patent with triphasic waveform." }
+          ]}
+        ]}
+      ]
+    },
+    {
+      "id": "headline_impression",
+      "type": "headline",
+      "tags": "impression",
+      "title": "Impression",
+      "children": [
+        { "id": "content_impression_main", "type": "text", "tags": "impression", "value": "" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+
+Impression
+Small intraluminal filling defects in segmental vessels to bilateral upper lobes and left lower lobe compatible with pulmonary emboli. No central emboli.
+ 
+Findings suggestive of disease progression. There is worsening mediastinal or hilar lymphadenopathy. No significant change in size of large left posterior perihilar mass. New small left anterior apical pulmonary nodule. Slight worsening of confluent groundglass and nodular opacities in both the lungs as described. Metastatic lytic lesions of the cervical and thoracic spine redemonstrated.
+ 
+Lung nodule(s) suspicious for metastasis (#PUL6a).
+ 
+ 
+ 
+ 
+ Narrative
+CT PULMONARY ANGIOGRAM
+ 
+** HISTORY **:
+65 years old,  Pulmonary embolism (PE) suspected, positive D-dimer
+ 
+** TECHNIQUE **: 
+CT angiogram images of the chest acquired with 77 mL Omnipaque 350 intravenous contrast. Multiplanar reformations performed. Maximum intensity projection (MIP) vessel images were obtained.
+ 
+CTDI: 0.04,0.04,3.88,3.88,3.88,7.76,13.29 mGy
+DLP: 1.35,1.08,1.94,1.94,1.94,3.88,344.41 mGy-cm
+ 
+COMPARISON: ***.
+ 
+** FINDINGS **:
+PULMONARY ARTERIES: Small intraluminal filling defects seen within the proximal segmental branches of bilateral upper lobes. Additionally, linear filling defects are seen within the proximal segmental branches to the anterior and posterior left lower lobe (images 46-41, series 3). These are consistent with pulmonary emboli. No central emboli.
+ 
+HEART: Heart size normal. Minimal pericardial fluid.
+OTHER VESSELS: No significant abnormality.
+LYMPH NODES: There is no axillary lymphadenopathy. There is worsening anterior mediastinal, subcarinal, right paratracheal and precarinal and hilar lymphadenopathy. Conglomerate nodal mass in the prevascular space measuring about 4.0 x 2.4 cm cm. Confluent subcarinal node is mass measuring about 2.5 cm short axis. Confluent right paratracheal and precarinal nodal masses appear more prominent. Similarly, confluent right hilar adenopathy measuring up to 2.3 cm, more prominent. Small confluent left hilar nodes also appear slightly more prominent. There is increase in size of enlarged nodes in bilateral lower neck.
+OTHER MEDIASTINUM: No significant abnormality.
+LUNGS: All lung nodules measured on series 4.
+No significant change in size of a large left posterior perihilar mass, 5.5 x 4.8 cm (image 47:3).
+New 5 mm anterior left apical nodule, image 161.
+Slight worsening of central left upper lobe groundglass opacity. There is new groundglass opacity/atelectasis in the lingula.
+Increase in nodular consolidation in the left lung base, 2.8 x 1.7 cm (image 17:3).
+Slight worsening of groundglass and nodular opacities in the right upper lobe and right middle lobe. More consolidative changes are seen in the right middle lobe.
+Slight worsening of right lower lobe groundglass opacity. There is new right basilar atelectasis.
+PLEURAL SPACE: Minimal left pleural effusion.
+UPPER ABDOMEN: Stable visualized upper abdominal structures.
+SOFT TISSUES: No significant abnormality.
+BONES: Redemonstration of small lytic lesions in the lower cervical and thoracic spine.

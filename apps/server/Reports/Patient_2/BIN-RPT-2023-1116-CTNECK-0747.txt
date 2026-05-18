@@ -1,0 +1,39 @@
+Impression
+ 
+No mass or lymphadenopathy in the neck.
+ 
+ 
+ 
+ Narrative
+CT NECK WITH CONTRAST
+ 
+** HISTORY **:
+79 years old, abnormal weight loss
+ 
+** TECHNIQUE **:
+CT images of the neck acquired with 96 mL Omnipaque 300 intravenous contrast.
+ 
+CTDI: 9.14,8.99 mGy
+DLP: 251.32,559.35 mGy-cm
+Reported radiation dose is the total amount administered for the combined neck chest, abdomen, and pelvis performed concurrently.
+ 
+COMPARISON: CT 2/11/2021
+ 
+** FINDINGS **: 
+PHARYNGEAL MUCOSA: Normal nasopharynx, oropharynx and hypopharynx.
+ 
+ORAL CAVITY: Normal including tongue and floor of mouth.
+ 
+LARYNX: Normal supraglottic, glottic and subglottic larynx.
+ 
+LYMPH NODES: No suspicious lymph nodes.
+ 
+SALIVARY GLANDS: Normal parotid, submandibular and sublingual glands.
+ 
+THYROID: Normal.
+ 
+VESSELS AND CAROTID SPACE: No significant abnormality. Mild atherosclerosis at the left ICA origin.
+ 
+BONES: No suspicious abnormality. Degenerative changes of cervical spine, worse at C5-6 level.
+ 
+OTHER: Please refer to a concurrently performed and separately dictated CT chest report for chest findings. Stable appearance of chronic sphenoid sinusitis as evident by bony remodeling and luminal opacification.

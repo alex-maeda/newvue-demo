@@ -1,0 +1,19 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "RPT-2025-0919-MRHEAD-1",
+  "status": "registered",
+  "category": [
+    {
+      "coding": [
+        { "system": "http://terminology.hl7.org/CodeSystem/v2-0074", "code": "RAD", "display": "Radiology" }
+      ]
+    }
+  ],
+  "code": { "text": "MRI Brain Without Contrast" },
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "effectiveDateTime": "2025-09-19T17:15:00-07:00",
+  "imagingStudy": [{ "reference": "ImagingStudy/IMG-2025-0919-MRHEAD-1" }],
+  "basedOn": [{ "reference": "ServiceRequest/SR-2025-0919-MRHEAD-1" }]
+  
+}

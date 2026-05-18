@@ -1,0 +1,22 @@
+{
+  "_comment": "PID segment data for Patient 2 — Elderly male with extensive 20-year history",
+  "patientId": "Patient_2",
+  "mrn": "MRN00002",
+  "assigningAuthority": "NEWVUE_HOSPITAL",
+  "identifierTypeCode": "MR",
+  "name": {
+    "last": "SEELS",
+    "first": "ALBERTO",
+    "middle": ""
+  },
+  "dateOfBirth": "19460422",
+  "sex": "M",
+  "address": {
+    "street": "1401 OAK RIDGE DR",
+    "city": "AURORA",
+    "state": "CO",
+    "zip": "80015",
+    "country": "USA"
+  },
+  "phone": "555-0202"
+}

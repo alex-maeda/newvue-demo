@@ -1,0 +1,57 @@
+
+Impression
+1. Large hypermetabolic left lower lobe lung mass consistent with known malignancy.
+2. Malignant left pleural effusion.
+3. Extensive bilateral groundglass lung opacities of unknown significance.
+4. Extensive hypermetabolic lymphadenopathy of the neck and chest consistent with metastases.
+5. Right adrenal metastasis.
+6. Extensive osseous metastases.
+7. Suspicious small pericardial effusion.
+  
+ Narrative
+FDG PET/CT SCAN SKULL BASE TO MID THIGH
+ 
+** HISTORY **:
+65 years old Female, new lung mass. Non-small cell lung cancer. Initial staging.
+ 
+** TECHNIQUE **:
+RADIOPHARMACEUTICAL: F-18 FDG (fluorodeoxyglucose) 8.4 mCi IV.
+Blood glucose at FDG injection: 96 mg/dl
+FDG uptake time: 66 minutes
+Noncontrast CT images were acquired from skull base to mid thigh followed by PET emission scanning of the same anatomic region.
+CTDI: 3.1 mGy; DLP: 254 mGy-cm
+ 
+COMPARISON: CT chest 6/24/2025
+ 
+** FINDINGS **:
+HEAD/NECK
+LYMPH NODES: There is hypermetabolic bilateral lower neck lymphadenopathy involving the level 4 and supraclavicular regions. For example, a left supraclavicular lymph node measures 1.5 x 1.8 cm with SUV 11.2, image 41.
+PARANASAL SINUSES: Clear.
+ORAL/NASOPHARYNX: Normal.
+LARYNX: Normal.
+THYROID: No FDG-avid lesion.
+ 
+CHEST
+LUNGS: There is a hypermetabolic 6 x 5 cm left lower lobe lung mass with SUV 13.2 which is consistent with known malignancy. There are abnormal pleural-based lesions along the left lower lobe with small left pleural effusion. There are extensive groundglass opacities throughout both lobes. These are of unknown significance.
+MEDIASTINAL LYMPH NODES: There is extensive hypermetabolic mediastinal lymphadenopathy involving the bilateral upper and lower paratracheal, subcarinal, prevascular, posterior mediastinal, lower paraesophageal, subcrural, peribronchial, and bilateral hilar regions. For example,
+- Subcarinal 2.0 cm short axis, SUV 8.8
+- Right lower paratracheal 1.6 m short axis, SUV 11.1, image 56
+CHEST WALL/BREAST: Normal.
+AXILLAS: Normal.
+HEART AND VASCULATURE: Small pericardial effusion with areas of mild activity concerning for malignant involvement.
+ 
+ABDOMEN/PELVIS
+LIVER: No FDG-avid lesion.
+SPLEEN: No FDG-avid lesion.
+GALLBLADDER: Normal.
+LYMPH NODES: Normal.
+PANCREAS: No FDG-avid lesion.
+ADRENALS: There is a hypermetabolic 1 cm lesion of the right adrenal gland with SUV 7.6 which is consistent with metastasis.
+KIDNEYS: No FDG-avid lesion.
+GASTROINTESTINAL TRACT: Normal.
+PELVIC ORGANS: Bilateral adnexal cysts without activity.
+PERITONEUM: Normal.
+VASCULATURE: Normal abdominal aortic diameter (<3cm).
+ 
+MUSCULOSKELETAL 
+BONES: There is widespread hypermetabolic osseous metastases. These extensively involve the cervical, thoracic, and lumbar spine with SUV 9.9. Multiple lesions are seen throughout the pelvis with SUV 14.1. There are bilateral rib lesions. Lesions involve the bilateral clavicles, sternum, bilateral humeri, left ulnar, and bilateral femurs.

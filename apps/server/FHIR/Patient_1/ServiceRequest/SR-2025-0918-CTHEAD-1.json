@@ -1,0 +1,20 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "SR-2025-0918-CTHEAD-1",
+  "status": "completed",
+  "intent": "order",
+  "category": [
+    {
+      "coding": [
+        { "system": "http://terminology.hl7.org/CodeSystem/servicerequest-category", "code": "imaging", "display": "Imaging" }
+      ]
+    }
+  ],
+  "code": { "text": "CT Head Without Contrast" },
+  "subject": { "reference": "Patient/P12345" },
+  "encounter": { "reference": "Encounter/ENC-001" },
+  "authoredOn": "2025-09-18T01:50:00-07:00",
+  "requester": { "reference": "Practitioner/PRAC-0002", "display": "Hospitalist, MD" },
+  "reasonCode": [{ "text": "evaluate evolving stroke/stability" }],
+  "bodySite": [{ "text": "Head" }]
+}

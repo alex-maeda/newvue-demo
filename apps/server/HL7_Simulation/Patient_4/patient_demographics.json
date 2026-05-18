@@ -1,0 +1,22 @@
+{
+  "_comment": "PID segment data for Patient 4 — Vascular/MSK, ED presentations",
+  "patientId": "Patient_4",
+  "mrn": "MRN00004",
+  "assigningAuthority": "NEWVUE_HOSPITAL",
+  "identifierTypeCode": "MR",
+  "name": {
+    "last": "FRENCH",
+    "first": "DOLORES",
+    "middle": ""
+  },
+  "dateOfBirth": "19390927",
+  "sex": "F",
+  "address": {
+    "street": "55 CEDAR BLUFF RD",
+    "city": "KNOXVILLE",
+    "state": "TN",
+    "zip": "37923",
+    "country": "USA"
+  },
+  "phone": "555-0404"
+}

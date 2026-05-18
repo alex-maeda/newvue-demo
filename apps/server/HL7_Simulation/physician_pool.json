@@ -1,0 +1,19 @@
+{
+  "_comment": "Pool of mock physician identifiers for PV1-7 (Attending) and PV1-8 (Referring). Each patient encounter will reference one attending and one referring from this pool.",
+  "attending": [
+    { "id": "ATT001", "last": "MARTINEZ", "first": "ELENA", "mi": "R", "specialty": "Internal Medicine" },
+    { "id": "ATT002", "last": "CHEN", "first": "DAVID", "mi": "L", "specialty": "Pulmonology" },
+    { "id": "ATT003", "last": "ABRAMS", "first": "SARAH", "mi": "K", "specialty": "Neurology" },
+    { "id": "ATT004", "last": "PATEL", "first": "RAJESH", "mi": "M", "specialty": "Emergency Medicine" },
+    { "id": "ATT005", "last": "WRIGHT", "first": "JAMES", "mi": "T", "specialty": "Surgery" },
+    { "id": "ATT006", "last": "OKONKWO", "first": "ADAEZE", "mi": "F", "specialty": "Oncology" }
+  ],
+  "referring": [
+    { "id": "REF001", "last": "OKAFOR", "first": "CHIOMA", "mi": "N", "specialty": "Family Medicine" },
+    { "id": "REF002", "last": "KLEIN", "first": "MARCUS", "mi": "J", "specialty": "Cardiology" },
+    { "id": "REF003", "last": "REYES", "first": "ISABELLA", "mi": "A", "specialty": "Gastroenterology" },
+    { "id": "REF004", "last": "HOFFMAN", "first": "PETER", "mi": "W", "specialty": "Orthopedics" },
+    { "id": "REF005", "last": "BANKS", "first": "TANYA", "mi": "S", "specialty": "Vascular Surgery" },
+    { "id": "REF006", "last": "NGUYEN", "first": "THOMAS", "mi": "D", "specialty": "OB/GYN" }
+  ]
+}

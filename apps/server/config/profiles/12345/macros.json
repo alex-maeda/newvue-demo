@@ -1,0 +1,157 @@
+{
+  "macros": [
+    {
+      "id": "macro_1776298081348",
+      "name": "Normal stroke MRI",
+      "createdAt": "2026-04-16T00:08:01.348Z",
+      "updatedAt": "2026-05-11T22:47:00.826Z",
+      "actions": [
+        {
+          "id": "act_1776297928294_06zd",
+          "type": "command",
+          "order": 0,
+          "commandId": "go_to_section",
+          "params": {
+            "sectionName": "history"
+          }
+        },
+        {
+          "id": "act_1776297970235_rfhn",
+          "type": "text",
+          "order": 1,
+          "text": "Evaluate for possible stroke"
+        },
+        {
+          "id": "act_1776297986054_xb0b",
+          "type": "command",
+          "order": 2,
+          "commandId": "go_to_section",
+          "params": {
+            "sectionName": "brain parenchyma"
+          }
+        },
+        {
+          "id": "act_1776298000563_q0rs",
+          "type": "text",
+          "order": 3,
+          "text": "No other acute intracranial abnormalities."
+        },
+        {
+          "id": "act_1776661495669_5wai",
+          "type": "command",
+          "order": 4,
+          "commandId": "go_to_section",
+          "params": {
+            "sectionName": "impression"
+          }
+        },
+        {
+          "id": "act_1776298073754_nzpj",
+          "type": "text",
+          "order": 5,
+          "text": "No evidence of ischemic stroke as clinically queried and no acute intracranial abnormalities. \nMRI has decreased sensitivity for small or early infarcts. Clinical correlation is recommended. Can repeat MRI in approximately 24 hours including coronal DWI if there is ongoing clinical concern for stroke."
+        }
+      ],
+      "isSystem": false
+    },
+    {
+      "id": "macro_1776354862836",
+      "name": "Needs contrast tumor",
+      "createdAt": "2026-04-16T15:54:22.836Z",
+      "updatedAt": "2026-04-16T15:54:22.836Z",
+      "actions": [
+        {
+          "id": "act_1776354855653_lil2",
+          "type": "text",
+          "order": 0,
+          "text": "Study was performed without contrast, limiting diagnostic sensitivity for malignancy.\nRecommend repeating study with contrast-enhanced sequences as able."
+        }
+      ],
+      "isSystem": false
+    },
+    {
+      "id": "macro_1777929394227",
+      "name": "Normal Chest Xray",
+      "createdAt": "2026-05-04T21:16:34.227Z",
+      "updatedAt": "2026-05-04T21:16:34.227Z",
+      "actions": [
+        {
+          "id": "act_1777929250487_89bh",
+          "type": "command",
+          "order": 0,
+          "commandId": "go_to_section",
+          "params": {
+            "sectionName": "History"
+          }
+        },
+        {
+          "id": "act_1777929257066_blh4",
+          "type": "text",
+          "order": 1,
+          "text": "Chest pain"
+        },
+        {
+          "id": "act_1777929271374_o60d",
+          "type": "command",
+          "order": 2,
+          "commandId": "go_to_section",
+          "params": {
+            "sectionName": "Technique"
+          }
+        },
+        {
+          "id": "act_1777929287674_sax2",
+          "type": "text",
+          "order": 3,
+          "text": "XR Chest acquired with 2 views"
+        },
+        {
+          "id": "act_1777929301215_2zk9",
+          "type": "command",
+          "order": 4,
+          "commandId": "go_to_section",
+          "params": {
+            "sectionName": "Comparison"
+          }
+        },
+        {
+          "id": "act_1777929331034_6l76",
+          "type": "text",
+          "order": 5,
+          "text": "XR Chest 1/23/26 and XR Chest 9/14/25"
+        },
+        {
+          "id": "act_1777929345744_8plq",
+          "type": "command",
+          "order": 6,
+          "commandId": "go_to_section",
+          "params": {
+            "sectionName": "Impression"
+          }
+        },
+        {
+          "id": "act_1777929385680_tn0z",
+          "type": "text",
+          "order": 7,
+          "text": "No acute findings. Unremarkable Exam."
+        }
+      ],
+      "isSystem": false
+    },
+    {
+      "id": "macro_1778537737567",
+      "name": "Cancer History",
+      "createdAt": "2026-05-11T22:15:37.568Z",
+      "updatedAt": "2026-05-11T22:15:37.568Z",
+      "actions": [
+        {
+          "id": "act_1778537734883_n1lr",
+          "type": "erik",
+          "order": 0,
+          "text": "Summarize the patient's cancer history including type of cancer, date of initial diagnosis, treatment history with dates and regimen received, as well as known current status (including active/remission status, trend – improving, stable, or worsening, and any known locations of disease)."
+        }
+      ],
+      "isSystem": false
+    }
+  ]
+}

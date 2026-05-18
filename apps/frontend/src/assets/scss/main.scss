@@ -1,0 +1,518 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body,
+figure {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #e9ebf0;
+  background: #000000;
+  height: 100%;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+*:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+small {
+  font-size: 80%;
+}
+
+img {
+  max-width: 100%;
+  border: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+button,
+input,
+optgroup,
+textarea {
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  resize: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+input[type='search']::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type='search']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* clears the 'X' from Chrome */
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+body.ovh {
+  overflow: hidden;
+}
+
+input[type='date']::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: 'color 9999s ease-out, background-color 9999s ease-out';
+  -webkit-transition-delay: 9999s;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn:focus,
+button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+input[type='data']::-webkit-clear-button {
+  display: none;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+*[hidden] {
+  display: none !important;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  margin-bottom: 0;
+  margin-top: 0;
+  display: block;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.p0 {
+  padding: 0;
+}
+.pr1 {
+  padding-right: 6px;
+}
+.pl1 {
+  padding-left: 6px;
+}
+.pt0 {
+  padding-top: 0 !important;
+}
+.pt1 {
+  padding-top: 15px !important;
+}
+.pt2 {
+  padding-top: 20px !important;
+}
+.pt3 {
+  padding-top: 30px !important;
+}
+.pb1 {
+  padding-bottom: 15px !important;
+}
+.pb2 {
+  padding-bottom: 20px !important;
+}
+.pb3 {
+  padding-bottom: 30px !important;
+}
+.mb0 {
+  margin-bottom: 0 !important;
+}
+.mb1 {
+  margin-bottom: 15px !important;
+}
+.mb2 {
+  margin-bottom: 24px !important;
+}
+.mb3 {
+  margin-bottom: 34px !important;
+}
+.mb4 {
+  margin-bottom: 40px !important;
+}
+.mb5 {
+  margin-bottom: 56px !important;
+}
+.mr1 {
+  margin-right: 10px;
+}
+.mr4 {
+  margin-right: 40px;
+}
+.mt2 {
+  margin-top: 20px !important;
+}
+.mx-0 {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row-wrap {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row-column {
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.justify-content-between {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.align-items-end {
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.align-items-center {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.align-items-baseline {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.justify-content-end {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.justify-content-between_align-center {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.justify-content-center {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left !important;
+}
+
+// ------- date picker start ------
+.date-picker {
+  .ant-picker-cell-in-view.ant-picker-cell-in-range {
+    &.ant-picker-cell-range-hover-start::before,
+    &.ant-picker-cell-range-hover::before,
+    &.ant-picker-cell-range-hover-end::before {
+      background: #a5a3eb !important;
+    }
+  }
+
+  .ant-picker-cell-in-view.ant-picker-cell-range-start {
+    &.ant-picker-cell-range-hover::before,
+    &:not(
+        .ant-picker-cell-range-start-single
+      ).ant-picker-cell-range-hover-start::before {
+      background: #a5a3eb !important;
+    }
+  }
+  .ant-picker-cell-in-view.ant-picker-cell-range-end {
+    &.ant-picker-cell-range-hover::before,
+    &:not(
+        .ant-picker-cell-range-end-single
+      ).ant-picker-cell-range-hover-end::before {
+      background: #a5a3eb !important;
+    }
+  }
+  .ant-picker-panel > :not(.ant-picker-date-panel) {
+    .ant-picker-cell-in-view.ant-picker-cell-in-range {
+      &.ant-picker-cell-range-hover-start::before,
+      &.ant-picker-cell-range-hover-end::before {
+        background: #a5a3eb !important;
+      }
+    }
+  }
+
+  .ant-picker-date-panel {
+    .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-start,
+    .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-end {
+      .ant-picker-cell-inner::after {
+        background: #a5a3eb !important;
+      }
+    }
+  }
+}
+// ------- date picker end ------
+
+:root {
+  --app-height: 100%;
+  --purple100: #8a85ff;
+  --purple: #8a85ff;
+  --mutedPurple: #888bbd;
+  --green: #a1d103;
+  --row-hover: #2e2e47;
+  --purple70: #535099;
+  --purple40: #373566;
+}
+
+@import 'variables.scss';
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  // background: $gray0;
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $gray0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $neutral-600;
+}
+
+@import 'helpers.scss';
+@import 'ui.scss';
+@import 'table.scss';
+
+// Custom styling for Ant Design tooltips (global)
+.ant-tooltip {
+  pointer-events: none !important;
+
+  .ant-tooltip-inner {
+    background: #1f2430 !important;
+    color: #e8efff !important;
+    border: 1px solid #3a4150 !important;
+    padding: 6px 8px !important;
+    border-radius: 8px !important;
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+    white-space: nowrap !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35) !important;
+    min-height: auto !important;
+  }
+
+  .ant-tooltip-arrow {
+    display: none !important;
+  }
+
+  // Override Ant Design's fade animation
+  &.ant-tooltip-placement-bottom {
+    .ant-tooltip-inner {
+      transition: opacity 120ms ease, transform 120ms ease !important;
+    }
+  }
+
+  // Ensure proper visibility states
+  &.ant-tooltip-hidden {
+    .ant-tooltip-inner {
+      opacity: 0 !important;
+      transform: scale(0.98) !important;
+    }
+  }
+}
+
+// Override the zoom animation classes
+.ant-zoom-big-fast-enter,
+.ant-zoom-big-fast-appear {
+  .ant-tooltip-inner {
+    opacity: 0 !important;
+    transform: scale(0.98) !important;
+  }
+}
+
+.ant-zoom-big-fast-enter-active,
+.ant-zoom-big-fast-appear-active {
+  .ant-tooltip-inner {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+    transition: opacity 120ms ease, transform 120ms ease !important;
+  }
+}
+
+.ant-zoom-big-fast-leave {
+  .ant-tooltip-inner {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+  }
+}
+
+.ant-zoom-big-fast-leave-active {
+  .ant-tooltip-inner {
+    opacity: 0 !important;
+    transform: scale(0.98) !important;
+    transition: opacity 120ms ease, transform 120ms ease !important;
+  }
+}
