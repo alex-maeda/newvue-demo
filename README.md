@@ -87,7 +87,7 @@ cd apps/frontend && npm install --legacy-peer-deps --ignore-scripts && npm start
 ## Demo Flow
 
 1. Open http://localhost:3000
-2. Login (e.g. `user1` / `N3wVu3123!`)
+2. Login
 3. Worklist loads — 3 demo patients shown in red at the top
 4. Double-click a patient row (Franklin, Elisa, or Paula)
 5. Cockpit UI loads with that patient's data:
@@ -196,7 +196,7 @@ Run after every deploy at `https://demo.dev.newvueai.app/`. ~3 minutes.
 
 | # | Step | Pass criteria |
 |---|------|---------------|
-| 1 | Login as `user1` / `N3wVu3123!` | Worklist loads with 3 demo patients (Paula, Franklin, Elisa) at top |
+| 1 | Login | Worklist loads with 3 demo patients (Paula, Franklin, Elisa) at top |
 | 2 | Double-click Paula Everyly | Cockpit iframe loads with EHR data + MRI brain template |
 | 3 | Type into ERIK: "What are her recent labs?" | Streamed lab values appear within ~5s |
 | 4 | Click sparkle icon → Executive Summary | AI summary renders within ~30-60s |
