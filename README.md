@@ -139,3 +139,77 @@ The `region` param loads body-region-specific medical vocabulary for improved re
 | `/api/health` | GET | Reporting API health check |
 | `/config/templates/:id.json` | GET | Report templates |
 | `/ws/dictation` | WebSocket | ASR relay (Speechmatics/Deepgram) |
+
+## Deployment (GitLab CI/CD → demo EC2)
+
+CI on `main` builds 3 images, pushes to GitLab Container Registry, and (on manual trigger) instructs the demo EC2 via SSM to pull + restart. Auth is OIDC — no AWS keys stored in GitLab. See `.gitlab-ci.yml` and `infra/deploy.sh`.
+
+### Required GitLab CI/CD variables
+
+Settings → CI/CD → Variables. Mask everything except `AWS_REGION`.
+
+| Variable | Example | Notes |
+|----------|---------|-------|
+| `AWS_REGION` | `us-east-1` | EC2 region |
+| `AWS_OIDC_ROLE_ARN` | `arn:aws:iam::<account>:role/GitLabCIDeployRole` | IAM role with SSM permissions; OIDC trust |
+| `EC2_INSTANCE_ID` | `i-0xxxxxxxxxxxxxxxx` | Demo EC2 |
+| `APP_DIR` | `/newvue-demo` | Path on EC2 where `docker-compose.demo.yml` + `.env` live |
+
+> Do NOT add `AWS_ACCESS_KEY_ID` / `AWS_SECRET_ACCESS_KEY`. OIDC mints short-lived creds per pipeline.
+
+### EC2 `.env` file
+
+Created manually on the EC2 at `${APP_DIR}/.env` (never touched by CI):
+
+```
+AWS_REGION=us-east-1
+AWS_ACCESS_KEY_ID=...
+AWS_SECRET_ACCESS_KEY=...
+BEDROCK_MODEL_ID=us.anthropic.claude-haiku-4-5-20251001-v1:0
+SPEECHMATICS_API_KEY=...
+SPEECHMATICS_WS_URL=wss://eu2.rt.speechmatics.com/v2
+DEEPGRAM_API_KEY=...
+```
+
+### EC2 prerequisites
+
+1. **SSM Agent + IAM role** with `AmazonSSMManagedInstanceCore` — verify "Online" in Systems Manager → Fleet Manager.
+2. **`${APP_DIR}/docker-compose.demo.yml`** — `scp` once from this repo; CI never overwrites it.
+3. **Docker Compose v2** (`docker compose version`, not `docker-compose`).
+
+### First deploy
+
+1. Push to `main` → pipeline runs `lint` → `build` (3 images pushed to registry).
+2. Open pipeline → `deploy:demo` job → click **▶ Play**.
+3. Run [Smoke Test](#smoke-test) below.
+
+After 2-3 successful manual deploys, flip `when: manual` to `when: on_success` in `.gitlab-ci.yml`.
+
+### Rollback
+
+```bash
+aws ssm send-command --region <region> --instance-ids <id> \
+  --document-name AWS-RunShellScript \
+  --parameters 'commands=[
+    "cd /newvue-demo",
+    "export IMAGE_TAG=<previous-sha>",
+    "docker compose -f docker-compose.demo.yml pull",
+    "docker compose -f docker-compose.demo.yml up -d"
+  ]'
+```
+
+Find previous SHAs in GitLab Container Registry UI or `git log --oneline main`.
+
+## Smoke Test
+
+Run after every deploy at `https://demo.dev.newvueai.app/`. ~3 minutes.
+
+| # | Step | Pass criteria |
+|---|------|---------------|
+| 1 | Login as `user1` / `N3wVu3123!` | Worklist loads with 3 demo patients (Paula, Franklin, Elisa) at top |
+| 2 | Double-click Paula Everyly | Cockpit iframe loads with EHR data + MRI brain template |
+| 3 | Type into ERIK: "What are her recent labs?" | Streamed lab values appear within ~5s |
+| 4 | Click sparkle icon → Executive Summary | AI summary renders within ~30-60s |
+| 5 | Click Findings field, mic on, say "The brain parenchyma appears normal." | Text appears formatted in field within ~2s |
+
+On failure: SSM into EC2 → `cd /newvue-demo && docker compose -f docker-compose.demo.yml logs --tail=200 <service>`. If unrecoverable in <10 min, [roll back](#rollback).

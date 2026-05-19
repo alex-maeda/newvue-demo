@@ -1,0 +1,140 @@
+stages:
+  - lint
+  - build_image
+  - deploy
+
+variables:
+  PROJECT: newvue-demo
+  PROJECT_STATE: demo
+  REGISTRY: $CI_REGISTRY_IMAGE
+  LATEST: "latest"
+  TAG_SHA: $CI_COMMIT_SHORT_SHA
+  DOCKER_DRIVER: overlay2
+  DOCKER_TLS_CERTDIR: "/certs"
+
+default:
+  interruptible: true
+
+# ─────────────────────────────────────────────────────────────
+# TEMPLATES
+# ─────────────────────────────────────────────────────────────
+
+.run_on_mr_and_main:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == "main"
+
+.run_on_main:
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+.docker_build:
+  stage: build_image
+  image: docker:24
+  services:
+    - docker:24-dind
+  extends:
+    - .run_on_main
+  before_script:
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin "$CI_REGISTRY"
+  script:
+    - docker build -t "$REGISTRY/$IMAGE_NAME:$TAG_SHA" -t "$REGISTRY/$IMAGE_NAME:$LATEST" "$CONTEXT"
+    - docker push "$REGISTRY/$IMAGE_NAME:$TAG_SHA"
+    - docker push "$REGISTRY/$IMAGE_NAME:$LATEST"
+
+# ─────────────────────────────────────────────────────────────
+# LINT — typecheck server, eslint frontend + reporting-ui
+# ─────────────────────────────────────────────────────────────
+
+typecheck_server:
+  stage: lint
+  extends: .run_on_mr_and_main
+  image: node:20-alpine
+  cache:
+    key: server-$CI_COMMIT_REF_SLUG
+    paths: [apps/server/node_modules]
+  before_script:
+    - cd apps/server
+    - npm ci
+  script:
+    - npx tsc --noEmit
+
+lint_frontend:
+  stage: lint
+  extends: .run_on_mr_and_main
+  image: node:18-alpine
+  cache:
+    key: frontend-$CI_COMMIT_REF_SLUG
+    paths: [apps/frontend/node_modules]
+  before_script:
+    - cd apps/frontend
+    - npm ci --legacy-peer-deps --ignore-scripts
+  script:
+    - npx eslint src/ --ext .ts,.tsx,.js,.jsx || true
+  allow_failure: true
+
+lint_reporting_ui:
+  stage: lint
+  extends: .run_on_mr_and_main
+  image: node:20-alpine
+  cache:
+    key: reporting-ui-$CI_COMMIT_REF_SLUG
+    paths: [reporting-ui/node_modules]
+  before_script:
+    - cd reporting-ui
+    - npm ci
+  script:
+    - npx eslint src/ --ext .ts,.tsx,.js,.jsx || true
+  allow_failure: true
+
+# ─────────────────────────────────────────────────────────────
+# BUILD + PUSH — three images to GitLab Container Registry
+# ─────────────────────────────────────────────────────────────
+
+build_server:
+  extends: .docker_build
+  variables:
+    IMAGE_NAME: server
+    CONTEXT: apps/server
+
+build_frontend:
+  extends: .docker_build
+  variables:
+    IMAGE_NAME: frontend
+    CONTEXT: apps/frontend
+
+build_reporting_ui:
+  extends: .docker_build
+  variables:
+    IMAGE_NAME: reporting-ui
+    CONTEXT: reporting-ui
+
+# ─────────────────────────────────────────────────────────────
+# DEPLOY — SSM send-command to demo EC2 (manual trigger)
+# ─────────────────────────────────────────────────────────────
+
+deploy_demo:
+  stage: deploy
+  image: amazon/aws-cli:latest
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: https://gitlab.com
+  before_script:
+    - yum install -y jq >/dev/null
+    - >
+      STS=$(aws sts assume-role-with-web-identity
+      --role-arn "$AWS_OIDC_ROLE_ARN"
+      --role-session-name "gitlab-ci-$CI_PIPELINE_ID"
+      --web-identity-token "$GITLAB_OIDC_TOKEN"
+      --duration-seconds 900)
+    - export AWS_ACCESS_KEY_ID=$(echo "$STS" | jq -r '.Credentials.AccessKeyId')
+    - export AWS_SECRET_ACCESS_KEY=$(echo "$STS" | jq -r '.Credentials.SecretAccessKey')
+    - export AWS_SESSION_TOKEN=$(echo "$STS" | jq -r '.Credentials.SessionToken')
+  script:
+    - bash infra/deploy.sh
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: manual
+  environment:
+    name: demo
+    url: https://demo.dev.newvueai.app/
