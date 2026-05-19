@@ -155,8 +155,6 @@ Settings → CI/CD → Variables. Mask everything except `AWS_REGION`.
 | `EC2_INSTANCE_ID` | `i-0xxxxxxxxxxxxxxxx` | Demo EC2 |
 | `APP_DIR` | `/newvue-demo` | Path on EC2 where `docker-compose.demo.yml` + `.env` live |
 
-> Do NOT add `AWS_ACCESS_KEY_ID` / `AWS_SECRET_ACCESS_KEY`. OIDC mints short-lived creds per pipeline.
-
 ### EC2 `.env` file
 
 Created manually on the EC2 at `${APP_DIR}/.env` (never touched by CI):
@@ -176,14 +174,6 @@ DEEPGRAM_API_KEY=...
 1. **SSM Agent + IAM role** with `AmazonSSMManagedInstanceCore` — verify "Online" in Systems Manager → Fleet Manager.
 2. **`${APP_DIR}/docker-compose.demo.yml`** — `scp` once from this repo; CI never overwrites it.
 3. **Docker Compose v2** (`docker compose version`, not `docker-compose`).
-
-### First deploy
-
-1. Push to `main` → pipeline runs `lint` → `build` (3 images pushed to registry).
-2. Open pipeline → `deploy:demo` job → click **▶ Play**.
-3. Run [Smoke Test](#smoke-test) below.
-
-After 2-3 successful manual deploys, flip `when: manual` to `when: on_success` in `.gitlab-ci.yml`.
 
 ### Rollback
 

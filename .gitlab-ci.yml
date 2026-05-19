@@ -110,7 +110,7 @@ build_reporting_ui:
     CONTEXT: reporting-ui
 
 # ─────────────────────────────────────────────────────────────
-# DEPLOY — SSM send-command to demo EC2 (manual trigger)
+# DEPLOY — SSM send-command to demo EC2
 # ─────────────────────────────────────────────────────────────
 
 deploy_demo:
@@ -134,7 +134,7 @@ deploy_demo:
     - bash infra/deploy.sh
   rules:
     - if: $CI_COMMIT_BRANCH == "main"
-      when: manual
+      when: on_success
   environment:
     name: demo
     url: https://demo.dev.newvueai.app/
